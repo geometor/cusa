@@ -1,0 +1,29 @@
+src.geometor.cusa.texts_u4
+==========================
+
+.. py:module:: src.geometor.cusa.texts_u4
+
+.. autoapi-nested-parse::
+
+   Primary Latin witnesses and original GEOMETOR English translations for Unit IV (DI I.16–23).
+
+   All Latin texts derive from Paolo Rotta's *Nicolai Cusani De docta ignorantia libri tres*
+   (Bari: Laterza, 1913), collated against Paris 1514 and Basel 1565. All English translations
+   are 100% original GEOMETOR scholarly translations rendered directly from the Latin text.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   src.geometor.cusa.texts_u4.UNIT_4_SECTIONS
+
+
+Module Contents
+---------------
+
+.. py:data:: UNIT_4_SECTIONS
+   :type:  tuple[geometor.cusa.texts_u1_u3.BilingualSectionData, ...]
+

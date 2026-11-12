@@ -1,0 +1,95 @@
+src.geometor.cusa.render
+========================
+
+.. py:module:: src.geometor.cusa.render
+
+.. autoapi-nested-parse::
+
+   Interactive ``.euclid-graphic`` SVG renderer for Nicholas of Cusa's geometric constructions.
+
+   Produces dark/light theme-adaptive SVGs from exact :class:`~geometor.model.Model`
+   instances conforming simultaneously to:
+
+   1. Standalone SVG display (GitHub ``README.rst``, browsers, ``prefers-color-scheme``), and
+   2. ``photon-platform/publish`` interactive ``geometor_interactive.js`` figures
+      (``svg.euclid-graphic``, ``<defs>`` tick markers & frame clip, ``#elements``,
+      ``#graphics``, ``#highlights``, ``#points``, ``#labels``, 3-vertex midpoint
+      ``<path>`` segments, ``data-ref``, and ``data-aliases``).
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   src.geometor.cusa.render.EMBEDDED_SVG_STYLE
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   src.geometor.cusa.render.render_svg_string
+   src.geometor.cusa.render.export_svg
+   src.geometor.cusa.render.export_all_codex_figures
+
+
+Module Contents
+---------------
+
+.. py:data:: EMBEDDED_SVG_STYLE
+   :type:  str
+   :value: ''
+
+
+.. py:function:: render_svg_string(model: geometor.model.Model, *, graphic_id: str = 'g1', title: str = 'Nicholas of Cusa Geometric Construction', width: int = 680, height: int = 460, margin: float = 42.0, bbox: tuple[float, float, float, float] | None = None, focus_points: collections.abc.Sequence[sympy.geometry.Point] | None = None, finite_segments: bool = True, include_guides: bool = False, show_labels: bool = True, show_aux_labels: bool = False, label_overrides: dict[str, tuple[str, str]] | None = None, highlight_point_ids: collections.abc.Sequence[str] | None = None) -> str
+
+   Render an exact :class:`~geometor.model.Model` into an interactive ``.euclid-graphic`` SVG string.
+
+   :param model: Populated :class:`~geometor.model.Model`.
+   :param graphic_id: ``data-graphic-id`` attribute for ``geometor_interactive.js``.
+   :param title: Accessible SVG title.
+   :param width: SVG ``viewBox`` width in pixels.
+   :param height: SVG ``viewBox`` height in pixels.
+   :param margin: Outer pixel margin around the framed scene.
+   :param bbox: Optional explicit math viewport ``(xmin, xmax, ymin, ymax)``.
+   :param focus_points: Optional subset of points for auto-framing.
+   :param finite_segments: When ``True`` (default), draw each line spanning incident visible points.
+   :param include_guides: If ``True``, include elements marked ``guide=True``.
+   :param show_labels: Master toggle for point labels.
+   :param show_aux_labels: If ``True``, label ``X1..Xn`` auto-intersections.
+   :param label_overrides: Optional mapping ``pt_id -> (base, subscript)``.
+   :param highlight_point_ids: Optional point IDs to emphasize with a halo ring.
+
+   :returns: Complete UTF-8 SVG document string.
+
+
+.. py:function:: export_svg(model: geometor.model.Model, output_path: str | pathlib.Path, *, graphic_id: str = 'g1', title: str = 'Nicholas of Cusa Geometric Construction', width: int = 680, height: int = 460, bbox: tuple[float, float, float, float] | None = None, finite_segments: bool = True, label_overrides: dict[str, tuple[str, str]] | None = None, highlight_point_ids: collections.abc.Sequence[str] | None = None) -> pathlib.Path
+
+   Render ``model`` to ``output_path`` and return the written :class:`~pathlib.Path`.
+
+   :param model: Exact :class:`~geometor.model.Model`.
+   :param output_path: Destination ``.svg`` path.
+   :param graphic_id: ``data-graphic-id`` attribute.
+   :param title: Accessible SVG title.
+   :param width: SVG width in pixels.
+   :param height: SVG height in pixels.
+   :param bbox: Optional explicit math viewport ``(xmin, xmax, ymin, ymax)``.
+   :param finite_segments: Draw segments bounded by incident visible points.
+   :param label_overrides: Optional mapping ``pt_id -> (base, subscript)``.
+   :param highlight_point_ids: Optional point IDs to receive a highlight halo.
+
+   :returns: Resolved :class:`~pathlib.Path` of the written SVG file.
+
+
+.. py:function:: export_all_codex_figures(output_dir: str | pathlib.Path) -> list[pathlib.Path]
+
+   Generate all 9 canonical ``.euclid-graphic`` SVG figures for the Cusa Book Codex.
+
+   :param output_dir: Target directory (typically ``docsrc/_static/figures``).
+
+   :returns: List of generated SVG file paths.
+
+

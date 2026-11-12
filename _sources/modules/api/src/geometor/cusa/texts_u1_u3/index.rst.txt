@@ -1,0 +1,93 @@
+src.geometor.cusa.texts_u1_u3
+=============================
+
+.. py:module:: src.geometor.cusa.texts_u1_u3
+
+.. autoapi-nested-parse::
+
+   Primary Latin witnesses and original GEOMETOR English translations for Units I–III.
+
+   All Latin texts derive from public-domain witnesses:
+
+   - Paolo Rotta, *Nicolai Cusani De docta ignorantia libri tres* (Bari: Laterza, 1913),
+     verified by multimodal scan inspection against Raymond Klibansky's annotated copy
+     (McGill University Library) and the Renaissance *editiones principes* of Jacques
+     Lefèvre d'Étaples (Paris, 1514) and Heinrich Petri (Basel, 1565), restoring Rotta's
+     two homeoteleuton omissions in Book I, Chapters 13 and 14.
+
+   All English translations in this module are 100% original GEOMETOR scholarly translations
+   rendered directly from the Latin text.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   src.geometor.cusa.texts_u1_u3.UNIT_1_SECTIONS
+   src.geometor.cusa.texts_u1_u3.UNIT_2_SECTIONS
+   src.geometor.cusa.texts_u1_u3.UNIT_3_SECTIONS
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   src.geometor.cusa.texts_u1_u3.BilingualSectionData
+
+
+Module Contents
+---------------
+
+.. py:class:: BilingualSectionData
+
+   Synchronized Latin and original English paragraphs for one treatise section.
+
+
+   .. py:attribute:: section_id
+      :type:  str
+
+
+   .. py:attribute:: folio_prefix
+      :type:  str
+
+
+   .. py:attribute:: heading_en
+      :type:  str
+
+
+   .. py:attribute:: heading_la
+      :type:  str
+
+
+   .. py:attribute:: witness_note
+      :type:  str
+
+
+   .. py:attribute:: figure_svg
+      :type:  str | None
+
+
+   .. py:attribute:: figure_caption
+      :type:  str | None
+
+
+   .. py:attribute:: la_paragraphs
+      :type:  tuple[tuple[str, str], ...]
+
+
+   .. py:attribute:: en_paragraphs
+      :type:  tuple[tuple[str, str], ...]
+
+
+.. py:data:: UNIT_1_SECTIONS
+   :type:  tuple[BilingualSectionData, ...]
+
+.. py:data:: UNIT_2_SECTIONS
+   :type:  tuple[BilingualSectionData, ...]
+
+.. py:data:: UNIT_3_SECTIONS
+   :type:  tuple[BilingualSectionData, ...]
+

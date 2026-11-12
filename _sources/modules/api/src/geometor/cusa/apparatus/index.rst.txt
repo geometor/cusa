@@ -1,0 +1,68 @@
+src.geometor.cusa.apparatus
+===========================
+
+.. py:module:: src.geometor.cusa.apparatus
+
+.. autoapi-nested-parse::
+
+   Scholarly apparatus registries (glossary, persons, bibliography) for *geometor-cusa*.
+
+   Exports canonical JSON dictionaries to ``resources/`` and ``resources/cusa/`` for
+   ``photon-platform/publish`` inline roles (``:term:``, ``:person:``, ``:cite:``) and
+   compiles ``glossary.rst``, ``persons.rst``, and ``bibliography.rst`` for the Book Codex.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   src.geometor.cusa.apparatus.GLOSSARY_DATA
+   src.geometor.cusa.apparatus.PERSONS_DATA
+   src.geometor.cusa.apparatus.CITATIONS_DATA
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   src.geometor.cusa.apparatus.render_glossary_rst
+   src.geometor.cusa.apparatus.render_persons_rst
+   src.geometor.cusa.apparatus.render_bibliography_rst
+   src.geometor.cusa.apparatus.write_apparatus_artifacts
+
+
+Module Contents
+---------------
+
+.. py:data:: GLOSSARY_DATA
+   :type:  dict[str, dict[str, str]]
+
+.. py:data:: PERSONS_DATA
+   :type:  dict[str, dict[str, str]]
+
+.. py:data:: CITATIONS_DATA
+   :type:  dict[str, dict[str, str]]
+
+.. py:function:: render_glossary_rst() -> str
+
+   Render ``docsrc/de_docta_ignorantia/glossary.rst``.
+
+
+.. py:function:: render_persons_rst() -> str
+
+   Render ``docsrc/de_docta_ignorantia/persons.rst``.
+
+
+.. py:function:: render_bibliography_rst() -> str
+
+   Render ``docsrc/de_docta_ignorantia/bibliography.rst``.
+
+
+.. py:function:: write_apparatus_artifacts(repo_root: str | pathlib.Path) -> dict[str, pathlib.Path]
+
+   Write ``glossary.json``, ``persons.json``, ``citations.json`` & apparatus ``.rst`` pages.
+
+

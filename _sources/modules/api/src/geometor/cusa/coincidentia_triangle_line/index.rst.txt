@@ -1,0 +1,139 @@
+src.geometor.cusa.coincidentia_triangle_line
+============================================
+
+.. py:module:: src.geometor.cusa.coincidentia_triangle_line
+
+.. autoapi-nested-parse::
+
+   Exact Rational Trigonometry constructions & proofs for *De Docta Ignorantia* I.14–15.
+
+   Models Nicholas of Cusa's proof that the infinite triangle coincides with the infinite
+   straight line (*De docta ignorantia*, Book I, Chapters 14–15):
+
+   Given fixed base endpoints :math:`B = (-1, 0)` and :math:`C = (1, 0)` (matching Cusa's
+   printed base ``bc`` in the 1514/1565/1913 diagrams of ``I.14``) and flattening apexes
+   :math:`A_n = \left(0, \frac{1}{n}\right)` for :math:`n \in \mathbb{Z}_{>0}`:
+
+   - Base quadrance :math:`Q_{BC} = 4`, equal side quadrances :math:`Q_{BA_n} = Q_{A_n C} = 1 + \frac{1}{n^2}`.
+   - Pure rational base spreads :math:`s_B = s_C = \frac{1}{n^2 + 1} \in \mathbb{Q}` and
+     apex spread :math:`s_{A_n} = \frac{4n^2}{(n^2 + 1)^2} \in \mathbb{Q}`, satisfying
+     Wildberger's **Triple Spread Formula** identically and :math:`\lim_{n \to \infty} s_{A_n} = 0`
+     (as the obtuse apex angle approaches two right angles, :math:`180^\circ`).
+   - Wildberger's **Triple Quad Formula** asymmetry
+     :math:`\mathcal{Q}(Q_{BC}, Q_{BA_n}, Q_{A_n C}) = (Q_{BC} + Q_{BA_n} + Q_{A_n C})^2 - 2(Q_{BC}^2 + Q_{BA_n}^2 + Q_{A_n C}^2) = \frac{16}{n^2} = 16\,\text{Area}^2 \to 0`,
+     vanishing identically when the triangle resolves into the simple straight line ``BC``.
+
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   src.geometor.cusa.coincidentia_triangle_line.FlatteningTriangleMetrics
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   src.geometor.cusa.coincidentia_triangle_line.compute_flattening_triangle_metrics
+   src.geometor.cusa.coincidentia_triangle_line.construct_flattening_triangles
+   src.geometor.cusa.coincidentia_triangle_line.verify_triangle_line_coincidence
+
+
+Module Contents
+---------------
+
+.. py:class:: FlatteningTriangleMetrics
+
+   Exact Rational Trigonometry invariants for :math:`\triangle B A_n C`.
+
+   :ivar step_n: Integer flattening index :math:`n` (:math:`h_n = 1/n`).
+   :ivar altitude: Rational altitude :math:`1/n`.
+   :ivar q_base: Base quadrance :math:`Q(B, C) = 4`.
+   :ivar q_leg: Leg quadrance :math:`Q(B, A_n) = Q(A_n, C) = 1 + 1/n^2`.
+   :ivar spread_base: Rational base spread :math:`s_B = s_C = \frac{1}{n^2 + 1}`.
+   :ivar spread_apex: Rational apex spread :math:`s_{A_n} = \frac{4n^2}{(n^2 + 1)^2}`.
+   :ivar triple_quad_residual: :math:`(Q_a + Q_b + Q_c)^2 - 2(Q_a^2 + Q_b^2 + Q_c^2) = 16/n^2`.
+   :ivar area: Rational triangle area :math:`1/n`.
+   :ivar side_excess: Exact radical excess :math:`2\sqrt{1 + 1/n^2} - 2` of two sides over base.
+
+
+
+   .. py:attribute:: step_n
+      :type:  int
+
+
+   .. py:attribute:: altitude
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: q_base
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: q_leg
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: spread_base
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: spread_apex
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: triple_quad_residual
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: area
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: side_excess
+      :type:  sympy.Expr
+
+
+.. py:function:: compute_flattening_triangle_metrics(step_n: int) -> FlatteningTriangleMetrics
+
+   Compute exact quadrances, rational spreads, Triple Quad residual, and side excess for ``n``.
+
+   :param step_n: Strictly positive integer step ``n``.
+
+   :returns: :class:`FlatteningTriangleMetrics` verified via ``geometor.model`` invariants.
+
+
+.. py:function:: construct_flattening_triangles(steps: collections.abc.Sequence[int] = (1, 2, 4, 8), model: geometor.model.Model | None = None) -> geometor.model.Model
+
+   Construct Cusa's I.14–15 family of flattening triangles over :math:`\mathbb{Q}`.
+
+   Builds fixed base ``[ B C ]`` with ``B = (-1, 0)``, ``C = (1, 0)``, midpoint
+   ``M = (0, 0)``, and apexes ``A1, A2, A4, A8`` at :math:`(0, 1/n)` whose obtuse
+   apex angle opens toward :math:`180^\circ` (:math:`s_{A_n} \to 0`) as the two sides
+   ``[ B A_n ] + [ A_n C ]`` collapse onto the single line ``[ B C ]``.
+
+   :param steps: Positive integer sequence of altitude denominators (default ``(1, 2, 4, 8)``).
+   :param model: Optional existing :class:`~geometor.model.Model`.
+
+   :returns: Populated :class:`~geometor.model.Model` over :math:`\mathbb{Q}`.
+
+
+.. py:function:: verify_triangle_line_coincidence() -> dict[str, Any]
+
+   Prove Cusa's I.14 triangle-to-line limit symbolically via Rational Trigonometry.
+
+   Establishes over :math:`\mathbb{Q}(n)` for symbolic positive :math:`n`:
+
+   1. :math:`s_A(n) = \frac{4n^2}{(n^2 + 1)^2}` and :math:`s_B(n) = s_C(n) = \frac{1}{n^2 + 1}`
+      satisfy the **Triple Spread Formula** identically;
+   2. :math:`\lim_{n \to \infty} s_A(n) = 0` and :math:`\lim_{n \to \infty} s_B(n) = 0`;
+   3. The **Triple Quad Formula** asymmetry equals :math:`\frac{16}{n^2} \to 0`;
+   4. The side-excess :math:`(|BA_n| + |A_n C| - |BC|) = \frac{2}{n^2\left(\sqrt{1 + 1/n^2} + 1\right)} \to 0`.
+
+   :returns: Dictionary of symbolic invariants and limit checks.
+
+

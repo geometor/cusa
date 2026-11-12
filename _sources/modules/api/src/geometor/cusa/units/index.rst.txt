@@ -1,0 +1,86 @@
+src.geometor.cusa.units
+=======================
+
+.. py:module:: src.geometor.cusa.units
+
+.. autoapi-nested-parse::
+
+   Codex unit specifications for GEOMETOR • cusa (*De Docta Ignorantia* & *Scripta Mathematica*).
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   src.geometor.cusa.units.CODEX_UNITS
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   src.geometor.cusa.units.CodexUnitSpec
+
+
+Module Contents
+---------------
+
+.. py:class:: CodexUnitSpec
+
+   Specification for one 4-track synchronized Book Codex unit.
+
+
+   .. py:attribute:: unit_number
+      :type:  str
+
+
+   .. py:attribute:: slug
+      :type:  str
+
+
+   .. py:attribute:: title
+      :type:  str
+
+
+   .. py:attribute:: subtitle
+      :type:  str
+
+
+   .. py:attribute:: locus_summary
+      :type:  str
+
+
+   .. py:attribute:: figure_svg
+      :type:  str
+
+
+   .. py:attribute:: figure_caption
+      :type:  str
+
+
+   .. py:attribute:: epigraph_la
+      :type:  str
+
+
+   .. py:attribute:: epigraph_en
+      :type:  str
+
+
+   .. py:attribute:: epigraph_locus
+      :type:  str
+
+
+   .. py:attribute:: demo_doc
+      :type:  str
+
+
+   .. py:attribute:: sections
+      :type:  tuple[geometor.cusa.texts_u1_u3.BilingualSectionData, ...]
+
+
+.. py:data:: CODEX_UNITS
+   :type:  tuple[CodexUnitSpec, ...]
+
