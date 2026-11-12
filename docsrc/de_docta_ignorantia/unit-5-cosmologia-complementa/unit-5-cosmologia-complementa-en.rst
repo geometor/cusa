@@ -1,0 +1,387 @@
+:order: 50
+:layout: book
+:title: Unit V — Centerless Cosmology & the Scripta Mathematica (1445–1459): Isoperimetric Transmutations and the Golden Proposition
+:canonical_id: DI II.11–12 · DGT · DMC · DMP · APM (1440–1459)
+:original_id: DI II.11–12 · DGT · DMC · DMP · APM (1440–1459)
+:folio: DI II.11–12 · DGT · DMC · DMP · APM (1440–1459)
+
+.. _unit-5-cosmologia-complementa:
+.. _unit-5-cosmologia-complementa-en:
+
+============================================================================================================================
+Unit V — Centerless Cosmology & the Scripta Mathematica (1445–1459): Isoperimetric Transmutations and the Golden Proposition
+============================================================================================================================
+
+.. rubric:: De Docta Ignorantia II.11–12 (1440) · De Geometricis Transmutationibus (1445) · De Mathematicis Complementis (1453) · De Mathematica Perfectione (1458) · Aurea Propositio in Mathematicis (1459)
+
+.. epigraph::
+
+   *Unde erit machina mundi quasi habens undique centrum et nullibi circumferentiam, quoniam eius circumferentia et centrum est Deus, qui est undique et nullibi.*
+
+   Thus the fabric of the world will be as though having its center everywhere and its circumference nowhere, because its circumference and center are God, who is everywhere and nowhere. — **De Docta Ignorantia II.12 §1**
+
+.. picture:: /_static/figures/cusa_cosmic_relativity.svg
+   :alt: Centerless Cosmology & the Scripta Mathematica (1445–1459): Isoperimetric Transmutations and the Golden Proposition
+   :caption: Book II, Chapters 11–12 — Centerless Cosmic Relativity Frame: Observers on Terra (T), Sol (S), Luna (L), and Polus (P) Construct Symmetric Horizon Circles in a Universe Having Its Center Everywhere and Its Circumference Nowhere.
+
+.. _di-bk2-ch11-en:
+
+Book II, Chapter 11 — Corollaries Concerning Motion
+---------------------------------------------------
+
+*Original GEOMETOR Translation from the Latin · h I, nn. 156–161 · Paris 1514 fol. 18v–19r · Rotta 1913 pp. 113–116*
+
+.. _cusa-en-di-ii-11-s-1:
+
+.. folio:: DI II.11 §1
+
+Readers who encounter these hitherto unheard-of statements will perhaps marvel, once learned ignorance demonstrates them to be true. From what has preceded we now know that the universe is triune; that nothing in the universe exists that is not one reality formed of potency, act, and the motion of connection; and that none of these three can subsist absolutely apart from another, so that of necessity they exist across all things in the most diverse degrees and so differently that no two things in the universe can be simply equal in every respect. Consequently, when the varied motions of the orbs are considered, it is impossible for the fabric of the world to have this sensible earth, or air, or fire, or anything else whatsoever as a fixed and motionless center. For in motion one never arrives at an unqualified minimum—such as a fixed center—because the Minimum must coincide with the Maximum.
+
+.. _cusa-en-di-ii-11-s-2:
+
+.. folio:: DI II.11 §2
+
+The center of the world, therefore, coincides with its circumference. Hence the world does not possess a physical circumference. For if it had a center, it would likewise have a circumference, and thus would contain within itself its own beginning and end, and the world itself would be bounded against something else, and outside the world there would be something other and a spatial place—all of which lack truth. Since, then, the world cannot be enclosed between a bodily center and a circumference, the world whose center and circumference are God remains beyond comprehension. And although the world is not infinite, nevertheless it cannot be conceived as finite, since it lacks bounds within which it might be enclosed.
+
+.. _cusa-en-di-ii-11-s-3:
+
+.. folio:: DI II.11 §3
+
+The earth, therefore, which cannot be the center, cannot lack all motion; indeed, it must move in such a manner that it could always move infinitely less. Just as the earth is not the center of the world, neither is the sphere of the fixed stars its circumference, even though when we compare the earth to the heavens the earth seems nearer to the center and the heavens nearer to the circumference. Nor is the earth the center either of the eighth sphere or of any other sphere, nor does the appearance of six zodiacal signs above the horizon prove that the earth sits at the center of the eighth sphere. For even if the earth stood at some distance from the center along the axis passing through the poles—raised toward one pole on one side and lowered toward the other—to observers standing as far from the poles as the horizon reaches, manifestly half the sphere alone would still appear. Nor is the center of the world any more inside the earth than outside it, nor does this earth or any sphere possess a true center. For since a center is a point equidistant from a circumference and no sphere or circle can exist so true that a truer could not be given, plainly no center can be given than which a truer and more exact center could not be given. Precise equidistance to diverse points is nowhere to be found outside God, because He alone is infinite equality. He who is the center of the world, namely blessed God, is therefore the center of the earth, of all spheres, and of all things in the world, and is simultaneously the infinite circumference of all.
+
+.. _cusa-en-di-ii-11-s-4:
+
+.. folio:: DI II.11 §4
+
+Furthermore, there are no motionless and fixed poles in the heavens, even though the heaven of the fixed stars seems by its motion to trace out circles graded in size, smaller than the colures or the celestial equator, and likewise for intermediate circles. Rather, every part of the sky must move, albeit unequally in comparison with the circles traced by the motion of the stars. Thus just as certain stars seem to trace a largest circle, so others seem to trace a smallest, yet no star is found that traces none at all. Because no pole in the sphere is fixed, manifestly no exact middle equidistant from the poles is found either. Hence there is no star in the eighth sphere that by revolution describes a strictly maximal circle—since it would have to stand equidistant from poles that do not exist—and consequently none that describes a strictly minimal circle. The poles of the spheres therefore coincide with the center, so that the center is no other than the pole, namely blessed God. And because we can detect motion only by comparison with something fixed, such as poles or centers, and presuppose these when measuring motions, walking by conjectures we find that we err in everything, and we marvel when we discover that the stars do not agree in position according to the rules of the ancients, because we mistakenly supposed that the ancients had conceived rightly concerning centers, poles, and measures. From this it is plain that the earth moves. And since from the motion of a comet we have learned by experience that the elements of air and fire move, and that the moon moves less from east to west than Mercury, Venus, or the sun, and so by degrees, the earth itself moves still less than all the others—yet not like a star describing a minimal circle around a center or pole, any more than the eighth sphere describes a maximal circle, as has just been proved.
+
+.. _cusa-en-di-ii-11-s-5:
+
+.. folio:: DI II.11 §5
+
+Reflect keenly, therefore: just as the stars behave around conjectural poles in the eighth sphere, so the earth, the moon, and the planets move as stars at varying distances and speeds around a pole when one conjectures the pole to lie where the center is believed to be. Hence although the earth, as a star, lies closer to that central pole, nonetheless it moves and does not describe a minimal circle in its motion, as has been shown. Indeed, neither the sun nor the moon nor the earth nor any sphere—though it seem otherwise to us—can trace a true circle in its motion, since none moves around a fixed point. Neither can a circle be given without a truer one being possible, nor does any body ever move at one time with precisely the same equality or trace a like circle equal to that of another time, even if this is not apparent to us.
+
+.. _cusa-en-di-ii-11-s-6:
+
+.. folio:: DI II.11 §6
+
+If you wish truly to understand anything of the motion of the universe in light of what has been said, you must enfold the center together with the poles, aiding yourself as far as you can with imagination. Suppose one observer stood upon the earth beneath the arctic pole and another stood at the arctic pole itself: just as to the observer on earth the pole would appear at the zenith, so to the observer at the pole the center would appear at the zenith. And just as our antipodes have the sky overhead even as we do, so to observers at both poles the earth would appear at the zenith; wherever anyone may be, he believes himself to stand at the center. Enfold these diverse imaginations together, therefore, so that the center is the zenith and conversely; then through the intellect—which learned ignorance alone serves—you behold that the world and its motion and shape cannot be grasped, for it will appear as a wheel within a wheel and a sphere within a sphere, having nowhere a center or a circumference, as stated above.
+
+.. _di-bk2-ch12-en:
+
+Book II, Chapter 12 — On the Conditions of the Earth
+----------------------------------------------------
+
+*Original GEOMETOR Translation from the Latin · h I, nn. 162–174 · Paris 1514 fol. 19r–20v · Rotta 1913 pp. 116–122*
+
+.. _cusa-en-di-ii-12-s-1:
+
+.. folio:: DI II.12 §1
+
+To the truths just stated the ancients did not attain, because they fell short in learned ignorance. To us it is now manifest that this earth in truth moves, even though this does not appear to us; for we apprehend motion only by some comparison with a fixed reference. If someone aboard a ship in midstream did not know that the water was flowing and could not see the banks, how would he perceive that the ship was moving? For this reason, since to every observer—whether he stand upon the earth, the sun, or another star—it always seems that he himself occupies an as-it-were motionless center while all other things move, such an observer would assuredly set up ever different poles for himself when standing in the sun, others on the earth, and others on the moon or Mars, and so for all the rest. Thus the fabric of the world will be as though having its center everywhere and its circumference nowhere, because its circumference and center are God, who is everywhere and nowhere.
+
+.. _cusa-en-di-ii-12-s-2:
+
+.. folio:: DI II.12 §2
+
+Furthermore, this earth is not strictly spherical, as some have claimed, though it tends toward sphericity. For the shape of the world is contracted in its parts, just as its motion is; now when the infinite line is considered as contracted in such a way that as contracted it cannot be more perfect or more capacious, it is circular, because there the beginning coincides with the end. The more perfect motion, therefore, is circular, and hence the more perfect bodily shape is spherical. Accordingly every motion of a part tends toward perfection in relation to the whole—heavy bodies toward the earth and light ones upward, earth to earth, water to water, air to air, fire to fire—while the motion of the whole accompanies circular motion so far as it can, and every shape accompanies spherical shape, as we experience in the parts of animals, in trees, and in the heavens. Hence just as one motion is more circular and more perfect than another, so too shapes differ in degree.
+
+.. _cusa-en-di-ii-12-s-3:
+
+.. folio:: DI II.12 §3
+
+The shape of the earth, therefore, is noble and spherical and its motion circular, though it could always be more perfect. Because there is neither a maximum nor a minimum in perfections, motions, and shapes within the world, as is plain from what has just been said, it is untrue that this earth is vilest and lowest; for even if it seems more central with respect to the world, by the very same reasoning it lies closer to the pole, as already stated. Nor is the earth a proportional or aliquot part of the world: since the world possesses neither maximum nor minimum, it possesses neither midpoint nor aliquot parts, any more than a human being or an animal does—for the hand is not an aliquot fraction of a human being, even if its weight seems to bear a ratio to the body, and so too for size and shape. Nor is the earth's dark color proof of baseness; for if someone stood on the sun, that brightness which appears to us would not appear to him. When the body of the sun is considered, it possesses a kind of more central 'earth,' a fiery circumferential brilliance, and in between a watery cloud and clearer air, much as this earth has its own elements. Hence if someone stood outside the region of fire, our earth would appear as a bright star at the circumference of its region through the medium of fire, just as to us—situated around the circumference of the solar region—the sun appears most bright. The moon does not appear equally bright, perhaps because we stand inside its circumference toward its more central parts, as it were in its watery region; thus its own light does not appear to us, though it has proper light visible to those at the outer rim of its circumference, while to us only the reflected light of the sun appears. For the same reason the moon's heat, which it doubtless generates from motion more strongly at its circumference where motion is greater, is not communicated to us as happens with the sun. Our earth thus seems situated between the region of the sun and that of the moon, participating through their medium in the influence of other stars whose bodies we do not see because we lie outside their regions, seeing only their twinkling outer regions.
+
+.. _cusa-en-di-ii-12-s-4:
+
+.. folio:: DI II.12 §4
+
+The earth, accordingly, is a noble star possessing light, heat, and influence distinct and diverse from every other star, just as every star differs from every other in light, nature, and influence. And just as each star communicates light and influence to another not by deliberate aim—since all stars move and shine simply to exist in their best manner, whence participation arises as a consequence, much as light shines by its own nature rather than in order that I may see, yet participation follows when I use light for seeing—so blessed God created all things in such wise that while each strives to conserve its own being as a divine gift, it does so in communion with all others: just as the foot serves not itself alone, but eye, hands, body, and the whole human being simply by existing for walking, and likewise for the eye and remaining members, and in like manner for the parts of the world. For Plato called the world a living animal; if you conceive God as its soul without immersion, much of what we have said will be clear to you. Nor should it be claimed that the earth is baser because it is smaller than the sun and receives influence from it, since the entire region of the earth extending out to the circumference of fire is vast; and although the earth is smaller than the sun, as we know from its shadow and eclipses, we do not know how much larger or smaller the region of the sun is than the region of the earth. Precisely equal it cannot be, for no star can equal another. Nor is the earth the smallest star, since eclipse observations teach us that it is larger than the moon, and larger than Mercury too as some report, and perhaps than other stars; size therefore proves no baseness. Neither does receiving influence prove imperfection: as a star, the earth perhaps exercises a reciprocal influence upon the sun and its region, though because we experience ourselves only as standing at a center where influences converge, we sense nothing of our own outflow. Even if the earth stands as possibility, the sun as soul or formal actuality in relation to it, and the moon as intermediate bond—so that these stars placed within one region unite their mutual influences while Mercury, Venus, and the rest lie beyond, as ancients and some moderns held—plainly the correlation of influence is such that none can exist without the others, being at once one and triune in each according to its degree. Plainly, then, no human being can know whether in these respects the region of the earth stands in a more perfect or less noble rank than the regions of the sun, moon, and other stars.
+
+.. _cusa-en-di-ii-12-s-5:
+
+.. folio:: DI II.12 §5
+
+Nor can this be decided with regard to place—as though this corner of the world were the dwelling of human beings, animals, and plants lower in rank than those dwelling in the region of the sun and other stars. For even though God is the center and circumference of all stellar regions and natures of diverse nobility proceed from Him to inhabit every region—lest so many expanses of heavens and stars stand empty while this earth alone, perhaps among the lesser bodies, is inhabited—nevertheless within the intellectual nature dwelling here on this earth and in its region it does not appear that anything nobler or more perfect according to this kind of nature could be given, even if inhabitants of another genus dwell in other stars. Man does not desire a different nature, but solely to be perfected within his own. Those inhabitants of other stars, of whatever sort they may be, thus bear no direct proportion to the dwellers of this world, even though that whole region bears to this whole region a proportion hidden from us toward the goal of the universe, so that through the medium of the universal region the inhabitants here and there stand in mutual relation, just as the individual joints of the fingers bear a proportion to the foot through the medium of the hand, and those of the foot to the hand through the foot, so that all are proportioned to the whole living organism.
+
+.. _cusa-en-di-ii-12-s-6:
+
+.. folio:: DI II.12 §6
+
+Because that entire region is unknown to us, its inhabitants remain wholly unknown—just as here on earth animals of a single species, forming as it were one specific region, unite among themselves and share what belongs to their region while neither troubling about nor truly grasping the affairs of other species; for an animal of one species cannot grasp the thought that another expresses by vocal signs save outwardly in very few signs, after long custom, and merely by conjecture. Disproportionately less shall we be able to know concerning the inhabitants of another stellar region, surmising only that in the region of the sun there dwell more solar, radiant, and illumined intellectual beings, more spiritual even than in the moon where they are more lunar, while on earth they are more material and dense—so that solar intellectual natures exist largely in act and little in potency, earthly ones more in potency and little in act, and lunar ones fluctuating between. We conjecture this from the fiery influence of the sun, the watery and airy influence of the moon, and the material heaviness of the earth, surmising likewise for the other stellar regions that none lacks inhabitants, as though there were as many particular world-parts of the one universe as there are stars beyond number, the one universal world being contracted triply in its fourfold descending progression across particulars numberless save to Him who created all things in number. Even the corruption of things experienced on earth is no cogent proof of ignobility: once there is one universal world and mutual influential proportions among all particular stars, we cannot be sure that anything perishes utterly rather than merely according to one or another mode of being when influences contracted in an individual resolve so that this particular mode ceases—so that, as Virgil says, 'there is no place for death.' Death seems to be nothing else than a composite resolving into its components; and who could know whether such resolution occurs among earthly dwellers alone?
+
+.. _cusa-en-di-ii-12-s-7:
+
+.. folio:: DI II.12 §7
+
+Some have said that there are as many species of things on earth as there are stars. If the earth thus contracts the influence of all stars into singular species, why does the like not happen in the regions of other stars receiving mutual influences? Who could know whether all influences earlier contracted in composition return at dissolution, so that a living individual of some species contracted in the earthly region out of universal stellar influence is resolved back into its principles, the form alone returning to its proper star whence that species received actual being in mother earth? Or whether the form returns solely to the exemplar or World-Soul, as the Platonists hold, and matter to possibility, while the uniting spirit abides in the motion of the stars—withdrawing on account of bodily indisposition or other causes so that diversity of motion induces separation, returning as it were to the stars while form ascends above stellar influence and matter sinks below? Or whether the forms of every region come to rest in a higher form, namely the intellectual, and through it attain that goal which is the goal of the world—ascending through it in God toward the circumference, which is God, while the body descends toward the center, where God likewise is, so that the motion of all things tends toward God; in whom one day, just as center and circumference are one in God, body and soul too, though seeming to move toward center and circumference respectively, will be reunited in God when generative motion ceases, the essential parts without which the world cannot exist returning together as the spirit of union reconnects possibility to its form?
+
+.. _cusa-en-di-ii-12-s-8:
+
+.. folio:: DI II.12 §8
+
+Of himself no human being can know these matters unless he has received them by special gift from God. Though no one doubts that most good God created all things unto Himself, wills nothing He has made to perish, and is the most bountiful rewarder of all who revere Him, nevertheless the manner of God's present working and future reward is known solely to God Himself, who is His own working. Below, in accordance with divinely inspired truth, I shall say a little more concerning this, on which it suffices for now to have touched thus in learned ignorance.
+
+.. _scripta-geom-trans-1445-en:
+
+De Geometricis Transmutationibus (1445, §§1–11) — To Paolo dal Pozzo Toscanelli: Isoperimetric Extrema and the Sesquiquartal Radius
+-----------------------------------------------------------------------------------------------------------------------------------
+
+*Original GEOMETOR Translation from the Latin · h XX, Opuscula Mathematica · Paris 1514 vol. II · Basel 1565 pp. 945–949*
+
+.. picture:: /_static/figures/cusa_transmutatio_1445.svg
+   :alt: De Geometricis Transmutationibus (1445, §§1–11) — To Paolo dal Pozzo Toscanelli: Isoperimetric Extrema and the Sesquiquartal Radius
+   :caption: De Geometricis Transmutationibus (1445, §§9–11) — Inscribed Equilateral Triangle BCD in Unit Circle A: Quarter-Point E on Side BC Extended in Sesquiquartal Ratio 5:4 Yields Isoperimetric Radius AH = (5/16) sqrt(7), Implying pi ~= (24/35) sqrt(21) ~= 3.142337.
+
+.. _cusa-en-dgt-s-1:
+
+.. folio:: DGT §1
+
+To Paolo, son of Master Domenico, Florentine physician, most excellent and learned man: the book On Geometric Transmutations of Nicholas of Cusa, Cardinal.
+
+.. _cusa-en-dgt-s-2:
+
+.. folio:: DGT §2
+
+Although the ancients, endowed with great genius, strove by diligent inquiry to make known to themselves and posterity many truths then hidden and achieved fruitful mastery across most of the greatest and best arts, still they did not attain everything desired in every loftier theory—the supreme Provider of the universe having foreordained this lest the power of divine intelligence within us grow sluggish, rather than being borne by keener wonder toward things hidden yet accessible to knowledge. Indeed we are stirred all the more ardently to penetrate what is obscure so that we may delight more serenely in the vigor of the mind. Now among the obstacles that have hitherto hindered those sweating over geometric speculations, one problem has remained unknown to all whose intellectual powers are recorded in the books brought to our notice: namely, establishing the equality or mutual transmutation of the straight and the curved—so much so that to nearly all who have devoted themselves to this quest after immense labors it has seemed that the road to acquiring knowledge of it is barred to us, the impossibility of the thing causing this and nature itself repelling the coincidence of so great an opposition. Judging, however, that the difficulty of this matter lay rather in narrowness of apprehension and slackening of diligence among investigators not watching with the sharpest acumen demanded by the obscurity of the task, whenever any leisure was granted me I betook myself to a new art whereby I might reach what was sought, laboring over it quite diligently for the sake of higher ends until I reduced all my meditations to an easy resolution by the formula written below. Yet because in an art so great and hitherto unknown—on which depends not only the perfection of geometric transmutation, but in which an introduction for ascending to higher realities is also figured—I ought not to trust the obscurity and smallness of my slender wit, I rightly resolved to turn to you, a most skilled judge and lover of truth, and lay open my discovery to a long-tested friend to be weighed in the balance of a most impartial arbiter. Do not cast these pages aside as crude and undigested, dearest friend, even if you are occupied with greater affairs; they are brief to read and very easy to understand. Rather, in proportion as since the years of our youth and adolescence you have unceasingly bound me in the closest knot of friendship and heartfelt embrace, apply your mind all the more carefully now to correcting this work, and suffer it not to go forth into common hands unless emended.
+
+.. _cusa-en-dgt-s-3:
+
+.. folio:: DGT §3
+
+After nearly countless attempts by which, ever falling short, I strove to reach the proposed art, at last when I looked back to the principle I employed in On Learned Ignorance a pathway opened before me. Beyond what has already been handed down in geometry, the art I seek requires turning the curved into the straight and the straight into the curved. Since no rational proportion falls between these two, this secret must lie hidden in a certain coincidence of extremes. And since that coincidence resides in the maximum, as explained elsewhere, and the maximum here is the circle which is unknown, it is shown there that it must be sought within the minimum, which is the triangle.
+
+.. _cusa-en-dgt-s-4:
+
+.. folio:: DGT §4
+
+Among all many-angled figures (called polygons) having equal sides (called equilateral or isopleural) and equal total perimeter (called isoperimetric), it is established that the triangular figure possesses minimal area-capacity. And since every isoperimetric polygon is the more capacious the more angles it possesses, the isoperimetric circle will be the most capacious of all figures. Yet one cannot arrive at that circle by multiplying angles, any more than one arrives at a maximum in number. No polygon, therefore, can bear a rational proportion to the isoperimetric circle.
+
+.. _cusa-en-dgt-s-5:
+
+.. folio:: DGT §5
+
+Because the difference in area-capacity among isoperimetric figures corresponds to the difference among the radii of the circles inscribed in them, as is already known, neither the inscribed circle (which is always smaller) nor the circumscribed circle (which is always larger) will bear a rational proportion to the isoperimetric circle. Now the radii of those inscribed and circumscribed circles are maximally unequal in the triangle, successively less unequal in higher polygons, and coincident in the isoperimetric circle itself, where incircle, circumcircle, and perimeter coincide. Hence we must inquire by what art we may attain that coincidence and our goal.
+
+.. _cusa-en-dgt-s-6:
+
+.. folio:: DGT §6
+
+Four tasks appear sufficient for the art we seek: first, given a straight line, to exhibit an equal curve; second, according to the ratio of curve to curve, to exhibit straight line to straight line; third, between given lines to assign two mean proportionals; fourth, according to the ratio of two given lines, for a third given line to exhibit a fourth proportional. The first has hitherto been unknown; the second not yet considered; the third touched upon darkly by a few; the fourth clearly explained by many. Within these four is enfolded everything needful for this transmutatory art, as I shall endeavor to show in exemplary applications once the necessary preliminaries are set down.
+
+.. _cusa-en-dgt-s-7:
+
+.. folio:: DGT §7
+
+Everyone admits that there can exist a curved line neither greater nor smaller than a given straight line, even if not everyone affirms that it can be constructed. The circumference of some circle can therefore be neither greater nor smaller than the perimeter of a given polygon, so that the two are isoperimetric; how such a circle may be exhibited is what we investigate.
+
+.. _cusa-en-dgt-s-8:
+
+.. folio:: DGT §8
+
+Because the circumscribed circle of an equilateral polygon is all the larger the fewer angles the polygon has, while its inscribed circle is all the smaller, no one can deny that every circle inscribed in an equilateral polygon is smaller than the isoperimetric circle and every circumscribed circle is larger. Falling between the incircle and the circumcircle, therefore, the isoperimetric circle has a radius greater than every inradius and smaller than every circumradius of any equilateral polygon of the same perimeter. After many harder methods, what we seek will become manifest by easy consequence from the following proposition:
+
+.. _cusa-en-dgt-s-9:
+
+.. folio:: DGT §9
+
+Proposition: The radius of the circle isoperimetric to an inscribed equilateral triangle stands to the line drawn from the center of the circumscribing circle to the quarter-point of a side in the sesquiquartal ratio [5 : 4].
+
+.. _cusa-en-dgt-s-10:
+
+.. folio:: DGT §10
+
+Let a circle be described about center a with an equilateral triangle bcd inscribed in it, and let side bc be divided into four equal parts marked by e, f, g. I say that if the line drawn from a to e is produced by one-fourth of itself so as to become ah, then ah will be the radius of the circle whose circumference equals the three sides of the triangle.
+
+.. _cusa-en-dgt-s-11:
+
+.. folio:: DGT §11
+
+This is verified very easily as follows. Drawing the line from a to midpoint f, plainly af is the radius of the inscribed circle, which is the smallest among all incircles of isoperimetric polygons; similarly the line drawn from a to vertex b is the radius of the circumscribed circle, which is the largest among all circumcircles of isoperimetric polygons. If from a you draw a line to a point i very near f and extend it in the ratio of segment if to side bc, producing ak, manifestly ak is smaller than the radius of the isoperimetric circle, since the isoperimetric radius exceeds every inradius. Likewise if from a you draw a line to a point l near b and extend it in the ratio of segment lf to bc, producing am, clearly am is larger than the sought radius, since the sought radius is smaller than every circumradius. Between l and i, therefore, a line can be drawn from a to some intermediate point which, extended according to the ratio of the segment between that point and f to side bc, will equal the radius sought.
+
+.. _scripta-math-compl-1453-en:
+
+De Mathematicis Complementis (1453, §§1–10) — To Pope Nicholas V: Archimedes' Spiral and the Convergence of Inradius and Circumradius
+-------------------------------------------------------------------------------------------------------------------------------------
+
+*Original GEOMETOR Translation from the Latin · h XX, Opuscula Mathematica · Paris 1514 vol. II · Basel 1565 pp. 1005–1010*
+
+.. _cusa-en-dmc-s-1:
+
+.. folio:: DMC §1
+
+So great is the authority of your supreme pontificate, most blessed Father Nicholas V, that by those who have attentively pondered its force it is likened to the power of squaring the round and rounding the square, as though none greater could be bestowed upon it. In you resides not only the primacy of the keys and authority over learning and the supreme hierarchy of the Church, but by universal judgment you are esteemed from your most happy genius to be like a consummate master of incomparable knowledge across all knowable things. Most magnificently have you brought it about that through your marvellous diligence all discoverable writings of Greeks and Latins alike have come with utmost accuracy to the knowledge of us all—not neglecting even geometric treatises, which by our forebears were rightly held worthy of every honor.
+
+.. _cusa-en-dmc-s-2:
+
+.. folio:: DMC §2
+
+Indeed in recent days you placed in my hands the geometric works of great Archimedes, presented to you in Greek and translated into Latin through your zeal, which struck me as so admirable that I could study them only with the greatest diligence. As a result, through my study and toil I have added to them a certain mathematical complement which I have resolved to offer to Your Holiness; for I know you alone to be worthy that truths remaining unknown for ages should through you be laid open to all. In my judgment not only the problems customarily revolving around the long-sought quadrature of the circle, but also those that supply completion across all mathematical perfection, can be attained from these principles.
+
+.. _cusa-en-dmc-s-3:
+
+.. folio:: DMC §3
+
+By the testimony of all who have devoted themselves to geometry, no one came closer to squaring the circle than Archimedes. Seeing that this cannot be attained unless the curved circular line is resolved into a straight line, he strove to demonstrate this art by means of the spiral. Yet because the ratio of the motion of a point moving from the center along the radius to the motion by which in the same time another point travels along the circumference—without which the spiral cannot be described—is the very ratio of radius to circumference, which is not known but is the thing sought, on this point he appears to have fallen short; for it will prove easier to square the circle than to trace the spiral and apply a tangent to it at the end of a revolution. From what Archimedes left behind, therefore, this art still remains deeply hidden. Although I had read that many labored in vain over this inquiry, I began to test whether this difficulty might reach completion through the medium of coincidences, whose power I had found supreme in other sciences; and granting the possibility universally admitted, it seemed to me that both the theory and the practice of this art can readily be won in the manner that follows.
+
+.. _cusa-en-dmc-s-4:
+
+.. folio:: DMC §4
+
+First let it be noted that in an equilateral many-angled or polygonal figure the single point equidistant from the midpoints and endpoints of the sides is called the center; the line drawn from that center to the midpoint of a side is the radius of the inscribed circle, and let it be called the 'first line' [inradius]. The other line drawn from the same center to the endpoint of a side, that is, to a vertex angle, is the radius of the circumscribed circle, and let it be called the 'second line' [circumradius]. In every polygon these two lines differ in magnitude, and all the more so the longer its side; for the square on the second line contains the square on the first line together with the square on half the side, being the side opposite the right angle in a right triangle, as Euclid demonstrates.
+
+.. _cusa-en-dmc-s-5:
+
+.. folio:: DMC §5
+
+Because the triangle is the first of rectilinear figures, in it the first and second lines differ maximally in magnitude. In the circle, by contrast, they coincide, since there the center stands equidistant from the circumference—the midpoint and endpoint of the side coinciding where every point is angle. In the equilateral triangle the first line is shortest and the second line longest; in the square of the same perimeter the first line is next shortest after that of the triangle and the second line next longest, and so onward in succession. Because the first line in such a square exceeds the first line in the triangle, multiplying each first line by half the common perimeter manifestly produces distinct rectangular areas equal to the respective polygons.
+
+.. _cusa-en-dmc-s-6:
+
+.. folio:: DMC §6
+
+Consequently the excess of the area formed from the square's first line multiplied by the semiperimeter over the area formed from the triangle's first line multiplied by the same semiperimeter equals the excess of the square's capacity over the triangle's capacity; and in every polygon the excess of its first line over the first line of the isoperimetric triangle measures the excess of its capacity over the triangle's. Now the smaller the difference between first and second lines, the greater the excess of that polygon's first line over the triangle's first line; and because in the circle first and second lines coincide, the excess of the isoperimetric circle's radius over the triangle's first line is maximal, and hence the circle's capacity exceeds the triangle's maximally. Thus a single straight line bent around three sides as a triangle's perimeter, then around four sides as a square's, and still further in a pentagon, when extended maximally so that it can be extended no further, becomes the circumference of a circle.
+
+.. _cusa-en-dmc-s-7:
+
+.. folio:: DMC §7
+
+From this it is clear that if the triangle has minimal capacity where first and second lines differ maximally, and the circle has maximal capacity where first and second lines coincide, intermediate polygons behave proportionally. Setting the excess of the circle's capacity over the triangle's proportional to the difference between first and second lines in the triangle, and its excess over the square's proportional to their difference in the square, from the excess of any higher polygon's first line over the triangle's together with the difference of their radial gaps one seeks the radius of the isoperimetric circle whose circumference equals the three sides of the triangle or the four sides of the square.
+
+.. _cusa-en-dmc-s-8:
+
+.. folio:: DMC §8
+
+Once that radius is known, the quadrature of the circle is plain: multiplying the radius of that isoperimetric circle by half its perimeter yields a rectangular area neither greater nor smaller than the circular area, as Archimedes easily demonstrated; and this rectangle is converted into a square whose side is the mean proportional between the radius and the semiperimeter, found from Book VI of Euclid. Though all these steps are familiar to geometers, I wish to render them crystal clear even to readers unpracticed in mathematics. Such equilateral many-angled figures of equal perimeter are called in Greek fashion 'isopleural and isoperimetric polygons.'
+
+.. _cusa-en-dmc-s-9:
+
+.. folio:: DMC §9
+
+Multiplying a straight line by a straight line produces a figure of four right angles; multiplying the same line by double the length produces double the rectangle, and so on; and a straight line drawn from corner to opposite corner is the diagonal because it bisects the figure. Thus ab multiplied by bc produces rectangle abcd of four right angles, and ab multiplied by be (double bc) produces rectangle abef, double abcd, with diagonals ac and ae.
+
+.. _cusa-en-dmc-s-10:
+
+.. folio:: DMC §10
+
+Theorem: Multiplying the first line [inradius] by half the perimeter equals the area of the regular polygon. Let abcd be a square of four right angles and equal sides, with a circle inscribed about center e touching the four sides at their midpoints. Draw ef to the point of contact on ab—this is the first line, being the inradius—and draw vertex ray eb and contact radius eg to side bd; double fb to fh, double eg to ei, close the rectangle with ih, and draw diagonal eh. From the preceding lemma triangles efb and ebh are equal, so triangle efh is half the doubled rectangle, proving that the inradius multiplied by the semiperimeter equals the polygon's area.
+
+.. _scripta-math-perf-1458-en:
+
+De Mathematica Perfectione (1458, Ded. & §§1–7) — To Cardinal Antonio Cerdà: Intellectual Vision of Vanishing Sagitta and the 3 : (2 + cos θ) Law
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+*Original GEOMETOR Translation from the Latin · h XX, Opuscula Mathematica · Paris 1514 vol. II · Basel 1565 pp. 1110–1114*
+
+.. _cusa-en-dmp-ded:
+
+.. folio:: DMP Ded.
+
+To the Most Reverend Father in Christ, Lord Antonio, Cardinal Priest of the Holy Roman Church of the title of Saint Chrysogonus: Nicholas, Cardinal of the title of Saint Peter in Chains, On Mathematical Perfection.
+
+.. _cusa-en-dmp-s-1:
+
+.. folio:: DMP §1
+
+Your noble mind is solicitous, Most Reverend Father, to examine even the speculations of duller wits, and on an earlier occasion asked me for something new. Excused from the papal palace by a gouty foot and sitting at home for two days, I composed On Mathematical Perfection, which I send herewith in order to commend for theological inquiries the power of coincidences through an empirical trial upon mathematical problems hitherto unknown. For every knowable truth in mathematics, as I illustrate by certain examples subjoined here, is attained from that coincidence across obscure questions ever eagerly sought yet hitherto patent to none. How mathematics leads us to wholly absolute, divine, and eternal realities Your most learned Paternity—who stand at the summit of theologians—knows far better than I. I have also enclosed a brief writing of my reflections concerning the mirror and the enigma [De Beryllo], wherein if Your Most Reverend Paternity deigns to linger a little, you will straightway see whether I have rightly cast the gaze of the mind into the principle of things—matters that even the most learned shrank from committing to writing. Because such things are set forth less aptly than they are contemplated, I have not blushed to send them to Your Paternity, by whose judgment I wish to be guided, knowing that I impart not to a stranger but to a father who loves me secrets that perhaps seem more precious to me than they really are, ready to correct my estimate according to your verdict, which as a suppliant I beg you to inscribe upon these little books.
+
+.. _cusa-en-dmp-s-2:
+
+.. folio:: DMP §2
+
+My aim is to hunt down mathematical perfection out of the coincidence of opposites. Because that perfection consists chiefly in equating straight and curved quantity, I propose to investigate the ratio of two straight lines standing to one another as a chord stands to its arc, knowing that once this ratio is in hand I possess the medium for equating curved quantity with straight. Yet since to discover these lines I must know the ratio of some chord to its arc so as to advance from it to the art, how is it possible for me to know the ratio of any given chord to its arc when between quantities so contrary no numerable ratio may fall?
+
+.. _cusa-en-dmp-s-3:
+
+.. folio:: DMP §3
+
+I must therefore have recourse to intellectual vision, which beholds that the minimal—though unassignable—chord coincides with the minimal arc. For the smaller the chord, the smaller still is its sagitta: thus the sagitta de of chord bc is smaller than the sagitta ge of chord fh because bc is smaller than fh, and so onward in succession.
+
+.. _cusa-en-dmp-s-4:
+
+.. folio:: DMP §4
+
+The minimal chord, therefore, than which none smaller could be given, if it could be marked out, would have zero sagitta and so would not be shorter than its arc; chord and arc would coincide there if one arrived at minimal quantity in such things. The intellect sees clearly that this is necessary, even while knowing that neither arc nor chord, being continuous magnitudes, can be unqualifiedly minimal in act or potency, since the continuum is endlessly divisible. Yet to draw forth knowledge of their ratio I look to intellectual vision and affirm that I behold where the equality of chord and arc resides: namely, in the unqualified minimum of both. From this beheld equality I proceed to seek my goal by means of a right triangle, through the proposition that follows.
+
+.. _cusa-en-dmp-s-5:
+
+.. folio:: DMP §5
+
+Proposition: In a right triangle, let the greatest side [hypotenuse] be called the first line and serve as radius of a circle, let the least side [opposite leg] be called the second line and serve as half-chord, and let the remaining side [adjacent leg] be called the third line: then as the half-arc stands to the half-chord, so stands a line equal to three first lines to a line equal to two first lines together with one third line. That is, in right triangle abc with hypotenuse ac as first line and radius, opposite leg bc as second line and half-chord, adjacent leg ab as third line, hc as half-arc, de equal to three times ac, and fg equal to twice ac plus ab, I say that as hc stands to bc, so de stands to fg [namely θ / sin θ ≈ 3 / (2 + cos θ)].
+
+.. _cusa-en-dmp-s-6:
+
+.. folio:: DMP §6
+
+A right triangle is all the smaller the less its first line exceeds its third line. Were a minimal right triangle given, the first line would not exceed the third, and since the second line would be minimal, serving as half-chord it would not be smaller than the half-arc, as shown above. The largest symmetric right triangle here considered occurs when the third line equals the second line, so that the second line is the half-chord of a quadrant [θ = π/4]. I affirm that some single line can be added alike to ac and to ab such that the larger sum stands to the smaller sum as half-arc hc stands to half-chord bc: for since one added line yields a greater ratio than hc : bc and another yields a lesser ratio, plainly a line can be given yielding a ratio neither greater nor lesser than hc : bc, whether chord and arc be commensurable or incommensurable.
+
+.. _cusa-en-dmp-s-7:
+
+.. folio:: DMP §7
+
+Now whatever that added line may be, when it is likewise added to ac and ab in the minimal right triangle the proportion holds automatically, because there first and third lines coincide just as half-arc and half-chord coincide [at θ -> 0, (R + c)/(R cos θ + c) -> 1, and matching curvature fixes c = 2R]. Treating the line added in the maximal triangle as identical to that in the minimal triangle, we apply the same law across all intermediate right triangles.
+
+.. _scripta-aurea-prop-1459-en:
+
+Aurea Propositio in Mathematicis (Rome, August 8, 1459, §§1–7 & Colophon — Complete) — Three-Ray Radial Sum Invariance and the Cusa–Snellius–Huygens Law
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*Original GEOMETOR Translation from the Latin · h XX, Opuscula Mathematica · Basel 1565 pp. 1145–1146*
+
+.. picture:: /_static/figures/cusa_aurea_propositio_1459.svg
+   :alt: Aurea Propositio in Mathematicis (Rome, August 8, 1459, §§1–7 & Colophon — Complete) — Three-Ray Radial Sum Invariance and the Cusa–Snellius–Huygens Law
+   :caption: Aurea Propositio in Mathematicis (1459, §§1–2) — Exact Q(sqrt(3)) Construction at theta = pi/6: Three-Ray Sum |AI| + |AK| + |AL| = 3 Equals Three Unit Radii, with Endpoint Ascent |AI| - 1 = (11 - 6 sqrt(3))/13 Matching Midpoint Descent 1 - |AK| and Fifth-Order Residual theta^5/180.
+
+.. _cusa-en-apm-s-1a:
+
+.. folio:: APM §1a
+
+Golden Proposition: Whether three lines issuing from a center and forming two equal half-right [45°] or smaller angles are terminated by a circular arc or by a straight chord, the sum of the three rays bears the same ratio to the terminating line.
+
+.. _cusa-en-apm-s-1b:
+
+.. folio:: APM §1b
+
+Specifically, let lines of indefinite length issue from a, the center of arc bdc, forming two equal half-right or smaller angles around a, and let them be terminated either by the arc of some circle, say bdc, or by its chord bhc, or by its tangent edg: then the three lines ab, ad, and ac hold the same ratio to the terminating arc bdc as ab, ah, and ac hold to the terminating chord bhc, or as ae, ad, and ag hold to the terminating tangent edg. Which is the same as saying: just as when arc bdc is a quadrant and the three lines ab, ad, and ac are three of its radii, so edg equals the quadrant of another circle whose three radii taken together equal ae, ad, and ag.
+
+.. _cusa-en-apm-s-2:
+
+.. folio:: APM §2
+
+The reason is this: if the arc bdc is to be straightened out into a rectifying segment falling between the outer rays through b and c whose endpoints stand equidistant from center a, its two endpoints taken together with its midpoint must have the same total distance from center a as the endpoints and midpoint of the arc. For if the endpoints alone kept the same distance, the midpoint of the straight segment would lie closer to center a than the midpoint of the arc, and the segment would be shorter than the arc, as in chord bhc; whereas if the midpoints kept the same distance, the endpoints of the straight segment would lie farther out, as in tangent edg, which is therefore longer than arc bdc. As the arc is straightened out into ikl, therefore, however much its midpoint descends toward the center from d to k, by that combined amount its endpoints b and c must ascend outward from the center to i and l—so that the ascent of the endpoints balances the descent of the midpoint [AI + AK + AL = 3R], keeping endpoints plus midpoint collectively equidistant from center a just like the arc bdc. Without such collective equidistance the segment would equal not that arc, but a similar arc of a larger or smaller circle.
+
+.. _cusa-en-apm-s-3:
+
+.. folio:: APM §3
+
+Because the larger the circle is, the more closely its arc resembles a straight line, the mind sees that if an infinitely maximal circle could be marked out, arc and straight line would coincide and everything just stated—and the proposition itself—would hold exactly. And since while the central angle remains fixed the ratio of terminating lines to terminated rays stays invariant across circles of every size, what the mind beholds to be true in the Maximum it beholds to hold likewise across finite circles.
+
+.. _cusa-en-apm-s-4:
+
+.. folio:: APM §4
+
+The reason why the proposition speaks of two half-right angles (making one right angle) or smaller angles rather than universally of all angles is this: from the minimal arc and circular sector up to the quadrant [2θ = 90°], the inscribed isosceles triangle composed of two right triangles [area R² sin θ cos θ = ½ R² sin 2θ] continually increases and reaches its maximum at the quadrant, after which it diminishes. Hence the proposition cannot hold in the same way both when arc, sector, and triangle grow together and when arc and sector grow while the triangle shrinks.
+
+.. _cusa-en-apm-s-5:
+
+.. folio:: APM §5
+
+Plainly, then, any arc within this range can readily be rectified: if the sum of the three rays terminated on a straight segment is an aliquot part of three radii, that straight segment will be the same part of the arc, though the curved sector remains more capacious in area than the rectilinear triangle. Taking one-third of the sum of the three rays terminated on a given straight segment as radius and describing an arc between the outer rays, that arc will equal the straight segment; universally you will convert arc into straight line, straight line into arc, and an arc of one circle into an arc of another.
+
+.. _cusa-en-apm-s-6:
+
+.. folio:: APM §6
+
+It is likewise established that angles can be exhibited standing to one another as the side and diagonal of a square, and universally as any constructible lines, surfaces, and solids; you possess countless ways of rectifying, rectangularizing, and squaring the circle and any commensurable or incommensurable circular sector, and hitherto unknown properties of sines and chords become plain.
+
+.. _cusa-en-apm-s-7:
+
+.. folio:: APM §7
+
+Those who raise their minds higher behold that equality of ratio is the medium of transmutation and of passage from contrary into contrary, and behold what mystery resides in the fact that three lines issuing from a single point either terminate upon a single circular arc—where all three are equal—or terminate upon a straight line—where the two outer rays are equal and the middle ray is unequal even unto incommensurability, like the side and diagonal of a square. Diversity of termination diversifies the enclosed surfaces, rendering one curved and the other rectilinear while preserving the selfsame ratio between terminating boundaries and the rays issuing symmetrically from the same point. Neither short of nor beyond a trinity of lines—considered not as severed pieces, but as one simple length—can this hold true. Around the Unitrine Principle and the outflow of all things from it, therefore, will revolve the loftiest speculation of the wise.
+
+.. _cusa-en-apm-col:
+
+.. folio:: APM Col.
+
+Finished at Rome, August 8, 1459, during the legation of the City, etc.
