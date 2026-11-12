@@ -1,0 +1,210 @@
+{
+  "docta-ignorantia": {
+    "headword": "docta ignorantia",
+    "greek": "σοφὴ ἀμαθία / εἰδέναι ὅτι οὐκ οἶδεν",
+    "latin": "docta ignorantia",
+    "translation": "Learned ignorance",
+    "loci": "Dedicatio; I.1; I.3; I.12; I.16–17; II.11–12; Epistola auctoris",
+    "definition": "Cusa's central epistemological method: rigorous mathematical and dialectical knowledge of why finite comparative reason (ratio) cannot comprehend precise infinite truth, turning that self-knowledge into intellectual vision."
+  },
+  "coincidentia-oppositorum": {
+    "headword": "coincidentia oppositorum",
+    "greek": "σύμπτωσις τῶν ἐναντίων",
+    "latin": "coincidentia oppositorum / contradictoriorum",
+    "translation": "Coincidence of opposites",
+    "loci": "I.2; I.4; I.13–16; I.22; Epistola auctoris; De math. perf. §2",
+    "definition": "The noetic principle—revealed to Cusa at sea returning from Constantinople in 1437/1438—that predicates opposed in the finite domain of 'more and less' (maximum/minimum, straight/curved, chord/arc, center/circumference) coincide identically in the infinite Maximum."
+  },
+  "maximum-absolutum": {
+    "headword": "maximum absolutum",
+    "greek": "τὸ ἁπλῶς μέγιστον",
+    "latin": "maximum absolutum / maximum simpliciter",
+    "translation": "The Absolute Maximum",
+    "loci": "I.2; I.4; I.12; I.16–23",
+    "definition": "That than which nothing can be greater (quo nihil maius esse potest), freed from all quantitative contraction and relative opposition, in which all possibility is eternally actual and with which the Absolute Minimum coincides."
+  },
+  "minimum": {
+    "headword": "minimum",
+    "greek": "τὸ ἐλάχιστον",
+    "latin": "minimum",
+    "translation": "The Minimum",
+    "loci": "I.2; I.4; I.13; II.11; De math. perf. §§3–4",
+    "definition": "That than which nothing can be lesser; when abstracted from finite quantity, the superlative minimum coincides with the superlative maximum, and in Cusa's 1458 calculus of chords the unassignable minimal chord coincides with its arc."
+  },
+  "proportio": {
+    "headword": "proportio / habitudo",
+    "greek": "λόγος / ἀναλογία",
+    "latin": "proportio / comparativa proportio / habitudo",
+    "translation": "Proportion / Comparative ratio",
+    "loci": "I.1; I.3; I.11; De geom. trans. §§4–11; Aurea prop. §§1–7",
+    "definition": "Simultaneous agreement in one respect and alterity in another, presupposing number; all finite inquiry proceeds by comparative proportion from the known to the unknown, whereas the infinite escapes all finite proportion (infiniti ad finitum proportionem non esse)."
+  },
+  "transsumptio": {
+    "headword": "transsumptio",
+    "greek": "μετάληψις / ἀναγωγή",
+    "latin": "transsumptio / translative ascendere",
+    "translation": "Mathematical transsumption (three-step ascent)",
+    "loci": "I.12; I.16; I.19; I.21; I.23",
+    "definition": "Cusa's three-stage symbolic method in Book I, Chapter 12: (1) inspect finite mathematical figures and their demonstrated invariants; (2) transfer those relations to corresponding infinite figures; (3) transsume them beyond all figure to the simple Infinite."
+  },
+  "mathematicalia": {
+    "headword": "mathematicalia",
+    "greek": "τὰ μαθηματικά",
+    "latin": "mathematicalia / signa mathematicalia",
+    "translation": "Mathematical objects and signs",
+    "loci": "I.11–12",
+    "definition": "Abstract intelligible figures free from the fluctuating material instability of sensible bodies while retaining imaginative clarity, giving them 'incorruptible certainty' (incorruptibilis certitudo) as symbols of divine truth."
+  },
+  "linea-infinita": {
+    "headword": "linea infinita",
+    "greek": "ἄπειρος γραμμή",
+    "latin": "linea maxima et infinita",
+    "translation": "The infinite line",
+    "loci": "I.13–19; I.23",
+    "definition": "Cusa's primary geometric paradigm: an uncontracted straight line that is actually triangle, circle, and sphere, indivisible yet the exact ratio and measure (adaequatissima mensura) of every finite straight and curved line."
+  },
+  "circulus-infinitus": {
+    "headword": "circulus infinitus",
+    "greek": "ἄπειρος κύκλος",
+    "latin": "circulus maximus et infinitus",
+    "translation": "The infinite circle",
+    "loci": "I.12–13; I.15; I.21; Aurea prop. §3",
+    "definition": "Limit of coaxial circles of increasing radius: as diameter grows without bound, curvature (1/R) vanishes so the circumference is minimally curved and maximally straight, coinciding with its tangent line and identifying center, diameter, and circumference."
+  },
+  "triangulus-infinitus": {
+    "headword": "triangulus infinitus",
+    "greek": "ἄπειρον τρίγωνον",
+    "latin": "triangulus maximus et infinitus",
+    "translation": "The infinite triangle",
+    "loci": "I.12; I.14–15; I.19",
+    "definition": "Limit of a triangle whose apex angle opens toward two right angles (180°, spread s_C -> 0) or whose base becomes infinite: without composition of parts, its three sides and three angles are one simple infinite line (*unitrinum*)."
+  },
+  "sphaera-infinita": {
+    "headword": "sphaera infinita",
+    "greek": "ἄπειρος σφαῖρα",
+    "latin": "sphaera maxima et infinita",
+    "translation": "The infinite sphere",
+    "loci": "I.12–13; I.15; I.23; II.11–12",
+    "definition": "Ultimate actuality of the line's generative unfolding by semicircle revolution, in which length, breadth, and depth concur and center, diameter, and circumference are identical."
+  },
+  "polygonia": {
+    "headword": "polygonia",
+    "greek": "πολύγωνον",
+    "latin": "polygonia inscripta / isopleura / isoperimetra",
+    "translation": "Regular / isoperimetric polygon",
+    "loci": "I.3; De geom. trans. §§4–11; De math. compl. §§4–10",
+    "definition": "Multi-angled rectilinear figure whose inscribed multiplication of sides approaches circularity monotonically without ever attaining exact algebraic identity with the indivisible circle unless resolved into circularity itself."
+  },
+  "curvitas-et-rectitudo": {
+    "headword": "curvitas & rectitudo",
+    "greek": "καμπυλότης καὶ εὐθύτης",
+    "latin": "curvitas / rectitudo",
+    "translation": "Curvature and straightness",
+    "loci": "I.12–13; I.16; I.18; De geom. trans. §§2–3",
+    "definition": "Classic Aristotelian-Euclidean contraries (cf. Parmenides 137e, Aristotle Physics VII.4): Cusa argues that finite curvature admits 'more and less' by participating indivisible rectitude, with which minimal curvature coincides."
+  },
+  "sagitta": {
+    "headword": "sagitta",
+    "greek": "βέλος / κάθετος",
+    "latin": "sagitta (versed sine)",
+    "loci": "I.13; De math. perf. §§3–4",
+    "translation": "Sagitta (arc-to-chord rise)",
+    "definition": "Perpendicular rise h(x, R) = R - sqrt(R^2 - x^2) = x^2 / (R + sqrt(R^2 - x^2)) between chord and arc; vanishes at O(1/R) as R -> oo and at O(theta^2) as theta -> 0."
+  },
+  "chorda-et-arcus": {
+    "headword": "chorda & arcus",
+    "greek": "χορδὴ καὶ περιφέρεια",
+    "latin": "chorda / semichorda / arcus / semiarcus",
+    "translation": "Chord and circular arc",
+    "loci": "I.13; I.15; De math. perf. §§2–6; Aurea prop. §§1–6",
+    "definition": "Rectilinear subtense versus curved circular portion; their ratio sin(theta)/theta is approximated to fifth order by Cusa's harmonic-radial formula 3 / (2 + cos theta)."
+  },
+  "prima-et-secunda-linea": {
+    "headword": "prima & secunda linea",
+    "greek": "κάθετος ἐγγεγραμμένου / ἐκκέντρου",
+    "latin": "prima linea (inradius) / secunda linea (circumradius)",
+    "translation": "First line (inradius) & second line (circumradius)",
+    "loci": "De math. compl. §§4–10; De math. perf. §§5–6",
+    "definition": "In De mathematicis complementis (1453), Cusa names the apothem from center to side-midpoint the 'first line' (r_n = cos(pi/n)) and the vertex radius the 'second line' (R_n); maximally distinct in the equilateral triangle, they coincide in the circle."
+  },
+  "proportio-sesquiquarta": {
+    "headword": "proportio sesquiquarta",
+    "greek": "ἐπιτέταρτος λόγος (5:4)",
+    "latin": "proportio sesquiquarta",
+    "translation": "Sesquiquarta ratio (5 : 4)",
+    "loci": "De geom. trans. §§9–10",
+    "definition": "Superparticular ratio 5:4 by which Cusa extends ray AE (from center A to the quarter-division point E of inscribed equilateral triangle side BC) to AH = 5*sqrt(7)/16, implying pi_Cusa = 24*sqrt(21)/35 ~= 3.142337."
+  },
+  "isoperimetra": {
+    "headword": "isoperimetra",
+    "greek": "ἰσοπερίμετρος",
+    "latin": "figura isoperimetra",
+    "translation": "Isoperimetric figure (equal perimeter)",
+    "loci": "De geom. trans. §§4–11; De math. compl. §§5–8",
+    "definition": "Figures sharing an identical perimeter: Cusa invokes Zenodorus's and Pappus's isoperimetric hierarchy from the minimum-capacity equilateral triangle up to the maximum-capacity circle."
+  },
+  "quadratura-et-rectilineatio": {
+    "headword": "quadratura circuli & rectilineatio curvae",
+    "greek": "τετραγωνισμὸς τοῦ κύκλου",
+    "latin": "quadratura circuli / rectilineatio curvae",
+    "translation": "Quadrature of the circle & rectification of the curve",
+    "loci": "De geom. trans. §§2–10; De math. compl. §§1–8; Aurea prop. §§1–6",
+    "definition": "Constructing a square equal in area to a circle or a straight segment equal in length to an arc; via Archimedes' Dimensio circuli Prop. 1 and Euclid VI.13, Cusa reduces area quadrature directly to perimeter rectification."
+  },
+  "ratio-et-intellectus": {
+    "headword": "ratio vs. intellectus",
+    "greek": "διάνοια vs. νοῦς",
+    "latin": "ratio / discursus vs. intellectus / visio intellectualis",
+    "translation": "Discursive reason vs. intellectual vision",
+    "loci": "I.4; I.12; I.14; II.11; De math. perf. §§3–4",
+    "definition": "Discursive ratio enforces the Aristotelian principle of non-contradiction among finite magnitudes, whereas higher intellectus beholds the coincidence of opposites prior to contraction."
+  },
+  "complicatio-et-explicatio": {
+    "headword": "complicatio & explicatio",
+    "greek": "συναίρεσις καὶ ἀνάπτυξις",
+    "latin": "complicatio / explicatio",
+    "translation": "Enfolding and unfolding",
+    "loci": "I.13–16; I.22–23; II.3; II.11",
+    "definition": "As unity enfolds all number and the point/infinite line enfolds triangle, circle, and sphere while finite figures unfold that potency successively, God is the complicatio omnium and the cosmos their explicatio."
+  },
+  "contractio": {
+    "headword": "contractio",
+    "greek": "συστολή / μέθεξις",
+    "latin": "contractio / maximum contractum",
+    "translation": "Ontological contraction",
+    "loci": "I.2; I.4; II.2; II.4; II.11–12",
+    "definition": "Restriction of infinite unity or rectitude to a determinate finite degree, species, place, and motion; the physical universe is the 'contracted Maximum' subsisting solely in plurality."
+  },
+  "mensura": {
+    "headword": "mensura adaequatissima",
+    "greek": "μέτρον ἀκριβέστατον",
+    "latin": "adaequatissima mensura / metrum et mensura",
+    "translation": "Most adequate / exact measure",
+    "loci": "I.16–18; I.21; I.23",
+    "definition": "Expanding Aristotle Metaphysics X.1 (1052b18), Cusa demonstrates that only where Maximum and Minimum coincide can one simple essence measure every large and small finite entity without defect or excess."
+  },
+  "unitrinum": {
+    "headword": "unitrinum / triunum",
+    "greek": "τριὰς ἐν μονάδι",
+    "latin": "unitrinum / triunum",
+    "translation": "Unitrine / Triune principle",
+    "loci": "I.19; II.11; Aurea prop. §7",
+    "definition": "Coincidence of unity and trinity prior to numerical counting, symbolized both by the infinite line that is three angles/sides in one and by the three rays of Aurea propositio §7."
+  },
+  "machina-mundi": {
+    "headword": "machina mundi",
+    "greek": "κόσμου σύστημα",
+    "latin": "machina mundi / machina mundana",
+    "translation": "Fabric / architecture of the universe",
+    "loci": "II.11–12",
+    "definition": "Cusa's decentered physical cosmos—neither absolutely infinite nor enclosed within a fixed physical sphere—whose center is everywhere and circumference nowhere (quasi habens undique centrum et nullibi circumferentiam)."
+  },
+  "coniectura": {
+    "headword": "coniectura",
+    "greek": "στοχασμός / εἰκασία",
+    "latin": "coniectura",
+    "translation": "Conjecture (participative approximation)",
+    "loci": "II.11; De math. perf. §1",
+    "definition": "Positive human assertion participating truth in otherness: all astronomical measurements of poles, centers, and orbital periods remain conjectural because no physical body moves around an immobile mathematical point."
+  }
+}

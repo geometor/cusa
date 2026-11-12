@@ -1,0 +1,170 @@
+{
+  "cusa:ddi:1440": {
+    "author": "Nicolaus Cusanus",
+    "work": "De Docta Ignorantia Libri Tres (completed at Kues, February 12, 1440)",
+    "locus": "Dedicatio; Lib. I, Caps. 1–26; Lib. II, Caps. 1–13; Lib. III, Caps. 1–12; Epistola auctoris",
+    "notes": "Foundational treatise introducing learned ignorance, coincidence of opposites, infinite geometric figures, and the decentered moving Earth."
+  },
+  "cusa:transmut:1445": {
+    "author": "Nicolaus Cusanus",
+    "work": "De Geometricis Transmutationibus, ad Paulum Dominici Florentinum (1445)",
+    "locus": "§§1–36 (esp. §§1–11)",
+    "notes": "Introduces Cusa's compass-and-straightedge quarter-side sesquiquarta (5:4) rectification of the inscribed equilateral triangle, yielding pi_Cusa = 24*sqrt(21)/35."
+  },
+  "cusa:compl:1453": {
+    "author": "Nicolaus Cusanus",
+    "work": "De Mathematicis Complementis, ad Nicolaum V Pontificem Maximum (1453–1454)",
+    "locus": "Lib. I–II (esp. Dedicatio §§1–3 & §§4–10)",
+    "notes": "Written upon receiving Archimedes' Opera in Latin from Pope Nicholas V; develops the theory of prima linea (inradius) and secunda linea (circumradius) across isoperimetric polygons."
+  },
+  "cusa:perf:1458": {
+    "author": "Nicolaus Cusanus",
+    "work": "De Mathematica Perfectione, ad Antonium Cardinalem S. Chrysogoni (1458)",
+    "locus": "Dedicatio & §§1–24",
+    "notes": "Derives from the coincidence of minimal chord and minimal arc the fifth-order harmonic rectification hc : bc ~= 3*ac : (2*ac + ab)."
+  },
+  "cusa:aurea:1459": {
+    "author": "Nicolaus Cusanus",
+    "work": "R. D. N. Cardinalis S. Petri in Mathematicis Aurea Propositio (Rome, August 8, 1459)",
+    "locus": "§§1–7 & Colophon",
+    "notes": "Cusa's crowning three-ray formulation equating endpoint ascent and midpoint descent (theta ~= 3 sin theta / (2 + cos theta), residual theta^5/180)."
+  },
+  "cusa:paris:1514": {
+    "author": "Nicolaus Cusanus (ed. Jacques Lefèvre d'Étaples / Faber Stapulensis)",
+    "work": "Haec accurata recognitio trium voluminum operum Clariss. P. Nicolai Cusae Cardinalis (Paris: Jodocus Badius Ascensius, 1514)",
+    "locus": "Vol. I (De docta ignorantia); Vol. II, fols. 33r–114v (Mathematica)",
+    "notes": "Monumental Renaissance humanist edition preserving full mathematical woodcuts and text witnesses prior to Rotta's 1913 omissions."
+  },
+  "cusa:basel:1565": {
+    "author": "Nicolaus Cusanus",
+    "work": "Nicolai de Cusa Cardinalis, utriusque iuris doctoris, in omnique philosophia incomparabilis viri, Opera, 3 vols. (Basel: Ex Officina Henricpetrina, August 1565)",
+    "locus": "pp. 1–75 (DDI), pp. 939–966 (Transmut.), pp. 1005–1090 (Compl.), pp. 1120–1136 (Perf.)",
+    "notes": "Standard early modern Basel edition read by Giordano Bruno, Johannes Kepler, and Willebrord Snellius."
+  },
+  "cusa:rotta:1913": {
+    "author": "Nicolaus Cusanus (ed. Paolo Rotta)",
+    "work": "Nicolai Cusani De Docta Ignorantia Libri Tres (Bari: Gius. Laterza & Figli, Classici della Filosofia Moderna 19, 1913)",
+    "locus": "pp. 1–189",
+    "notes": "Early twentieth-century critical edition; McGill Library holds Raymond Klibansky's annotated copy recording Rotta's homeoteleuton omissions at p. 28 (I.13) and p. 31 (I.14)."
+  },
+  "cusa:heidelberg:1932": {
+    "author": "Nicolaus Cusanus (eds. Ernst Hoffmann & Raymond Klibansky)",
+    "work": "Nicolai de Cusa Opera Omnia, iussu et auctoritate Academiae Litterarum Heidelbergensis, Vol. I: De Docta Ignorantia (Leipzig: Felix Meiner, 1932)",
+    "locus": "h I, pp. 1–163",
+    "notes": "Reference critical apparatus establishing the manuscript stemma (Codex Cusanus 218 et al.)."
+  },
+  "cusa:folkerts:2010": {
+    "author": "Nicolaus Cusanus (ed. Menso Folkerts)",
+    "work": "Nicolai de Cusa Opera Omnia, Vol. XX: Scripta Mathematica (Hamburg: Felix Meiner, 2010)",
+    "locus": "h XX",
+    "notes": "Definitive philological edition and mathematical analysis of Cusa's eleven mathematical treatises (1445–1459)."
+  },
+  "defelice:eos:2020": {
+    "author": "De Felice, Federica (ed.)",
+    "work": "Niccolò Cusano: Scritti matematici (Berlin: Max Planck Institute for the History of Science, Edition Open Sources 13, 2020)",
+    "locus": "Chs. 7, 11, 16, 17",
+    "notes": "Open-access edition preserving digital transcriptions and figures of Cusa's mathematical corpus."
+  },
+  "hofmann:cusa:1952": {
+    "author": "Hofmann, Joseph Ehrenfried (trans. Josepha Hofmann)",
+    "work": "Nikolaus von Cues: Die mathematischen Schriften (Hamburg: Felix Meiner, 1952; 2nd ed. 1979)",
+    "locus": "Introduction & Notes",
+    "notes": "Landmark modern mathematical reconstruction of Cusa's algebraic approximations and series expansions."
+  },
+  "plato:opera": {
+    "author": "Plato",
+    "work": "Meno (82b–85d), Republic VI–VII (509d–534e), Parmenides (137e, 145b), & Timaeus (31b–36d)",
+    "locus": "Stephanus pagination",
+    "notes": "Platonic foundations of recollection, mathematical dianoia vs. noesis, straight vs. round, and World-Soul harmony (geometor/plato)."
+  },
+  "aristotle:opera": {
+    "author": "Aristotle",
+    "work": "Metaphysics II.1 (993b9), X.1 (1052b18); Physics VII.4 (248a10–b7); De Anima I.5 (411a5), II.3 (414b29); De Caelo II.13–14",
+    "locus": "Bekker pagination",
+    "notes": "Aristotelian doctrines on the incomparability of straight and curved, unity as measure, and geocentric rest engaged and transformed by Cusa (geometor/aristotle)."
+  },
+  "euclid:elements": {
+    "author": "Euclid",
+    "work": "Elements, Books I, III, IV, VI & XII (ed. Heiberg; trans. Heath 1926)",
+    "locus": "I.18–20, I.32, III.16, III.18, IV.2–15, VI.13, XII.2",
+    "notes": "Classical axiomatic baseline for Cusa's triangle, tangent, polygon-exhaustion, and quadrature arguments (geometor/euclid, geometor/elements)."
+  },
+  "archimedes:dimensio": {
+    "author": "Archimedes",
+    "work": "Dimensio Circuli (Measurement of a Circle) & De Lineis Spiralibus (On Spirals)",
+    "locus": "Dim. circ. Props. 1–3 (3+10/71 < pi < 3+1/7); Spir. Defs. & Prop. 18",
+    "notes": "Primary ancient foil for Cusa's polygon bounds and critique of kinematic spiral rectification."
+  },
+  "proclus:in-euclidem": {
+    "author": "Proclus Diadochus",
+    "work": "In Primum Euclidis Elementorum Librum Commentarii (ed. Friedlein 1873)",
+    "locus": "Prologues I–II (pp. 3–70) & on Defs. 2–4, 15–17 (pp. 97–113, 153–162)",
+    "notes": "Neoplatonic philosophy of limit/unlimited, circular simplicity, and imaginative projection studied by Cusa (geometor/proclus)."
+  },
+  "dionysius:mystica": {
+    "author": "Pseudo-Dionysius the Areopagite",
+    "work": "De Mystica Theologia, De Divinis Nominibus, & Epistola I ad Gaium",
+    "locus": "MT I.1–3, V; DN I, V, XIII",
+    "notes": "Apophatic theological source explicitly cited in De docta ignorantia I.16–18."
+  },
+  "aquinas:boethius": {
+    "author": "Thomas Aquinas",
+    "work": "Expositio super Librum Boethii de Trinitate, qq. 5–6",
+    "locus": "q. 5 a. 3; q. 6 a. 1–2",
+    "notes": "Scholastic account of mathematical abstraction and terminatio ad imaginationem (geometor/aquinas)."
+  },
+  "regiomontanus:quadratura:1533": {
+    "author": "Regiomontanus (Johannes Müller)",
+    "work": "De Quadratura Circuli Dialogus, Secundum Nicolaum Cusensem (composed 1464; Nuremberg: Johannes Petreius, 1533)",
+    "locus": "Appendix to De Triangulis Omnimodis",
+    "notes": "Demonstrated by Archimedean bounds that Cusa's 1450s rectifications slightly miss exact transcendental pi while honoring their ingenuity."
+  },
+  "pacioli:divina:1509": {
+    "author": "Pacioli, Fra Luca",
+    "work": "De Divina Proportione (Venice: Paganino Paganini, 1509)",
+    "locus": "Compendio Caps. V–VII",
+    "notes": "Parallels Cusa in treating irrational geometric proportion as an emblem of the incommensurable, triune Divine (geometor/pacioli)."
+  },
+  "durer:underweysung:1525": {
+    "author": "Dürer, Albrecht",
+    "work": "Underweysung der Messung, mit dem Zirckel und Richtscheyt (Nuremberg, 1525)",
+    "locus": "Books I–II",
+    "notes": "Applies constructive circle-quadrature and polygon transmutations in Northern Renaissance craft geometry."
+  },
+  "kepler:mysterium:1596": {
+    "author": "Kepler, Johannes",
+    "work": "Prodromus Dissertationum Cosmographicarum, continens Mysterium Cosmographicum (Tübingen, 1596) & Ad Vitellionem Paralipomena (1604)",
+    "locus": "Myst. Cosm. Cap. II; Paralipomena Cap. IV.4",
+    "notes": "Celebrates 'divinus mihi Cusanus' on curved/straight symbolism and extends Cusa's coincidence into the projective continuity of conic sections."
+  },
+  "snellius:huygens:1654": {
+    "author": "Snellius, Willebrord & Huygens, Christiaan",
+    "work": "Cyclometricus (Leiden, 1621) & De Circuli Magnitudine Inventa (Leiden: Elzevier, 1654)",
+    "locus": "Huygens Props. 10–16",
+    "notes": "Rediscovers and rigorously proves the fifth-order Cusa–Snellius inequality 3 sin(theta)/(2 + cos theta) < theta."
+  },
+  "casey:sequel:1886": {
+    "author": "Casey, John",
+    "work": "A Sequel to the First Six Books of the Elements of Euclid, 4th ed. (Dublin: Hodges, Figgis & Co., 1886)",
+    "locus": "Book VI, Section V (Theory of Inversion & Coaxal Circles)",
+    "notes": "Synthetic theory of circle inversion and parabolic coaxial pencils formalizing Cusa's I.13 circle-line unity."
+  },
+  "klein:elementary:1908": {
+    "author": "Klein, Felix",
+    "work": "Elementarmathematik vom höheren Standpunkte aus, Bd. II: Geometrie (Leipzig: Teubner, 1908)",
+    "locus": "Part II (Projective & Möbius Transformations)",
+    "notes": "Erlangen group-theoretic unification of lines and circles on the Riemann/Möbius sphere."
+  },
+  "hoenen:noetica:1954": {
+    "author": "Hoenen, Petrus H. J., S.J.",
+    "work": "De Noetica Geometriae: Origine Theoriae Cognitionis (Rome: Analecta Gregoriana 63, 1954)",
+    "locus": "Caps. I–IV, IX",
+    "notes": "Epistemological study of insight into geometric necessity in concrete diagrams (geometor/hoenen)."
+  },
+  "wildberger:divine:2005": {
+    "author": "Wildberger, Norman J.",
+    "work": "Divine Proportions: Rational Trigonometry to Universal Geometry (Sydney: Wild Egg, 2005)",
+    "locus": "Chs. 3–6 (Quadrance, Spread, Triple Quad & Triple Spread Formulas)",
+    "notes": "Algebraic trigonometry proving pure rational convergence of Cusa's I.14 flattening triangle to collinearity (geometor/wildberger)."
+  }
+}

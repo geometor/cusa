@@ -1,0 +1,56 @@
+[project]
+name = "geometor-cusa"
+dynamic = ["version"]
+authors = [
+  { name = "phi ARCHITECT", email = "phi@geometor.com" },
+]
+description = "Nicholas of Cusa (Nicolaus Cusanus, 1401–1464): De Docta Ignorantia (1440) & Mathematical Complementa — 4-Track Bilingual Book Codex with Exact Symbolic Demonstrations."
+readme = "README.rst"
+requires-python = ">=3.13"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "sympy",
+    "rich",
+    "geometor-model",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[project.scripts]
+geometor-cusa = "geometor.cusa.cli:main"
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["geometor*"]
+namespaces = true
+
+[tool.setuptools.dynamic]
+version = {attr = "geometor.cusa.__version__"}
+
+[project.urls]
+"Website" = "https://geometor.github.io/cusa"
+"Repository" = "https://github.com/geometor/cusa"
+"Issues" = "https://github.com/geometor/cusa/issues"
+
+[tool.ruff]
+lint.select = ["E", "F", "I", "ANN", "D"]
+lint.ignore = ["E501"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
