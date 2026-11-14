@@ -1,6 +1,4 @@
-:navigation: footer
-:order: 50
-:nav_title: About
+.. _about-editions-and-sources:
 
 ====================
 Editions and Sources
