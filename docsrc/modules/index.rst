@@ -1,8 +1,9 @@
 :navigation: header
 :order: 40
+:nav_title: Modules
 
 =======
-modules
+Modules
 =======
 
-.. include:: api/geometor/cusa/index.rst
+.. include:: api/src/geometor/cusa/index.rst

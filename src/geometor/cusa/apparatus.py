@@ -783,8 +783,9 @@ def _slug_anchor(prefix: str, key: str) -> str:
 def render_glossary_rst() -> str:
     """Render ``docsrc/de_docta_ignorantia/glossary.rst``."""
     lines = [
+        ":navigation: footer",
         ":order: 93",
-        ":layout: book",
+        ":nav_title: Glossary",
         ":type: apparatus",
         ":title: Glossary of Cusan Mathematical & Noetic Terms",
         "",
@@ -827,18 +828,19 @@ def render_glossary_rst() -> str:
 def render_persons_rst() -> str:
     """Render ``docsrc/de_docta_ignorantia/persons.rst``."""
     lines = [
-        ":order: 92",
-        ":layout: book",
+        ":navigation: header",
+        ":order: 5",
+        ":nav_title: People",
         ":type: apparatus",
-        ":title: Index of Persons, Dedicatees & Geometers",
+        ":title: People",
         "",
         ".. _persons:",
         "",
-        "========================================",
-        "Index of Persons, Dedicatees & Geometers",
-        "========================================",
+        "======",
+        "People",
+        "======",
         "",
-        ".. rubric:: Ancient Authorities, Fifteenth-Century Interlocutors & Modern Mathematical Successors",
+        ".. rubric:: Authors, Translators & Editors · Interlocutors & Geometers",
         "",
         (
             f"Biographical register of **{len(PERSONS_DATA)} philosophers, humanists, "
@@ -846,8 +848,48 @@ def render_persons_rst() -> str:
             "Nicholas of Cusa's *De Docta Ignorantia* and mathematical treatises."
         ),
         "",
+        "Authors, Translators & Editors",
+        "------------------------------",
+        "",
+        ".. _person-cusanus:",
+        "",
+        "Nicholas of Cusa (1401 – August 11, 1464)",
+        "-----------------------------------------",
+        "",
+        "**German Cardinal, Philosopher, Canonist & Speculative Geometer**",
+        "",
+        (
+            "Born at Kues on the Moselle, educated at Heidelberg, Padua (where he befriended "
+            "Paolo dal Pozzo Toscanelli), and Cologne; author of De docta ignorantia (1440), "
+            "De coniecturis (c. 1442), and eleven mathematical treatises (1445–1459) uniting "
+            "coincidence of opposites, projective limits, and decentered cosmology."
+        ),
+        "",
+        ".. _person-lefevre:",
+        ".. _person-hoffmann:",
+        ".. _person-wilpert:",
+        ".. _person-klibansky:",
+        "",
+        "Jacques Lefèvre d'Étaples, Paolo Rotta, Ernst Hoffmann & Raymond Klibansky",
+        "--------------------------------------------------------------------------",
+        "",
+        "**Renaissance Humanist Editors & Heidelberg Critical Editors**",
+        "",
+        (
+            "Jacques Lefèvre d'Étaples (Faber Stapulensis, c. 1455–1536) edited the monumental "
+            "1514 Paris Opera; Paolo Rotta (1873–1962) edited the 1913 Laterza text; Raymond "
+            "Klibansky (1905–2005) along with Ernst Hoffmann (1880–1952) and Paul Wilpert directed "
+            "the definitive Heidelberg Academy critical edition (Opera Omnia I, Leipzig 1932), "
+            "recovering manuscript variants and restoring typesetting omissions."
+        ),
+        "",
+        "Cited Geometers, Philosophers & Scholars",
+        "----------------------------------------",
+        "",
     ]
     for key, entry in PERSONS_DATA.items():
+        if key in {"cusanus", "klibansky"}:
+            continue
         heading = f"{entry['name']} ({entry['dates']})"
         lines.extend(
             [
@@ -868,16 +910,17 @@ def render_persons_rst() -> str:
 def render_bibliography_rst() -> str:
     """Render ``docsrc/de_docta_ignorantia/bibliography.rst``."""
     lines = [
-        ":order: 91",
-        ":layout: book",
+        ":navigation: header",
+        ":order: 6",
+        ":nav_title: Bibliography",
         ":type: apparatus",
-        ":title: Bibliography & Critical Editions",
+        ":title: Bibliography",
         "",
         ".. _bibliography:",
         "",
-        "================================",
-        "Bibliography & Critical Editions",
-        "================================",
+        "============",
+        "Bibliography",
+        "============",
         "",
         ".. rubric:: Primary Latin Witnesses, Renaissance Printings, Critical Editions & Geometric Studies",
         "",

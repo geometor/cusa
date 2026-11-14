@@ -253,8 +253,9 @@ CONCORDANCE_ENTRIES: list[dict[str, Any]] = [
 def render_concordance_rst() -> str:
     """Render ``docsrc/de_docta_ignorantia/concordance.rst``."""
     lines = [
+        ":navigation: footer",
         ":order: 90",
-        ":layout: book",
+        ":nav_title: Concordance",
         ":type: apparatus",
         ":title: Cross-Corpus Concordance",
         "",

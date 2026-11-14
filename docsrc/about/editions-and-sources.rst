@@ -1,5 +1,6 @@
-:navigation: header
-:order: 25
+:navigation: footer
+:order: 50
+:nav_title: About
 
 ====================
 Editions and Sources
@@ -12,7 +13,7 @@ I. Primary Latin Witnesses
 
 All Latin texts in ``geometor/cusa`` (staged with SHA-256 checksums in ``resources/cusa/sources/`` and ``resources/cusa/sources_manifest.json``) derive exclusively from public-domain witnesses verified by multimodal archival scan inspection:
 
-1. **Paris Editio Princeps (1514)** (:cite:`cusa:paris:1514`):
+1. **Paris First Edition (1514)** (:cite:`cusa:paris:1514`):
    *Haec accurata recognitio trium voluminum operum Clariss. P. Nicolai Cusae Cardinalis*, edited by :person:`Jacques Lefèvre d'Étaples <klibansky>` (*Faber Stapulensis*) and printed by Jodocus Badius Ascensius at Paris. Volume I contains *De Docta Ignorantia* alongside woodcut geometric diagrams; Volume II contains the *Opuscula Mathematica*.
 2. **Basel Edition (1565)** (:cite:`cusa:basel:1565`):
    *Nicolai de Cusa Cardinalis, utriusque iuris doctoris, in omnique philosophia incomparabilis viri, Opera*, printed by Heinrich Petri (*Henricpetri*) at Basel—the first printing to include Cusa's final mathematical treatise, *Aurea Propositio in Mathematicis* (August 8, 1459, pp. 1145–1146).

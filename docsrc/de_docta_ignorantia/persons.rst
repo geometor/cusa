@@ -1,26 +1,45 @@
-:order: 92
-:layout: book
+:navigation: header
+:order: 5
+:nav_title: People
 :type: apparatus
-:title: Index of Persons, Dedicatees & Geometers
+:title: People
 
 .. _persons:
 
-========================================
-Index of Persons, Dedicatees & Geometers
-========================================
+======
+People
+======
 
-.. rubric:: Ancient Authorities, Fifteenth-Century Interlocutors & Modern Mathematical Successors
+.. rubric:: Authors, Translators & Editors · Interlocutors & Geometers
 
 Biographical register of **26 philosophers, humanists, dedicatees, geometers, astronomers, and critical editors** connected with Nicholas of Cusa's *De Docta Ignorantia* and mathematical treatises.
 
+Authors, Translators & Editors
+------------------------------
+
 .. _person-cusanus:
 
-Nicholas of Cusa (Nicolaus Cusanus / Nikolaus Krebs von Kues) (1401 – August 11, 1464)
---------------------------------------------------------------------------------------
+Nicholas of Cusa (1401 – August 11, 1464)
+-----------------------------------------
 
 **German Cardinal, Philosopher, Canonist & Speculative Geometer**
 
 Born at Kues on the Moselle, educated at Heidelberg, Padua (where he befriended Paolo dal Pozzo Toscanelli), and Cologne; author of De docta ignorantia (1440), De coniecturis (c. 1442), and eleven mathematical treatises (1445–1459) uniting coincidence of opposites, projective limits, and decentered cosmology.
+
+.. _person-lefevre:
+.. _person-hoffmann:
+.. _person-wilpert:
+.. _person-klibansky:
+
+Jacques Lefèvre d'Étaples, Paolo Rotta, Ernst Hoffmann & Raymond Klibansky
+--------------------------------------------------------------------------
+
+**Renaissance Humanist Editors & Heidelberg Critical Editors**
+
+Jacques Lefèvre d'Étaples (Faber Stapulensis, c. 1455–1536) edited the monumental 1514 Paris Opera; Paolo Rotta (1873–1962) edited the 1913 Laterza text; Raymond Klibansky (1905–2005) along with Ernst Hoffmann (1880–1952) and Paul Wilpert directed the definitive Heidelberg Academy critical edition (Opera Omnia I, Leipzig 1932), recovering manuscript variants and restoring typesetting omissions.
+
+Cited Geometers, Philosophers & Scholars
+----------------------------------------
 
 .. _person-cesarini:
 
@@ -237,12 +256,3 @@ Petrus H. J. Hoenen, S.J. (1880 – 1961)
 **Author of De Noetica Geometriae (1954)**
 
 Analyzed geometric abstraction and intellectual judgment of necessity from singular phantasmata, illuminating Cusa's contrast between sensible imagination and visio intellectualis (geometor/hoenen).
-
-.. _person-klibansky:
-
-Jacques Lefèvre d'Étaples, Paolo Rotta & Raymond Klibansky (c. 1455–1536 / 1873–1962 / 1905–2005)
--------------------------------------------------------------------------------------------------
-
-**Critical Editors of De Docta Ignorantia (Paris 1514, Bari 1913, Leipzig 1932)**
-
-Lefèvre d'Étaples (Faber Stapulensis) edited the monumental 1514 Paris Opera; Rotta produced the 1913 Laterza text; Klibansky's handwritten collations in his personal copy of Rotta (now at McGill Library) prepared the 1932 Heidelberg Academy edition (h I) and restored Rotta's eye-skip omissions in I.13 and I.14.
