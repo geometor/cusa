@@ -1,13 +1,14 @@
-:order: 91
-:layout: book
+:navigation: header
+:order: 6
+:nav_title: Bibliography
 :type: apparatus
-:title: Bibliography & Critical Editions
+:title: Bibliography
 
 .. _bibliography:
 
-================================
-Bibliography & Critical Editions
-================================
+============
+Bibliography
+============
 
 .. rubric:: Primary Latin Witnesses, Renaissance Printings, Critical Editions & Geometric Studies
 

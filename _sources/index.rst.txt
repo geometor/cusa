@@ -35,8 +35,8 @@ Codex (*De Docta Ignorantia et Scripta Mathematica*)
   :doc:`Undique Centrum et Nullibi Circumferentia, Sesquiquartal Rectification & the Golden Proposition <de_docta_ignorantia/unit-5-cosmologia-complementa/unit-5-cosmologia-complementa-en>`
 * **Critical Apparatus**:
   :doc:`Cross-Corpus Concordance (15 Canonical Loci) <de_docta_ignorantia/concordance>` ·
-  :doc:`Bibliography & Editions (28 Entries) <de_docta_ignorantia/bibliography>` ·
-  :doc:`Dramatis Personae & Mathematical Authorities (26 Entries) <de_docta_ignorantia/persons>` ·
+  :doc:`Bibliography (28 Entries) <de_docta_ignorantia/bibliography>` ·
+  :doc:`People & Historical Register (26 Entries) <de_docta_ignorantia/persons>` ·
   :doc:`Glossary of Cusan Mathematical & Noetic Terms (26 Entries) <de_docta_ignorantia/glossary>`
 
 ----
@@ -44,6 +44,7 @@ Codex (*De Docta Ignorantia et Scripta Mathematica*)
 Symbolic Constructions, Editorial Context & API
 -----------------------------------------------
 
+* :doc:`Using This Edition — Reader's Guide to Tracks, Folios & Search <usage/index>`
 * :doc:`Exact Symbolic Demonstrations (SymPy, Möbius Inversion & Rational Trigonometry) <demos/index>`
 * :doc:`Mission — Nicholas of Cusa as Hinge Between Classical Geometry and Projective Continuity <mission/index>`
 * :doc:`Latin Editions (Paris 1514, Basel 1565, Rotta 1913 / Klibansky) & Translation Principles <about/editions-and-sources>`
@@ -56,3 +57,4 @@ Symbolic Constructions, Editorial Context & API
    :hidden:
 
    de_docta_ignorantia/index
+   usage/index

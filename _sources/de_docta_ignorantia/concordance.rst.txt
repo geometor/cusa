@@ -1,5 +1,6 @@
+:navigation: footer
 :order: 90
-:layout: book
+:nav_title: Concordance
 :type: apparatus
 :title: Cross-Corpus Concordance
 
