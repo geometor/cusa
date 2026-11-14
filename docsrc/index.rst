@@ -46,8 +46,8 @@ Symbolic Constructions, Editorial Context & API
 
 * :doc:`Using This Edition — Reader's Guide to Tracks, Folios & Search <usage/index>`
 * :doc:`Exact Symbolic Demonstrations (SymPy, Möbius Inversion & Rational Trigonometry) <demos/index>`
-* :doc:`Mission — Nicholas of Cusa as Hinge Between Classical Geometry and Projective Continuity <mission/index>`
-* :doc:`Latin Editions (Paris 1514, Basel 1565, Rotta 1913 / Klibansky) & Translation Principles <about/editions-and-sources>`
+* :doc:`About This Edition <about/index>`
+* :ref:`Latin Editions (Paris 1514, Basel 1565, Rotta 1913 / Klibansky) & Translation Principles <about-editions-and-sources>`
 * :doc:`Python Package & CLI Reference <modules/index>`
 * :doc:`Project Log <log/index>`
 * :doc:`Changelog <changelog>`
@@ -57,4 +57,5 @@ Symbolic Constructions, Editorial Context & API
    :hidden:
 
    de_docta_ignorantia/index
+   about/index
    usage/index
