@@ -2,6 +2,11 @@
 changelog
 =========
 
+0.1.1 (2026-11-13)
+------------------
+
+- **added**: Added track-aware primary-source folio map (``resources/cusa/folio_map.json``) resolving 248/248 folio directives and 20/20 header badges to verified Latin and English text loci across *De Docta Ignorantia* and *Scripta Mathematica*.
+
 0.1.0 (2026-11-12)
 ------------------
 
