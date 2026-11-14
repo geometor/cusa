@@ -1,28 +1,40 @@
+:navigation: header
 :order: 1
+:nav_title: Learned Ignorance
 :layout: book
-:book_title: De Docta Ignorantia et Scripta Mathematica
+:book_title: On Learned Ignorance & Mathematical Writings
 :book_subtitle: Nicholas of Cusa (1401–1464) · Latin (1440 / 1514–1913) & Original GEOMETOR English Codex
 :author: Nicholas of Cusa
+:year: 1440–1459
 :book_theme: classical-serif
 
 .. _de-docta-ignorantia:
 
-======================================================================================
-De Docta Ignorantia et Scripta Mathematica — Coincidence of Opposites & Exact Geometry
-======================================================================================
+============================================
+On Learned Ignorance & Mathematical Writings
+============================================
 
-.. rubric:: Synchronized 4-Track Book Codex (English · Latin 1440 / 1514–1913 · Summary · Critical Notes)
+.. rubric:: *De Docta Ignorantia et Scripta Mathematica* — Nicholas of Cusa (1440–1458)
+
+.. container:: title-page
+
+   | **Nicholas of Cusa** (*Nicolaus Cusanus*, 1401–1464)
+   | Cardinal Priest of San Pietro in Vincoli · Bishop of Brixen
+   |
+   | *First Edition*: Paris (Jodocus Badius Ascensius, 1514, ed. Jacques Lefèvre d'Étaples)
+   | *Critical Editions*: Bari (Paolo Rotta, 1913) · Heidelberg (Ernst Hoffmann & Raymond Klibansky, 1932)
+   | *GEOMETOR Digital Edition*: 100% Original English Translation with Synchronized Latin Witness
 
 **De Docta Ignorantia et Scripta Mathematica** presents in a critical Digital Scriptorium edition the complete geometric, epistemological, and cosmological core of :person:`Nicholas of Cusa's <cusanus>` *De Docta Ignorantia* (completed at Kues on **February 12, 1440**) alongside his four landmark mathematical treatises: *De Geometricis Transmutationibus* (**1445**), *De Mathematicis Complementis* (**1453**), *De Mathematica Perfectione* (**1458**), and the complete *Aurea Propositio in Mathematicis* (**August 8, 1459**).
 
 Every unit is presented across **four synchronized tracks**—**English** (a freshly authored, 100% original GEOMETOR translation rendered directly from the Latin), **Latin (1440 / 1514–1913)** (collated from :person:`Paolo Rotta's <klibansky>` 1913 edition with :person:`Raymond Klibansky's <klibansky>` archival restorations and the 1514 Paris / 1565 Basel *Opera*), **Summary**, and **Critical Notes** (pairing nine interactive ``.euclid-graphic`` SVG constructions with reception across :person:`Plato <plato>`, :person:`Aristotle <aristotle>`, :person:`Euclid <euclid>`, :person:`Archimedes <archimedes>`, :person:`Proclus <proclus>`, :person:`Aquinas <aquinas>`, :person:`Regiomontanus <regiomontanus>`, :person:`Kepler <kepler>`, :person:`Snellius & Huygens <snellius>`, :person:`Klein <klein>`, and :person:`Wildberger <wildberger>`).
 
-Units I–V — De Docta Ignorantia & Scripta Mathematica
------------------------------------------------------
+Table of Contents
+-----------------
 
 .. toctree::
    :maxdepth: 1
-   :caption: De Docta Ignorantia & Scripta Mathematica
+   :caption: Table of Contents
 
    unit-1-maximum-ignorantia/unit-1-maximum-ignorantia-en
    unit-2-mathematica-transsumptio/unit-2-mathematica-transsumptio-en
@@ -30,12 +42,12 @@ Units I–V — De Docta Ignorantia & Scripta Mathematica
    unit-4-linea-sphaera-infinita/unit-4-linea-sphaera-infinita-en
    unit-5-cosmologia-complementa/unit-5-cosmologia-complementa-en
 
-Critical Apparatus & Cross-Corpus Concordance
----------------------------------------------
+Scholarly Apparatus
+-------------------
 
 .. toctree::
    :maxdepth: 1
-   :caption: Critical Apparatus
+   :caption: Scholarly Apparatus
 
    concordance
    bibliography

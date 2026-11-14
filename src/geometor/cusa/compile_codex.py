@@ -358,27 +358,37 @@ def _render_unit_notes_rst(unit: CodexUnitSpec) -> str:
 
 def render_book_index_rst() -> str:
     """Render ``docsrc/de_docta_ignorantia/index.rst``."""
+    h1_title = "On Learned Ignorance & Mathematical Writings"
     lines = [
+        ":navigation: header",
         ":order: 1",
+        ":nav_title: Learned Ignorance",
         ":layout: book",
-        ":book_title: De Docta Ignorantia et Scripta Mathematica",
+        f":book_title: {h1_title}",
         (
             ":book_subtitle: Nicholas of Cusa (1401–1464) · Latin (1440 / 1514–1913) & "
             "Original GEOMETOR English Codex"
         ),
         ":author: Nicholas of Cusa",
+        ":year: 1440–1459",
         ":book_theme: classical-serif",
         "",
         ".. _de-docta-ignorantia:",
         "",
-        "======================================================================================",
-        "De Docta Ignorantia et Scripta Mathematica — Coincidence of Opposites & Exact Geometry",
-        "======================================================================================",
+        "=" * len(h1_title),
+        h1_title,
+        "=" * len(h1_title),
         "",
-        (
-            ".. rubric:: Synchronized 4-Track Book Codex "
-            "(English · Latin 1440 / 1514–1913 · Summary · Critical Notes)"
-        ),
+        ".. rubric:: *De Docta Ignorantia et Scripta Mathematica* — Nicholas of Cusa (1440–1458)",
+        "",
+        ".. container:: title-page",
+        "",
+        "   | **Nicholas of Cusa** (*Nicolaus Cusanus*, 1401–1464)",
+        "   | Cardinal Priest of San Pietro in Vincoli · Bishop of Brixen",
+        "   |",
+        "   | *First Edition*: Paris (Jodocus Badius Ascensius, 1514, ed. Jacques Lefèvre d'Étaples)",
+        "   | *Critical Editions*: Bari (Paolo Rotta, 1913) · Heidelberg (Ernst Hoffmann & Raymond Klibansky, 1932)",
+        "   | *GEOMETOR Digital Edition*: 100% Original English Translation with Synchronized Latin Witness",
         "",
         (
             "**De Docta Ignorantia et Scripta Mathematica** presents in a critical Digital "
@@ -404,12 +414,12 @@ def render_book_index_rst() -> str:
             ":person:`Klein <klein>`, and :person:`Wildberger <wildberger>`)."
         ),
         "",
-        "Units I–V — De Docta Ignorantia & Scripta Mathematica",
-        "-----------------------------------------------------",
+        "Table of Contents",
+        "-----------------",
         "",
         ".. toctree::",
         "   :maxdepth: 1",
-        "   :caption: De Docta Ignorantia & Scripta Mathematica",
+        "   :caption: Table of Contents",
         "",
     ]
 
@@ -419,12 +429,12 @@ def render_book_index_rst() -> str:
     lines.extend(
         [
             "",
-            "Critical Apparatus & Cross-Corpus Concordance",
-            "---------------------------------------------",
+            "Scholarly Apparatus",
+            "-------------------",
             "",
             ".. toctree::",
             "   :maxdepth: 1",
-            "   :caption: Critical Apparatus",
+            "   :caption: Scholarly Apparatus",
             "",
             "   concordance",
             "   bibliography",
