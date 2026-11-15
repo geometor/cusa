@@ -48,7 +48,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 
 def test_version_semver() -> None:
     """Verify package semantic version string."""
-    assert __version__ == "0.1.4"
+    assert __version__ == "0.1.5"
 
 
 @pytest.mark.parametrize(
