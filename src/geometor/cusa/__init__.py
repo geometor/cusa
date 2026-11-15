@@ -45,7 +45,7 @@ from geometor.cusa.render import export_all_codex_figures, export_svg, render_sv
 from geometor.cusa.sphinx_ext import register_latin_track
 from geometor.cusa.units import CODEX_UNITS, CodexUnitSpec
 
-__version__ = "0.1.4"
+__version__ = "0.1.5"
 
 __all__ = [
     "CITATIONS_DATA",
