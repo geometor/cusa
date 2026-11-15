@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
-  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=8713e751" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=99410eb1" />
   <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
   <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=0e36df45" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
@@ -96,7 +96,35 @@
         <h2>1. <em>De Docta Ignorantia</em> <code class="docutils literal notranslate"><span class="pre">I.13</span></code> — Tangent Circle Pencil &amp; Conformal Möbius Inversion<a class="headerlink" href="#de-docta-ignorantia-i-13-tangent-circle-pencil-conformal-mobius-inversion" title="Link to this heading">¶</a></h2>
         <p><em>Codex Reference</em>: <a class="reference internal" href="../de_docta_ignorantia/unit-3-coincidentia-figurarum/unit-3-coincidentia-figurarum-notes.html"><span class="doc">Unit III — Coincidence of Figures (Critical Notes)</span></a> · <em>Script</em>: <code class="docutils literal notranslate"><span class="pre">demos/coincidentia_circle_line.py</span></code></p>
         <figure class="photon-picture photon-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 680 460" data-graphic-id="cusa-circle-line-pencil" role="img" aria-label="De Docta Ignorantia I.13 — Coaxial Tangent Circle Pencil &amp; Vanishing Sagitta">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 460" data-graphic-id="cusa-circle-line-pencil" role="img" aria-label="De Docta Ignorantia I.13 — Coaxial Tangent Circle Pencil &amp; Vanishing Sagitta" width="680" height="460" data-svg-scope="s-877af938">
+          <style>
+            svg[data-svg-scope="s-877af938"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #334155; --conic: #0284c7; --cross: #0e7490; --quad: #4338ca; --pappus-even: #d97706; --pappus-odd: #db2777; --steiner: #7c3aed; --harmonic: #059669; --golden: #b45309; --pt-given: #0f172a; --pt-meet: #d97706; --pt-steiner: #7c3aed; --pt-harmonic: #059669; --tri-square: #d97706; --tri-circle: #0284c7; --tri-diamond: #db2777; font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif }
+            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-877af938"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #cbd5e1; --conic: #38bdf8; --cross: #38bdf8; --quad: #818cf8; --pappus-even: #fbbf24; --pappus-odd: #f472b6; --steiner: #c084fc; --harmonic: #34d399; --golden: #facc15; --pt-given: #f8fafc; --pt-meet: #fbbf24; --pt-steiner: #c084fc; --pt-harmonic: #34d399; --tri-square: #fbbf24; --tri-circle: #38bdf8; --tri-diamond: #f472b6 }
+            svg[data-svg-scope="s-877af938"] .geom-circle.conic-curve { fill: none; stroke: #0284c7; stroke: var(--conic, #0284c7); stroke-width: 1.95; opacity: 0.86 }
+            svg[data-svg-scope="s-877af938"] .geom-line { fill: none; stroke: #334155; stroke: var(--carrier, #334155); stroke-width: 1.75; stroke-linecap: round }
+            svg[data-svg-scope="s-877af938"] .carrier-line { stroke: #334155; stroke: var(--carrier, #334155); stroke-width: 2.15; opacity: 0.94 }
+            svg[data-svg-scope="s-877af938"] .cross-line { stroke: #0e7490; stroke: var(--cross, #0e7490); stroke-width: 1.35; stroke-opacity: 0.68 }
+            svg[data-svg-scope="s-877af938"] .quad-line { stroke: #4338ca; stroke: var(--quad, #4338ca); stroke-width: 1.65; stroke-opacity: 0.84 }
+            svg[data-svg-scope="s-877af938"] .diagonal-line { stroke-dasharray: 5 3.5 }
+            svg[data-svg-scope="s-877af938"] .pappus-line { stroke-width: 2.45; opacity: 0.95 }
+            svg[data-svg-scope="s-877af938"] .pappus-even { stroke: #d97706; stroke: var(--pappus-even, #d97706) }
+            svg[data-svg-scope="s-877af938"] .pappus-odd { stroke: #db2777; stroke: var(--pappus-odd, #db2777) }
+            svg[data-svg-scope="s-877af938"] .steiner-line { stroke: #7c3aed; stroke: var(--steiner, #7c3aed); stroke-width: 2.55; stroke-dasharray: 6 3.5 }
+            svg[data-svg-scope="s-877af938"] .harmonic-line { stroke: #059669; stroke: var(--harmonic, #059669); stroke-width: 2.45 }
+            svg[data-svg-scope="s-877af938"] .geom-segment.golden-segment { fill: none; stroke: #b45309; stroke: var(--golden, #b45309); stroke-width: 3.6; stroke-linecap: round; opacity: 0.85 }
+            svg[data-svg-scope="s-877af938"] .geom-segment.harmonic-segment { fill: none; stroke: #059669; stroke: var(--harmonic, #059669); stroke-width: 3.2; stroke-linecap: round; opacity: 0.78 }
+            svg[data-svg-scope="s-877af938"] .geom-polygon.hexagon-poly { fill: #0e7490; fill: var(--cross, #0e7490); fill-opacity: 0.05; stroke: #0e7490; stroke: var(--cross, #0e7490); stroke-width: 1.4; stroke-opacity: 0.42; stroke-linejoin: round }
+            svg[data-svg-scope="s-877af938"] .geom-polygon.tri-square { fill: #d97706; fill: var(--tri-square, #d97706); fill-opacity: 0.09; stroke: #d97706; stroke: var(--tri-square, #d97706); stroke-width: 1.6; stroke-linejoin: round }
+            svg[data-svg-scope="s-877af938"] .geom-polygon.tri-circle { fill: #0284c7; fill: var(--tri-circle, #0284c7); fill-opacity: 0.08; stroke: #0284c7; stroke: var(--tri-circle, #0284c7); stroke-width: 1.5; stroke-linejoin: round }
+            svg[data-svg-scope="s-877af938"] .geom-polygon.tri-diamond { fill: #db2777; fill: var(--tri-diamond, #db2777); fill-opacity: 0.11; stroke: #db2777; stroke: var(--tri-diamond, #db2777); stroke-width: 1.8; stroke-linejoin: round }
+            svg[data-svg-scope="s-877af938"] .geom-point { fill: #0f172a; fill: var(--pt-given, #0f172a); stroke: #fafaf9; stroke: var(--svg-bg, #fafaf9); stroke-width: 1.5 }
+            svg[data-svg-scope="s-877af938"] .meet-point { fill: #d97706; fill: var(--pt-meet, #d97706) }
+            svg[data-svg-scope="s-877af938"] .steiner-point { fill: #7c3aed; fill: var(--pt-steiner, #7c3aed); stroke-width: 1.9 }
+            svg[data-svg-scope="s-877af938"] .harmonic-point { fill: #059669; fill: var(--pt-harmonic, #059669); stroke-width: 1.8 }
+            svg[data-svg-scope="s-877af938"] .aux-point { opacity: 0.78 }
+            svg[data-svg-scope="s-877af938"] .geom-label { fill: #1c1917; fill: var(--ink, #1c1917); font-size: 13px; font-weight: 600; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo, rgba(250, 250, 249, 0.92)); stroke-width: 3.6px; stroke-linejoin: round; user-select: none }
+            svg[data-svg-scope="s-877af938"] .geom-label-sub { font-size: 9.8px; font-weight: 600 }
+          </style>
           <title>De Docta Ignorantia I.13 — Coaxial Tangent Circle Pencil &amp; Vanishing Sagitta</title>
           <defs>
             <clipPath id="frame-clip-cusa-circle-line-pencil">
@@ -173,7 +201,35 @@
         <figcaption>Tangent circle pencil C_1, C_2, C_4, C_8 above straight horizon AB (y = 0) with exact radical sagittae 1, 2 - sqrt(3), 4 - sqrt(15), 8 - 3*sqrt(7) along vertical secant x = 1.</figcaption>
         </figure>
         <figure class="photon-picture photon-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 640 540" data-graphic-id="cusa-mobius-inversion" role="img" aria-label="De Docta Ignorantia I.13 — Mobius Inversion Unifying Tangent Circles &amp; Straight Line">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 540" data-graphic-id="cusa-mobius-inversion" role="img" aria-label="De Docta Ignorantia I.13 — Mobius Inversion Unifying Tangent Circles &amp; Straight Line" width="640" height="540" data-svg-scope="s-56718589">
+          <style>
+            svg[data-svg-scope="s-56718589"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #334155; --conic: #0284c7; --cross: #0e7490; --quad: #4338ca; --pappus-even: #d97706; --pappus-odd: #db2777; --steiner: #7c3aed; --harmonic: #059669; --golden: #b45309; --pt-given: #0f172a; --pt-meet: #d97706; --pt-steiner: #7c3aed; --pt-harmonic: #059669; --tri-square: #d97706; --tri-circle: #0284c7; --tri-diamond: #db2777; font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif }
+            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-56718589"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #cbd5e1; --conic: #38bdf8; --cross: #38bdf8; --quad: #818cf8; --pappus-even: #fbbf24; --pappus-odd: #f472b6; --steiner: #c084fc; --harmonic: #34d399; --golden: #facc15; --pt-given: #f8fafc; --pt-meet: #fbbf24; --pt-steiner: #c084fc; --pt-harmonic: #34d399; --tri-square: #fbbf24; --tri-circle: #38bdf8; --tri-diamond: #f472b6 }
+            svg[data-svg-scope="s-56718589"] .geom-circle.conic-curve { fill: none; stroke: #0284c7; stroke: var(--conic, #0284c7); stroke-width: 1.95; opacity: 0.86 }
+            svg[data-svg-scope="s-56718589"] .geom-line { fill: none; stroke: #334155; stroke: var(--carrier, #334155); stroke-width: 1.75; stroke-linecap: round }
+            svg[data-svg-scope="s-56718589"] .carrier-line { stroke: #334155; stroke: var(--carrier, #334155); stroke-width: 2.15; opacity: 0.94 }
+            svg[data-svg-scope="s-56718589"] .cross-line { stroke: #0e7490; stroke: var(--cross, #0e7490); stroke-width: 1.35; stroke-opacity: 0.68 }
+            svg[data-svg-scope="s-56718589"] .quad-line { stroke: #4338ca; stroke: var(--quad, #4338ca); stroke-width: 1.65; stroke-opacity: 0.84 }
+            svg[data-svg-scope="s-56718589"] .diagonal-line { stroke-dasharray: 5 3.5 }
+            svg[data-svg-scope="s-56718589"] .pappus-line { stroke-width: 2.45; opacity: 0.95 }
+            svg[data-svg-scope="s-56718589"] .pappus-even { stroke: #d97706; stroke: var(--pappus-even, #d97706) }
+            svg[data-svg-scope="s-56718589"] .pappus-odd { stroke: #db2777; stroke: var(--pappus-odd, #db2777) }
+            svg[data-svg-scope="s-56718589"] .steiner-line { stroke: #7c3aed; stroke: var(--steiner, #7c3aed); stroke-width: 2.55; stroke-dasharray: 6 3.5 }
+            svg[data-svg-scope="s-56718589"] .harmonic-line { stroke: #059669; stroke: var(--harmonic, #059669); stroke-width: 2.45 }
+            svg[data-svg-scope="s-56718589"] .geom-segment.golden-segment { fill: none; stroke: #b45309; stroke: var(--golden, #b45309); stroke-width: 3.6; stroke-linecap: round; opacity: 0.85 }
+            svg[data-svg-scope="s-56718589"] .geom-segment.harmonic-segment { fill: none; stroke: #059669; stroke: var(--harmonic, #059669); stroke-width: 3.2; stroke-linecap: round; opacity: 0.78 }
+            svg[data-svg-scope="s-56718589"] .geom-polygon.hexagon-poly { fill: #0e7490; fill: var(--cross, #0e7490); fill-opacity: 0.05; stroke: #0e7490; stroke: var(--cross, #0e7490); stroke-width: 1.4; stroke-opacity: 0.42; stroke-linejoin: round }
+            svg[data-svg-scope="s-56718589"] .geom-polygon.tri-square { fill: #d97706; fill: var(--tri-square, #d97706); fill-opacity: 0.09; stroke: #d97706; stroke: var(--tri-square, #d97706); stroke-width: 1.6; stroke-linejoin: round }
+            svg[data-svg-scope="s-56718589"] .geom-polygon.tri-circle { fill: #0284c7; fill: var(--tri-circle, #0284c7); fill-opacity: 0.08; stroke: #0284c7; stroke: var(--tri-circle, #0284c7); stroke-width: 1.5; stroke-linejoin: round }
+            svg[data-svg-scope="s-56718589"] .geom-polygon.tri-diamond { fill: #db2777; fill: var(--tri-diamond, #db2777); fill-opacity: 0.11; stroke: #db2777; stroke: var(--tri-diamond, #db2777); stroke-width: 1.8; stroke-linejoin: round }
+            svg[data-svg-scope="s-56718589"] .geom-point { fill: #0f172a; fill: var(--pt-given, #0f172a); stroke: #fafaf9; stroke: var(--svg-bg, #fafaf9); stroke-width: 1.5 }
+            svg[data-svg-scope="s-56718589"] .meet-point { fill: #d97706; fill: var(--pt-meet, #d97706) }
+            svg[data-svg-scope="s-56718589"] .steiner-point { fill: #7c3aed; fill: var(--pt-steiner, #7c3aed); stroke-width: 1.9 }
+            svg[data-svg-scope="s-56718589"] .harmonic-point { fill: #059669; fill: var(--pt-harmonic, #059669); stroke-width: 1.8 }
+            svg[data-svg-scope="s-56718589"] .aux-point { opacity: 0.78 }
+            svg[data-svg-scope="s-56718589"] .geom-label { fill: #1c1917; fill: var(--ink, #1c1917); font-size: 13px; font-weight: 600; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo, rgba(250, 250, 249, 0.92)); stroke-width: 3.6px; stroke-linejoin: round; user-select: none }
+            svg[data-svg-scope="s-56718589"] .geom-label-sub { font-size: 9.8px; font-weight: 600 }
+          </style>
           <title>De Docta Ignorantia I.13 — Mobius Inversion Unifying Tangent Circles &amp; Straight Line</title>
           <defs>
             <clipPath id="frame-clip-cusa-mobius-inversion">
@@ -273,7 +329,35 @@
         <h2>2. <em>De Docta Ignorantia</em> <code class="docutils literal notranslate"><span class="pre">I.14–15</span></code> — Flattening Triangles in Rational Trigonometry<a class="headerlink" href="#de-docta-ignorantia-i-1415-flattening-triangles-in-rational-trigonometry" title="Link to this heading">¶</a></h2>
         <p><em>Codex Reference</em>: <a class="reference internal" href="../de_docta_ignorantia/unit-3-coincidentia-figurarum/unit-3-coincidentia-figurarum-notes.html"><span class="doc">Unit III — Coincidence of Figures (Critical Notes)</span></a> · <em>Script</em>: <code class="docutils literal notranslate"><span class="pre">demos/coincidentia_triangle_line.py</span></code></p>
         <figure class="photon-picture photon-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 680 420" data-graphic-id="cusa-flattening-triangles" role="img" aria-label="De Docta Ignorantia I.14–15 — Flattening Triangles &amp; Vanishing Rational Spread">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" data-graphic-id="cusa-flattening-triangles" role="img" aria-label="De Docta Ignorantia I.14–15 — Flattening Triangles &amp; Vanishing Rational Spread" width="680" height="420" data-svg-scope="s-334becc0">
+          <style>
+            svg[data-svg-scope="s-334becc0"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #334155; --conic: #0284c7; --cross: #0e7490; --quad: #4338ca; --pappus-even: #d97706; --pappus-odd: #db2777; --steiner: #7c3aed; --harmonic: #059669; --golden: #b45309; --pt-given: #0f172a; --pt-meet: #d97706; --pt-steiner: #7c3aed; --pt-harmonic: #059669; --tri-square: #d97706; --tri-circle: #0284c7; --tri-diamond: #db2777; font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif }
+            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-334becc0"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #cbd5e1; --conic: #38bdf8; --cross: #38bdf8; --quad: #818cf8; --pappus-even: #fbbf24; --pappus-odd: #f472b6; --steiner: #c084fc; --harmonic: #34d399; --golden: #facc15; --pt-given: #f8fafc; --pt-meet: #fbbf24; --pt-steiner: #c084fc; --pt-harmonic: #34d399; --tri-square: #fbbf24; --tri-circle: #38bdf8; --tri-diamond: #f472b6 }
+            svg[data-svg-scope="s-334becc0"] .geom-circle.conic-curve { fill: none; stroke: #0284c7; stroke: var(--conic, #0284c7); stroke-width: 1.95; opacity: 0.86 }
+            svg[data-svg-scope="s-334becc0"] .geom-line { fill: none; stroke: #334155; stroke: var(--carrier, #334155); stroke-width: 1.75; stroke-linecap: round }
+            svg[data-svg-scope="s-334becc0"] .carrier-line { stroke: #334155; stroke: var(--carrier, #334155); stroke-width: 2.15; opacity: 0.94 }
+            svg[data-svg-scope="s-334becc0"] .cross-line { stroke: #0e7490; stroke: var(--cross, #0e7490); stroke-width: 1.35; stroke-opacity: 0.68 }
+            svg[data-svg-scope="s-334becc0"] .quad-line { stroke: #4338ca; stroke: var(--quad, #4338ca); stroke-width: 1.65; stroke-opacity: 0.84 }
+            svg[data-svg-scope="s-334becc0"] .diagonal-line { stroke-dasharray: 5 3.5 }
+            svg[data-svg-scope="s-334becc0"] .pappus-line { stroke-width: 2.45; opacity: 0.95 }
+            svg[data-svg-scope="s-334becc0"] .pappus-even { stroke: #d97706; stroke: var(--pappus-even, #d97706) }
+            svg[data-svg-scope="s-334becc0"] .pappus-odd { stroke: #db2777; stroke: var(--pappus-odd, #db2777) }
+            svg[data-svg-scope="s-334becc0"] .steiner-line { stroke: #7c3aed; stroke: var(--steiner, #7c3aed); stroke-width: 2.55; stroke-dasharray: 6 3.5 }
+            svg[data-svg-scope="s-334becc0"] .harmonic-line { stroke: #059669; stroke: var(--harmonic, #059669); stroke-width: 2.45 }
+            svg[data-svg-scope="s-334becc0"] .geom-segment.golden-segment { fill: none; stroke: #b45309; stroke: var(--golden, #b45309); stroke-width: 3.6; stroke-linecap: round; opacity: 0.85 }
+            svg[data-svg-scope="s-334becc0"] .geom-segment.harmonic-segment { fill: none; stroke: #059669; stroke: var(--harmonic, #059669); stroke-width: 3.2; stroke-linecap: round; opacity: 0.78 }
+            svg[data-svg-scope="s-334becc0"] .geom-polygon.hexagon-poly { fill: #0e7490; fill: var(--cross, #0e7490); fill-opacity: 0.05; stroke: #0e7490; stroke: var(--cross, #0e7490); stroke-width: 1.4; stroke-opacity: 0.42; stroke-linejoin: round }
+            svg[data-svg-scope="s-334becc0"] .geom-polygon.tri-square { fill: #d97706; fill: var(--tri-square, #d97706); fill-opacity: 0.09; stroke: #d97706; stroke: var(--tri-square, #d97706); stroke-width: 1.6; stroke-linejoin: round }
+            svg[data-svg-scope="s-334becc0"] .geom-polygon.tri-circle { fill: #0284c7; fill: var(--tri-circle, #0284c7); fill-opacity: 0.08; stroke: #0284c7; stroke: var(--tri-circle, #0284c7); stroke-width: 1.5; stroke-linejoin: round }
+            svg[data-svg-scope="s-334becc0"] .geom-polygon.tri-diamond { fill: #db2777; fill: var(--tri-diamond, #db2777); fill-opacity: 0.11; stroke: #db2777; stroke: var(--tri-diamond, #db2777); stroke-width: 1.8; stroke-linejoin: round }
+            svg[data-svg-scope="s-334becc0"] .geom-point { fill: #0f172a; fill: var(--pt-given, #0f172a); stroke: #fafaf9; stroke: var(--svg-bg, #fafaf9); stroke-width: 1.5 }
+            svg[data-svg-scope="s-334becc0"] .meet-point { fill: #d97706; fill: var(--pt-meet, #d97706) }
+            svg[data-svg-scope="s-334becc0"] .steiner-point { fill: #7c3aed; fill: var(--pt-steiner, #7c3aed); stroke-width: 1.9 }
+            svg[data-svg-scope="s-334becc0"] .harmonic-point { fill: #059669; fill: var(--pt-harmonic, #059669); stroke-width: 1.8 }
+            svg[data-svg-scope="s-334becc0"] .aux-point { opacity: 0.78 }
+            svg[data-svg-scope="s-334becc0"] .geom-label { fill: #1c1917; fill: var(--ink, #1c1917); font-size: 13px; font-weight: 600; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo, rgba(250, 250, 249, 0.92)); stroke-width: 3.6px; stroke-linejoin: round; user-select: none }
+            svg[data-svg-scope="s-334becc0"] .geom-label-sub { font-size: 9.8px; font-weight: 600 }
+          </style>
           <title>De Docta Ignorantia I.14–15 — Flattening Triangles &amp; Vanishing Rational Spread</title>
           <defs>
             <clipPath id="frame-clip-cusa-flattening-triangles">
@@ -362,7 +446,35 @@
         <h2>3. Polygon Exhaustion (<code class="docutils literal notranslate"><span class="pre">I.3</span></code>) &amp; <em>Scripta Mathematica</em> (<code class="docutils literal notranslate"><span class="pre">1445–1459</span></code>)<a class="headerlink" href="#polygon-exhaustion-i-3-scripta-mathematica-14451459" title="Link to this heading">¶</a></h2>
         <p><em>Codex Reference</em>: <a class="reference internal" href="../de_docta_ignorantia/unit-1-maximum-ignorantia/unit-1-maximum-ignorantia-notes.html"><span class="doc">Unit I</span></a> &amp; <a class="reference internal" href="../de_docta_ignorantia/unit-5-cosmologia-complementa/unit-5-cosmologia-complementa-notes.html"><span class="doc">Unit V</span></a> · <em>Script</em>: <code class="docutils literal notranslate"><span class="pre">demos/polygon_exhaustion_and_complementa.py</span></code></p>
         <figure class="photon-picture photon-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 640 520" data-graphic-id="cusa-transmutatio-1445" role="img" aria-label="De Geometricis Transmutationibus (1445) — Quarter-Side Sesquiquarta Rectification">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" data-graphic-id="cusa-transmutatio-1445" role="img" aria-label="De Geometricis Transmutationibus (1445) — Quarter-Side Sesquiquarta Rectification" width="640" height="520" data-svg-scope="s-6913e513">
+          <style>
+            svg[data-svg-scope="s-6913e513"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #334155; --conic: #0284c7; --cross: #0e7490; --quad: #4338ca; --pappus-even: #d97706; --pappus-odd: #db2777; --steiner: #7c3aed; --harmonic: #059669; --golden: #b45309; --pt-given: #0f172a; --pt-meet: #d97706; --pt-steiner: #7c3aed; --pt-harmonic: #059669; --tri-square: #d97706; --tri-circle: #0284c7; --tri-diamond: #db2777; font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif }
+            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-6913e513"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #cbd5e1; --conic: #38bdf8; --cross: #38bdf8; --quad: #818cf8; --pappus-even: #fbbf24; --pappus-odd: #f472b6; --steiner: #c084fc; --harmonic: #34d399; --golden: #facc15; --pt-given: #f8fafc; --pt-meet: #fbbf24; --pt-steiner: #c084fc; --pt-harmonic: #34d399; --tri-square: #fbbf24; --tri-circle: #38bdf8; --tri-diamond: #f472b6 }
+            svg[data-svg-scope="s-6913e513"] .geom-circle.conic-curve { fill: none; stroke: #0284c7; stroke: var(--conic, #0284c7); stroke-width: 1.95; opacity: 0.86 }
+            svg[data-svg-scope="s-6913e513"] .geom-line { fill: none; stroke: #334155; stroke: var(--carrier, #334155); stroke-width: 1.75; stroke-linecap: round }
+            svg[data-svg-scope="s-6913e513"] .carrier-line { stroke: #334155; stroke: var(--carrier, #334155); stroke-width: 2.15; opacity: 0.94 }
+            svg[data-svg-scope="s-6913e513"] .cross-line { stroke: #0e7490; stroke: var(--cross, #0e7490); stroke-width: 1.35; stroke-opacity: 0.68 }
+            svg[data-svg-scope="s-6913e513"] .quad-line { stroke: #4338ca; stroke: var(--quad, #4338ca); stroke-width: 1.65; stroke-opacity: 0.84 }
+            svg[data-svg-scope="s-6913e513"] .diagonal-line { stroke-dasharray: 5 3.5 }
+            svg[data-svg-scope="s-6913e513"] .pappus-line { stroke-width: 2.45; opacity: 0.95 }
+            svg[data-svg-scope="s-6913e513"] .pappus-even { stroke: #d97706; stroke: var(--pappus-even, #d97706) }
+            svg[data-svg-scope="s-6913e513"] .pappus-odd { stroke: #db2777; stroke: var(--pappus-odd, #db2777) }
+            svg[data-svg-scope="s-6913e513"] .steiner-line { stroke: #7c3aed; stroke: var(--steiner, #7c3aed); stroke-width: 2.55; stroke-dasharray: 6 3.5 }
+            svg[data-svg-scope="s-6913e513"] .harmonic-line { stroke: #059669; stroke: var(--harmonic, #059669); stroke-width: 2.45 }
+            svg[data-svg-scope="s-6913e513"] .geom-segment.golden-segment { fill: none; stroke: #b45309; stroke: var(--golden, #b45309); stroke-width: 3.6; stroke-linecap: round; opacity: 0.85 }
+            svg[data-svg-scope="s-6913e513"] .geom-segment.harmonic-segment { fill: none; stroke: #059669; stroke: var(--harmonic, #059669); stroke-width: 3.2; stroke-linecap: round; opacity: 0.78 }
+            svg[data-svg-scope="s-6913e513"] .geom-polygon.hexagon-poly { fill: #0e7490; fill: var(--cross, #0e7490); fill-opacity: 0.05; stroke: #0e7490; stroke: var(--cross, #0e7490); stroke-width: 1.4; stroke-opacity: 0.42; stroke-linejoin: round }
+            svg[data-svg-scope="s-6913e513"] .geom-polygon.tri-square { fill: #d97706; fill: var(--tri-square, #d97706); fill-opacity: 0.09; stroke: #d97706; stroke: var(--tri-square, #d97706); stroke-width: 1.6; stroke-linejoin: round }
+            svg[data-svg-scope="s-6913e513"] .geom-polygon.tri-circle { fill: #0284c7; fill: var(--tri-circle, #0284c7); fill-opacity: 0.08; stroke: #0284c7; stroke: var(--tri-circle, #0284c7); stroke-width: 1.5; stroke-linejoin: round }
+            svg[data-svg-scope="s-6913e513"] .geom-polygon.tri-diamond { fill: #db2777; fill: var(--tri-diamond, #db2777); fill-opacity: 0.11; stroke: #db2777; stroke: var(--tri-diamond, #db2777); stroke-width: 1.8; stroke-linejoin: round }
+            svg[data-svg-scope="s-6913e513"] .geom-point { fill: #0f172a; fill: var(--pt-given, #0f172a); stroke: #fafaf9; stroke: var(--svg-bg, #fafaf9); stroke-width: 1.5 }
+            svg[data-svg-scope="s-6913e513"] .meet-point { fill: #d97706; fill: var(--pt-meet, #d97706) }
+            svg[data-svg-scope="s-6913e513"] .steiner-point { fill: #7c3aed; fill: var(--pt-steiner, #7c3aed); stroke-width: 1.9 }
+            svg[data-svg-scope="s-6913e513"] .harmonic-point { fill: #059669; fill: var(--pt-harmonic, #059669); stroke-width: 1.8 }
+            svg[data-svg-scope="s-6913e513"] .aux-point { opacity: 0.78 }
+            svg[data-svg-scope="s-6913e513"] .geom-label { fill: #1c1917; fill: var(--ink, #1c1917); font-size: 13px; font-weight: 600; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo, rgba(250, 250, 249, 0.92)); stroke-width: 3.6px; stroke-linejoin: round; user-select: none }
+            svg[data-svg-scope="s-6913e513"] .geom-label-sub { font-size: 9.8px; font-weight: 600 }
+          </style>
           <title>De Geometricis Transmutationibus (1445) — Quarter-Side Sesquiquarta Rectification</title>
           <defs>
             <clipPath id="frame-clip-cusa-transmutatio-1445">
@@ -423,7 +535,35 @@
         <figcaption>De Geometricis Transmutationibus (1445, §§9–11): quarter-side ray AE = sqrt(7)/4 extended in 5:4 sesquiquartal ratio to AH = 5*sqrt(7)/16, implying pi ~= 24*sqrt(21)/35 ~= 3.14233762.</figcaption>
         </figure>
         <figure class="photon-picture photon-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 680 480" data-graphic-id="cusa-aurea-propositio-1459" role="img" aria-label="De Mathematica Perfectione (1458) &amp; Aurea Propositio (1459) — Three-Ray Arc Rectification">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" data-graphic-id="cusa-aurea-propositio-1459" role="img" aria-label="De Mathematica Perfectione (1458) &amp; Aurea Propositio (1459) — Three-Ray Arc Rectification" width="680" height="480" data-svg-scope="s-eb114f2b">
+          <style>
+            svg[data-svg-scope="s-eb114f2b"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #334155; --conic: #0284c7; --cross: #0e7490; --quad: #4338ca; --pappus-even: #d97706; --pappus-odd: #db2777; --steiner: #7c3aed; --harmonic: #059669; --golden: #b45309; --pt-given: #0f172a; --pt-meet: #d97706; --pt-steiner: #7c3aed; --pt-harmonic: #059669; --tri-square: #d97706; --tri-circle: #0284c7; --tri-diamond: #db2777; font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif }
+            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-eb114f2b"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #cbd5e1; --conic: #38bdf8; --cross: #38bdf8; --quad: #818cf8; --pappus-even: #fbbf24; --pappus-odd: #f472b6; --steiner: #c084fc; --harmonic: #34d399; --golden: #facc15; --pt-given: #f8fafc; --pt-meet: #fbbf24; --pt-steiner: #c084fc; --pt-harmonic: #34d399; --tri-square: #fbbf24; --tri-circle: #38bdf8; --tri-diamond: #f472b6 }
+            svg[data-svg-scope="s-eb114f2b"] .geom-circle.conic-curve { fill: none; stroke: #0284c7; stroke: var(--conic, #0284c7); stroke-width: 1.95; opacity: 0.86 }
+            svg[data-svg-scope="s-eb114f2b"] .geom-line { fill: none; stroke: #334155; stroke: var(--carrier, #334155); stroke-width: 1.75; stroke-linecap: round }
+            svg[data-svg-scope="s-eb114f2b"] .carrier-line { stroke: #334155; stroke: var(--carrier, #334155); stroke-width: 2.15; opacity: 0.94 }
+            svg[data-svg-scope="s-eb114f2b"] .cross-line { stroke: #0e7490; stroke: var(--cross, #0e7490); stroke-width: 1.35; stroke-opacity: 0.68 }
+            svg[data-svg-scope="s-eb114f2b"] .quad-line { stroke: #4338ca; stroke: var(--quad, #4338ca); stroke-width: 1.65; stroke-opacity: 0.84 }
+            svg[data-svg-scope="s-eb114f2b"] .diagonal-line { stroke-dasharray: 5 3.5 }
+            svg[data-svg-scope="s-eb114f2b"] .pappus-line { stroke-width: 2.45; opacity: 0.95 }
+            svg[data-svg-scope="s-eb114f2b"] .pappus-even { stroke: #d97706; stroke: var(--pappus-even, #d97706) }
+            svg[data-svg-scope="s-eb114f2b"] .pappus-odd { stroke: #db2777; stroke: var(--pappus-odd, #db2777) }
+            svg[data-svg-scope="s-eb114f2b"] .steiner-line { stroke: #7c3aed; stroke: var(--steiner, #7c3aed); stroke-width: 2.55; stroke-dasharray: 6 3.5 }
+            svg[data-svg-scope="s-eb114f2b"] .harmonic-line { stroke: #059669; stroke: var(--harmonic, #059669); stroke-width: 2.45 }
+            svg[data-svg-scope="s-eb114f2b"] .geom-segment.golden-segment { fill: none; stroke: #b45309; stroke: var(--golden, #b45309); stroke-width: 3.6; stroke-linecap: round; opacity: 0.85 }
+            svg[data-svg-scope="s-eb114f2b"] .geom-segment.harmonic-segment { fill: none; stroke: #059669; stroke: var(--harmonic, #059669); stroke-width: 3.2; stroke-linecap: round; opacity: 0.78 }
+            svg[data-svg-scope="s-eb114f2b"] .geom-polygon.hexagon-poly { fill: #0e7490; fill: var(--cross, #0e7490); fill-opacity: 0.05; stroke: #0e7490; stroke: var(--cross, #0e7490); stroke-width: 1.4; stroke-opacity: 0.42; stroke-linejoin: round }
+            svg[data-svg-scope="s-eb114f2b"] .geom-polygon.tri-square { fill: #d97706; fill: var(--tri-square, #d97706); fill-opacity: 0.09; stroke: #d97706; stroke: var(--tri-square, #d97706); stroke-width: 1.6; stroke-linejoin: round }
+            svg[data-svg-scope="s-eb114f2b"] .geom-polygon.tri-circle { fill: #0284c7; fill: var(--tri-circle, #0284c7); fill-opacity: 0.08; stroke: #0284c7; stroke: var(--tri-circle, #0284c7); stroke-width: 1.5; stroke-linejoin: round }
+            svg[data-svg-scope="s-eb114f2b"] .geom-polygon.tri-diamond { fill: #db2777; fill: var(--tri-diamond, #db2777); fill-opacity: 0.11; stroke: #db2777; stroke: var(--tri-diamond, #db2777); stroke-width: 1.8; stroke-linejoin: round }
+            svg[data-svg-scope="s-eb114f2b"] .geom-point { fill: #0f172a; fill: var(--pt-given, #0f172a); stroke: #fafaf9; stroke: var(--svg-bg, #fafaf9); stroke-width: 1.5 }
+            svg[data-svg-scope="s-eb114f2b"] .meet-point { fill: #d97706; fill: var(--pt-meet, #d97706) }
+            svg[data-svg-scope="s-eb114f2b"] .steiner-point { fill: #7c3aed; fill: var(--pt-steiner, #7c3aed); stroke-width: 1.9 }
+            svg[data-svg-scope="s-eb114f2b"] .harmonic-point { fill: #059669; fill: var(--pt-harmonic, #059669); stroke-width: 1.8 }
+            svg[data-svg-scope="s-eb114f2b"] .aux-point { opacity: 0.78 }
+            svg[data-svg-scope="s-eb114f2b"] .geom-label { fill: #1c1917; fill: var(--ink, #1c1917); font-size: 13px; font-weight: 600; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo, rgba(250, 250, 249, 0.92)); stroke-width: 3.6px; stroke-linejoin: round; user-select: none }
+            svg[data-svg-scope="s-eb114f2b"] .geom-label-sub { font-size: 9.8px; font-weight: 600 }
+          </style>
           <title>De Mathematica Perfectione (1458) &amp; Aurea Propositio (1459) — Three-Ray Arc Rectification</title>
           <defs>
             <clipPath id="frame-clip-cusa-aurea-propositio-1459">
@@ -578,7 +718,7 @@
 
   <script src="../_static/jquery.js?v=5d32c60e"></script>
   <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-  <script src="../_static/documentation_options.js?v=fd825880"></script>
+  <script src="../_static/documentation_options.js?v=59fadc99"></script>
   <script src="../_static/doctools.js?v=fd6eb6e6"></script>
   <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>

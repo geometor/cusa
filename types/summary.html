@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
-  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=8713e751" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=99410eb1" />
   <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
   <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=0e36df45" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
@@ -84,7 +84,35 @@
         <div class="content">
           <figure class="excerpt-svg">
             <a href="../de_docta_ignorantia/unit-1-maximum-ignorantia/unit-1-maximum-ignorantia-summary.html" aria-label="Learned Ignorance, Polygon Exhaustion & the Coincidence of Maximum and Minimum">
-              <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic euclid-thumbnail" viewBox="0 0 640 520" data-graphic-id="cusa-polygon-exhaustion" role="img" aria-label="De Docta Ignorantia I.3 — Polygon Exhaustion &amp; Incommensurability of the Circle">
+              <svg class="euclid-graphic euclid-thumbnail" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" data-graphic-id="cusa-polygon-exhaustion" role="img" aria-label="De Docta Ignorantia I.3 — Polygon Exhaustion &amp; Incommensurability of the Circle" width="640" height="520" data-svg-scope="s-f8ed25d3">
+  <style>
+    svg[data-svg-scope="s-f8ed25d3"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #334155; --conic: #0284c7; --cross: #0e7490; --quad: #4338ca; --pappus-even: #d97706; --pappus-odd: #db2777; --steiner: #7c3aed; --harmonic: #059669; --golden: #b45309; --pt-given: #0f172a; --pt-meet: #d97706; --pt-steiner: #7c3aed; --pt-harmonic: #059669; --tri-square: #d97706; --tri-circle: #0284c7; --tri-diamond: #db2777; font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif }
+    body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-f8ed25d3"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #cbd5e1; --conic: #38bdf8; --cross: #38bdf8; --quad: #818cf8; --pappus-even: #fbbf24; --pappus-odd: #f472b6; --steiner: #c084fc; --harmonic: #34d399; --golden: #facc15; --pt-given: #f8fafc; --pt-meet: #fbbf24; --pt-steiner: #c084fc; --pt-harmonic: #34d399; --tri-square: #fbbf24; --tri-circle: #38bdf8; --tri-diamond: #f472b6 }
+    svg[data-svg-scope="s-f8ed25d3"] .geom-circle.conic-curve { fill: none; stroke: #0284c7; stroke: var(--conic, #0284c7); stroke-width: 1.95; opacity: 0.86 }
+    svg[data-svg-scope="s-f8ed25d3"] .geom-line { fill: none; stroke: #334155; stroke: var(--carrier, #334155); stroke-width: 1.75; stroke-linecap: round }
+    svg[data-svg-scope="s-f8ed25d3"] .carrier-line { stroke: #334155; stroke: var(--carrier, #334155); stroke-width: 2.15; opacity: 0.94 }
+    svg[data-svg-scope="s-f8ed25d3"] .cross-line { stroke: #0e7490; stroke: var(--cross, #0e7490); stroke-width: 1.35; stroke-opacity: 0.68 }
+    svg[data-svg-scope="s-f8ed25d3"] .quad-line { stroke: #4338ca; stroke: var(--quad, #4338ca); stroke-width: 1.65; stroke-opacity: 0.84 }
+    svg[data-svg-scope="s-f8ed25d3"] .diagonal-line { stroke-dasharray: 5 3.5 }
+    svg[data-svg-scope="s-f8ed25d3"] .pappus-line { stroke-width: 2.45; opacity: 0.95 }
+    svg[data-svg-scope="s-f8ed25d3"] .pappus-even { stroke: #d97706; stroke: var(--pappus-even, #d97706) }
+    svg[data-svg-scope="s-f8ed25d3"] .pappus-odd { stroke: #db2777; stroke: var(--pappus-odd, #db2777) }
+    svg[data-svg-scope="s-f8ed25d3"] .steiner-line { stroke: #7c3aed; stroke: var(--steiner, #7c3aed); stroke-width: 2.55; stroke-dasharray: 6 3.5 }
+    svg[data-svg-scope="s-f8ed25d3"] .harmonic-line { stroke: #059669; stroke: var(--harmonic, #059669); stroke-width: 2.45 }
+    svg[data-svg-scope="s-f8ed25d3"] .geom-segment.golden-segment { fill: none; stroke: #b45309; stroke: var(--golden, #b45309); stroke-width: 3.6; stroke-linecap: round; opacity: 0.85 }
+    svg[data-svg-scope="s-f8ed25d3"] .geom-segment.harmonic-segment { fill: none; stroke: #059669; stroke: var(--harmonic, #059669); stroke-width: 3.2; stroke-linecap: round; opacity: 0.78 }
+    svg[data-svg-scope="s-f8ed25d3"] .geom-polygon.hexagon-poly { fill: #0e7490; fill: var(--cross, #0e7490); fill-opacity: 0.05; stroke: #0e7490; stroke: var(--cross, #0e7490); stroke-width: 1.4; stroke-opacity: 0.42; stroke-linejoin: round }
+    svg[data-svg-scope="s-f8ed25d3"] .geom-polygon.tri-square { fill: #d97706; fill: var(--tri-square, #d97706); fill-opacity: 0.09; stroke: #d97706; stroke: var(--tri-square, #d97706); stroke-width: 1.6; stroke-linejoin: round }
+    svg[data-svg-scope="s-f8ed25d3"] .geom-polygon.tri-circle { fill: #0284c7; fill: var(--tri-circle, #0284c7); fill-opacity: 0.08; stroke: #0284c7; stroke: var(--tri-circle, #0284c7); stroke-width: 1.5; stroke-linejoin: round }
+    svg[data-svg-scope="s-f8ed25d3"] .geom-polygon.tri-diamond { fill: #db2777; fill: var(--tri-diamond, #db2777); fill-opacity: 0.11; stroke: #db2777; stroke: var(--tri-diamond, #db2777); stroke-width: 1.8; stroke-linejoin: round }
+    svg[data-svg-scope="s-f8ed25d3"] .geom-point { fill: #0f172a; fill: var(--pt-given, #0f172a); stroke: #fafaf9; stroke: var(--svg-bg, #fafaf9); stroke-width: 1.5 }
+    svg[data-svg-scope="s-f8ed25d3"] .meet-point { fill: #d97706; fill: var(--pt-meet, #d97706) }
+    svg[data-svg-scope="s-f8ed25d3"] .steiner-point { fill: #7c3aed; fill: var(--pt-steiner, #7c3aed); stroke-width: 1.9 }
+    svg[data-svg-scope="s-f8ed25d3"] .harmonic-point { fill: #059669; fill: var(--pt-harmonic, #059669); stroke-width: 1.8 }
+    svg[data-svg-scope="s-f8ed25d3"] .aux-point { opacity: 0.78 }
+    svg[data-svg-scope="s-f8ed25d3"] .geom-label { fill: #1c1917; fill: var(--ink, #1c1917); font-size: 13px; font-weight: 600; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo, rgba(250, 250, 249, 0.92)); stroke-width: 3.6px; stroke-linejoin: round; user-select: none }
+    svg[data-svg-scope="s-f8ed25d3"] .geom-label-sub { font-size: 9.8px; font-weight: 600 }
+  </style>
   <title>De Docta Ignorantia I.3 — Polygon Exhaustion &amp; Incommensurability of the Circle</title>
   <defs>
     <clipPath>
@@ -178,7 +206,35 @@
         <div class="content">
           <figure class="excerpt-svg">
             <a href="../de_docta_ignorantia/unit-2-mathematica-transsumptio/unit-2-mathematica-transsumptio-summary.html" aria-label="Incorruptible Certitude & the Three-Step Method of Mathematical Transsumption">
-              <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic euclid-thumbnail" viewBox="0 0 680 430" data-graphic-id="cusa-transsumptio-ascent" role="img" aria-label="De Docta Ignorantia I.12 — Three-Step Method of Mathematical Transsumption">
+              <svg class="euclid-graphic euclid-thumbnail" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 430" data-graphic-id="cusa-transsumptio-ascent" role="img" aria-label="De Docta Ignorantia I.12 — Three-Step Method of Mathematical Transsumption" width="680" height="430" data-svg-scope="s-5215caa8">
+  <style>
+    svg[data-svg-scope="s-5215caa8"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #334155; --conic: #0284c7; --cross: #0e7490; --quad: #4338ca; --pappus-even: #d97706; --pappus-odd: #db2777; --steiner: #7c3aed; --harmonic: #059669; --golden: #b45309; --pt-given: #0f172a; --pt-meet: #d97706; --pt-steiner: #7c3aed; --pt-harmonic: #059669; --tri-square: #d97706; --tri-circle: #0284c7; --tri-diamond: #db2777; font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif }
+    body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-5215caa8"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #cbd5e1; --conic: #38bdf8; --cross: #38bdf8; --quad: #818cf8; --pappus-even: #fbbf24; --pappus-odd: #f472b6; --steiner: #c084fc; --harmonic: #34d399; --golden: #facc15; --pt-given: #f8fafc; --pt-meet: #fbbf24; --pt-steiner: #c084fc; --pt-harmonic: #34d399; --tri-square: #fbbf24; --tri-circle: #38bdf8; --tri-diamond: #f472b6 }
+    svg[data-svg-scope="s-5215caa8"] .geom-circle.conic-curve { fill: none; stroke: #0284c7; stroke: var(--conic, #0284c7); stroke-width: 1.95; opacity: 0.86 }
+    svg[data-svg-scope="s-5215caa8"] .geom-line { fill: none; stroke: #334155; stroke: var(--carrier, #334155); stroke-width: 1.75; stroke-linecap: round }
+    svg[data-svg-scope="s-5215caa8"] .carrier-line { stroke: #334155; stroke: var(--carrier, #334155); stroke-width: 2.15; opacity: 0.94 }
+    svg[data-svg-scope="s-5215caa8"] .cross-line { stroke: #0e7490; stroke: var(--cross, #0e7490); stroke-width: 1.35; stroke-opacity: 0.68 }
+    svg[data-svg-scope="s-5215caa8"] .quad-line { stroke: #4338ca; stroke: var(--quad, #4338ca); stroke-width: 1.65; stroke-opacity: 0.84 }
+    svg[data-svg-scope="s-5215caa8"] .diagonal-line { stroke-dasharray: 5 3.5 }
+    svg[data-svg-scope="s-5215caa8"] .pappus-line { stroke-width: 2.45; opacity: 0.95 }
+    svg[data-svg-scope="s-5215caa8"] .pappus-even { stroke: #d97706; stroke: var(--pappus-even, #d97706) }
+    svg[data-svg-scope="s-5215caa8"] .pappus-odd { stroke: #db2777; stroke: var(--pappus-odd, #db2777) }
+    svg[data-svg-scope="s-5215caa8"] .steiner-line { stroke: #7c3aed; stroke: var(--steiner, #7c3aed); stroke-width: 2.55; stroke-dasharray: 6 3.5 }
+    svg[data-svg-scope="s-5215caa8"] .harmonic-line { stroke: #059669; stroke: var(--harmonic, #059669); stroke-width: 2.45 }
+    svg[data-svg-scope="s-5215caa8"] .geom-segment.golden-segment { fill: none; stroke: #b45309; stroke: var(--golden, #b45309); stroke-width: 3.6; stroke-linecap: round; opacity: 0.85 }
+    svg[data-svg-scope="s-5215caa8"] .geom-segment.harmonic-segment { fill: none; stroke: #059669; stroke: var(--harmonic, #059669); stroke-width: 3.2; stroke-linecap: round; opacity: 0.78 }
+    svg[data-svg-scope="s-5215caa8"] .geom-polygon.hexagon-poly { fill: #0e7490; fill: var(--cross, #0e7490); fill-opacity: 0.05; stroke: #0e7490; stroke: var(--cross, #0e7490); stroke-width: 1.4; stroke-opacity: 0.42; stroke-linejoin: round }
+    svg[data-svg-scope="s-5215caa8"] .geom-polygon.tri-square { fill: #d97706; fill: var(--tri-square, #d97706); fill-opacity: 0.09; stroke: #d97706; stroke: var(--tri-square, #d97706); stroke-width: 1.6; stroke-linejoin: round }
+    svg[data-svg-scope="s-5215caa8"] .geom-polygon.tri-circle { fill: #0284c7; fill: var(--tri-circle, #0284c7); fill-opacity: 0.08; stroke: #0284c7; stroke: var(--tri-circle, #0284c7); stroke-width: 1.5; stroke-linejoin: round }
+    svg[data-svg-scope="s-5215caa8"] .geom-polygon.tri-diamond { fill: #db2777; fill: var(--tri-diamond, #db2777); fill-opacity: 0.11; stroke: #db2777; stroke: var(--tri-diamond, #db2777); stroke-width: 1.8; stroke-linejoin: round }
+    svg[data-svg-scope="s-5215caa8"] .geom-point { fill: #0f172a; fill: var(--pt-given, #0f172a); stroke: #fafaf9; stroke: var(--svg-bg, #fafaf9); stroke-width: 1.5 }
+    svg[data-svg-scope="s-5215caa8"] .meet-point { fill: #d97706; fill: var(--pt-meet, #d97706) }
+    svg[data-svg-scope="s-5215caa8"] .steiner-point { fill: #7c3aed; fill: var(--pt-steiner, #7c3aed); stroke-width: 1.9 }
+    svg[data-svg-scope="s-5215caa8"] .harmonic-point { fill: #059669; fill: var(--pt-harmonic, #059669); stroke-width: 1.8 }
+    svg[data-svg-scope="s-5215caa8"] .aux-point { opacity: 0.78 }
+    svg[data-svg-scope="s-5215caa8"] .geom-label { fill: #1c1917; fill: var(--ink, #1c1917); font-size: 13px; font-weight: 600; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo, rgba(250, 250, 249, 0.92)); stroke-width: 3.6px; stroke-linejoin: round; user-select: none }
+    svg[data-svg-scope="s-5215caa8"] .geom-label-sub { font-size: 9.8px; font-weight: 600 }
+  </style>
   <title>De Docta Ignorantia I.12 — Three-Step Method of Mathematical Transsumption</title>
   <defs>
     <clipPath>
@@ -255,7 +311,35 @@
         <div class="content">
           <figure class="excerpt-svg">
             <a href="../de_docta_ignorantia/unit-3-coincidentia-figurarum/unit-3-coincidentia-figurarum-summary.html" aria-label="Coincidence of Infinite Circle, Straight Line, Triangle & Sphere">
-              <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic euclid-thumbnail" viewBox="0 0 680 460" data-graphic-id="cusa-circle-line-pencil" role="img" aria-label="De Docta Ignorantia I.13 — Coaxial Tangent Circle Pencil &amp; Vanishing Sagitta">
+              <svg class="euclid-graphic euclid-thumbnail" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 460" data-graphic-id="cusa-circle-line-pencil" role="img" aria-label="De Docta Ignorantia I.13 — Coaxial Tangent Circle Pencil &amp; Vanishing Sagitta" width="680" height="460" data-svg-scope="s-877af938">
+  <style>
+    svg[data-svg-scope="s-877af938"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #334155; --conic: #0284c7; --cross: #0e7490; --quad: #4338ca; --pappus-even: #d97706; --pappus-odd: #db2777; --steiner: #7c3aed; --harmonic: #059669; --golden: #b45309; --pt-given: #0f172a; --pt-meet: #d97706; --pt-steiner: #7c3aed; --pt-harmonic: #059669; --tri-square: #d97706; --tri-circle: #0284c7; --tri-diamond: #db2777; font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif }
+    body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-877af938"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #cbd5e1; --conic: #38bdf8; --cross: #38bdf8; --quad: #818cf8; --pappus-even: #fbbf24; --pappus-odd: #f472b6; --steiner: #c084fc; --harmonic: #34d399; --golden: #facc15; --pt-given: #f8fafc; --pt-meet: #fbbf24; --pt-steiner: #c084fc; --pt-harmonic: #34d399; --tri-square: #fbbf24; --tri-circle: #38bdf8; --tri-diamond: #f472b6 }
+    svg[data-svg-scope="s-877af938"] .geom-circle.conic-curve { fill: none; stroke: #0284c7; stroke: var(--conic, #0284c7); stroke-width: 1.95; opacity: 0.86 }
+    svg[data-svg-scope="s-877af938"] .geom-line { fill: none; stroke: #334155; stroke: var(--carrier, #334155); stroke-width: 1.75; stroke-linecap: round }
+    svg[data-svg-scope="s-877af938"] .carrier-line { stroke: #334155; stroke: var(--carrier, #334155); stroke-width: 2.15; opacity: 0.94 }
+    svg[data-svg-scope="s-877af938"] .cross-line { stroke: #0e7490; stroke: var(--cross, #0e7490); stroke-width: 1.35; stroke-opacity: 0.68 }
+    svg[data-svg-scope="s-877af938"] .quad-line { stroke: #4338ca; stroke: var(--quad, #4338ca); stroke-width: 1.65; stroke-opacity: 0.84 }
+    svg[data-svg-scope="s-877af938"] .diagonal-line { stroke-dasharray: 5 3.5 }
+    svg[data-svg-scope="s-877af938"] .pappus-line { stroke-width: 2.45; opacity: 0.95 }
+    svg[data-svg-scope="s-877af938"] .pappus-even { stroke: #d97706; stroke: var(--pappus-even, #d97706) }
+    svg[data-svg-scope="s-877af938"] .pappus-odd { stroke: #db2777; stroke: var(--pappus-odd, #db2777) }
+    svg[data-svg-scope="s-877af938"] .steiner-line { stroke: #7c3aed; stroke: var(--steiner, #7c3aed); stroke-width: 2.55; stroke-dasharray: 6 3.5 }
+    svg[data-svg-scope="s-877af938"] .harmonic-line { stroke: #059669; stroke: var(--harmonic, #059669); stroke-width: 2.45 }
+    svg[data-svg-scope="s-877af938"] .geom-segment.golden-segment { fill: none; stroke: #b45309; stroke: var(--golden, #b45309); stroke-width: 3.6; stroke-linecap: round; opacity: 0.85 }
+    svg[data-svg-scope="s-877af938"] .geom-segment.harmonic-segment { fill: none; stroke: #059669; stroke: var(--harmonic, #059669); stroke-width: 3.2; stroke-linecap: round; opacity: 0.78 }
+    svg[data-svg-scope="s-877af938"] .geom-polygon.hexagon-poly { fill: #0e7490; fill: var(--cross, #0e7490); fill-opacity: 0.05; stroke: #0e7490; stroke: var(--cross, #0e7490); stroke-width: 1.4; stroke-opacity: 0.42; stroke-linejoin: round }
+    svg[data-svg-scope="s-877af938"] .geom-polygon.tri-square { fill: #d97706; fill: var(--tri-square, #d97706); fill-opacity: 0.09; stroke: #d97706; stroke: var(--tri-square, #d97706); stroke-width: 1.6; stroke-linejoin: round }
+    svg[data-svg-scope="s-877af938"] .geom-polygon.tri-circle { fill: #0284c7; fill: var(--tri-circle, #0284c7); fill-opacity: 0.08; stroke: #0284c7; stroke: var(--tri-circle, #0284c7); stroke-width: 1.5; stroke-linejoin: round }
+    svg[data-svg-scope="s-877af938"] .geom-polygon.tri-diamond { fill: #db2777; fill: var(--tri-diamond, #db2777); fill-opacity: 0.11; stroke: #db2777; stroke: var(--tri-diamond, #db2777); stroke-width: 1.8; stroke-linejoin: round }
+    svg[data-svg-scope="s-877af938"] .geom-point { fill: #0f172a; fill: var(--pt-given, #0f172a); stroke: #fafaf9; stroke: var(--svg-bg, #fafaf9); stroke-width: 1.5 }
+    svg[data-svg-scope="s-877af938"] .meet-point { fill: #d97706; fill: var(--pt-meet, #d97706) }
+    svg[data-svg-scope="s-877af938"] .steiner-point { fill: #7c3aed; fill: var(--pt-steiner, #7c3aed); stroke-width: 1.9 }
+    svg[data-svg-scope="s-877af938"] .harmonic-point { fill: #059669; fill: var(--pt-harmonic, #059669); stroke-width: 1.8 }
+    svg[data-svg-scope="s-877af938"] .aux-point { opacity: 0.78 }
+    svg[data-svg-scope="s-877af938"] .geom-label { fill: #1c1917; fill: var(--ink, #1c1917); font-size: 13px; font-weight: 600; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo, rgba(250, 250, 249, 0.92)); stroke-width: 3.6px; stroke-linejoin: round; user-select: none }
+    svg[data-svg-scope="s-877af938"] .geom-label-sub { font-size: 9.8px; font-weight: 600 }
+  </style>
   <title>De Docta Ignorantia I.13 — Coaxial Tangent Circle Pencil &amp; Vanishing Sagitta</title>
   <defs>
     <clipPath>
@@ -346,7 +430,35 @@
         <div class="content">
           <figure class="excerpt-svg">
             <a href="../de_docta_ignorantia/unit-4-linea-sphaera-infinita/unit-4-linea-sphaera-infinita-summary.html" aria-label="The Infinite Line as Universal Measure & the Infinite Sphere Where Center, Diameter and Circumference Coincide">
-              <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic euclid-thumbnail" viewBox="0 0 640 500" data-graphic-id="cusa-line-unfolding-sphere" role="img" aria-label="De Docta Ignorantia I.13, I.15, I.23 — Generative Unfolding of Line, Triangle, Circle &amp; Sphere">
+              <svg class="euclid-graphic euclid-thumbnail" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 500" data-graphic-id="cusa-line-unfolding-sphere" role="img" aria-label="De Docta Ignorantia I.13, I.15, I.23 — Generative Unfolding of Line, Triangle, Circle &amp; Sphere" width="640" height="500" data-svg-scope="s-d3fc7031">
+  <style>
+    svg[data-svg-scope="s-d3fc7031"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #334155; --conic: #0284c7; --cross: #0e7490; --quad: #4338ca; --pappus-even: #d97706; --pappus-odd: #db2777; --steiner: #7c3aed; --harmonic: #059669; --golden: #b45309; --pt-given: #0f172a; --pt-meet: #d97706; --pt-steiner: #7c3aed; --pt-harmonic: #059669; --tri-square: #d97706; --tri-circle: #0284c7; --tri-diamond: #db2777; font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif }
+    body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-d3fc7031"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #cbd5e1; --conic: #38bdf8; --cross: #38bdf8; --quad: #818cf8; --pappus-even: #fbbf24; --pappus-odd: #f472b6; --steiner: #c084fc; --harmonic: #34d399; --golden: #facc15; --pt-given: #f8fafc; --pt-meet: #fbbf24; --pt-steiner: #c084fc; --pt-harmonic: #34d399; --tri-square: #fbbf24; --tri-circle: #38bdf8; --tri-diamond: #f472b6 }
+    svg[data-svg-scope="s-d3fc7031"] .geom-circle.conic-curve { fill: none; stroke: #0284c7; stroke: var(--conic, #0284c7); stroke-width: 1.95; opacity: 0.86 }
+    svg[data-svg-scope="s-d3fc7031"] .geom-line { fill: none; stroke: #334155; stroke: var(--carrier, #334155); stroke-width: 1.75; stroke-linecap: round }
+    svg[data-svg-scope="s-d3fc7031"] .carrier-line { stroke: #334155; stroke: var(--carrier, #334155); stroke-width: 2.15; opacity: 0.94 }
+    svg[data-svg-scope="s-d3fc7031"] .cross-line { stroke: #0e7490; stroke: var(--cross, #0e7490); stroke-width: 1.35; stroke-opacity: 0.68 }
+    svg[data-svg-scope="s-d3fc7031"] .quad-line { stroke: #4338ca; stroke: var(--quad, #4338ca); stroke-width: 1.65; stroke-opacity: 0.84 }
+    svg[data-svg-scope="s-d3fc7031"] .diagonal-line { stroke-dasharray: 5 3.5 }
+    svg[data-svg-scope="s-d3fc7031"] .pappus-line { stroke-width: 2.45; opacity: 0.95 }
+    svg[data-svg-scope="s-d3fc7031"] .pappus-even { stroke: #d97706; stroke: var(--pappus-even, #d97706) }
+    svg[data-svg-scope="s-d3fc7031"] .pappus-odd { stroke: #db2777; stroke: var(--pappus-odd, #db2777) }
+    svg[data-svg-scope="s-d3fc7031"] .steiner-line { stroke: #7c3aed; stroke: var(--steiner, #7c3aed); stroke-width: 2.55; stroke-dasharray: 6 3.5 }
+    svg[data-svg-scope="s-d3fc7031"] .harmonic-line { stroke: #059669; stroke: var(--harmonic, #059669); stroke-width: 2.45 }
+    svg[data-svg-scope="s-d3fc7031"] .geom-segment.golden-segment { fill: none; stroke: #b45309; stroke: var(--golden, #b45309); stroke-width: 3.6; stroke-linecap: round; opacity: 0.85 }
+    svg[data-svg-scope="s-d3fc7031"] .geom-segment.harmonic-segment { fill: none; stroke: #059669; stroke: var(--harmonic, #059669); stroke-width: 3.2; stroke-linecap: round; opacity: 0.78 }
+    svg[data-svg-scope="s-d3fc7031"] .geom-polygon.hexagon-poly { fill: #0e7490; fill: var(--cross, #0e7490); fill-opacity: 0.05; stroke: #0e7490; stroke: var(--cross, #0e7490); stroke-width: 1.4; stroke-opacity: 0.42; stroke-linejoin: round }
+    svg[data-svg-scope="s-d3fc7031"] .geom-polygon.tri-square { fill: #d97706; fill: var(--tri-square, #d97706); fill-opacity: 0.09; stroke: #d97706; stroke: var(--tri-square, #d97706); stroke-width: 1.6; stroke-linejoin: round }
+    svg[data-svg-scope="s-d3fc7031"] .geom-polygon.tri-circle { fill: #0284c7; fill: var(--tri-circle, #0284c7); fill-opacity: 0.08; stroke: #0284c7; stroke: var(--tri-circle, #0284c7); stroke-width: 1.5; stroke-linejoin: round }
+    svg[data-svg-scope="s-d3fc7031"] .geom-polygon.tri-diamond { fill: #db2777; fill: var(--tri-diamond, #db2777); fill-opacity: 0.11; stroke: #db2777; stroke: var(--tri-diamond, #db2777); stroke-width: 1.8; stroke-linejoin: round }
+    svg[data-svg-scope="s-d3fc7031"] .geom-point { fill: #0f172a; fill: var(--pt-given, #0f172a); stroke: #fafaf9; stroke: var(--svg-bg, #fafaf9); stroke-width: 1.5 }
+    svg[data-svg-scope="s-d3fc7031"] .meet-point { fill: #d97706; fill: var(--pt-meet, #d97706) }
+    svg[data-svg-scope="s-d3fc7031"] .steiner-point { fill: #7c3aed; fill: var(--pt-steiner, #7c3aed); stroke-width: 1.9 }
+    svg[data-svg-scope="s-d3fc7031"] .harmonic-point { fill: #059669; fill: var(--pt-harmonic, #059669); stroke-width: 1.8 }
+    svg[data-svg-scope="s-d3fc7031"] .aux-point { opacity: 0.78 }
+    svg[data-svg-scope="s-d3fc7031"] .geom-label { fill: #1c1917; fill: var(--ink, #1c1917); font-size: 13px; font-weight: 600; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo, rgba(250, 250, 249, 0.92)); stroke-width: 3.6px; stroke-linejoin: round; user-select: none }
+    svg[data-svg-scope="s-d3fc7031"] .geom-label-sub { font-size: 9.8px; font-weight: 600 }
+  </style>
   <title>De Docta Ignorantia I.13, I.15, I.23 — Generative Unfolding of Line, Triangle, Circle &amp; Sphere</title>
   <defs>
     <clipPath>
@@ -422,7 +534,35 @@
         <div class="content">
           <figure class="excerpt-svg">
             <a href="../de_docta_ignorantia/unit-5-cosmologia-complementa/unit-5-cosmologia-complementa-summary.html" aria-label="Centerless Cosmology & the Scripta Mathematica (1445–1459): Isoperimetric Transmutations and the Golden Proposition">
-              <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic euclid-thumbnail" viewBox="0 0 680 480" data-graphic-id="cusa-cosmic-relativity" role="img" aria-label="De Docta Ignorantia II.11–12 — Perspectival Relativity (Undique Centrum, Nullibi Circumferentia)">
+              <svg class="euclid-graphic euclid-thumbnail" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" data-graphic-id="cusa-cosmic-relativity" role="img" aria-label="De Docta Ignorantia II.11–12 — Perspectival Relativity (Undique Centrum, Nullibi Circumferentia)" width="680" height="480" data-svg-scope="s-0a01d343">
+  <style>
+    svg[data-svg-scope="s-0a01d343"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #334155; --conic: #0284c7; --cross: #0e7490; --quad: #4338ca; --pappus-even: #d97706; --pappus-odd: #db2777; --steiner: #7c3aed; --harmonic: #059669; --golden: #b45309; --pt-given: #0f172a; --pt-meet: #d97706; --pt-steiner: #7c3aed; --pt-harmonic: #059669; --tri-square: #d97706; --tri-circle: #0284c7; --tri-diamond: #db2777; font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif }
+    body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-0a01d343"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #cbd5e1; --conic: #38bdf8; --cross: #38bdf8; --quad: #818cf8; --pappus-even: #fbbf24; --pappus-odd: #f472b6; --steiner: #c084fc; --harmonic: #34d399; --golden: #facc15; --pt-given: #f8fafc; --pt-meet: #fbbf24; --pt-steiner: #c084fc; --pt-harmonic: #34d399; --tri-square: #fbbf24; --tri-circle: #38bdf8; --tri-diamond: #f472b6 }
+    svg[data-svg-scope="s-0a01d343"] .geom-circle.conic-curve { fill: none; stroke: #0284c7; stroke: var(--conic, #0284c7); stroke-width: 1.95; opacity: 0.86 }
+    svg[data-svg-scope="s-0a01d343"] .geom-line { fill: none; stroke: #334155; stroke: var(--carrier, #334155); stroke-width: 1.75; stroke-linecap: round }
+    svg[data-svg-scope="s-0a01d343"] .carrier-line { stroke: #334155; stroke: var(--carrier, #334155); stroke-width: 2.15; opacity: 0.94 }
+    svg[data-svg-scope="s-0a01d343"] .cross-line { stroke: #0e7490; stroke: var(--cross, #0e7490); stroke-width: 1.35; stroke-opacity: 0.68 }
+    svg[data-svg-scope="s-0a01d343"] .quad-line { stroke: #4338ca; stroke: var(--quad, #4338ca); stroke-width: 1.65; stroke-opacity: 0.84 }
+    svg[data-svg-scope="s-0a01d343"] .diagonal-line { stroke-dasharray: 5 3.5 }
+    svg[data-svg-scope="s-0a01d343"] .pappus-line { stroke-width: 2.45; opacity: 0.95 }
+    svg[data-svg-scope="s-0a01d343"] .pappus-even { stroke: #d97706; stroke: var(--pappus-even, #d97706) }
+    svg[data-svg-scope="s-0a01d343"] .pappus-odd { stroke: #db2777; stroke: var(--pappus-odd, #db2777) }
+    svg[data-svg-scope="s-0a01d343"] .steiner-line { stroke: #7c3aed; stroke: var(--steiner, #7c3aed); stroke-width: 2.55; stroke-dasharray: 6 3.5 }
+    svg[data-svg-scope="s-0a01d343"] .harmonic-line { stroke: #059669; stroke: var(--harmonic, #059669); stroke-width: 2.45 }
+    svg[data-svg-scope="s-0a01d343"] .geom-segment.golden-segment { fill: none; stroke: #b45309; stroke: var(--golden, #b45309); stroke-width: 3.6; stroke-linecap: round; opacity: 0.85 }
+    svg[data-svg-scope="s-0a01d343"] .geom-segment.harmonic-segment { fill: none; stroke: #059669; stroke: var(--harmonic, #059669); stroke-width: 3.2; stroke-linecap: round; opacity: 0.78 }
+    svg[data-svg-scope="s-0a01d343"] .geom-polygon.hexagon-poly { fill: #0e7490; fill: var(--cross, #0e7490); fill-opacity: 0.05; stroke: #0e7490; stroke: var(--cross, #0e7490); stroke-width: 1.4; stroke-opacity: 0.42; stroke-linejoin: round }
+    svg[data-svg-scope="s-0a01d343"] .geom-polygon.tri-square { fill: #d97706; fill: var(--tri-square, #d97706); fill-opacity: 0.09; stroke: #d97706; stroke: var(--tri-square, #d97706); stroke-width: 1.6; stroke-linejoin: round }
+    svg[data-svg-scope="s-0a01d343"] .geom-polygon.tri-circle { fill: #0284c7; fill: var(--tri-circle, #0284c7); fill-opacity: 0.08; stroke: #0284c7; stroke: var(--tri-circle, #0284c7); stroke-width: 1.5; stroke-linejoin: round }
+    svg[data-svg-scope="s-0a01d343"] .geom-polygon.tri-diamond { fill: #db2777; fill: var(--tri-diamond, #db2777); fill-opacity: 0.11; stroke: #db2777; stroke: var(--tri-diamond, #db2777); stroke-width: 1.8; stroke-linejoin: round }
+    svg[data-svg-scope="s-0a01d343"] .geom-point { fill: #0f172a; fill: var(--pt-given, #0f172a); stroke: #fafaf9; stroke: var(--svg-bg, #fafaf9); stroke-width: 1.5 }
+    svg[data-svg-scope="s-0a01d343"] .meet-point { fill: #d97706; fill: var(--pt-meet, #d97706) }
+    svg[data-svg-scope="s-0a01d343"] .steiner-point { fill: #7c3aed; fill: var(--pt-steiner, #7c3aed); stroke-width: 1.9 }
+    svg[data-svg-scope="s-0a01d343"] .harmonic-point { fill: #059669; fill: var(--pt-harmonic, #059669); stroke-width: 1.8 }
+    svg[data-svg-scope="s-0a01d343"] .aux-point { opacity: 0.78 }
+    svg[data-svg-scope="s-0a01d343"] .geom-label { fill: #1c1917; fill: var(--ink, #1c1917); font-size: 13px; font-weight: 600; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo, rgba(250, 250, 249, 0.92)); stroke-width: 3.6px; stroke-linejoin: round; user-select: none }
+    svg[data-svg-scope="s-0a01d343"] .geom-label-sub { font-size: 9.8px; font-weight: 600 }
+  </style>
   <title>De Docta Ignorantia II.11–12 — Perspectival Relativity (Undique Centrum, Nullibi Circumferentia)</title>
   <defs>
     <clipPath>
@@ -552,7 +692,7 @@
 
   <script src="../_static/jquery.js?v=5d32c60e"></script>
   <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-  <script src="../_static/documentation_options.js?v=fd825880"></script>
+  <script src="../_static/documentation_options.js?v=59fadc99"></script>
   <script src="../_static/doctools.js?v=fd6eb6e6"></script>
   <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
