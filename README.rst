@@ -1,50 +1,37 @@
-===============
 GEOMETOR • cusa
 ===============
 
-**Nicholas of Cusa (*Nicolaus Cusanus*, 1401–1464): *De Docta Ignorantia* (1440) & *Scripta Mathematica* (1445–1459)** — Synchronized 4-Track Latin/English Digital Scriptorium Book Codex and 100% Exact Symbolic SymPy Demonstrations.
+**Visit the Online Archive:** https://geometor.github.io/cusa/
 
-Overview
---------
+**Nicholas of Cusa • De Docta Ignorantia, De Mathematicis Complementis • semantic digital archive**
 
-``geometor/cusa`` (``geometor-cusa``) unites into a single critical edition and symbolic geometry package:
+Mission
+-------
 
-1. **Four-Track Synchronized Book Codex** (``docsrc/de_docta_ignorantia/``, ``:layout: book``):
-   Every unit is presented across **English** (100% original GEOMETOR translation rendered directly from the Latin), **Latin (1440 / 1514–1913)** (collated from Rotta 1913 with Raymond Klibansky's McGill archival restorations and the 1514 Paris / 1565 Basel *Opera*), **Summary**, and **Critical Notes**:
+``geometor/cusa`` is part of the interconnected `GEOMETOR <https://geometor.com>`_ semantic digital archive. It provides a synchronized four-track Latin-English Book Codex and exact symbolic geometry engine for the philosophical and mathematical treatises of Nicholas of Cusa (*Nicolaus Cusanus*). The archive liberates Cusa's groundbreaking investigations of the coincidence of opposites (*coincidentia oppositorum*), mathematical *transsumptio*, infinite circle-line transformations, and centerless cosmology from isolated print bounds into addressable semantic units, calibrated theme-adaptive vector diagrams, primary-source manuscript provenance, and exact symbolic geometry across the GEOMETOR corpus.
 
-   - **Unit I (`unit-1-maximum-ignorantia`)**: *Dedicatio*, *De Docta Ignorantia* Book I, Chapters 1–4 (*Comparative Proportion, Polygon-in-Circle Exhaustion & Coincidence of Maximum and Minimum*), and *Epistola auctoris* (Kues, February 12, 1440).
-   - **Unit II (`unit-2-mathematica-transsumptio`)**: Book I, Chapters 11–12 (*Incorruptible Certitude of Mathematicalia & the Three-Step Method of Transsumptio*).
-   - **Unit III (`unit-3-coincidentia-figurarum`)**: Book I, Chapters 13–15 (*Coincidence of Infinite Circle, Straight Line, Triangle & Sphere*).
-   - **Unit IV (`unit-4-linea-sphaera-infinita`)**: Book I, Chapters 16–23 (*The Infinite Line as Universal Measure, Triunity vs. Quaternity & the Infinite Sphere*).
-   - **Unit V (`unit-5-cosmologia-complementa`)**: Book II, Chapters 11–12 (*Centerless Cosmic Relativity & the Noble Moving Earth*) + *De Geometricis Transmutationibus* (1445), *De Mathematicis Complementis* (1453), *De Mathematica Perfectione* (1458), and the complete *Aurea Propositio in Mathematicis* (August 8, 1459).
+Books in This Archive
+---------------------
 
-2. **100% Exact Symbolic Geometry Engine (`src/geometor/cusa/`)**:
-   Built on ``geometor.model`` with ``Model(..., auto_intersect=False)`` and **zero floating-point coordinates**:
+- **`On Learned Ignorance & Mathematical Writings (1440) <https://geometor.github.io/cusa/de_docta_ignorantia/>`_** — *De Docta Ignorantia* Book I (Chapters 1–23) and Book II (Chapters 11–12), developing the maximum and minimum, the coincidence of geometric figures, the infinite sphere, and centerless cosmology.
+- **`De Mathematicis Complementis <https://geometor.github.io/cusa/de_mathematicis_complementis/>`_** — Cusa's *Scripta Mathematica* (1445–1459), including *De Geometricis Transmutationibus*, *De Mathematicis Complementis*, *De Mathematica Perfectione*, and the *Aurea Propositio*.
 
-   - **Circle–Line Coincidence & Möbius Inversion (`coincidentia_circle_line.py`)**: Exact quadratic-radical sagittae (:math:`1, 2-\sqrt{3}, 4-\sqrt{15}, 8-3\sqrt{7}`), scaling law :math:`\lim_{R\to\infty} R\,h(x,R) = x^2/2`, and conformal unit-circle inversion mapping :math:`C_R` to finite rational circles :math:`M_R = (0, -\frac{R}{2R+1})` converging to :math:`C'_\infty = (0, -\frac{1}{2})`.
-   - **Triangle–Line Coincidence in Rational Trigonometry (`coincidentia_triangle_line.py`)**: Pure rational spreads :math:`s_{A_n} = \frac{4n^2}{(n^2+1)^2} \to 0`, :math:`s_B = \frac{1}{n^2+1} \to 0`, Triple Spread Formula identity, and Triple Quad collinearity residual :math:`\frac{16}{n^2} \to 0`.
-   - **Polygon Exhaustion & *Scripta Mathematica* (`polygon_exhaustion_and_complementa.py`)**: Radical polygon tower (:math:`n = 3, 4, 6, 8, 12`), 1445 *sesquiquartal* rectification (:math:`\pi_{\text{Cusa}} = \frac{24\sqrt{21}}{35} \approx 3.14233762`), and 1458–1459 three-ray law :math:`\theta \approx \frac{3\sin\theta}{2+\cos\theta}` with fifth-order Maclaurin residual :math:`\frac{\theta^5}{180}`.
-   - **Nine Dark/Light `.euclid-graphic` SVGs (`render.py`)**: Exported to ``docsrc/_static/figures/`` with interactive ``data-ref`` and ``data-latex-*`` attributes.
+Repository Contents
+-------------------
 
-Verification & Build
---------------------
+- ``docsrc/`` — Four-track Book Codex, apparatus, and Sphinx documentation compiled by `PHOTON publish <https://github.com/photon-platform/publish>`_.
+- ``resources/`` — Collated Latin sources, witness manifests, apparatus datasets (persons, citations, glossary), and cross-corpus concordances.
+- ``src/geometor/cusa/`` — Python modules for exact symbolic circle-line coincidence, Rational Trigonometry models, polygon exhaustion, and diagram generation.
+
+Local Build & Verification
+--------------------------
 
 .. code-block:: bash
 
-   # Compile all 4-track Codex units, SVGs, witness manifests & apparatus
-   python -m geometor.cusa compile
-
-   # Run standalone symbolic demonstrations
-   python demos/coincidentia_circle_line.py
-   python demos/coincidentia_triangle_line.py
-   python demos/polygon_exhaustion_and_complementa.py
-
-   # Lint, test & build Sphinx Book Codex
-   ruff check src demos tests
-   pytest -v
    publish build
+   uv run --no-sync pytest
 
-License
--------
+Part of the GEOMETOR Knowledge Archive
+--------------------------------------
 
-MIT License. Primary Latin witnesses are in the public domain; all English translations in ``geometor/cusa`` are 100% original GEOMETOR scholarly translations released under MIT.
+Explore all **74 Book Codices** and **11 Mathematical Catalogs** at https://geometor.com/books/.
