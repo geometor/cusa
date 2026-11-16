@@ -92,6 +92,7 @@ def register_latin_track(book_mod: ModuleType | object | None = None) -> bool:
             en_cands = [_qual(f"{stem}.en"), _qual(f"{stem}_en"), _qual(f"{stem}-en")]
             if is_unit_dir:
                 en_cands.append(_qual("en"))
+                en_cands.append(_qual("index"))
             en_doc = next((cand for cand in en_cands if cand in found_docs), None)
             if en_doc and en_doc != la_doc:
                 return [

@@ -15,13 +15,16 @@
     "Heidelberg Academy Edition concordance markers (h I, 1932; h XX, 2010)"
   ],
   "english_translation": "100% Original GEOMETOR Scholarly Translation Rendered Directly from the Public-Domain Latin Witnesses (MIT Licensed; Zero Modern Copyrighted Translation Text)",
-  "unit_count": 5,
+  "unit_count": 11,
   "total_la_paragraphs": 124,
   "total_en_paragraphs": 124,
   "units": [
     {
-      "slug": "unit-1-maximum-ignorantia",
-      "unit_number": "Unit I",
+      "slug": "cap_01_04",
+      "book_slug": "de_docta_ignorantia/liber_i",
+      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_01_04",
+      "unit_number": "Capitula I–IV",
+      "canonical_id": "DI I.1–4",
       "locus_summary": "DI Ded., I.1–4, Ep. (1440)",
       "section_count": 6,
       "la_paragraph_count": 16,
@@ -71,14 +74,17 @@
           "en_paragraphs": 2
         }
       ],
-      "la_source": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt",
-      "en_source": "resources/cusa/sources/unit-1-maximum-ignorantia.en.txt",
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.en.txt",
       "la_sha256": "19cdb84e0a83c27490c1b9d225eb11392ad3fc0ff64f2bd48709667a239b2923",
       "en_sha256": "da2653009ddb0577cfbf134d6347e08f2c7607909e309627d84b996c1044b965"
     },
     {
-      "slug": "unit-2-mathematica-transsumptio",
-      "unit_number": "Unit II",
+      "slug": "cap_11_12",
+      "book_slug": "de_docta_ignorantia/liber_i",
+      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_11_12",
+      "unit_number": "Capitula XI–XII",
+      "canonical_id": "DI I.11–12",
       "locus_summary": "DI I.11–12 (1440)",
       "section_count": 2,
       "la_paragraph_count": 6,
@@ -100,14 +106,17 @@
           "en_paragraphs": 2
         }
       ],
-      "la_source": "resources/cusa/sources/unit-2-mathematica-transsumptio.la.txt",
-      "en_source": "resources/cusa/sources/unit-2-mathematica-transsumptio.en.txt",
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_11_12.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_11_12.en.txt",
       "la_sha256": "e8e4b35252119ae79b18fe00b2a183065a9984bf2495319c34d7faf1b357b8b8",
       "en_sha256": "7ef541eef120944cf9cf02d606c89998a0ddb99af5213042d7e1877f667034f2"
     },
     {
-      "slug": "unit-3-coincidentia-figurarum",
-      "unit_number": "Unit III",
+      "slug": "cap_13_15",
+      "book_slug": "de_docta_ignorantia/liber_i",
+      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_13_15",
+      "unit_number": "Capitula XIII–XV",
+      "canonical_id": "DI I.13–15",
       "locus_summary": "DI I.13–15 (1440)",
       "section_count": 3,
       "la_paragraph_count": 11,
@@ -136,18 +145,21 @@
           "en_paragraphs": 3
         }
       ],
-      "la_source": "resources/cusa/sources/unit-3-coincidentia-figurarum.la.txt",
-      "en_source": "resources/cusa/sources/unit-3-coincidentia-figurarum.en.txt",
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.en.txt",
       "la_sha256": "f493eddd8fa8111a59f6b8ff72de1db093adccb44c7539b4f86216cf87c6d26d",
       "en_sha256": "c9c8c2a9a7ae86e9fe14c8662a65ddc6b92ff80dfc5d77e598701732a5b5dd60"
     },
     {
-      "slug": "unit-4-linea-sphaera-infinita",
-      "unit_number": "Unit IV",
-      "locus_summary": "DI I.16–23 (1440)",
-      "section_count": 8,
-      "la_paragraph_count": 39,
-      "en_paragraph_count": 39,
+      "slug": "cap_16_17",
+      "book_slug": "de_docta_ignorantia/liber_i",
+      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_16_17",
+      "unit_number": "Capitula XVI–XVII",
+      "canonical_id": "DI I.16–17",
+      "locus_summary": "DI I.16–17 (1440)",
+      "section_count": 2,
+      "la_paragraph_count": 11,
+      "en_paragraph_count": 11,
       "parity_verified": true,
       "sections": [
         {
@@ -163,7 +175,25 @@
           "witness": "h I, nn. 47–51 · Paris 1514 fol. 6v–7r · Rotta 1913 pp. 35–38",
           "la_paragraphs": 5,
           "en_paragraphs": 5
-        },
+        }
+      ],
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.en.txt",
+      "la_sha256": "485a5ccdf24ce59758323b3155857ba2374f79968309f3134c66d69b33afbd15",
+      "en_sha256": "d9e3511cacdd5d38d8099b33f2f1aabd9e160e3e3dc96a501aacf43a68018f4e"
+    },
+    {
+      "slug": "cap_18_20",
+      "book_slug": "de_docta_ignorantia/liber_i",
+      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_18_20",
+      "unit_number": "Capitula XVIII–XX",
+      "canonical_id": "DI I.18–20",
+      "locus_summary": "DI I.18–20 (1440)",
+      "section_count": 3,
+      "la_paragraph_count": 14,
+      "en_paragraph_count": 14,
+      "parity_verified": true,
+      "sections": [
         {
           "section_id": "di-bk1-ch18",
           "folio_prefix": "DI I.18",
@@ -184,7 +214,25 @@
           "witness": "h I, nn. 59–62 · Paris 1514 fol. 8r–8v · Rotta 1913 pp. 42–45",
           "la_paragraphs": 4,
           "en_paragraphs": 4
-        },
+        }
+      ],
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.en.txt",
+      "la_sha256": "287ac2b439de6d475ac25abbdb3f642cc99004283d41ead6bc56e82d0e379ada",
+      "en_sha256": "c1f492a199f5dba14ded9e337bd4bc9b97625918714651db056a67713ed87df8"
+    },
+    {
+      "slug": "cap_21_23",
+      "book_slug": "de_docta_ignorantia/liber_i",
+      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_21_23",
+      "unit_number": "Capitula XXI–XXIII",
+      "canonical_id": "DI I.21–23",
+      "locus_summary": "DI I.21–23 (1440)",
+      "section_count": 3,
+      "la_paragraph_count": 14,
+      "en_paragraph_count": 14,
+      "parity_verified": true,
+      "sections": [
         {
           "section_id": "di-bk1-ch21",
           "folio_prefix": "DI I.21",
@@ -207,18 +255,21 @@
           "en_paragraphs": 4
         }
       ],
-      "la_source": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt",
-      "en_source": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt",
-      "la_sha256": "3e248e08c723e3d5fa9976e699bb9a478986be5cf8d32e862fd07ad0dbcd5033",
-      "en_sha256": "7b7eae3607ea0f124f088eaef9685b176c80ab4dad4f250debb97e8681489d94"
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.en.txt",
+      "la_sha256": "475138341bdc8e993a1f3c9c12b2dc9076c36710feb43c86b49cfcf814902737",
+      "en_sha256": "2c726b195a02da072268279949429b04eda45a6a662f4510bc39aeb5b2b409b1"
     },
     {
-      "slug": "unit-5-cosmologia-complementa",
-      "unit_number": "Unit V",
-      "locus_summary": "DI II.11–12 · DGT · DMC · DMP · APM (1440–1459)",
-      "section_count": 6,
-      "la_paragraph_count": 52,
-      "en_paragraph_count": 52,
+      "slug": "cap_11_12",
+      "book_slug": "de_docta_ignorantia/liber_ii",
+      "doc_rel_dir": "de_docta_ignorantia/liber_ii/cap_11_12",
+      "unit_number": "Capitula XI–XII",
+      "canonical_id": "DI II.11–12",
+      "locus_summary": "DI II.11–12 (1440)",
+      "section_count": 2,
+      "la_paragraph_count": 14,
+      "en_paragraph_count": 14,
       "parity_verified": true,
       "sections": [
         {
@@ -234,28 +285,100 @@
           "witness": "h I, nn. 162–174 · Paris 1514 fol. 19r–20v · Rotta 1913 pp. 116–122",
           "la_paragraphs": 8,
           "en_paragraphs": 8
-        },
+        }
+      ],
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.en.txt",
+      "la_sha256": "344201fc9b2b5aa9f564f875c40aae05af7bd1afa74a6ed956965c14481a0373",
+      "en_sha256": "3936716f4fe74394bd4ef3d07df84f3a17fbdbc435ff8541dd8f77cae08a8f29"
+    },
+    {
+      "slug": "transmutatio_1445",
+      "book_slug": "de_mathematicis_complementis",
+      "doc_rel_dir": "de_mathematicis_complementis/transmutatio_1445",
+      "unit_number": "De Geometricis Transmutationibus",
+      "canonical_id": "DGT (1445)",
+      "locus_summary": "DGT (1445)",
+      "section_count": 1,
+      "la_paragraph_count": 11,
+      "en_paragraph_count": 11,
+      "parity_verified": true,
+      "sections": [
         {
           "section_id": "scripta-geom-trans-1445",
           "folio_prefix": "DGT",
           "witness": "h XX, Opuscula Mathematica · Paris 1514 vol. II · Basel 1565 pp. 945–949",
           "la_paragraphs": 11,
           "en_paragraphs": 11
-        },
+        }
+      ],
+      "la_source": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.la.txt",
+      "en_source": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.en.txt",
+      "la_sha256": "5eb85ac929f7e858452ad06f3888e0d5438dc810c7b1e8019061163ed966f3af",
+      "en_sha256": "7c860fbe90b62f7702c123df33b4a131e5e7609924d2e4b17558645dc20411b7"
+    },
+    {
+      "slug": "complementa_1453",
+      "book_slug": "de_mathematicis_complementis",
+      "doc_rel_dir": "de_mathematicis_complementis/complementa_1453",
+      "unit_number": "De Mathematicis Complementis",
+      "canonical_id": "DMC (1453)",
+      "locus_summary": "DMC (1453)",
+      "section_count": 1,
+      "la_paragraph_count": 10,
+      "en_paragraph_count": 10,
+      "parity_verified": true,
+      "sections": [
         {
           "section_id": "scripta-math-compl-1453",
           "folio_prefix": "DMC",
           "witness": "h XX, Opuscula Mathematica · Paris 1514 vol. II · Basel 1565 pp. 1005–1010",
           "la_paragraphs": 10,
           "en_paragraphs": 10
-        },
+        }
+      ],
+      "la_source": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.la.txt",
+      "en_source": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.en.txt",
+      "la_sha256": "63872c65ff2e11a86d2d9786aeb31e84ecba6630b968ffefb69963dfb7d72398",
+      "en_sha256": "f88f3bfc25009928b776dd8cfd5c927dca7fbb6ac2cfea635e4f672ac76c191a"
+    },
+    {
+      "slug": "perfectio_1458",
+      "book_slug": "de_mathematicis_complementis",
+      "doc_rel_dir": "de_mathematicis_complementis/perfectio_1458",
+      "unit_number": "De Mathematica Perfectione",
+      "canonical_id": "DMP (1458)",
+      "locus_summary": "DMP (1458)",
+      "section_count": 1,
+      "la_paragraph_count": 8,
+      "en_paragraph_count": 8,
+      "parity_verified": true,
+      "sections": [
         {
           "section_id": "scripta-math-perf-1458",
           "folio_prefix": "DMP",
           "witness": "h XX, Opuscula Mathematica · Paris 1514 vol. II · Basel 1565 pp. 1110–1114",
           "la_paragraphs": 8,
           "en_paragraphs": 8
-        },
+        }
+      ],
+      "la_source": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.la.txt",
+      "en_source": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.en.txt",
+      "la_sha256": "987208ffa541547d3a230804117587c72b5c3380fffe39d27d5b3ed5a2bd5e4c",
+      "en_sha256": "af879b8f804fb80f29d0e6d53e7068a3a37a9db9f78050f4a0feb87dc29fad3a"
+    },
+    {
+      "slug": "aurea_propositio_1459",
+      "book_slug": "de_mathematicis_complementis",
+      "doc_rel_dir": "de_mathematicis_complementis/aurea_propositio_1459",
+      "unit_number": "Aurea Propositio in Mathematicis",
+      "canonical_id": "APM (1459)",
+      "locus_summary": "APM (1459)",
+      "section_count": 1,
+      "la_paragraph_count": 9,
+      "en_paragraph_count": 9,
+      "parity_verified": true,
+      "sections": [
         {
           "section_id": "scripta-aurea-prop-1459",
           "folio_prefix": "APM",
@@ -264,10 +387,10 @@
           "en_paragraphs": 9
         }
       ],
-      "la_source": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt",
-      "en_source": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt",
-      "la_sha256": "5d45f1778ef3a654e0cc1383c54a43a983f38906f1cf840d45239a82a023e399",
-      "en_sha256": "2b0a7a9b6366d40f55c97c71e088f79f287809a62c351c781cbc2e24325b14c6"
+      "la_source": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.la.txt",
+      "en_source": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.en.txt",
+      "la_sha256": "46897f6ea0826642cf20ada4404b163edf9c9cfb268aff97033094cf04922d0e",
+      "en_sha256": "74a3418d7a7d56aed6763562606f6e33c3a7d741e02ff7f2b34391b2c91068f2"
     }
   ]
 }

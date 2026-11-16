@@ -29,7 +29,9 @@ repo_name = "cusa"
 
 setup_globals(org, org_name, repo, repo_name)  # noqa: F405
 
-project = "GEOMETOR • cusa"
+site_title = "Nicholas of Cusa"
+project = site_title
+html_title = f"{site_title} • {org_name}"
 author = "Nicholas of Cusa • Ed. GEOMETOR"
 copyright = (
     "2026, GEOMETOR • Public-Domain Latin (1440 / 1514–1913) & Original English Critical Codex"
@@ -71,4 +73,8 @@ html_css_files = ["custom.css"]
 autoapi_add_toctree_entry = False
 autoapi_options = [opt for opt in autoapi_options if opt != "imported-members"]  # noqa: F405
 napoleon_use_ivar = True
-suppress_warnings = ["autoapi.python_import_resolution", "toc.not_included"]
+suppress_warnings = [
+    "autoapi.python_import_resolution",
+    "toc.not_included",
+    "app.duplicate_object",
+]

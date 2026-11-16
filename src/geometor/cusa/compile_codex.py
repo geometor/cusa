@@ -5,6 +5,7 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+import shutil
 from pathlib import Path
 
 from geometor.cusa.apparatus import write_apparatus_artifacts
@@ -82,7 +83,10 @@ def verify_unit_parity(unit: CodexUnitSpec) -> dict[str, object]:
         )
     return {
         "slug": unit.slug,
+        "book_slug": unit.book_slug,
+        "doc_rel_dir": unit.doc_rel_dir,
         "unit_number": unit.unit_number,
+        "canonical_id": unit.canonical_id,
         "locus_summary": unit.locus_summary,
         "section_count": len(unit.sections),
         "la_paragraph_count": total_la,
@@ -112,6 +116,14 @@ def write_source_witnesses(repo_root: str | Path) -> dict[str, Path]:
     root = Path(repo_root)
     sources_dir = root / "resources" / "cusa" / "sources"
     sources_dir.mkdir(parents=True, exist_ok=True)
+
+    # Clean legacy unit-* files
+    for old_file in sources_dir.glob("unit-*.txt"):
+        try:
+            old_file.unlink()
+        except OSError:
+            pass
+
     written: dict[str, Path] = {}
     unit_entries: list[dict[str, object]] = []
 
@@ -120,8 +132,8 @@ def write_source_witnesses(repo_root: str | Path) -> dict[str, Path]:
         la_text = _render_plain_witness(unit.sections, lang="la")
         en_text = _render_plain_witness(unit.sections, lang="en")
 
-        la_path = sources_dir / f"{unit.slug}.la.txt"
-        en_path = sources_dir / f"{unit.slug}.en.txt"
+        la_path = sources_dir / f"{unit.source_prefix}.la.txt"
+        en_path = sources_dir / f"{unit.source_prefix}.en.txt"
         la_path.write_text(la_text, encoding="utf-8")
         en_path.write_text(en_text, encoding="utf-8")
         written[str(la_path.relative_to(root))] = la_path
@@ -162,8 +174,8 @@ def write_source_witnesses(repo_root: str | Path) -> dict[str, Path]:
             "Latin Witnesses (MIT Licensed; Zero Modern Copyrighted Translation Text)"
         ),
         "unit_count": len(CODEX_UNITS),
-        "total_la_paragraphs": sum(int(u["la_paragraph_count"]) for u in unit_entries),  # type: ignore[arg-type]
-        "total_en_paragraphs": sum(int(u["en_paragraph_count"]) for u in unit_entries),  # type: ignore[arg-type]
+        "total_la_paragraphs": sum(int(u["la_paragraph_count"]) for u in unit_entries),
+        "total_en_paragraphs": sum(int(u["en_paragraph_count"]) for u in unit_entries),
         "units": unit_entries,
     }
     manifest_path = root / "resources" / "cusa" / "sources_manifest.json"
@@ -176,37 +188,47 @@ def write_source_witnesses(repo_root: str | Path) -> dict[str, Path]:
 
 
 def _render_unit_en_rst(unit: CodexUnitSpec, order_num: int) -> str:
-    """Render ``<slug>/<slug>-en.rst``."""
-    heading_main = f"{unit.unit_number} — {unit.title}"
+    """Render primary ``index.rst`` (English track)."""
     lines = [
         f":order: {order_num}",
         ":layout: book",
-        f":title: {heading_main}",
-        f":canonical_id: {unit.locus_summary}",
-        f":original_id: {unit.locus_summary}",
+        f":title: {unit.title}",
+        f":canonical_id: {unit.canonical_id}",
+        f":original_id: {unit.canonical_id}",
         f":folio: {unit.locus_summary}",
+        ":tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes",
         "",
         f".. _{unit.slug}:",
         f".. _{unit.slug}-en:",
-        "",
-        "=" * len(heading_main),
-        heading_main,
-        "=" * len(heading_main),
-        "",
-        f".. rubric:: {unit.subtitle}",
-        "",
-        ".. epigraph::",
-        "",
-        f"   *{unit.epigraph_la}*",
-        "",
-        f"   {unit.epigraph_en} — **{unit.epigraph_locus}**",
-        "",
-        *_picture_block(unit.figure_svg, unit.title, unit.figure_caption),
     ]
+    for leg in unit.legacy_slugs:
+        if leg not in [sec.section_id for sec in unit.sections]:
+            lines.append(f".. _{leg}:")
+            lines.append(f".. _{leg}-en:")
+
+    lines.extend(
+        [
+            "",
+            "=" * len(unit.title),
+            unit.title,
+            "=" * len(unit.title),
+            "",
+            f".. rubric:: {unit.subtitle}",
+            "",
+            ".. epigraph::",
+            "",
+            f"   *{unit.epigraph_la}*",
+            "",
+            f"   {unit.epigraph_en} — **{unit.epigraph_locus}**",
+            "",
+            *_picture_block(unit.figure_svg, unit.title, unit.figure_caption),
+        ]
+    )
 
     for sec in unit.sections:
         lines.extend(
             [
+                f".. _{sec.section_id}:",
                 f".. _{sec.section_id}-en:",
                 "",
                 sec.heading_en,
@@ -235,30 +257,40 @@ def _render_unit_en_rst(unit: CodexUnitSpec, order_num: int) -> str:
     return "\n".join(lines)
 
 
-def _render_unit_la_rst(unit: CodexUnitSpec) -> str:
-    """Render ``<slug>/<slug>-la.rst``."""
-    heading_main = f"{unit.unit_number} — {unit.title} — Latin (1440 / 1514–1913)"
+def _render_unit_la_rst(unit: CodexUnitSpec, order_num: int) -> str:
+    """Render ``la.rst`` (Latin track)."""
+    heading_main = f"{unit.title} — Latin (1440 / 1514–1913)"
     lines = [
+        f":order: {order_num}",
         ":layout: book",
         ":type: la",
         f":title: {heading_main}",
-        f":canonical_id: {unit.locus_summary}",
-        f":original_id: {unit.locus_summary}",
+        f":canonical_id: {unit.canonical_id}",
+        f":original_id: {unit.canonical_id}",
         f":folio: {unit.locus_summary}",
+        ":tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes",
         "",
         f".. _{unit.slug}-la:",
-        "",
-        "=" * len(heading_main),
-        heading_main,
-        "=" * len(heading_main),
-        "",
-        (
-            f".. rubric:: Textus Latinus Collatis Editionibus Parisiensi (1514), "
-            f"Basileensi (1565) et Rottae (1913) · {unit.locus_summary}"
-        ),
-        "",
-        *_picture_block(unit.figure_svg, unit.title, unit.figure_caption),
     ]
+    for leg in unit.legacy_slugs:
+        if leg not in [sec.section_id for sec in unit.sections]:
+            lines.append(f".. _{leg}-la:")
+
+    lines.extend(
+        [
+            "",
+            "=" * len(heading_main),
+            heading_main,
+            "=" * len(heading_main),
+            "",
+            (
+                f".. rubric:: Textus Latinus Collatis Editionibus Parisiensi (1514), "
+                f"Basileensi (1565) et Rottae (1913) · {unit.locus_summary}"
+            ),
+            "",
+            *_picture_block(unit.figure_svg, unit.title, unit.figure_caption),
+        ]
+    )
 
     for sec in unit.sections:
         lines.extend(
@@ -291,86 +323,107 @@ def _render_unit_la_rst(unit: CodexUnitSpec) -> str:
     return "\n".join(lines)
 
 
-def _render_unit_summary_rst(unit: CodexUnitSpec) -> str:
-    """Render ``<slug>/<slug>-summary.rst``."""
-    heading_main = f"{unit.unit_number} — {unit.title} — Structural Synopsis"
+def _render_unit_summary_rst(unit: CodexUnitSpec, order_num: int) -> str:
+    """Render ``summary.rst`` (Summary track)."""
+    heading_main = f"{unit.title} — Structural Synopsis"
     lines = [
+        f":order: {order_num}",
         ":layout: book",
         ":type: summary",
-        f":title: {unit.unit_number} — {unit.title} — Summary",
-        f":canonical_id: {unit.locus_summary}",
-        f":original_id: {unit.locus_summary}",
+        f":title: {unit.title} — Summary",
+        f":canonical_id: {unit.canonical_id}",
+        f":original_id: {unit.canonical_id}",
         f":folio: {unit.locus_summary}",
+        ":tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes",
         "",
         f".. _{unit.slug}-summary:",
-        "",
-        "=" * len(heading_main),
-        heading_main,
-        "=" * len(heading_main),
-        "",
-        f".. rubric:: Argumentative Architecture & Interactive Diagram Guide · {unit.locus_summary}",
-        "",
-        *_all_unit_pictures(unit),
-        UNIT_SUMMARIES[unit.slug],
-        "",
     ]
+    for leg in unit.legacy_slugs:
+        if leg not in [sec.section_id for sec in unit.sections]:
+            lines.append(f".. _{leg}-summary:")
+
+    lines.extend(
+        [
+            "",
+            "=" * len(heading_main),
+            heading_main,
+            "=" * len(heading_main),
+            "",
+            f".. rubric:: Argumentative Architecture & Interactive Diagram Guide · {unit.locus_summary}",
+            "",
+            *_all_unit_pictures(unit),
+            UNIT_SUMMARIES[unit.key],
+            "",
+        ]
+    )
     return "\n".join(lines)
 
 
-def _render_unit_notes_rst(unit: CodexUnitSpec) -> str:
-    """Render ``<slug>/<slug>-notes.rst``."""
-    heading_main = f"{unit.unit_number} — {unit.title} — Critical Commentary & Notes"
+def _render_unit_notes_rst(unit: CodexUnitSpec, order_num: int) -> str:
+    """Render ``notes.rst`` (Notes track)."""
+    heading_main = f"{unit.title} — Critical Commentary & Notes"
     lines = [
+        f":order: {order_num}",
         ":layout: book",
         ":type: notes",
-        f":title: {unit.unit_number} — {unit.title} — Notes",
-        f":canonical_id: {unit.locus_summary}",
-        f":original_id: {unit.locus_summary}",
+        f":title: {unit.title} — Notes",
+        f":canonical_id: {unit.canonical_id}",
+        f":original_id: {unit.canonical_id}",
         f":folio: {unit.locus_summary}",
+        ":tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes",
         "",
         f".. _{unit.slug}-notes:",
-        "",
-        "=" * len(heading_main),
-        heading_main,
-        "=" * len(heading_main),
-        "",
-        (
-            f".. rubric:: Exact Symbolic Reconstruction, Latin Philology & Canon Reception · "
-            f"{unit.locus_summary}"
-        ),
-        "",
-        *_all_unit_pictures(unit),
-        UNIT_NOTES[unit.slug],
-        "",
-        "IV. Executable Symbolic Verification",
-        "------------------------------------",
-        "",
-        (
-            "In accordance with GEOMETOR's strict content/code separation for historical editions, "
-            "executable ``geometor.model`` SymPy constructions, Rational Trigonometry proofs, and "
-            f"series-error audits for **{unit.unit_number}** live in ``src/geometor/cusa/`` and "
-            f"the companion walkthrough :doc:`{unit.demo_doc}`."
-        ),
-        "",
     ]
+    for leg in unit.legacy_slugs:
+        if leg not in [sec.section_id for sec in unit.sections]:
+            lines.append(f".. _{leg}-notes:")
+
+    lines.extend(
+        [
+            "",
+            "=" * len(heading_main),
+            heading_main,
+            "=" * len(heading_main),
+            "",
+            (
+                f".. rubric:: Exact Symbolic Reconstruction, Latin Philology & Canon Reception · "
+                f"{unit.locus_summary}"
+            ),
+            "",
+            *_all_unit_pictures(unit),
+            UNIT_NOTES[unit.key],
+            "",
+            "IV. Executable Symbolic Verification",
+            "------------------------------------",
+            "",
+            (
+                "In accordance with GEOMETOR's strict content/code separation for historical editions, "
+                "executable ``geometor.model`` SymPy constructions, Rational Trigonometry proofs, and "
+                f"series-error audits for **{unit.title}** live in ``src/geometor/cusa/`` and "
+                f"the companion walkthrough :doc:`{unit.demo_doc}`."
+            ),
+            "",
+        ]
+    )
     return "\n".join(lines)
 
 
-def render_book_index_rst() -> str:
+def render_de_docta_ignorantia_index_rst() -> str:
     """Render ``docsrc/de_docta_ignorantia/index.rst``."""
-    h1_title = "On Learned Ignorance & Mathematical Writings"
+    h1_title = "On Learned Ignorance & Mathematical Writings (1440)"
     lines = [
         ":navigation: header",
         ":order: 1",
         ":nav_title: Learned Ignorance",
         ":layout: book",
+        ":type: book",
         f":book_title: {h1_title}",
         (
             ":book_subtitle: Nicholas of Cusa (1401–1464) · Latin (1440 / 1514–1913) & "
             "Original GEOMETOR English Codex"
         ),
         ":author: Nicholas of Cusa",
-        ":year: 1440–1459",
+        ":year: 1440",
         ":book_theme: classical-serif",
         "",
         ".. _de-docta-ignorantia:",
@@ -379,7 +432,7 @@ def render_book_index_rst() -> str:
         h1_title,
         "=" * len(h1_title),
         "",
-        ".. rubric:: *De Docta Ignorantia et Scripta Mathematica* — Nicholas of Cusa (1440–1458)",
+        ".. rubric:: *De Docta Ignorantia Libri Tres* — Nicholas of Cusa (Kues, February 12, 1440)",
         "",
         ".. container:: title-page",
         "",
@@ -391,68 +444,209 @@ def render_book_index_rst() -> str:
         "   | *GEOMETOR Digital Edition*: 100% Original English Translation with Synchronized Latin Witness",
         "",
         (
-            "**De Docta Ignorantia et Scripta Mathematica** presents in a critical Digital "
+            "**De Docta Ignorantia** presents in a critical Digital "
             "Scriptorium edition the complete geometric, epistemological, and cosmological core of "
             ":person:`Nicholas of Cusa's <cusanus>` *De Docta Ignorantia* (completed at Kues on "
-            "**February 12, 1440**) alongside his four landmark mathematical treatises: "
-            "*De Geometricis Transmutationibus* (**1445**), *De Mathematicis Complementis* "
-            "(**1453**), *De Mathematica Perfectione* (**1458**), and the complete *Aurea "
-            "Propositio in Mathematicis* (**August 8, 1459**)."
+            "**February 12, 1440**)."
         ),
         "",
         (
-            "Every unit is presented across **four synchronized tracks**—**English** (a freshly "
+            "Every chapter is presented across **four synchronized tracks**—**English** (a freshly "
             "authored, 100% original GEOMETOR translation rendered directly from the Latin), "
             "**Latin (1440 / 1514–1913)** (collated from :person:`Paolo Rotta's <klibansky>` 1913 "
             "edition with :person:`Raymond Klibansky's <klibansky>` archival restorations and the "
-            "1514 Paris / 1565 Basel *Opera*), **Summary**, and **Critical Notes** (pairing nine "
-            "interactive ``.euclid-graphic`` SVG constructions with reception across "
-            ":person:`Plato <plato>`, :person:`Aristotle <aristotle>`, :person:`Euclid <euclid>`, "
-            ":person:`Archimedes <archimedes>`, :person:`Proclus <proclus>`, "
-            ":person:`Aquinas <aquinas>`, :person:`Regiomontanus <regiomontanus>`, "
-            ":person:`Kepler <kepler>`, :person:`Snellius & Huygens <snellius>`, "
-            ":person:`Klein <klein>`, and :person:`Wildberger <wildberger>`)."
+            "1514 Paris / 1565 Basel *Opera*), **Summary**, and **Critical Notes** (pairing interactive "
+            "``.euclid-graphic`` SVG constructions with historical reception across antiquity, "
+            "the Middle Ages, the Renaissance, and modern geometry)."
         ),
         "",
-        "Table of Contents",
-        "-----------------",
+        "Books of the Treatise",
+        "---------------------",
+        "",
+        ".. collection::",
+        "   :sort: order",
         "",
         ".. toctree::",
-        "   :maxdepth: 1",
-        "   :caption: Table of Contents",
+        "   :hidden:",
+        "   :maxdepth: 2",
+        "",
+        "   liber_i/index",
+        "   liber_ii/index",
         "",
     ]
+    return "\n".join(lines)
 
-    for unit in CODEX_UNITS:
-        lines.append(f"   {unit.slug}/{unit.slug}-en")
 
-    lines.extend(
-        [
-            "",
-            "Scholarly Apparatus",
-            "-------------------",
-            "",
-            ".. toctree::",
-            "   :maxdepth: 1",
-            "   :caption: Scholarly Apparatus",
-            "",
-            "   concordance",
-            "   bibliography",
-            "   persons",
-            "   glossary",
-            "",
-            ".. toctree::",
-            "   :hidden:",
-            "",
-        ]
-    )
+def render_liber_i_index_rst() -> str:
+    """Render ``docsrc/de_docta_ignorantia/liber_i/index.rst``."""
+    h1 = "Liber I — De Maximo Absoluto"
+    lines = [
+        ":order: 1",
+        ":layout: book",
+        ":type: part",
+        f":title: {h1}",
+        ":canonical_id: DI Liber I",
+        f":book_title: {h1}",
+        ":book_subtitle: The Absolute Maximum & Geometric Transsumption (1440)",
+        ":author: Nicholas of Cusa",
+        ":year: 1440",
+        ":excerpt: Nicholas of Cusa's investigations into the Absolute Maximum, polygon exhaustion, and the three-step method of mathematical transsumption.",
+        "",
+        ".. _de-docta-ignorantia-liber-i:",
+        "",
+        "=" * len(h1),
+        h1,
+        "=" * len(h1),
+        "",
+        ".. rubric:: *De Docta Ignorantia · Liber Primus* — Nicholas of Cusa (1440)",
+        "",
+        ".. container:: title-page",
+        "",
+        "   | **Nicholas of Cusa** (*Nicolaus Cusanus*, 1401–1464)",
+        "   |",
+        "   | *Liber Primus: De Maximo Absoluto*",
+        "   | Dedicated to Cardinal Julian Cesarini (*Dedicatio ad Dominum Iulianum Cardinalem*)",
+        "   | Completed at Kues on February 12, 1440 (*Epistola Auctoris*)",
+        "",
+        (
+            "Book I investigates the Absolute Maximum—that than which nothing can be greater—which "
+            "transcends all comparative proportion and in which the superlative Minimum coincides. "
+            "Through the mathematical transsumption of the straight line, triangle, circle, and sphere, "
+            "Cusa demonstrates how geometric symbols serve as an incorruptible ladder to intellectual vision."
+        ),
+        "",
+        "Capitula of Book I",
+        "------------------",
+        "",
+        ".. collection::",
+        "   :sort: order",
+        "",
+        ".. toctree::",
+        "   :hidden:",
+        "   :maxdepth: 2",
+        "",
+        "   cap_01_04/index",
+        "   cap_11_12/index",
+        "   cap_13_15/index",
+        "   cap_16_17/index",
+        "   cap_18_20/index",
+        "   cap_21_23/index",
+        "",
+    ]
+    return "\n".join(lines)
 
-    for unit in CODEX_UNITS:
-        lines.append(f"   {unit.slug}/{unit.slug}-la")
-        lines.append(f"   {unit.slug}/{unit.slug}-summary")
-        lines.append(f"   {unit.slug}/{unit.slug}-notes")
 
-    lines.append("")
+def render_liber_ii_index_rst() -> str:
+    """Render ``docsrc/de_docta_ignorantia/liber_ii/index.rst``."""
+    h1 = "Liber II — De Universo et Cosmologia"
+    lines = [
+        ":order: 2",
+        ":layout: book",
+        ":type: part",
+        f":title: {h1}",
+        ":canonical_id: DI Liber II",
+        f":book_title: {h1}",
+        ":book_subtitle: Centerless Cosmology & the Fabric of the World (1440)",
+        ":author: Nicholas of Cusa",
+        ":year: 1440",
+        ":excerpt: Nicholas of Cusa's revolutionary centerless cosmology: motion in the contracted universe, relativity of observers, and the moving Earth as a noble star.",
+        "",
+        ".. _de-docta-ignorantia-liber-ii:",
+        "",
+        "=" * len(h1),
+        h1,
+        "=" * len(h1),
+        "",
+        ".. rubric:: *De Docta Ignorantia · Liber Secundus* — Nicholas of Cusa (1440)",
+        "",
+        ".. container:: title-page",
+        "",
+        "   | **Nicholas of Cusa** (*Nicolaus Cusanus*, 1401–1464)",
+        "   |",
+        "   | *Liber Secundus: De Universo et Cosmologia*",
+        "   | Kinematic Relativity & Astrophysical Homogeneity",
+        "",
+        (
+            "Book II develops the cosmology of the contracted universe. Because exact physical "
+            "equidistance never occurs in nature, no celestial body can occupy an immobile geometric "
+            "center, nor do fixed celestial poles exist. The universe is as though having its center "
+            "everywhere and its circumference nowhere (*quasi habens undique centrum et nullibi circumferentiam*)."
+        ),
+        "",
+        "Capitula of Book II",
+        "-------------------",
+        "",
+        ".. collection::",
+        "   :sort: order",
+        "",
+        ".. toctree::",
+        "   :hidden:",
+        "   :maxdepth: 2",
+        "",
+        "   cap_11_12/index",
+        "",
+    ]
+    return "\n".join(lines)
+
+
+def render_de_mathematicis_complementis_index_rst() -> str:
+    """Render ``docsrc/de_mathematicis_complementis/index.rst``."""
+    h1 = "De Mathematicis Complementis"
+    lines = [
+        ":navigation: header",
+        ":order: 2",
+        ":type: book",
+        f":nav_title: {h1}",
+        f":breadcrumb_title: {h1}",
+        ":layout: book",
+        f":book_title: {h1}",
+        ":book_subtitle: Scripta Mathematica (1445–1459) — Nicholas of Cusa",
+        ":author: Nicholas of Cusa",
+        ":year: 1453",
+        ":book_theme: classical-serif",
+        ":excerpt: Nicholas of Cusa's constructive mathematical treatises on isoperimetric transmutations, Archimedes' spiral, circle quadrature, and the Golden Proposition.",
+        "",
+        ".. _de-mathematicis-complementis:",
+        "",
+        "=" * len(h1),
+        h1,
+        "=" * len(h1),
+        "",
+        ".. rubric:: *Scripta Mathematica* (1445–1459) — Nicholas of Cusa",
+        "",
+        ".. container:: title-page",
+        "",
+        "   | **Nicholas of Cusa** (*Nicolaus Cusanus*, 1401–1464)",
+        "   | Cardinal Priest of San Pietro in Vincoli · Bishop of Brixen",
+        "   |",
+        "   | *First Edition*: Paris (Jodocus Badius Ascensius, 1514, ed. Jacques Lefèvre d'Étaples)",
+        "   | *Critical Editions*: Heidelberg (*Opera Omnia* XX, 2010) · Paris / Basel (1514 / 1565)",
+        "   | *GEOMETOR Digital Edition*: 100% Original English Translation with Synchronized Latin Witness",
+        "",
+        (
+            "*De Mathematicis Complementis* and Cusa's companion *Scripta Mathematica* represent "
+            "the cardinal's constructive geometric treatises composed between 1445 and 1459. "
+            "Spanning isoperimetric polygons, circle rectification, the critical dissection of "
+            "Archimedes' spiral, and the Golden Proposition (*Aurea Propositio*), these works apply "
+            "the principles of learned ignorance to constructive geometry."
+        ),
+        "",
+        "Treatises & Mathematical Writings",
+        "---------------------------------",
+        "",
+        ".. collection::",
+        "   :sort: order",
+        "",
+        ".. toctree::",
+        "   :hidden:",
+        "   :maxdepth: 2",
+        "",
+        "   transmutatio_1445/index",
+        "   complementa_1453/index",
+        "   perfectio_1458/index",
+        "   aurea_propositio_1459/index",
+        "",
+    ]
     return "\n".join(lines)
 
 
@@ -468,7 +662,29 @@ def compile_all_codex(repo_root: str | Path, *, regen_figures: bool = True) -> d
     """
     root = Path(repo_root)
     codex_dir = root / "docsrc" / "de_docta_ignorantia"
+    dmc_dir = root / "docsrc" / "de_mathematicis_complementis"
     codex_dir.mkdir(parents=True, exist_ok=True)
+    dmc_dir.mkdir(parents=True, exist_ok=True)
+
+    # Clean legacy unit-* directories and mislocated apparatus from de_docta_ignorantia/
+    for old_slug in (
+        "unit-1-maximum-ignorantia",
+        "unit-2-mathematica-transsumptio",
+        "unit-3-coincidentia-figurarum",
+        "unit-4-linea-sphaera-infinita",
+        "unit-5-cosmologia-complementa",
+    ):
+        target_dir = codex_dir / old_slug
+        if target_dir.is_dir():
+            shutil.rmtree(target_dir, ignore_errors=True)
+
+    for app_fname in ("glossary.rst", "persons.rst", "bibliography.rst", "concordance.rst"):
+        target_file = codex_dir / app_fname
+        if target_file.is_file():
+            try:
+                target_file.unlink()
+            except OSError:
+                pass
 
     written: dict[str, Path] = {}
 
@@ -480,20 +696,38 @@ def compile_all_codex(repo_root: str | Path, *, regen_figures: bool = True) -> d
     written.update(write_apparatus_artifacts(root))
     written.update(write_concordance_artifacts(root))
 
-    index_path = codex_dir / "index.rst"
-    index_path.write_text(render_book_index_rst(), encoding="utf-8")
-    written[str(index_path.relative_to(root))] = index_path
+    # Container pages
+    di_index = codex_dir / "index.rst"
+    di_index.write_text(render_de_docta_ignorantia_index_rst(), encoding="utf-8")
+    written[str(di_index.relative_to(root))] = di_index
 
+    lib_i_dir = codex_dir / "liber_i"
+    lib_i_dir.mkdir(parents=True, exist_ok=True)
+    lib_i_index = lib_i_dir / "index.rst"
+    lib_i_index.write_text(render_liber_i_index_rst(), encoding="utf-8")
+    written[str(lib_i_index.relative_to(root))] = lib_i_index
+
+    lib_ii_dir = codex_dir / "liber_ii"
+    lib_ii_dir.mkdir(parents=True, exist_ok=True)
+    lib_ii_index = lib_ii_dir / "index.rst"
+    lib_ii_index.write_text(render_liber_ii_index_rst(), encoding="utf-8")
+    written[str(lib_ii_index.relative_to(root))] = lib_ii_index
+
+    dmc_index = dmc_dir / "index.rst"
+    dmc_index.write_text(render_de_mathematicis_complementis_index_rst(), encoding="utf-8")
+    written[str(dmc_index.relative_to(root))] = dmc_index
+
+    # 11 Atomic leaf units across 4 tracks
     for idx, unit in enumerate(CODEX_UNITS, start=1):
         verify_unit_parity(unit)
-        unit_dir = codex_dir / unit.slug
+        unit_dir = root / "docsrc" / unit.doc_rel_dir
         unit_dir.mkdir(parents=True, exist_ok=True)
 
         track_files = {
-            f"{unit.slug}-en.rst": _render_unit_en_rst(unit, idx * 10),
-            f"{unit.slug}-la.rst": _render_unit_la_rst(unit),
-            f"{unit.slug}-summary.rst": _render_unit_summary_rst(unit),
-            f"{unit.slug}-notes.rst": _render_unit_notes_rst(unit),
+            "index.rst": _render_unit_en_rst(unit, idx * 10),
+            "la.rst": _render_unit_la_rst(unit, idx * 10),
+            "summary.rst": _render_unit_summary_rst(unit, idx * 10),
+            "notes.rst": _render_unit_notes_rst(unit, idx * 10),
         }
         for fname, content in track_files.items():
             target = unit_dir / fname

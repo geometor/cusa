@@ -966,7 +966,7 @@ def write_apparatus_artifacts(repo_root: str | Path) -> dict[str, Path]:
             )
             written[str(target.relative_to(root))] = target
 
-    rst_dir = root / "docsrc" / "de_docta_ignorantia"
+    rst_dir = root / "docsrc"
     rst_dir.mkdir(parents=True, exist_ok=True)
     for filename, content in (
         ("glossary.rst", render_glossary_rst()),

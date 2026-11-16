@@ -17,7 +17,7 @@ In strict accordance with **GEOMETOR's Content / Code Separation**, the historic
 1. *De Docta Ignorantia* ``I.13`` — Tangent Circle Pencil & Conformal Möbius Inversion
 --------------------------------------------------------------------------------------
 
-*Codex Reference*: :doc:`Unit III — Coincidence of Figures (Critical Notes) </de_docta_ignorantia/unit-3-coincidentia-figurarum/unit-3-coincidentia-figurarum-notes>` · *Script*: ``demos/coincidentia_circle_line.py``
+*Codex Reference*: :doc:`Capitula XIII–XV — De Coincidentia Figurarum (Notes) </de_docta_ignorantia/liber_i/cap_13_15/notes>` · *Script*: ``demos/coincidentia_circle_line.py``
 
 .. picture:: /_static/figures/cusa_circle_line_pencil.svg
    :caption: Tangent circle pencil C_1, C_2, C_4, C_8 above straight horizon AB (y = 0) with exact radical sagittae 1, 2 - sqrt(3), 4 - sqrt(15), 8 - 3*sqrt(7) along vertical secant x = 1.
@@ -52,7 +52,7 @@ In strict accordance with **GEOMETOR's Content / Code Separation**, the historic
 2. *De Docta Ignorantia* ``I.14–15`` — Flattening Triangles in Rational Trigonometry
 ------------------------------------------------------------------------------------
 
-*Codex Reference*: :doc:`Unit III — Coincidence of Figures (Critical Notes) </de_docta_ignorantia/unit-3-coincidentia-figurarum/unit-3-coincidentia-figurarum-notes>` · *Script*: ``demos/coincidentia_triangle_line.py``
+*Codex Reference*: :doc:`Capitula XIII–XV — De Coincidentia Figurarum (Notes) </de_docta_ignorantia/liber_i/cap_13_15/notes>` · *Script*: ``demos/coincidentia_triangle_line.py``
 
 .. picture:: /_static/figures/cusa_flattening_triangles.svg
    :caption: Nested isosceles triangles B A_n C over fixed base BC = 2 with altitudes 1/n: pure rational apex spreads s_A = 4n^2/(n^2+1)^2 -> 0 and Triple Quad collinearity residual 16/n^2 -> 0.
@@ -81,7 +81,7 @@ In strict accordance with **GEOMETOR's Content / Code Separation**, the historic
 3. Polygon Exhaustion (``I.3``) & *Scripta Mathematica* (``1445–1459``)
 -----------------------------------------------------------------------
 
-*Codex Reference*: :doc:`Unit I </de_docta_ignorantia/unit-1-maximum-ignorantia/unit-1-maximum-ignorantia-notes>` & :doc:`Unit V </de_docta_ignorantia/unit-5-cosmologia-complementa/unit-5-cosmologia-complementa-notes>` · *Script*: ``demos/polygon_exhaustion_and_complementa.py``
+*Codex Reference*: :doc:`Liber I, Cap. I–IV (Notes) </de_docta_ignorantia/liber_i/cap_01_04/notes>` & :doc:`De Geometricis Transmutationibus (Notes) </de_mathematicis_complementis/transmutatio_1445/notes>` · *Script*: ``demos/polygon_exhaustion_and_complementa.py``
 
 .. picture:: /_static/figures/cusa_transmutatio_1445.svg
    :caption: De Geometricis Transmutationibus (1445, §§9–11): quarter-side ray AE = sqrt(7)/4 extended in 5:4 sesquiquartal ratio to AH = 5*sqrt(7)/16, implying pi ~= 24*sqrt(21)/35 ~= 3.14233762.

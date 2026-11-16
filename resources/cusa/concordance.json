@@ -5,7 +5,7 @@
     {
       "id": "cusa:ddi:dedicatio",
       "locus": "De Docta Ignorantia, Dedicatio & Epistola auctoris (Feb 12, 1440)",
-      "unit": "unit-1-maximum-ignorantia",
+      "unit": "de_docta_ignorantia/liber_i/cap_01_04",
       "theme": "Wonder (admiratio) & the Sea-Voyage Illumination of Coincidentia Oppositorum",
       "ancient_medieval_links": [
         "plato: Theaetetus 155d (wonder as origin of philosophy)",
@@ -21,7 +21,7 @@
     {
       "id": "cusa:ddi:I.1",
       "locus": "De Docta Ignorantia I.1 (Quomodo scire est ignorare)",
-      "unit": "unit-1-maximum-ignorantia",
+      "unit": "de_docta_ignorantia/liber_i/cap_01_04",
       "theme": "Comparative Inquiry via Proportion, Number & Socratic Learned Ignorance",
       "ancient_medieval_links": [
         "plato: Apology 21d & Meno 80d–84c (knowing one's ignorance as spur to inquiry)",
@@ -37,7 +37,7 @@
     {
       "id": "cusa:ddi:I.2-4",
       "locus": "De Docta Ignorantia I.2 & I.4 (Maximum absolutum & Coincidentia minimi)",
-      "unit": "unit-1-maximum-ignorantia",
+      "unit": "de_docta_ignorantia/liber_i/cap_01_04",
       "theme": "The Absolute Maximum and Coincidence of Maximum & Minimum Beyond Non-Contradiction",
       "ancient_medieval_links": [
         "plato: Parmenides 137c–142a & Philebus 24a–25d (the 'more and less' vs. uncontracted One)",
@@ -52,7 +52,7 @@
     {
       "id": "cusa:ddi:I.3",
       "locus": "De Docta Ignorantia I.3 (Quod praecisa veritas sit incomprehensibilis)",
-      "unit": "unit-1-maximum-ignorantia",
+      "unit": "de_docta_ignorantia/liber_i/cap_01_04",
       "theme": "Inscribed Polygon Exhaustion & Incommensurability of Non-Circle with Circle",
       "ancient_medieval_links": [
         "euclid: Elements IV.2–15 & XII.2 (inscribed/circumscribed polygons & exhaustion)",
@@ -68,7 +68,7 @@
     {
       "id": "cusa:ddi:I.11",
       "locus": "De Docta Ignorantia I.11 (Quod mathematica nos iuvet plurimum)",
-      "unit": "unit-2-mathematica-transsumptio",
+      "unit": "de_docta_ignorantia/liber_i/cap_11_12",
       "theme": "Incorruptible Certainty of Mathematical Signs & Refutation of Indivisible Atoms",
       "ancient_medieval_links": [
         "plato: Republic VI–VII, 510b–527c (mathematicals drawing soul toward essence)",
@@ -84,7 +84,7 @@
     {
       "id": "cusa:ddi:I.12",
       "locus": "De Docta Ignorantia I.12 (Quomodo signis mathematicalibus sit utendum)",
-      "unit": "unit-2-mathematica-transsumptio",
+      "unit": "de_docta_ignorantia/liber_i/cap_11_12",
       "theme": "The Three-Step Method of Mathematical Transsumption (Finitum -> Infinitum -> Simplex)",
       "ancient_medieval_links": [
         "plato: Republic VI, 510b–511d (ascent from hypothetical figures to unhypothetical first principle)",
@@ -98,7 +98,7 @@
     {
       "id": "cusa:ddi:I.13",
       "locus": "De Docta Ignorantia I.13 (De passionibus lineae maximae et infinitae)",
-      "unit": "unit-3-coincidentia-figurarum",
+      "unit": "de_docta_ignorantia/liber_i/cap_13_15",
       "theme": "Coincidence of the Infinite Circle & Tangent Arc with the Infinite Straight Line",
       "ancient_medieval_links": [
         "plato: Parmenides 137e (definitions of straight and round)",
@@ -115,7 +115,7 @@
     {
       "id": "cusa:ddi:I.14",
       "locus": "De Docta Ignorantia I.14 (Quod infinita linea sit triangulus)",
-      "unit": "unit-3-coincidentia-figurarum",
+      "unit": "de_docta_ignorantia/liber_i/cap_13_15",
       "theme": "Collapse of the Flattening Triangle onto the Straight Line as Apex Approaches Two Right Angles",
       "ancient_medieval_links": [
         "euclid: Elements I.20 (triangle inequality BA + AC > BC) & I.32 (angle sum = 2 right angles)",
@@ -129,7 +129,7 @@
     {
       "id": "cusa:ddi:I.15",
       "locus": "De Docta Ignorantia I.15 (Quod ille triangulus sit circulus et sphaera)",
-      "unit": "unit-3-coincidentia-figurarum",
+      "unit": "de_docta_ignorantia/liber_i/cap_13_15",
       "theme": "Generative Circumduction of the Infinite Line into Triangle, Circle & Sphere",
       "ancient_medieval_links": [
         "euclid: Elements I, Post. 3 & XI, Def. 14 (sphere defined by semicircle rotation around fixed diameter)",
@@ -144,7 +144,7 @@
     {
       "id": "cusa:ddi:I.16-18",
       "locus": "De Docta Ignorantia I.16–18 (Mensura adaequatissima & Participatio rectitudinis)",
-      "unit": "unit-4-linea-sphaera-infinita",
+      "unit": "de_docta_ignorantia/liber_i/cap_16_17",
       "theme": "The Infinite Line as Exact Measure of All Lines & Rectitude as Measure of the Curved",
       "ancient_medieval_links": [
         "plato: Phaedo 100b–e (participation in the single Idea, cited via Calcidius in I.17)",
@@ -159,7 +159,7 @@
     {
       "id": "cusa:ddi:I.19-23",
       "locus": "De Docta Ignorantia I.19, I.21–23 (Triangulus, Circulus & Sphaera Infinita)",
-      "unit": "unit-4-linea-sphaera-infinita",
+      "unit": "de_docta_ignorantia/liber_i/cap_21_23",
       "theme": "Coincidence of Center, Diameter & Circumference in the Infinite Circle and Sphere",
       "ancient_medieval_links": [
         "plato: Parmenides 137e & Timaeus 33b (spherical equidistance and perfection)",
@@ -175,7 +175,7 @@
     {
       "id": "cusa:ddi:II.11-12",
       "locus": "De Docta Ignorantia II.11–12 (Corollaria de motu & De condicionibus terrae)",
-      "unit": "unit-5-cosmologia-complementa",
+      "unit": "de_docta_ignorantia/liber_ii/cap_11_12",
       "theme": "Decentered Universe, Perspectival Relativity of Motion & the Noble Moving Earth",
       "ancient_medieval_links": [
         "plato: Timaeus 30b, 34a–b, 40b–c (world as living organism & axial/cosmic motions)",
@@ -190,7 +190,7 @@
     {
       "id": "cusa:transmut:1445:9-11",
       "locus": "De Geometricis Transmutationibus (1445), §§1–5, 9–11",
-      "unit": "unit-5-cosmologia-complementa",
+      "unit": "de_mathematicis_complementis/transmutatio_1445",
       "theme": "Quarter-Side Sesquiquarta (5:4) Rectification of the Inscribed Equilateral Triangle",
       "ancient_medieval_links": [
         "euclid: Elements IV.2, IV.4 & I.47 (inscribed triangle, incircle, and Pythagorean quadrance Q(A,E)=7/16)",
@@ -205,7 +205,7 @@
     {
       "id": "cusa:compl:1453:1-10",
       "locus": "De Mathematicis Complementis (1453), §§1–10",
-      "unit": "unit-5-cosmologia-complementa",
+      "unit": "de_mathematicis_complementis/complementa_1453",
       "theme": "Critique of Archimedes' Spiral & Theory of Prima Linea (Inradius) and Secunda Linea (Circumradius)",
       "ancient_medieval_links": [
         "archimedes: De Lineis Spiralibus Prop. 18 & Dimensio Circuli Prop. 1",
@@ -219,14 +219,15 @@
     {
       "id": "cusa:aurea:1458-1459",
       "locus": "De Mathematica Perfectione (1458) §§1–6 & Aurea Propositio in Mathematicis (1459) §§1–7",
-      "unit": "unit-5-cosmologia-complementa",
+      "unit": "de_mathematicis_complementis/aurea_propositio_1459",
       "theme": "Three-Ray Chord–Arc–Tangent Invariance & Fifth-Order Snellius–Cusa Rectification Law",
       "ancient_medieval_links": [
-        "euclid: Elements III.16, III.18 & VI.4 (similar right triangles equating chord and tangent three-ray ratios)",
-        "archimedes: Dimensio Circuli Prop. 3 (half-angle bisection improved from O(theta^3) to O(theta^5))"
+        "archimedes: De Sphaera et Cylindro I, Postulate 5 & Dimensio Circuli Prop. 3",
+        "ptolemy: Almagest I.10 (table of chords & chord interpolation)"
       ],
       "renaissance_modern_links": [
-        "snellius & huygens: Cyclometricus (1621) & De Circuli Magnitudine Inventa (1654) (theta - 3 sin theta / (2 + cos theta) = theta^5/180 + O(theta^7))"
+        "snellius: Cyclometricus (1621), Theorem 33 (exact rediscovery of Cusa's ratio: arc / chord = 3 / (2 + cos theta))",
+        "huygens: De Circuli Magnitudine Inventa (1654), Prop. IX (rigorous proof of Snellius–Cusa bound via exhaustion)"
       ],
       "symbolic_hook": "geometor.cusa.polygon_exhaustion_and_complementa.construct_aurea_propositio"
     }

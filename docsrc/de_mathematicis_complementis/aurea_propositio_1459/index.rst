@@ -1,0 +1,92 @@
+:order: 110
+:layout: book
+:title: Aurea Propositio in Mathematicis — Three-Ray Sum Invariance and the Golden Proposition
+:canonical_id: APM (1459)
+:original_id: APM (1459)
+:folio: APM (1459)
+:tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes
+
+.. _aurea_propositio_1459:
+.. _aurea_propositio_1459-en:
+
+======================================================================================
+Aurea Propositio in Mathematicis — Three-Ray Sum Invariance and the Golden Proposition
+======================================================================================
+
+.. rubric:: Three-Ray Radial Sum Invariance and the Complete Geometric Proof of the Golden Proposition (August 8, 1459)
+
+.. epigraph::
+
+   *Ipsa est aurea propositio, in qua per rectam lineam rectificatur circuli circumferentia, manente summa trium radiorum aequali tribus semidiametris.*
+
+   This is the Golden Proposition, wherein through a straight line the circle's circumference is rectified while the sum of the three rays remains equal to three semidiameters. — **Aurea Propositio in Mathematicis §1**
+
+.. picture:: /_static/figures/cusa_aurea_propositio_1459.svg
+   :alt: Aurea Propositio in Mathematicis — Three-Ray Sum Invariance and the Golden Proposition
+   :caption: Aurea Propositio in Mathematicis (August 8, 1459) — Exact Q(sqrt(3)) Sector (theta = pi/6): Balanced Rectifying Segment I–K–L with |AI| + |AK| + |AL| = 3R and Fifth-Order Maclaurin Residual theta^5/180.
+
+.. _scripta-aurea-prop-1459:
+.. _scripta-aurea-prop-1459-en:
+
+Aurea Propositio in Mathematicis (Rome, August 8, 1459, §§1–7 & Colophon — Complete) — Three-Ray Radial Sum Invariance and the Cusa–Snellius–Huygens Law
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*Original GEOMETOR Translation from the Latin · h XX, Opuscula Mathematica · Basel 1565 pp. 1145–1146*
+
+.. picture:: /_static/figures/cusa_aurea_propositio_1459.svg
+   :alt: Aurea Propositio in Mathematicis (Rome, August 8, 1459, §§1–7 & Colophon — Complete) — Three-Ray Radial Sum Invariance and the Cusa–Snellius–Huygens Law
+   :caption: Aurea Propositio in Mathematicis (1459, §§1–2) — Exact Q(sqrt(3)) Construction at theta = pi/6: Three-Ray Sum |AI| + |AK| + |AL| = 3 Equals Three Unit Radii, with Endpoint Ascent |AI| - 1 = (11 - 6 sqrt(3))/13 Matching Midpoint Descent 1 - |AK| and Fifth-Order Residual theta^5/180.
+
+.. _cusa-en-apm-s-1a:
+
+.. folio:: APM §1a
+
+Golden Proposition: Whether three lines issuing from a center and forming two equal half-right [45°] or smaller angles are terminated by a circular arc or by a straight chord, the sum of the three rays bears the same ratio to the terminating line.
+
+.. _cusa-en-apm-s-1b:
+
+.. folio:: APM §1b
+
+Specifically, let lines of indefinite length issue from a, the center of arc bdc, forming two equal half-right or smaller angles around a, and let them be terminated either by the arc of some circle, say bdc, or by its chord bhc, or by its tangent edg: then the three lines ab, ad, and ac hold the same ratio to the terminating arc bdc as ab, ah, and ac hold to the terminating chord bhc, or as ae, ad, and ag hold to the terminating tangent edg. Which is the same as saying: just as when arc bdc is a quadrant and the three lines ab, ad, and ac are three of its radii, so edg equals the quadrant of another circle whose three radii taken together equal ae, ad, and ag.
+
+.. _cusa-en-apm-s-2:
+
+.. folio:: APM §2
+
+The reason is this: if the arc bdc is to be straightened out into a rectifying segment falling between the outer rays through b and c whose endpoints stand equidistant from center a, its two endpoints taken together with its midpoint must have the same total distance from center a as the endpoints and midpoint of the arc. For if the endpoints alone kept the same distance, the midpoint of the straight segment would lie closer to center a than the midpoint of the arc, and the segment would be shorter than the arc, as in chord bhc; whereas if the midpoints kept the same distance, the endpoints of the straight segment would lie farther out, as in tangent edg, which is therefore longer than arc bdc. As the arc is straightened out into ikl, therefore, however much its midpoint descends toward the center from d to k, by that combined amount its endpoints b and c must ascend outward from the center to i and l—so that the ascent of the endpoints balances the descent of the midpoint [AI + AK + AL = 3R], keeping endpoints plus midpoint collectively equidistant from center a just like the arc bdc. Without such collective equidistance the segment would equal not that arc, but a similar arc of a larger or smaller circle.
+
+.. _cusa-en-apm-s-3:
+
+.. folio:: APM §3
+
+Because the larger the circle is, the more closely its arc resembles a straight line, the mind sees that if an infinitely maximal circle could be marked out, arc and straight line would coincide and everything just stated—and the proposition itself—would hold exactly. And since while the central angle remains fixed the ratio of terminating lines to terminated rays stays invariant across circles of every size, what the mind beholds to be true in the Maximum it beholds to hold likewise across finite circles.
+
+.. _cusa-en-apm-s-4:
+
+.. folio:: APM §4
+
+The reason why the proposition speaks of two half-right angles (making one right angle) or smaller angles rather than universally of all angles is this: from the minimal arc and circular sector up to the quadrant [2θ = 90°], the inscribed isosceles triangle composed of two right triangles [area R² sin θ cos θ = ½ R² sin 2θ] continually increases and reaches its maximum at the quadrant, after which it diminishes. Hence the proposition cannot hold in the same way both when arc, sector, and triangle grow together and when arc and sector grow while the triangle shrinks.
+
+.. _cusa-en-apm-s-5:
+
+.. folio:: APM §5
+
+Plainly, then, any arc within this range can readily be rectified: if the sum of the three rays terminated on a straight segment is an aliquot part of three radii, that straight segment will be the same part of the arc, though the curved sector remains more capacious in area than the rectilinear triangle. Taking one-third of the sum of the three rays terminated on a given straight segment as radius and describing an arc between the outer rays, that arc will equal the straight segment; universally you will convert arc into straight line, straight line into arc, and an arc of one circle into an arc of another.
+
+.. _cusa-en-apm-s-6:
+
+.. folio:: APM §6
+
+It is likewise established that angles can be exhibited standing to one another as the side and diagonal of a square, and universally as any constructible lines, surfaces, and solids; you possess countless ways of rectifying, rectangularizing, and squaring the circle and any commensurable or incommensurable circular sector, and hitherto unknown properties of sines and chords become plain.
+
+.. _cusa-en-apm-s-7:
+
+.. folio:: APM §7
+
+Those who raise their minds higher behold that equality of ratio is the medium of transmutation and of passage from contrary into contrary, and behold what mystery resides in the fact that three lines issuing from a single point either terminate upon a single circular arc—where all three are equal—or terminate upon a straight line—where the two outer rays are equal and the middle ray is unequal even unto incommensurability, like the side and diagonal of a square. Diversity of termination diversifies the enclosed surfaces, rendering one curved and the other rectilinear while preserving the selfsame ratio between terminating boundaries and the rays issuing symmetrically from the same point. Neither short of nor beyond a trinity of lines—considered not as severed pieces, but as one simple length—can this hold true. Around the Unitrine Principle and the outflow of all things from it, therefore, will revolve the loftiest speculation of the wise.
+
+.. _cusa-en-apm-col:
+
+.. folio:: APM Col.
+
+Finished at Rome, August 8, 1459, during the legation of the City, etc.

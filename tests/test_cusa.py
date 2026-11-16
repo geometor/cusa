@@ -201,21 +201,21 @@ def test_aurea_propositio_1459_three_ray_and_maclaurin() -> None:
 
 def test_bilingual_corpus_parity_klibansky_restorations_and_manifest() -> None:
     """Verify 1-to-1 Latin/English paragraph parity, Klibansky collations, and SHA-256 digests."""
-    assert len(CODEX_UNITS) == 5
+    assert len(CODEX_UNITS) == 11
     reports = [verify_unit_parity(u) for u in CODEX_UNITS]
     assert sum(int(r["la_paragraph_count"]) for r in reports) == 124  # type: ignore[arg-type]
 
-    # Check Klibansky's two restored homeoteleuton clauses in Unit III
-    u3 = next(u for u in CODEX_UNITS if u.slug == "unit-3-coincidentia-figurarum")
-    ch13 = next(s for s in u3.sections if s.section_id == "di-bk1-ch13")
-    ch14 = next(s for s in u3.sections if s.section_id == "di-bk1-ch14")
+    # Check Klibansky's two restored homeoteleuton clauses in Liber I, Cap. XIII–XV
+    u13 = next(u for u in CODEX_UNITS if u.slug == "cap_13_15")
+    ch13 = next(s for s in u13.sections if s.section_id == "di-bk1-ch13")
+    ch14 = next(s for s in u13.sections if s.section_id == "di-bk1-ch14")
     assert "arcus gh adhuc minoris circuli" in ch13.la_paragraphs[1][1]
     assert "tanto minus vincunt lineae bd et dc lineam bc" in ch14.la_paragraphs[2][1]
 
     manifest_path = REPO_ROOT / "resources" / "cusa" / "sources_manifest.json"
     assert manifest_path.is_file()
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-    assert manifest["unit_count"] == 5
+    assert manifest["unit_count"] == 11
     assert manifest["total_la_paragraphs"] == 124
     assert manifest["total_en_paragraphs"] == 124
     for u_entry in manifest["units"]:
@@ -226,13 +226,16 @@ def test_bilingual_corpus_parity_klibansky_restorations_and_manifest() -> None:
 
 
 def test_strict_content_code_separation_and_four_tracks() -> None:
-    """Ensure zero embedded Python code in docsrc/de_docta_ignorantia/ and all 4 tracks exist."""
-    codex_dir = REPO_ROOT / "docsrc" / "de_docta_ignorantia"
-    assert (codex_dir / "index.rst").is_file()
+    """Ensure zero embedded Python code in docsrc and all 4 tracks exist across 11 canonical units."""
+    assert (REPO_ROOT / "docsrc" / "de_docta_ignorantia" / "index.rst").is_file()
+    assert (REPO_ROOT / "docsrc" / "de_docta_ignorantia" / "liber_i" / "index.rst").is_file()
+    assert (REPO_ROOT / "docsrc" / "de_docta_ignorantia" / "liber_ii" / "index.rst").is_file()
+    assert (REPO_ROOT / "docsrc" / "de_mathematicis_complementis" / "index.rst").is_file()
 
     for unit in CODEX_UNITS:
-        for suffix in ("en", "la", "summary", "notes"):
-            track_path = codex_dir / unit.slug / f"{unit.slug}-{suffix}.rst"
+        unit_dir = REPO_ROOT / "docsrc" / unit.doc_rel_dir
+        for track_file in ("index.rst", "la.rst", "summary.rst", "notes.rst"):
+            track_path = unit_dir / track_file
             assert track_path.is_file(), f"Missing {track_path}"
             txt = track_path.read_text(encoding="utf-8")
             assert ":layout: book" in txt
