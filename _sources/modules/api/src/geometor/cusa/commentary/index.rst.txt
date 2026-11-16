@@ -5,7 +5,7 @@ src.geometor.cusa.commentary
 
 .. autoapi-nested-parse::
 
-   Scholarly structural summaries and critical notes for the five units of GEOMETOR • cusa.
+   Scholarly structural summaries and critical notes for the canonical units of GEOMETOR • cusa.
 
 
 

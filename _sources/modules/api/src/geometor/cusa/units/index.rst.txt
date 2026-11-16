@@ -5,7 +5,10 @@ src.geometor.cusa.units
 
 .. autoapi-nested-parse::
 
-   Codex unit specifications for GEOMETOR • cusa (*De Docta Ignorantia* & *Scripta Mathematica*).
+   Canonical Book Codex unit specifications for GEOMETOR • cusa.
+
+   Defines the 11 atomic units across *De Docta Ignorantia* (Liber I & Liber II)
+   and Cusa's *De Mathematicis Complementis* & *Scripta Mathematica* (1445–1459).
 
 
 
@@ -41,11 +44,19 @@ Module Contents
       :type:  str
 
 
+   .. py:attribute:: book_slug
+      :type:  str
+
+
    .. py:attribute:: title
       :type:  str
 
 
    .. py:attribute:: subtitle
+      :type:  str
+
+
+   .. py:attribute:: canonical_id
       :type:  str
 
 
@@ -79,6 +90,39 @@ Module Contents
 
    .. py:attribute:: sections
       :type:  tuple[geometor.cusa.texts_u1_u3.BilingualSectionData, ...]
+
+
+   .. py:attribute:: unit_key
+      :type:  str
+      :value: ''
+
+
+
+   .. py:attribute:: legacy_slugs
+      :type:  tuple[str, ...]
+      :value: ()
+
+
+
+   .. py:property:: doc_rel_dir
+      :type: str
+
+
+      Relative path under ``docsrc/`` for this unit (e.g. ``de_docta_ignorantia/liber_i/cap_01_04``).
+
+
+   .. py:property:: key
+      :type: str
+
+
+      Unique lookup key for commentary and resources.
+
+
+   .. py:property:: source_prefix
+      :type: str
+
+
+      Normalized filename prefix for source witness text files.
 
 
 .. py:data:: CODEX_UNITS

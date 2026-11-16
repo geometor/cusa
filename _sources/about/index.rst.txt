@@ -49,5 +49,7 @@ Scholarly Apparatus & References:
 * :doc:`Reader's Guide and Usage </usage/index>`
 * :doc:`De Docta Ignorantia Codex </de_docta_ignorantia/index>`
 * :doc:`Exact Symbolic Demonstrations </demos/index>`
-* :doc:`Biographical Register of Persons </de_docta_ignorantia/persons>`
-* :doc:`Systematic Bibliography </de_docta_ignorantia/bibliography>`
+* :doc:`Biographical Register of Persons </persons>`
+* :doc:`Systematic Bibliography </bibliography>`
+* :doc:`Glossary of Terms </glossary>`
+* :doc:`Corpus Concordance </concordance>`

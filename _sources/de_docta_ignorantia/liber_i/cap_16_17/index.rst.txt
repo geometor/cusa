@@ -1,0 +1,110 @@
+:order: 40
+:layout: book
+:title: The Infinite Line as Universal Essence & Most Adequate Measure
+:canonical_id: DI I.16–17
+:original_id: DI I.16–17
+:folio: DI I.16–17 (1440)
+:tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes
+
+.. _cap_16_17:
+.. _cap_16_17-en:
+.. _unit-4-linea-sphaera-infinita:
+.. _unit-4-linea-sphaera-infinita-en:
+
+==============================================================
+The Infinite Line as Universal Essence & Most Adequate Measure
+==============================================================
+
+.. rubric:: De Docta Ignorantia · Liber I, Capitula XVI–XVII (1440)
+
+.. epigraph::
+
+   *Ipsa igitur maxima linea est adaequatissima mensura omnium linearum, ita quod nec minor est, quia non exceditur ab aliqua, nec maior, quia nulla eam excedit.*
+
+   Therefore the maximal line itself is the most adequate measure of all lines, being neither smaller—since it is not exceeded by any—nor larger, since none exceeds it. — **De Docta Ignorantia I.16 §3**
+
+.. picture:: /_static/figures/cusa_line_unfolding_sphere.svg
+   :alt: The Infinite Line as Universal Essence & Most Adequate Measure
+   :caption: Book I, Chapters 16–17 — The Maximal Infinite Line as Universal Essence and Most Adequate Measure of All Finite Things.
+
+.. _di-bk1-ch16:
+.. _di-bk1-ch16-en:
+
+Book I, Chapter 16 — How Metaphorically the Maximum Stands to All Things as the Maximal Line Stands to Lines
+------------------------------------------------------------------------------------------------------------
+
+*Original GEOMETOR Translation from the Latin · h I, nn. 42–46 · Paris 1514 fol. 6r–6v · Rotta 1913 pp. 32–35*
+
+.. _cusa-en-di-i-16-s-1:
+
+.. folio:: DI I.16 §1
+
+Now that it is manifest how the infinite line is infinitely in act all those things that lie in the potency of a finite line, by transfer we grasp in like manner within the Simple Maximum how the Maximum itself is maximally in act all those things that stand in the potency of absolute simplicity. For whatsoever is possible, that the Maximum itself is maximally in act—not as arising out of the possible, but inasmuch as it maximally is; just as a triangle is drawn forth from a finite line, whereas the infinite line is not a triangle as drawn forth from a finite one, but is in act an infinite triangle identical with the line. Moreover, absolute possibility itself is nothing other in the Maximum than the Maximum itself in act, just as the infinite line is in act a sphere. In what is not maximal the case is otherwise; for there potency is not act, just as a finite line is not a triangle.
+
+.. _cusa-en-di-i-16-s-2:
+
+.. folio:: DI I.16 §2
+
+Hence we behold here the great speculation that can be drawn from this concerning the Maximum: namely, that it is of such nature that the Minimum within it is the Maximum, so that it utterly surpasses every opposition by infinity. From this principle as many negative truths could be drawn forth concerning it as could ever be written or read; indeed, all theology apprehensible by us is elicited from this great principle. Wherefore that supreme searcher of divine mysteries, Dionysius the Areopagite, says in his Mystical Theology that most blessed Bartholomew marvellously understood theology when he declared it to be at once maximal and minimal. For whoever understands this understands all things; he surpasses every created intellect. God, who is this very Maximum—as the same Dionysius says in On the Divine Names—is not this thing while not being another, nor is He somewhere while not being elsewhere; rather, just as He is all things, so too He is none of them all. For—as Dionysius concludes at the close of the Mystical Theology—above every affirmation He is the perfect and singular cause of all things, and above the removal of all things stands the excellence of Him who is simply absolved from all and beyond all. Hence in his Letter to Gaius he concludes that God is known above all mind and intelligence.
+
+.. _cusa-en-di-i-16-s-3:
+
+.. folio:: DI I.16 §3
+
+In harmony with this, Rabbi Solomon states that all the wise have agreed 'that the sciences do not apprehend the Creator; none apprehends what He is save He Himself; and our apprehension in respect of Him is a falling short of approaching His apprehension.' Accordingly the same thinker elsewhere concludes: 'Praised be the Creator, in the comprehension of whose essence the inquiry of the sciences is cut short, wisdom is reckoned ignorance, and elegance of speech foolishness.' This is that very learned ignorance which we are investigating, through which alone Dionysius strove in manifold ways to show—by no other principle, I judge, than the one just stated—that God can be found.
+
+.. _cusa-en-di-i-16-s-4:
+
+.. folio:: DI I.16 §4
+
+Let our speculation, then—elicited from the fact that infinite curvature is infinite rectitude—be applied transsumptively in the Maximum to its most simple and most infinite essence: how it is the most simple essence of all essences; how all essences of things that are, have been, or shall be exist eternally and always in act within that very essence as that essence itself, and so are all essences just as it is the essence of all; how that essence of all is each essence in such wise as to be simultaneously all of them and none singly; and how that Maximal Essence, just as the infinite line is the most adequate measure of all lines, is in like manner the most adequate measure of all essences. For the Maximum to which the Minimum is not opposed is of necessity the most adequate measure of all things—not greater, because it is Minimum; not smaller, because it is Maximum. Everything measurable falls between maximum and minimum. Infinite essence, therefore, is the most adequate and most precise measure of all essences.
+
+.. _cusa-en-di-i-16-s-5:
+
+.. folio:: DI I.16 §5
+
+To see this still more clearly, consider that if one infinite line were constituted out of infinitely many one-foot segments and another out of infinitely many two-foot segments, they would nonetheless have to be equal, since the infinite is not greater than the infinite. Just as one foot is not smaller than two feet within an infinite line, so the infinite line does not exceed one foot any more than it exceeds two feet. Nay rather, because every part of the infinite is infinite, one foot of an infinite line is convertible with the whole infinite line just as two feet are.
+
+.. _cusa-en-di-i-16-s-6:
+
+.. folio:: DI I.16 §6
+
+In like manner, since every essence within the Maximal Essence is that Maximal Essence itself, the Maximum is none other than the most adequate measure of all essences. Nor can any other precise measure of any essence whatsoever be found save that one; for all other measures fall short and can always be made more precise, as was shown most clearly above.
+
+.. _di-bk1-ch17:
+.. _di-bk1-ch17-en:
+
+Book I, Chapter 17 — Profoundest Doctrines Drawn from the Same Principle
+------------------------------------------------------------------------
+
+*Original GEOMETOR Translation from the Latin · h I, nn. 47–51 · Paris 1514 fol. 6v–7r · Rotta 1913 pp. 35–38*
+
+.. _cusa-en-di-i-17-s-1:
+
+.. folio:: DI I.17 §1
+
+Still further on the same theme: a finite line is divisible whereas the infinite line is indivisible, because the infinite—in which the Maximum coincides with the Minimum—has no parts. Yet a finite line is not divisible into what is not a line, because in magnitude one never arrives at a minimum than which there can be nothing smaller, as was shown earlier. Consequently a finite line is indivisible in the intelligible form of 'line': a one-foot line is no less a line than a one-cubit line. It remains, therefore, that the infinite line is the intelligible ratio of the finite line. In the very same way the unqualified Maximum is the ratio of all things. Now ratio is measure. Rightly, therefore, did Aristotle say in the Metaphysics that the First is the standard and measure of all things, because it is the ratio of all things.
+
+.. _cusa-en-di-i-17-s-2:
+
+.. folio:: DI I.17 §2
+
+Again: just as the infinite line, which is the ratio of a finite line, is indivisible and consequently immutable and perpetual, so too the ratio of all things, who is blessed God, is everlasting and immutable. Here opens the meaning of great Dionysius when he calls the essence of things incorruptible, and of others who said that the ratio of things is eternal—such as divine Plato himself, who (as Calcidius reports) declared in the Phaedo that as it exists in itself there is a single exemplar or Idea of all things, whereas in relation to things, which are many, there appear to be many exemplars. For when I consider a two-foot line, a three-foot line, and so onward, two features present themselves: namely, the ratio of 'line,' which in both and in all is one and equal, and the diversity between the two-foot and the three-foot line. Thus there seems to be one ratio of the two-foot line and another of the three-foot line. Yet it is plain that in the infinite line a two-foot line and a three-foot line are not distinct—and that infinite line is the ratio of the finite. Hence the ratio of both lines is one, and the diversity of things or lines arises not from a diversity of the ratio, which is one, but accidentally, because they do not participate in the ratio equally. Accordingly there is only one ratio of all things, participated in diverse ways.
+
+.. _cusa-en-di-i-17-s-3:
+
+.. folio:: DI I.17 §3
+
+That it is participated in diverse ways comes about because, as proved earlier, there cannot be two things equally similar and consequently participating with exact equality in one ratio. For the ratio cannot be participated in supreme equality save by the Maximum, which is that infinite ratio itself. Just as there is only one maximal Unity, so there can be only one Equality of Unity; and because this is maximal equality, it is the ratio of all things. For just as there is only one infinite line, which is the ratio of all finite lines, and by the very fact that a finite line necessarily falls short of that infinite line it cannot be its own ratio—any more than it can be simultaneously finite and infinite—so too, just as no two finite lines can be precisely equal (since precise equality, which is maximal, is none other than the Maximum itself), no two lines are found participating equally in the one ratio of all.
+
+.. _cusa-en-di-i-17-s-4:
+
+.. folio:: DI I.17 §4
+
+Furthermore, the infinite line is neither greater in a two-foot line than the two-foot line nor smaller, as was said above; and so too for a three-foot line and beyond. And since it is indivisible and one, it is whole in every finite line. Yet it is not whole in every finite line by way of participation and finitude; otherwise, were it wholly enclosed in the two-foot line, it could not be in the three-foot line, inasmuch as the two-foot line is not the three-foot line. Wherefore it is whole in each in such a way that it is in none insofar as one is distinguished from the others by finitude. The infinite line, therefore, is whole in every line in such wise that every line is in it. These two truths must be considered conjointly, and then one sees clearly how the Maximum is in every thing and in none. And because the Maximum is in every thing by the same ratio by which every thing is in it, and is that very ratio itself, this means nothing other than that the Maximum exists in itself. Thus for the Maximum to be the standard and measure of all things is nothing other than for the unqualified Maximum to be in itself, or for the Maximum to be the Maximum. Nothing, therefore, exists in itself except the Maximum, and every thing exists in itself insofar as it exists in its own ratio, because its ratio is the Maximum.
+
+.. _cusa-en-di-i-17-s-5:
+
+.. folio:: DI I.17 §5
+
+By these considerations the intellect can aid itself and, through the likeness of the infinite line, advance greatly in sacred ignorance toward the unqualified Maximum above all understanding. For here we have now clearly seen how we discover God by removing the participation of beings. All beings participate in beingness. When participation is removed from all beings, therefore, there remains most simple beingness itself, which is the essence of all things. And we behold such beingness only in most learned ignorance, because when I remove from my mind all things that participate in beingness, nothing seems to remain. Wherefore great Dionysius says that the understanding of God approaches nearer to nothing than to something. Yet sacred ignorance teaches me that what appears to the intellect as nothing is the incomprehensible Maximum.

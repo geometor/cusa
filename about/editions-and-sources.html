@@ -6,12 +6,32 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Editions and Sources &mdash; GEOMETOR • cusa</title>
+
+  <title>Editions and Sources — Nicholas of Cusa • GEOMETOR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://geometor.github.io/cusa/about/editions-and-sources.html" />
+  <meta name="description" content="All Latin texts in geometor/cusa (staged with SHA-256 checksums in resources/cusa/sources/ and resources/cusa/sources_manifest.json) derive exclusively from public-domain witnesses verified by…" />
+  <meta property="og:site_name" content="GEOMETOR" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Editions and Sources — Nicholas of Cusa • GEOMETOR" />
+  <meta property="og:description" content="All Latin texts in geometor/cusa (staged with SHA-256 checksums in resources/cusa/sources/ and resources/cusa/sources_manifest.json) derive exclusively from public-domain witnesses verified by…" />
+  <meta property="og:url" content="https://geometor.github.io/cusa/about/editions-and-sources.html" />
+  <meta property="og:image" content="https://geometor.github.io/cusa/_static/social/banner.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Nicholas of Cusa — GEOMETOR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Editions and Sources — Nicholas of Cusa • GEOMETOR" />
+  <meta name="twitter:description" content="All Latin texts in geometor/cusa (staged with SHA-256 checksums in resources/cusa/sources/ and resources/cusa/sources_manifest.json) derive exclusively from public-domain witnesses verified by…" />
+  <meta name="twitter:image" content="https://geometor.github.io/cusa/_static/social/banner.png" />
+  <meta name="twitter:image:alt" content="Nicholas of Cusa — GEOMETOR" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
-  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=99410eb1" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=81e79cc0" />
   <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
   <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=0e36df45" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
@@ -24,14 +44,14 @@
 <body class="book-theme-classical-serif">
   <header>
     <div class="logo">
-      <a href="../index.html">
-        <img src="../_static/logo.png" class="logo" alt="Logo"/>
+      <a href="../index.html" title="Home">
+        <img src="../_static/logo.png" class="logo" alt="GEOMETOR cusa"/>
+        <div class="org-repo">
+          <span class="org">GEOMETOR</span>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span class="repo">cusa</span>
+        </div>
       </a>
-      <div class="org-repo">
-        <span class="org">GEOMETOR</span>
-        •
-        <span class="repo">cusa</span>
-      </div>
     </div>
     <nav aria-label="Header">
       <input type="checkbox" id="nav-Header-toggle" >
@@ -41,10 +61,16 @@
           <a href="../de_docta_ignorantia/index.html"  >Learned Ignorance</a>
         </li>
         <li>
-          <a href="../de_docta_ignorantia/persons.html"  >People</a>
+          <a href="../de_mathematicis_complementis/index.html"  >De Mathematicis Complementis</a>
         </li>
         <li>
-          <a href="../de_docta_ignorantia/bibliography.html"  >Bibliography</a>
+          <a href="../persons.html"  >People</a>
+        </li>
+        <li>
+          <a href="../bibliography.html"  >Bibliography</a>
+        </li>
+        <li>
+          <a href="../concordance.html"  >Concordance</a>
         </li>
         <li>
           <a href="index.html" class="is-active" aria-selected="true" >About</a>
@@ -69,14 +95,11 @@
     <article class="book-layout book-reading-pane">
       <header class="book-header">
         <div class="book-header-bar">
-          <div class="book-header-identity">
-            <a class="book-portal-link" href="../index.html" title="Return to Project Portal">&larr; cusa</a>
-            <span class="book-header-sep">/</span>
-            <a class="book-title-link" href="../index.html">GEOMETOR • cusa</a>
-          </div>
-          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Breadcrumbs">
-            <a class="book-crumb-link" href="index.html">About</a>
-          </div>
+          <nav class="book-breadcrumbs" aria-label="Breadcrumb">
+            <a class="book-section-home-link" href="index.html">About</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <span class="book-crumb-current" aria-current="page">Editions and Sources</span>
+          </nav>
         </div>
         <div class="book-header-nav">
           <div class="book-nav-prev">
@@ -97,12 +120,12 @@
         <h2>I. Primary Latin Witnesses<a class="headerlink" href="#i-primary-latin-witnesses" title="Link to this heading">¶</a></h2>
         <p>All Latin texts in <code class="docutils literal notranslate"><span class="pre">geometor/cusa</span></code> (staged with SHA-256 checksums in <code class="docutils literal notranslate"><span class="pre">resources/cusa/sources/</span></code> and <code class="docutils literal notranslate"><span class="pre">resources/cusa/sources_manifest.json</span></code>) derive exclusively from public-domain witnesses verified by multimodal archival scan inspection:</p>
         <ol class="arabic simple">
-        <li><p><strong>Paris First Edition (1514)</strong> (<span class="citation-ref" data-cite="cusa:paris:1514" title="Nicolaus Cusanus (ed. Jacques Lefèvre d&#x27;Étaples / Faber Stapulensis) — Haec accurata recognitio trium voluminum operum Clariss. P. Nicolai Cusae Cardinalis (Paris: Jodocus Badius Ascensius, 1514) (Vol. I (De docta ignorantia); Vol. II, fols. 33r–114v (Mathematica))">cusa:paris:1514</span>):
-        <em>Haec accurata recognitio trium voluminum operum Clariss. P. Nicolai Cusae Cardinalis</em>, edited by <span class="person-ref" data-person="klibansky" title="Jacques Lefèvre d&#x27;Étaples, Paolo Rotta &amp; Raymond Klibansky (c. 1455–1536 / 1873–1962 / 1905–2005) — Critical Editors of De Docta Ignorantia (Paris 1514, Bari 1913, Leipzig 1932)">Jacques Lefèvre d'Étaples</span> (<em>Faber Stapulensis</em>) and printed by Jodocus Badius Ascensius at Paris. Volume I contains <em>De Docta Ignorantia</em> alongside woodcut geometric diagrams; Volume II contains the <em>Opuscula Mathematica</em>.</p></li>
-        <li><p><strong>Basel Edition (1565)</strong> (<span class="citation-ref" data-cite="cusa:basel:1565" title="Nicolaus Cusanus — Nicolai de Cusa Cardinalis, utriusque iuris doctoris, in omnique philosophia incomparabilis viri, Opera, 3 vols. (Basel: Ex Officina Henricpetrina, August 1565) (pp. 1–75 (DDI), pp. 939–966 (Transmut.), pp. 1005–1090 (Compl.), pp. 1120–1136 (Perf.))">cusa:basel:1565</span>):
+        <li><p><strong>Paris First Edition (1514)</strong> (<a class="citation-ref" id="occ-cite-cusa-paris-1514-1" href="../bibliography.html#cite-cusa-paris-1514" data-cite="cusa:paris:1514" title="Nicolaus Cusanus (ed. Jacques Lefèvre d&#x27;Étaples / Faber Stapulensis) — Haec accurata recognitio trium voluminum operum Clariss. P. Nicolai Cusae Cardinalis (Paris: Jodocus Badius Ascensius, 1514) (Vol. I (De docta ignorantia); Vol. II, fols. 33r–114v (Mathematica))">cusa:paris:1514</a>):
+        <em>Haec accurata recognitio trium voluminum operum Clariss. P. Nicolai Cusae Cardinalis</em>, edited by <a class="person-ref" id="occ-person-klibansky-1" href="../persons.html#person-klibansky" data-person="klibansky" title="Jacques Lefèvre d&#x27;Étaples, Paolo Rotta &amp; Raymond Klibansky (c. 1455–1536 / 1873–1962 / 1905–2005) — Critical Editors of De Docta Ignorantia (Paris 1514, Bari 1913, Leipzig 1932)">Jacques Lefèvre d'Étaples</a> (<em>Faber Stapulensis</em>) and printed by Jodocus Badius Ascensius at Paris. Volume I contains <em>De Docta Ignorantia</em> alongside woodcut geometric diagrams; Volume II contains the <em>Opuscula Mathematica</em>.</p></li>
+        <li><p><strong>Basel Edition (1565)</strong> (<a class="citation-ref" id="occ-cite-cusa-basel-1565-1" href="../bibliography.html#cite-cusa-basel-1565" data-cite="cusa:basel:1565" title="Nicolaus Cusanus — Nicolai de Cusa Cardinalis, utriusque iuris doctoris, in omnique philosophia incomparabilis viri, Opera, 3 vols. (Basel: Ex Officina Henricpetrina, August 1565) (pp. 1–75 (DDI), pp. 939–966 (Transmut.), pp. 1005–1090 (Compl.), pp. 1120–1136 (Perf.))">cusa:basel:1565</a>):
         <em>Nicolai de Cusa Cardinalis, utriusque iuris doctoris, in omnique philosophia incomparabilis viri, Opera</em>, printed by Heinrich Petri (<em>Henricpetri</em>) at Basel—the first printing to include Cusa’s final mathematical treatise, <em>Aurea Propositio in Mathematicis</em> (August 8, 1459, pp. 1145–1146).</p></li>
-        <li><p><strong>Rotta Edition (1913) &amp; Klibansky’s McGill Collation</strong> (<span class="citation-ref" data-cite="cusa:rotta:1913" title="Nicolaus Cusanus (ed. Paolo Rotta) — Nicolai Cusani De Docta Ignorantia Libri Tres (Bari: Gius. Laterza &amp; Figli, Classici della Filosofia Moderna 19, 1913) (pp. 1–189)">cusa:rotta:1913</span>, <span class="citation-ref" data-cite="cusa:heidelberg:1932" title="Nicolaus Cusanus (eds. Ernst Hoffmann &amp; Raymond Klibansky) — Nicolai de Cusa Opera Omnia, iussu et auctoritate Academiae Litterarum Heidelbergensis, Vol. I: De Docta Ignorantia (Leipzig: Felix Meiner, 1932) (h I, pp. 1–163)">cusa:heidelberg:1932</span>):
-        <span class="person-ref" data-person="klibansky" title="Jacques Lefèvre d&#x27;Étaples, Paolo Rotta &amp; Raymond Klibansky (c. 1455–1536 / 1873–1962 / 1905–2005) — Critical Editors of De Docta Ignorantia (Paris 1514, Bari 1913, Leipzig 1932)">Paolo Rotta's</span> <em>Nicolai Cusani De docta ignorantia libri tres</em> (Bari: Gius. Laterza &amp; Figli, 1913). Direct multimodal inspection of the digitized McGill University Library copy owned and annotated in pencil by <span class="person-ref" data-person="klibansky" title="Jacques Lefèvre d&#x27;Étaples, Paolo Rotta &amp; Raymond Klibansky (c. 1455–1536 / 1873–1962 / 1905–2005) — Critical Editors of De Docta Ignorantia (Paris 1514, Bari 1913, Leipzig 1932)">Raymond Klibansky</span> (while preparing the 1932 Heidelberg Academy edition, <code class="docutils literal notranslate"><span class="pre">h</span> <span class="pre">I</span></code>) identified and restored two typesetting eye-skip (<em>homeoteleuton</em>) omissions in Rotta’s printed Latin:</p>
+        <li><p><strong>Rotta Edition (1913) &amp; Klibansky’s McGill Collation</strong> (<a class="citation-ref" id="occ-cite-cusa-rotta-1913-1" href="../bibliography.html#cite-cusa-rotta-1913" data-cite="cusa:rotta:1913" title="Nicolaus Cusanus (ed. Paolo Rotta) — Nicolai Cusani De Docta Ignorantia Libri Tres (Bari: Gius. Laterza &amp; Figli, Classici della Filosofia Moderna 19, 1913) (pp. 1–189)">cusa:rotta:1913</a>, <a class="citation-ref" id="occ-cite-cusa-heidelberg-1932-1" href="../bibliography.html#cite-cusa-heidelberg-1932" data-cite="cusa:heidelberg:1932" title="Nicolaus Cusanus (eds. Ernst Hoffmann &amp; Raymond Klibansky) — Nicolai de Cusa Opera Omnia, iussu et auctoritate Academiae Litterarum Heidelbergensis, Vol. I: De Docta Ignorantia (Leipzig: Felix Meiner, 1932) (h I, pp. 1–163)">cusa:heidelberg:1932</a>):
+        <a class="person-ref" id="occ-person-klibansky-2" href="../persons.html#person-klibansky" data-person="klibansky" title="Jacques Lefèvre d&#x27;Étaples, Paolo Rotta &amp; Raymond Klibansky (c. 1455–1536 / 1873–1962 / 1905–2005) — Critical Editors of De Docta Ignorantia (Paris 1514, Bari 1913, Leipzig 1932)">Paolo Rotta's</a> <em>Nicolai Cusani De docta ignorantia libri tres</em> (Bari: Gius. Laterza &amp; Figli, 1913). Direct multimodal inspection of the digitized McGill University Library copy owned and annotated in pencil by <a class="person-ref" id="occ-person-klibansky-3" href="../persons.html#person-klibansky" data-person="klibansky" title="Jacques Lefèvre d&#x27;Étaples, Paolo Rotta &amp; Raymond Klibansky (c. 1455–1536 / 1873–1962 / 1905–2005) — Critical Editors of De Docta Ignorantia (Paris 1514, Bari 1913, Leipzig 1932)">Raymond Klibansky</a> (while preparing the 1932 Heidelberg Academy edition, <code class="docutils literal notranslate"><span class="pre">h</span> <span class="pre">I</span></code>) identified and restored two typesetting eye-skip (<em>homeoteleuton</em>) omissions in Rotta’s printed Latin:</p>
         <ul class="simple">
         <li><p><strong>Book I, Chapter 13 §2 (Rotta p. 28)</strong>: Restored <code class="docutils literal notranslate"><span class="pre">et</span> <span class="pre">ille</span> <span class="pre">plus</span> <span class="pre">a</span> <span class="pre">curvitate</span> <span class="pre">recedit</span> <span class="pre">quam</span> <span class="pre">arcus</span> <span class="pre">gh</span> <span class="pre">adhuc</span> <span class="pre">minoris</span> <span class="pre">circuli</span></code> (confirmed by Rotta’s own marginal woodcut depicting <code class="docutils literal notranslate"><span class="pre">ab</span></code>, <code class="docutils literal notranslate"><span class="pre">cd</span></code>, <code class="docutils literal notranslate"><span class="pre">ef</span></code>, and <code class="docutils literal notranslate"><span class="pre">gh</span></code>).</p></li>
         <li><p><strong>Book I, Chapter 14 §3 (Rotta p. 31)</strong>: Restored <code class="docutils literal notranslate"><span class="pre">tanto</span> <span class="pre">minus</span> <span class="pre">vincunt</span> <span class="pre">lineae</span> <span class="pre">bd</span> <span class="pre">et</span> <span class="pre">dc</span> <span class="pre">lineam</span> <span class="pre">bc</span></code> between <code class="docutils literal notranslate"><span class="pre">ut</span> <span class="pre">bdc</span></code> and <code class="docutils literal notranslate"><span class="pre">et</span> <span class="pre">superficies</span> <span class="pre">minor</span></code>.</p></li>
@@ -115,7 +138,7 @@
         <p>Because standard twentieth-century English translations of Nicholas of Cusa (including Germain Heron 1954, Jasper Hopkins 1981/1985, and H. Lawrence Bond 1997) remain under modern copyright, <strong>every English sentence across all five Codex units (124 paragraphs across 21 treatise sections) was freshly translated directly from the Latin witnesses specifically for GEOMETOR</strong> and is released under the repository’s permissive <strong>MIT License</strong>.</p>
         <p>Our translation adheres to three strict philological principles:</p>
         <ol class="arabic simple">
-        <li><p><strong>Terminological Consistency</strong>: Key Cusan concepts—<span class="glossary-term" data-term="docta-ignorantia" title="docta ignorantia (Learned ignorance): Cusa&#x27;s central epistemological method: rigorous mathematical and dialectical knowledge of why finite comparative reason (ratio) cannot comprehend precise infinite truth, turning that self-knowledge into intellectual vision.">docta ignorantia</span> (<em>learned ignorance</em>), <span class="glossary-term" data-term="coincidentia-oppositorum" title="coincidentia oppositorum (Coincidence of opposites): The noetic principle—revealed to Cusa at sea returning from Constantinople in 1437/1438—that predicates opposed in the finite domain of &#x27;more and less&#x27; (maximum/minimum, straight/curved, chord/arc, center/circumference) coincide identically in the infinite Maximum.">coincidentia oppositorum</span> (<em>coincidence of opposites</em>), <span class="glossary-term" data-term="transsumptio" title="transsumptio (Mathematical transsumption (three-step ascent)): Cusa&#x27;s three-stage symbolic method in Book I, Chapter 12: (1) inspect finite mathematical figures and their demonstrated invariants; (2) transfer those relations to corresponding infinite figures; (3) transsume them beyond all figure to the simple Infinite.">transsumptio</span> (<em>transsumption</em>), <span class="glossary-term" data-term="complicatio-et-explicatio" title="complicatio &amp; explicatio (Enfolding and unfolding): As unity enfolds all number and the point/infinite line enfolds triangle, circle, and sphere while finite figures unfold that potency successively, God is the complicatio omnium and the cosmos their explicatio.">complicatio / explicatio</span> (<em>enfolding / unfolding</em>), <span class="glossary-term" data-term="contractio" title="contractio (Ontological contraction): Restriction of infinite unity or rectitude to a determinate finite degree, species, place, and motion; the physical universe is the &#x27;contracted Maximum&#x27; subsisting solely in plurality.">contractio</span> (<em>contraction</em>), <span class="glossary-term" data-term="prima-et-secunda-linea" title="prima &amp; secunda linea (First line (inradius) &amp; second line (circumradius)): In De mathematicis complementis (1453), Cusa names the apothem from center to side-midpoint the &#x27;first line&#x27; (r_n = cos(pi/n)) and the vertex radius the &#x27;second line&#x27; (R_n); maximally distinct in the equilateral triangle, they coincide in the circle.">prima / secunda linea</span> (<em>first / second line</em>), and <span class="glossary-term" data-term="proportio-sesquiquarta" title="proportio sesquiquarta (Sesquiquarta ratio (5 : 4)): Superparticular ratio 5:4 by which Cusa extends ray AE (from center A to the quarter-division point E of inscribed equilateral triangle side BC) to AH = 5*sqrt(7)/16, implying pi_Cusa = 24*sqrt(21)/35 ~= 3.142337.">proportio sesquiquarta</span> (<em>sesquiquartal ratio</em> <span class="math notranslate nohighlight">\(5:4\)</span>)—are rendered uniformly and linked to the critical apparatus.</p></li>
+        <li><p><strong>Terminological Consistency</strong>: Key Cusan concepts—<a class="term-ref glossary-term" id="occ-term-docta-ignorantia-1" href="../glossary.html#term-docta-ignorantia" data-term="docta-ignorantia" title="docta ignorantia (Learned ignorance): Cusa&#x27;s central epistemological method: rigorous mathematical and dialectical knowledge of why finite comparative reason (ratio) cannot comprehend precise infinite truth, turning that self-knowledge into intellectual vision.">docta ignorantia</a> (<em>learned ignorance</em>), <a class="term-ref glossary-term" id="occ-term-coincidentia-oppositorum-1" href="../glossary.html#term-coincidentia-oppositorum" data-term="coincidentia-oppositorum" title="coincidentia oppositorum (Coincidence of opposites): The noetic principle—revealed to Cusa at sea returning from Constantinople in 1437/1438—that predicates opposed in the finite domain of &#x27;more and less&#x27; (maximum/minimum, straight/curved, chord/arc, center/circumference) coincide identically in the infinite Maximum.">coincidentia oppositorum</a> (<em>coincidence of opposites</em>), <a class="term-ref glossary-term" id="occ-term-transsumptio-1" href="../glossary.html#term-transsumptio" data-term="transsumptio" title="transsumptio (Mathematical transsumption (three-step ascent)): Cusa&#x27;s three-stage symbolic method in Book I, Chapter 12: (1) inspect finite mathematical figures and their demonstrated invariants; (2) transfer those relations to corresponding infinite figures; (3) transsume them beyond all figure to the simple Infinite.">transsumptio</a> (<em>transsumption</em>), <a class="term-ref glossary-term" id="occ-term-complicatio-et-explicatio-1" href="../glossary.html#term-complicatio-et-explicatio" data-term="complicatio-et-explicatio" title="complicatio &amp; explicatio (Enfolding and unfolding): As unity enfolds all number and the point/infinite line enfolds triangle, circle, and sphere while finite figures unfold that potency successively, God is the complicatio omnium and the cosmos their explicatio.">complicatio / explicatio</a> (<em>enfolding / unfolding</em>), <a class="term-ref glossary-term" id="occ-term-contractio-1" href="../glossary.html#term-contractio" data-term="contractio" title="contractio (Ontological contraction): Restriction of infinite unity or rectitude to a determinate finite degree, species, place, and motion; the physical universe is the &#x27;contracted Maximum&#x27; subsisting solely in plurality.">contractio</a> (<em>contraction</em>), <a class="term-ref glossary-term" id="occ-term-prima-et-secunda-linea-1" href="../glossary.html#term-prima-et-secunda-linea" data-term="prima-et-secunda-linea" title="prima &amp; secunda linea (First line (inradius) &amp; second line (circumradius)): In De mathematicis complementis (1453), Cusa names the apothem from center to side-midpoint the &#x27;first line&#x27; (r_n = cos(pi/n)) and the vertex radius the &#x27;second line&#x27; (R_n); maximally distinct in the equilateral triangle, they coincide in the circle.">prima / secunda linea</a> (<em>first / second line</em>), and <a class="term-ref glossary-term" id="occ-term-proportio-sesquiquarta-1" href="../glossary.html#term-proportio-sesquiquarta" data-term="proportio-sesquiquarta" title="proportio sesquiquarta (Sesquiquarta ratio (5 : 4)): Superparticular ratio 5:4 by which Cusa extends ray AE (from center A to the quarter-division point E of inscribed equilateral triangle side BC) to AH = 5*sqrt(7)/16, implying pi_Cusa = 24*sqrt(21)/35 ~= 3.142337.">proportio sesquiquarta</a> (<em>sesquiquartal ratio</em> <span class="math notranslate nohighlight">\(5:4\)</span>)—are rendered uniformly and linked to the critical apparatus.</p></li>
         <li><p><strong>Geometric Letter Fidelity</strong>: All diagram labels (<em>ab</em>, <em>cd</em>, <em>ef</em>, <em>gh</em>, <em>bac</em>, <em>bdc</em>, <em>ikl</em>) match the historic woodcuts and interactive <code class="docutils literal notranslate"><span class="pre">.euclid-graphic</span></code> SVGs.</p></li>
         <li><p><strong>1-to-1 Paragraph Synchronization</strong>: Every English paragraph stands in verified 1-to-1 bijection (<cite>verify_unit_parity</cite>) with its corresponding Latin witness paragraph and <code class="docutils literal notranslate"><span class="pre">..</span> <span class="pre">folio::</span></code> milestone.</p></li>
         </ol>
@@ -127,13 +150,13 @@
         <div class="book-footer-ornament">&#10086;</div>
         <div class="book-footer-nav">
           <div class="book-nav-prev">
-            <a class="book-nav-btn" href="index.html" title="About">&larr; <span class="nav-label">About</span></a>
+            <a class="book-nav-btn" href="index.html" title="About">&larr; <span class="nav-label">Prev</span></a>
           </div>
           <div class="book-nav-center">
-            <a class="book-toc-link" href="../index.html">GEOMETOR • cusa</a>
+            <a class="book-toc-link" href="index.html">About</a>
           </div>
           <div class="book-nav-next">
-            <a class="book-nav-btn" href="../usage/index.html" title="Using This Edition"><span class="nav-label">Using This Edition</span> &rarr;</a>
+            <a class="book-nav-btn" href="../usage/index.html" title="Using This Edition"><span class="nav-label">Next</span> &rarr;</a>
           </div>
         </div>
       </footer>
@@ -168,9 +191,11 @@
       <h3>Types</h3>
       <ul>
         <li><a href="../types/apparatus.html">apparatus</a></li>
+        <li><a href="../types/book.html">book</a></li>
         <li><a href="../types/la.html">la</a></li>
         <li><a href="../types/log.html">log</a></li>
         <li><a href="../types/notes.html">notes</a></li>
+        <li><a href="../types/part.html">part</a></li>
         <li><a href="../types/summary.html">summary</a></li>
       </ul>
     </aside>
@@ -179,8 +204,7 @@
     <div class="footer-nav">
       <ul>
         <li><a href="../changelog.html"  >changelog</a></li>
-        <li><a href="../de_docta_ignorantia/concordance.html"  >Concordance</a></li>
-        <li><a href="../de_docta_ignorantia/glossary.html"  >Glossary</a></li>
+        <li><a href="../glossary.html"  >Glossary</a></li>
       </ul>
     </div>
     <hr />

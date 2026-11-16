@@ -39,7 +39,7 @@ Module Contents
 
 .. py:function:: render_concordance_rst() -> str
 
-   Render ``docsrc/de_docta_ignorantia/concordance.rst``.
+   Render ``docsrc/concordance.rst``.
 
 
 .. py:function:: write_concordance_artifacts(repo_root: str | pathlib.Path) -> dict[str, pathlib.Path]

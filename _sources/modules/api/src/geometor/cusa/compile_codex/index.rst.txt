@@ -16,7 +16,10 @@ Functions
 
    src.geometor.cusa.compile_codex.verify_unit_parity
    src.geometor.cusa.compile_codex.write_source_witnesses
-   src.geometor.cusa.compile_codex.render_book_index_rst
+   src.geometor.cusa.compile_codex.render_de_docta_ignorantia_index_rst
+   src.geometor.cusa.compile_codex.render_liber_i_index_rst
+   src.geometor.cusa.compile_codex.render_liber_ii_index_rst
+   src.geometor.cusa.compile_codex.render_de_mathematicis_complementis_index_rst
    src.geometor.cusa.compile_codex.compile_all_codex
 
 
@@ -39,9 +42,24 @@ Module Contents
    Write canonical ``.la.txt`` / ``.en.txt`` source witnesses and ``sources_manifest.json``.
 
 
-.. py:function:: render_book_index_rst() -> str
+.. py:function:: render_de_docta_ignorantia_index_rst() -> str
 
    Render ``docsrc/de_docta_ignorantia/index.rst``.
+
+
+.. py:function:: render_liber_i_index_rst() -> str
+
+   Render ``docsrc/de_docta_ignorantia/liber_i/index.rst``.
+
+
+.. py:function:: render_liber_ii_index_rst() -> str
+
+   Render ``docsrc/de_docta_ignorantia/liber_ii/index.rst``.
+
+
+.. py:function:: render_de_mathematicis_complementis_index_rst() -> str
+
+   Render ``docsrc/de_mathematicis_complementis/index.rst``.
 
 
 .. py:function:: compile_all_codex(repo_root: str | pathlib.Path, *, regen_figures: bool = True) -> dict[str, pathlib.Path]
