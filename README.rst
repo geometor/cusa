@@ -18,8 +18,8 @@ Mission
 Books in This Archive
 ---------------------
 
-- **`On Learned Ignorance and Mathematical Writings <https://geometor.github.io/cusa/de_docta_ignorantia/>`_** — *De Docta Ignorantia* Book I (Chapters 1–23) and Book II (Chapters 11–12), developing the maximum and minimum, the coincidence of geometric figures, the infinite sphere, and centerless cosmology.
-- **`On Mathematical Complements <https://geometor.github.io/cusa/de_mathematicis_complementis/>`_** — *De Mathematicis Complementis* and *Scripta Mathematica* (1445–1459), including *On Geometric Transmutations*, *On Mathematical Complements*, *On Mathematical Perfection*, and *The Golden Proposition*.
+- `On Learned Ignorance and Mathematical Writings <https://geometor.github.io/cusa/de_docta_ignorantia/>`_ — *De Docta Ignorantia* Book I (Chapters 1–23) and Book II (Chapters 11–12), developing the maximum and minimum, the coincidence of geometric figures, the infinite sphere, and centerless cosmology.
+- `On Mathematical Complements <https://geometor.github.io/cusa/de_mathematicis_complementis/>`_ — *De Mathematicis Complementis* and *Scripta Mathematica* (1445–1459), including *On Geometric Transmutations*, *On Mathematical Complements*, *On Mathematical Perfection*, and *The Golden Proposition*.
 
 Repository Contents
 -------------------
