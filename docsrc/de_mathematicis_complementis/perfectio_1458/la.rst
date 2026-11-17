@@ -1,16 +1,16 @@
 :order: 100
 :layout: book
 :type: la
-:title: De Mathematica Perfectione — Vanishing Sagitta and Intellectual Vision — Latin (1440 / 1514–1913)
+:title: De Mathematica Perfectione — Vanishing Sagitta and Intellectual Vision — Latin
 :canonical_id: DMP (1458)
 :original_id: DMP (1458)
 :folio: DMP (1458)
-:tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes
+:tracks: English: index | Latin: la | Summary: summary | Notes: notes
 
 .. _perfectio_1458-la:
 
 =================================================================================================
-De Mathematica Perfectione — Vanishing Sagitta and Intellectual Vision — Latin (1440 / 1514–1913)
+De Mathematica Perfectione — Vanishing Sagitta and Intellectual Vision — Latin
 =================================================================================================
 
 .. rubric:: Textus Latinus Collatis Editionibus Parisiensi (1514), Basileensi (1565) et Rottae (1913) · DMP (1458)

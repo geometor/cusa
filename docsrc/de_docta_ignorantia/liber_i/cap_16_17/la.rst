@@ -1,17 +1,17 @@
 :order: 40
 :layout: book
 :type: la
-:title: The Infinite Line as Universal Essence & Most Adequate Measure — Latin (1440 / 1514–1913)
+:title: The Infinite Line as Universal Essence & Most Adequate Measure — Latin
 :canonical_id: DI I.16–17
 :original_id: DI I.16–17
 :folio: DI I.16–17 (1440)
-:tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes
+:tracks: English: index | Latin: la | Summary: summary | Notes: notes
 
 .. _cap_16_17-la:
 .. _unit-4-linea-sphaera-infinita-la:
 
 =========================================================================================
-The Infinite Line as Universal Essence & Most Adequate Measure — Latin (1440 / 1514–1913)
+The Infinite Line as Universal Essence & Most Adequate Measure — Latin
 =========================================================================================
 
 .. rubric:: Textus Latinus Collatis Editionibus Parisiensi (1514), Basileensi (1565) et Rottae (1913) · DI I.16–17 (1440)

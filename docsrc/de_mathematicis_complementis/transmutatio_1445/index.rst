@@ -4,7 +4,7 @@
 :canonical_id: DGT (1445)
 :original_id: DGT (1445)
 :folio: DGT (1445)
-:tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes
+:tracks: English: index | Latin: la | Summary: summary | Notes: notes
 
 .. _transmutatio_1445:
 .. _transmutatio_1445-en:
