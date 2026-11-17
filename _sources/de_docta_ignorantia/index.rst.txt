@@ -4,7 +4,7 @@
 :layout: book
 :type: book
 :book_title: On Learned Ignorance & Mathematical Writings (1440)
-:book_subtitle: Nicholas of Cusa (1401–1464) · Latin & Original GEOMETOR English Codex
+:book_subtitle: Nicholas of Cusa (1401–1464) · Latin (1440 / 1514–1913) & Original GEOMETOR English Codex
 :author: Nicholas of Cusa
 :year: 1440
 :book_theme: classical-serif
@@ -28,7 +28,7 @@ On Learned Ignorance & Mathematical Writings (1440)
 
 **De Docta Ignorantia** presents in a critical Digital Scriptorium edition the complete geometric, epistemological, and cosmological core of :person:`Nicholas of Cusa's <cusanus>` *De Docta Ignorantia* (completed at Kues on **February 12, 1440**).
 
-Every chapter is presented across **four synchronized tracks**—**English** (a freshly authored, 100% original GEOMETOR translation rendered directly from the Latin), **Latin** (collated from :person:`Paolo Rotta's <klibansky>` 1913 edition with :person:`Raymond Klibansky's <klibansky>` archival restorations and the 1514 Paris / 1565 Basel *Opera*), **Summary**, and **Critical Notes** (pairing interactive ``.euclid-graphic`` SVG constructions with historical reception across antiquity, the Middle Ages, the Renaissance, and modern geometry).
+Every chapter is presented across **four synchronized tracks**—**English** (a freshly authored, 100% original GEOMETOR translation rendered directly from the Latin), **Latin (1440 / 1514–1913)** (collated from :person:`Paolo Rotta's <klibansky>` 1913 edition with :person:`Raymond Klibansky's <klibansky>` archival restorations and the 1514 Paris / 1565 Basel *Opera*), **Summary**, and **Critical Notes** (pairing interactive ``.euclid-graphic`` SVG constructions with historical reception across antiquity, the Middle Ages, the Renaissance, and modern geometry).
 
 Books of the Treatise
 ---------------------

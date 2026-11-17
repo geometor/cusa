@@ -26,7 +26,7 @@ Module Contents
    Register and label the ``la`` companion track on ``photon_platform.publish.book``.
 
    Ensures that ``<slug>-la.rst`` tracks appear immediately after ``en`` with the
-   scholarly tab label ``"Latin (1440 / 1514–1913)"``.
+   canonical tab label ``"Latin"``.
 
    :param book_mod: Optional pre-imported ``photon_platform.publish.book`` module (or mock
                     object in unit tests). When ``None``, imports it dynamically.

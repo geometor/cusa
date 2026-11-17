@@ -4,7 +4,7 @@
 :canonical_id: DI I.16–17
 :original_id: DI I.16–17
 :folio: DI I.16–17 (1440)
-:tracks: English: index | Latin: la | Summary: summary | Notes: notes
+:tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes
 
 .. _cap_16_17:
 .. _cap_16_17-en:

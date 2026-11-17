@@ -1,17 +1,17 @@
 :order: 10
 :layout: book
 :type: la
-:title: Learned Ignorance, Polygon Exhaustion & the Coincidence of Maximum and Minimum — Latin
+:title: Learned Ignorance, Polygon Exhaustion & the Coincidence of Maximum and Minimum — Latin (1440 / 1514–1913)
 :canonical_id: DI I.1–4
 :original_id: DI I.1–4
 :folio: DI Ded., I.1–4, Ep. (1440)
-:tracks: English: index | Latin: la | Summary: summary | Notes: notes
+:tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes
 
 .. _cap_01_04-la:
 .. _unit-1-maximum-ignorantia-la:
 
 =========================================================================================================
-Learned Ignorance, Polygon Exhaustion & the Coincidence of Maximum and Minimum — Latin
+Learned Ignorance, Polygon Exhaustion & the Coincidence of Maximum and Minimum — Latin (1440 / 1514–1913)
 =========================================================================================================
 
 .. rubric:: Textus Latinus Collatis Editionibus Parisiensi (1514), Basileensi (1565) et Rottae (1913) · DI Ded., I.1–4, Ep. (1440)

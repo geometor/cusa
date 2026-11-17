@@ -1,17 +1,17 @@
 :order: 70
 :layout: book
 :type: la
-:title: Centerless Cosmology, Kinematic Relativity & the Fabric of the World — Latin
+:title: Centerless Cosmology, Kinematic Relativity & the Fabric of the World — Latin (1440 / 1514–1913)
 :canonical_id: DI II.11–12
 :original_id: DI II.11–12
 :folio: DI II.11–12 (1440)
-:tracks: English: index | Latin: la | Summary: summary | Notes: notes
+:tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes
 
 .. _cap_11_12-la:
 .. _unit-5-cosmologia-complementa-la:
 
 ===============================================================================================
-Centerless Cosmology, Kinematic Relativity & the Fabric of the World — Latin
+Centerless Cosmology, Kinematic Relativity & the Fabric of the World — Latin (1440 / 1514–1913)
 ===============================================================================================
 
 .. rubric:: Textus Latinus Collatis Editionibus Parisiensi (1514), Basileensi (1565) et Rottae (1913) · DI II.11–12 (1440)

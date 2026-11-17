@@ -1,16 +1,16 @@
 :order: 80
 :layout: book
 :type: la
-:title: De Geometricis Transmutationibus — Isoperimetric Extrema and the Sesquiquartal Radius — Latin
+:title: De Geometricis Transmutationibus — Isoperimetric Extrema and the Sesquiquartal Radius — Latin (1440 / 1514–1913)
 :canonical_id: DGT (1445)
 :original_id: DGT (1445)
 :folio: DGT (1445)
-:tracks: English: index | Latin: la | Summary: summary | Notes: notes
+:tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes
 
 .. _transmutatio_1445-la:
 
 ================================================================================================================
-De Geometricis Transmutationibus — Isoperimetric Extrema and the Sesquiquartal Radius — Latin
+De Geometricis Transmutationibus — Isoperimetric Extrema and the Sesquiquartal Radius — Latin (1440 / 1514–1913)
 ================================================================================================================
 
 .. rubric:: Textus Latinus Collatis Editionibus Parisiensi (1514), Basileensi (1565) et Rottae (1913) · DGT (1445)

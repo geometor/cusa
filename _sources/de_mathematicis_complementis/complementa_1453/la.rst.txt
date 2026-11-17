@@ -1,16 +1,16 @@
 :order: 90
 :layout: book
 :type: la
-:title: De Mathematicis Complementis — Inradius, Circumradius, and Archimedes' Spiral — Latin
+:title: De Mathematicis Complementis — Inradius, Circumradius, and Archimedes' Spiral — Latin (1440 / 1514–1913)
 :canonical_id: DMC (1453)
 :original_id: DMC (1453)
 :folio: DMC (1453)
-:tracks: English: index | Latin: la | Summary: summary | Notes: notes
+:tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes
 
 .. _complementa_1453-la:
 
 ========================================================================================================
-De Mathematicis Complementis — Inradius, Circumradius, and Archimedes' Spiral — Latin
+De Mathematicis Complementis — Inradius, Circumradius, and Archimedes' Spiral — Latin (1440 / 1514–1913)
 ========================================================================================================
 
 .. rubric:: Textus Latinus Collatis Editionibus Parisiensi (1514), Basileensi (1565) et Rottae (1913) · DMC (1453)

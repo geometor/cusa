@@ -5,7 +5,7 @@
 :canonical_id: DI I.13–15
 :original_id: DI I.13–15
 :folio: DI I.13–15 (1440)
-:tracks: English: index | Latin: la | Summary: summary | Notes: notes
+:tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes
 
 .. _cap_13_15-summary:
 .. _unit-3-coincidentia-figurarum-summary:
