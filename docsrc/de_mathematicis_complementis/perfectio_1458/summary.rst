@@ -5,7 +5,7 @@
 :canonical_id: DMP (1458)
 :original_id: DMP (1458)
 :folio: DMP (1458)
-:tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes
+:tracks: English: index | Latin: la | Summary: summary | Notes: notes
 
 .. _perfectio_1458-summary:
 

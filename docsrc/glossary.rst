@@ -1,5 +1,5 @@
-:navigation: header
-:order: 16
+:navigation: footer
+:order: 93
 :nav_title: Glossary
 :type: apparatus
 :title: Glossary of Cusan Mathematical & Noetic Terms

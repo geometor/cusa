@@ -5,7 +5,7 @@
 :canonical_id: DI I.18–20
 :original_id: DI I.18–20
 :folio: DI I.18–20 (1440)
-:tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes
+:tracks: English: index | Latin: la | Summary: summary | Notes: notes
 
 .. _cap_18_20-la:
 

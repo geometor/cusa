@@ -1,5 +1,5 @@
 :navigation: header
-:order: 14
+:order: 8
 :nav_title: Concordance
 :type: apparatus
 :title: Classical & Renaissance Concordance

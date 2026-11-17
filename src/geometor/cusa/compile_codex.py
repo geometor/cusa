@@ -196,7 +196,7 @@ def _render_unit_en_rst(unit: CodexUnitSpec, order_num: int) -> str:
         f":canonical_id: {unit.canonical_id}",
         f":original_id: {unit.canonical_id}",
         f":folio: {unit.locus_summary}",
-        ":tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes",
+        ":tracks: English: index | Latin: la | Summary: summary | Notes: notes",
         "",
         f".. _{unit.slug}:",
         f".. _{unit.slug}-en:",
@@ -268,7 +268,7 @@ def _render_unit_la_rst(unit: CodexUnitSpec, order_num: int) -> str:
         f":canonical_id: {unit.canonical_id}",
         f":original_id: {unit.canonical_id}",
         f":folio: {unit.locus_summary}",
-        ":tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes",
+        ":tracks: English: index | Latin: la | Summary: summary | Notes: notes",
         "",
         f".. _{unit.slug}-la:",
     ]
@@ -334,7 +334,7 @@ def _render_unit_summary_rst(unit: CodexUnitSpec, order_num: int) -> str:
         f":canonical_id: {unit.canonical_id}",
         f":original_id: {unit.canonical_id}",
         f":folio: {unit.locus_summary}",
-        ":tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes",
+        ":tracks: English: index | Latin: la | Summary: summary | Notes: notes",
         "",
         f".. _{unit.slug}-summary:",
     ]
@@ -370,7 +370,7 @@ def _render_unit_notes_rst(unit: CodexUnitSpec, order_num: int) -> str:
         f":canonical_id: {unit.canonical_id}",
         f":original_id: {unit.canonical_id}",
         f":folio: {unit.locus_summary}",
-        ":tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes",
+        ":tracks: English: index | Latin: la | Summary: summary | Notes: notes",
         "",
         f".. _{unit.slug}-notes:",
     ]
