@@ -1,17 +1,17 @@
 :order: 30
 :layout: book
 :type: la
-:title: Coincidence of Infinite Circle, Straight Line, Triangle & Sphere — Latin (1440 / 1514–1913)
+:title: Coincidence of Infinite Circle, Straight Line, Triangle & Sphere — Latin
 :canonical_id: DI I.13–15
 :original_id: DI I.13–15
 :folio: DI I.13–15 (1440)
-:tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes
+:tracks: English: index | Latin: la | Summary: summary | Notes: notes
 
 .. _cap_13_15-la:
 .. _unit-3-coincidentia-figurarum-la:
 
 ===========================================================================================
-Coincidence of Infinite Circle, Straight Line, Triangle & Sphere — Latin (1440 / 1514–1913)
+Coincidence of Infinite Circle, Straight Line, Triangle & Sphere — Latin
 ===========================================================================================
 
 .. rubric:: Textus Latinus Collatis Editionibus Parisiensi (1514), Basileensi (1565) et Rottae (1913) · DI I.13–15 (1440)

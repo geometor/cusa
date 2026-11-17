@@ -1,16 +1,16 @@
 :order: 60
 :layout: book
 :type: la
-:title: The Infinite Sphere Where Center, Diameter & Circumference Coincide — Latin (1440 / 1514–1913)
+:title: The Infinite Sphere Where Center, Diameter & Circumference Coincide — Latin
 :canonical_id: DI I.21–23
 :original_id: DI I.21–23
 :folio: DI I.21–23 (1440)
-:tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes
+:tracks: English: index | Latin: la | Summary: summary | Notes: notes
 
 .. _cap_21_23-la:
 
 ==============================================================================================
-The Infinite Sphere Where Center, Diameter & Circumference Coincide — Latin (1440 / 1514–1913)
+The Infinite Sphere Where Center, Diameter & Circumference Coincide — Latin
 ==============================================================================================
 
 .. rubric:: Textus Latinus Collatis Editionibus Parisiensi (1514), Basileensi (1565) et Rottae (1913) · DI I.21–23 (1440)

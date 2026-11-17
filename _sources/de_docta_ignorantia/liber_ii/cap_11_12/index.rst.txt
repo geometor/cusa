@@ -4,7 +4,7 @@
 :canonical_id: DI II.11–12
 :original_id: DI II.11–12
 :folio: DI II.11–12 (1440)
-:tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes
+:tracks: English: index | Latin: la | Summary: summary | Notes: notes
 
 .. _cap_11_12:
 .. _cap_11_12-en:

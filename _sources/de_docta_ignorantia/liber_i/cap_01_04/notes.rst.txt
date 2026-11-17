@@ -5,7 +5,7 @@
 :canonical_id: DI I.1–4
 :original_id: DI I.1–4
 :folio: DI Ded., I.1–4, Ep. (1440)
-:tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes
+:tracks: English: index | Latin: la | Summary: summary | Notes: notes
 
 .. _cap_01_04-notes:
 .. _unit-1-maximum-ignorantia-notes:

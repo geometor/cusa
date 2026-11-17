@@ -5,7 +5,7 @@
 :canonical_id: DMC (1453)
 :original_id: DMC (1453)
 :folio: DMC (1453)
-:tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes
+:tracks: English: index | Latin: la | Summary: summary | Notes: notes
 
 .. _complementa_1453-notes:
 

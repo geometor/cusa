@@ -18,7 +18,7 @@ Welcome to the GEOMETOR critical digital edition of Nicholas of Cusa's *De Docta
 Every unit in the Book Codex (:doc:`/de_docta_ignorantia/index`) is organized across four synchronized tracks accessible from the book header bar:
 
 * **English**: A freshly authored, 100% original GEOMETOR translation rendered directly from the primary Latin witnesses (MIT licensed; zero modern copyrighted translation text).
-* **Latin (1440 / 1514–1913)**: The collated Latin text based on Paolo Rotta's 1913 edition, Raymond Klibansky's McGill collations, and the 1514 Paris and 1565 Basel *Opera*.
+* **Latin**: The collated Latin text based on Paolo Rotta's 1913 edition, Raymond Klibansky's McGill collations, and the 1514 Paris and 1565 Basel *Opera*.
 * **Summary**: Structural synopses detailing the argumentative architecture, geometric premises, and logical progression of each section.
 * **Notes**: Critical apparatus combining historical commentary, philological analysis, and exact symbolic proofs.
 
