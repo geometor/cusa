@@ -74,7 +74,7 @@ Explore the treatise through interconnected taxonomic facets in the sidebar:
 
 Rich contextual knowledge is embedded directly into the reading flow:
 
-* **People Tooltips**: Hover over any highlighted person (such as :person:`Nicholas of Cusa <cusanus>`, :person:`Plato <plato>`, or :person:`Kepler <kepler>`) to preview concise biographical dates, roles, and historical significance. Click to jump to the full scholarly profile in the :doc:`/persons` registry.
+* **People Tooltips**: Hover over any highlighted person (such as :person:`Nicholas of Cusa <cusanus>`, :person:`Plato <plato>`, or :person:`Kepler <kepler>`) to preview concise biographical dates, roles, and historical significance. Click to jump to the full scholarly profile in the :doc:`/people/index` registry.
 * **Citations**: Inline bibliographic citations (such as :cite:`cusa:paris:1514`) display full publication details and manuscript loci on hover, linking to the :doc:`/bibliography`.
 * **Technical Terms**: Specialized Latin and Greek terminology (such as :term:`docta ignorantia <docta-ignorantia>` or :term:`coincidentia oppositorum <coincidentia-oppositorum>`) offers instant definition cards via the glossary.
 * **Theme Toggle**: Use the theme switcher in the navigation bar to toggle between light parchment and dark themes.
