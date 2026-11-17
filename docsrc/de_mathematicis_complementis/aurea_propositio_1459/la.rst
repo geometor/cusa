@@ -1,16 +1,16 @@
 :order: 110
 :layout: book
 :type: la
-:title: Aurea Propositio in Mathematicis — Three-Ray Sum Invariance and the Golden Proposition — Latin
+:title: Aurea Propositio in Mathematicis — Three-Ray Sum Invariance and the Golden Proposition — Latin (1440 / 1514–1913)
 :canonical_id: APM (1459)
 :original_id: APM (1459)
 :folio: APM (1459)
-:tracks: English: index | Latin: la | Summary: summary | Notes: notes
+:tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes
 
 .. _aurea_propositio_1459-la:
 
 =================================================================================================================
-Aurea Propositio in Mathematicis — Three-Ray Sum Invariance and the Golden Proposition — Latin
+Aurea Propositio in Mathematicis — Three-Ray Sum Invariance and the Golden Proposition — Latin (1440 / 1514–1913)
 =================================================================================================================
 
 .. rubric:: Textus Latinus Collatis Editionibus Parisiensi (1514), Basileensi (1565) et Rottae (1913) · APM (1459)

@@ -285,7 +285,7 @@ def test_sphinx_ext_latin_track_registration() -> None:
     env = SimpleNamespace(found_docs={"u/u-en", "u/u-la", "u/u-summary", "u/u-notes"})
     tracks = mock_book.detect_companion_tracks(env, "u/u-la")
     assert [t["key"] for t in tracks] == ["en", "la", "summary", "notes"]
-    assert tracks[1]["label"] == "Latin (1440 / 1514–1913)"
+    assert tracks[1]["label"] == "Latin"
     assert tracks[1]["active"] is True
 
 

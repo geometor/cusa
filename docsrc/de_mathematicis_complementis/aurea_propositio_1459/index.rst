@@ -4,7 +4,7 @@
 :canonical_id: APM (1459)
 :original_id: APM (1459)
 :folio: APM (1459)
-:tracks: English: index | Latin: la | Summary: summary | Notes: notes
+:tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes
 
 .. _aurea_propositio_1459:
 .. _aurea_propositio_1459-en:

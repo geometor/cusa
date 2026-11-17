@@ -4,7 +4,7 @@
 :canonical_id: DI I.21–23
 :original_id: DI I.21–23
 :folio: DI I.21–23 (1440)
-:tracks: English: index | Latin: la | Summary: summary | Notes: notes
+:tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes
 
 .. _cap_21_23:
 .. _cap_21_23-en:

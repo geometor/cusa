@@ -1,16 +1,16 @@
 :order: 50
 :layout: book
 :type: la
-:title: Transsumption of the Triangle: Divine Triunity & Exclusion of Quaternity — Latin
+:title: Transsumption of the Triangle: Divine Triunity & Exclusion of Quaternity — Latin (1440 / 1514–1913)
 :canonical_id: DI I.18–20
 :original_id: DI I.18–20
 :folio: DI I.18–20 (1440)
-:tracks: English: index | Latin: la | Summary: summary | Notes: notes
+:tracks: English: index | Latin (1440 / 1514–1913): la | Summary: summary | Notes: notes
 
 .. _cap_18_20-la:
 
 ===================================================================================================
-Transsumption of the Triangle: Divine Triunity & Exclusion of Quaternity — Latin
+Transsumption of the Triangle: Divine Triunity & Exclusion of Quaternity — Latin (1440 / 1514–1913)
 ===================================================================================================
 
 .. rubric:: Textus Latinus Collatis Editionibus Parisiensi (1514), Basileensi (1565) et Rottae (1913) · DI I.18–20 (1440)

@@ -8,7 +8,7 @@ from types import ModuleType
 from typing import Any
 
 _PATCHED_ATTR = "_geometor_cusa_la_patched"
-_LA_LABEL = "Latin (1440 / 1514–1913)"
+_LA_LABEL = "Latin"
 _LA_SUFFIX_ENTRY = (r"^(.+)[._-]la$", "la", _LA_LABEL)
 _LA_AUX_PATTERN = re.compile(r"^.+[._-]la$")
 
@@ -17,7 +17,7 @@ def register_latin_track(book_mod: ModuleType | object | None = None) -> bool:
     """Register and label the ``la`` companion track on ``photon_platform.publish.book``.
 
     Ensures that ``<slug>-la.rst`` tracks appear immediately after ``en`` with the
-    scholarly tab label ``"Latin (1440 / 1514–1913)"``.
+    canonical tab label ``"Latin"``.
 
     Args:
         book_mod: Optional pre-imported ``photon_platform.publish.book`` module (or mock
