@@ -973,6 +973,8 @@ def write_apparatus_artifacts(repo_root: str | Path) -> dict[str, Path]:
         ("persons.rst", render_persons_rst()),
         ("bibliography.rst", render_bibliography_rst()),
     ):
+        if filename == "persons.rst" and (rst_dir / "people" / "index.rst").is_file():
+            continue
         target = rst_dir / filename
         target.write_text(content, encoding="utf-8")
         written[str(target.relative_to(root))] = target
