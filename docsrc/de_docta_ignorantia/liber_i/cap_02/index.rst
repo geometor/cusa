@@ -1,0 +1,54 @@
+:order: 30
+:layout: book
+:title: Preliminary Elucidation of the Absolute, Contracted, and Joined Maximum
+:canonical_id: DI I.2
+:original_id: DI I.2
+:folio: DI I.2 (1440)
+:tracks: English: index | Latin: la | Summary: summary | Notes: notes
+
+.. _cap_02:
+.. _cap_02-en:
+
+=======================================================================
+Preliminary Elucidation of the Absolute, Contracted, and Joined Maximum
+=======================================================================
+
+.. rubric:: De Docta Ignorantia · Liber I, Capitulum II (1440)
+
+.. epigraph::
+
+   *Maximum autem hoc dico, quo nihil maius esse potest. Abundantia vero uni convenit. Coincidit itaque maximitati unitas, quae est et entitas.*
+
+   Now I call 'Maximum' that than which nothing can be greater. Yet fullness belongs to the One. Unity, therefore—which is also beingness—coincides with maximality. — **De Docta Ignorantia I.2 §1**
+
+.. _di-bk1-ch2:
+.. _di-bk1-ch2-en:
+
+Book I, Chapter 2 — Preliminary Elucidation of What Follows
+-----------------------------------------------------------
+
+*Original GEOMETOR Translation from the Latin · h I, nn. 5–8 · Paris 1514 fol. 1v–2r · Rotta 1913 pp. 5–6*
+
+.. _cusa-en-di-i-2-s-1:
+
+.. folio:: DI I.2 §1
+
+Being about to treat of the greatest doctrine of ignorance, I find it necessary to approach the very nature of maximality. Now I call 'Maximum' that than which nothing can be greater. Yet fullness belongs to the One. Unity, therefore—which is also beingness—coincides with maximality. And if such unity is universally absolved from every relation and contraction, it is manifest that nothing stands opposed to it, inasmuch as it is absolute maximality. Thus the Absolute Maximum is One, which is all things; in which all things are, because it is Maximum. Moreover, since nothing is opposed to it, the Minimum coincides with it at the same time; wherefore it is also in all things; and because it is absolute, it is in act all possible being, contracting nothing from things, while all things come from it. In the first little book I shall labor to investigate this Maximum—which by the indubitable faith of all nations is also believed to be God—incomprehensibly above human reason, guided by Him who alone dwells in light inaccessible.
+
+.. _cusa-en-di-i-2-s-2:
+
+.. folio:: DI I.2 §2
+
+In the second place, just as absolute maximality is absolute beingness through which all things are what they are, so too the universal unity of being derives from it—a unity called 'maximum from the Absolute' and hence existing contractedly as the universe, whose unity is contracted in plurality, apart from which it cannot exist. Although this maximum embraces all things within its universal unity, so that all things deriving from the Absolute are in it and it is in all of them, nevertheless it possesses no subsistence outside the plurality in which it exists, because it does not exist without contraction, from which it cannot be absolved. Concerning this maximum, namely the universe, I shall add a few remarks in the second book.
+
+.. _cusa-en-di-i-2-s-3:
+
+.. folio:: DI I.2 §3
+
+In the third place, the maximum of a third consideration will subsequently be made manifest. For since the universe has subsistence only contractedly in plurality, among those many things themselves we shall seek one maximum in which the universe subsists most greatly and most perfectly in act as in its goal. And because such a being is united with the Absolute, which is the universal bound, since it is the most perfect goal surpassing all our capacity, concerning that Maximum which is simultaneously contracted and absolute—whom we name Jesus, ever blessed—I shall subjoin certain reflections according as Jesus Himself shall inspire.
+
+.. _cusa-en-di-i-2-s-4:
+
+.. folio:: DI I.2 §4
+
+Whoever wishes to reach the meaning, however, must lift his intellect above the force of words rather than cling to the literal properties of terms, which cannot be fitted strictly to such great intellectual mysteries. Exemplary guidance too must be used transcendently, leaving sensible things behind so that the reader may swiftly ascend to simple intellectuality. To seek out this path I have striven to lay it open to ordinary minds as clearly as I could, shunning all harshness of style and revealing straightway that the root of learned ignorance lies in the ungraspable exactness of truth.

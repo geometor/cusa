@@ -33,10 +33,12 @@ def _picture_block(svg_name: str, alt: str, caption: str) -> list[str]:
 
 
 def _all_unit_pictures(unit: CodexUnitSpec) -> list[str]:
-    """Render the primary unit figure plus any section-specific figures for Summary/Notes."""
-    blocks = _picture_block(unit.figure_svg, unit.title, unit.figure_caption)
+    """Render the primary unit figure plus any distinct section-specific figures for Summary/Notes."""
+    blocks: list[str] = []
+    if unit.figure_svg and unit.figure_caption:
+        blocks.extend(_picture_block(unit.figure_svg, unit.title, unit.figure_caption))
     for sec in unit.sections:
-        if sec.figure_svg and sec.figure_caption:
+        if sec.figure_svg and sec.figure_caption and sec.figure_svg != unit.figure_svg:
             blocks.extend(_picture_block(sec.figure_svg, sec.heading_en, sec.figure_caption))
     return blocks
 
@@ -112,20 +114,24 @@ def _render_plain_witness(sections: tuple[BilingualSectionData, ...], *, lang: s
 
 
 def write_source_witnesses(repo_root: str | Path) -> dict[str, Path]:
-    """Write canonical ``.la.txt`` / ``.en.txt`` source witnesses and ``sources_manifest.json``."""
+    """Write canonical ``.la.txt`` / ``.en.txt`` source witnesses, ``sources_manifest.json``, and ``folio_map.json``."""
     root = Path(repo_root)
     sources_dir = root / "resources" / "cusa" / "sources"
     sources_dir.mkdir(parents=True, exist_ok=True)
 
-    # Clean legacy unit-* files
-    for old_file in sources_dir.glob("unit-*.txt"):
-        try:
-            old_file.unlink()
-        except OSError:
-            pass
+    # Clean legacy unit-* files and legacy bundled cap_*_* witness files
+    expected_prefixes = {unit.source_prefix for unit in CODEX_UNITS}
+    for old_file in sources_dir.glob("*.txt"):
+        stem = old_file.name.removesuffix(".la.txt").removesuffix(".en.txt")
+        if stem.startswith("unit-") or stem not in expected_prefixes:
+            try:
+                old_file.unlink()
+            except OSError:
+                pass
 
     written: dict[str, Path] = {}
     unit_entries: list[dict[str, object]] = []
+    folio_entries: dict[str, dict[str, str]] = {}
 
     for unit in CODEX_UNITS:
         parity_info = verify_unit_parity(unit)
@@ -136,16 +142,41 @@ def write_source_witnesses(repo_root: str | Path) -> dict[str, Path]:
         en_path = sources_dir / f"{unit.source_prefix}.en.txt"
         la_path.write_text(la_text, encoding="utf-8")
         en_path.write_text(en_text, encoding="utf-8")
-        written[str(la_path.relative_to(root))] = la_path
-        written[str(en_path.relative_to(root))] = en_path
+        la_rel = str(la_path.relative_to(root))
+        en_rel = str(en_path.relative_to(root))
+        written[la_rel] = la_path
+        written[en_rel] = en_path
+
+        folio_entries[unit.locus_summary] = {
+            "la": f"{la_rel}#L1",
+            "en": f"{en_rel}#L1",
+            "default": f"{la_rel}#L1",
+        }
+        la_lines = {
+            m.group(1): idx
+            for idx, line in enumerate(la_text.splitlines(), start=1)
+            if (m := re.match(r"^\[([^\]]+)\]\s+", line))
+        }
+        en_lines = {
+            m.group(1): idx
+            for idx, line in enumerate(en_text.splitlines(), start=1)
+            if (m := re.match(r"^\[([^\]]+)\]\s+", line))
+        }
+        for milestone, la_lineno in la_lines.items():
+            en_lineno = en_lines.get(milestone, la_lineno)
+            folio_entries[milestone] = {
+                "la": f"{la_rel}#L{la_lineno}",
+                "en": f"{en_rel}#L{en_lineno}",
+                "default": f"{la_rel}#L{la_lineno}",
+            }
 
         la_sha = hashlib.sha256(la_text.encode("utf-8")).hexdigest()
         en_sha = hashlib.sha256(en_text.encode("utf-8")).hexdigest()
         unit_entries.append(
             {
                 **parity_info,
-                "la_source": str(la_path.relative_to(root)),
-                "en_source": str(en_path.relative_to(root)),
+                "la_source": la_rel,
+                "en_source": en_rel,
                 "la_sha256": la_sha,
                 "en_sha256": en_sha,
             }
@@ -184,6 +215,20 @@ def write_source_witnesses(repo_root: str | Path) -> dict[str, Path]:
         encoding="utf-8",
     )
     written[str(manifest_path.relative_to(root))] = manifest_path
+
+    folio_map_payload = {
+        "_corpus": "geometor-cusa",
+        "_edition": "cusa",
+        "_schema": "geometor-codex-folio-map-v1",
+        "_description": "Primary-source milestone and unit folio map for Nicolaus Cusanus codex",
+        "folios": folio_entries,
+    }
+    folio_map_path = root / "resources" / "cusa" / "folio_map.json"
+    folio_map_path.write_text(
+        json.dumps(folio_map_payload, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+    written[str(folio_map_path.relative_to(root))] = folio_map_path
     return written
 
 
@@ -198,8 +243,8 @@ def _render_unit_en_rst(unit: CodexUnitSpec, order_num: int) -> str:
         f":folio: {unit.locus_summary}",
         ":tracks: English: index | Latin: la | Summary: summary | Notes: notes",
         "",
-        f".. _{unit.slug}:",
-        f".. _{unit.slug}-en:",
+        f".. _{unit.anchor_slug}:",
+        f".. _{unit.anchor_slug}-en:",
     ]
     for leg in unit.legacy_slugs:
         if leg not in [sec.section_id for sec in unit.sections]:
@@ -221,9 +266,10 @@ def _render_unit_en_rst(unit: CodexUnitSpec, order_num: int) -> str:
             "",
             f"   {unit.epigraph_en} — **{unit.epigraph_locus}**",
             "",
-            *_picture_block(unit.figure_svg, unit.title, unit.figure_caption),
         ]
     )
+    if unit.figure_svg and unit.figure_caption:
+        lines.extend(_picture_block(unit.figure_svg, unit.title, unit.figure_caption))
 
     for sec in unit.sections:
         lines.extend(
@@ -238,7 +284,7 @@ def _render_unit_en_rst(unit: CodexUnitSpec, order_num: int) -> str:
                 "",
             ]
         )
-        if sec.figure_svg and sec.figure_caption:
+        if sec.figure_svg and sec.figure_caption and sec.figure_svg != unit.figure_svg:
             lines.extend(_picture_block(sec.figure_svg, sec.heading_en, sec.figure_caption))
 
         for milestone, para_text in sec.en_paragraphs:
@@ -270,7 +316,7 @@ def _render_unit_la_rst(unit: CodexUnitSpec, order_num: int) -> str:
         f":folio: {unit.locus_summary}",
         ":tracks: English: index | Latin: la | Summary: summary | Notes: notes",
         "",
-        f".. _{unit.slug}-la:",
+        f".. _{unit.anchor_slug}-la:",
     ]
     for leg in unit.legacy_slugs:
         if leg not in [sec.section_id for sec in unit.sections]:
@@ -288,9 +334,10 @@ def _render_unit_la_rst(unit: CodexUnitSpec, order_num: int) -> str:
                 f"Basileensi (1565) et Rottae (1913) · {unit.locus_summary}"
             ),
             "",
-            *_picture_block(unit.figure_svg, unit.title, unit.figure_caption),
         ]
     )
+    if unit.figure_svg and unit.figure_caption:
+        lines.extend(_picture_block(unit.figure_svg, unit.title, unit.figure_caption))
 
     for sec in unit.sections:
         lines.extend(
@@ -304,7 +351,7 @@ def _render_unit_la_rst(unit: CodexUnitSpec, order_num: int) -> str:
                 "",
             ]
         )
-        if sec.figure_svg and sec.figure_caption:
+        if sec.figure_svg and sec.figure_caption and sec.figure_svg != unit.figure_svg:
             lines.extend(_picture_block(sec.figure_svg, sec.heading_la, sec.figure_caption))
 
         for milestone, para_text in sec.la_paragraphs:
@@ -336,7 +383,7 @@ def _render_unit_summary_rst(unit: CodexUnitSpec, order_num: int) -> str:
         f":folio: {unit.locus_summary}",
         ":tracks: English: index | Latin: la | Summary: summary | Notes: notes",
         "",
-        f".. _{unit.slug}-summary:",
+        f".. _{unit.anchor_slug}-summary:",
     ]
     for leg in unit.legacy_slugs:
         if leg not in [sec.section_id for sec in unit.sections]:
@@ -372,7 +419,7 @@ def _render_unit_notes_rst(unit: CodexUnitSpec, order_num: int) -> str:
         f":folio: {unit.locus_summary}",
         ":tracks: English: index | Latin: la | Summary: summary | Notes: notes",
         "",
-        f".. _{unit.slug}-notes:",
+        f".. _{unit.anchor_slug}-notes:",
     ]
     for leg in unit.legacy_slugs:
         if leg not in [sec.section_id for sec in unit.sections]:
@@ -525,12 +572,11 @@ def render_liber_i_index_rst() -> str:
         "   :hidden:",
         "   :maxdepth: 2",
         "",
-        "   cap_01_04/index",
-        "   cap_11_12/index",
-        "   cap_13_15/index",
-        "   cap_16_17/index",
-        "   cap_18_20/index",
-        "   cap_21_23/index",
+        *[
+            f"   {u.slug}/index"
+            for u in CODEX_UNITS
+            if u.book_slug == "de_docta_ignorantia/liber_i"
+        ],
         "",
     ]
     return "\n".join(lines)
@@ -583,7 +629,11 @@ def render_liber_ii_index_rst() -> str:
         "   :hidden:",
         "   :maxdepth: 2",
         "",
-        "   cap_11_12/index",
+        *[
+            f"   {u.slug}/index"
+            for u in CODEX_UNITS
+            if u.book_slug == "de_docta_ignorantia/liber_ii"
+        ],
         "",
     ]
     return "\n".join(lines)
@@ -666,13 +716,20 @@ def compile_all_codex(repo_root: str | Path, *, regen_figures: bool = True) -> d
     codex_dir.mkdir(parents=True, exist_ok=True)
     dmc_dir.mkdir(parents=True, exist_ok=True)
 
-    # Clean legacy unit-* directories and mislocated apparatus from de_docta_ignorantia/
+    # Clean legacy unit-* directories, bundled cap_*_* directories, and mislocated apparatus
     for old_slug in (
         "unit-1-maximum-ignorantia",
         "unit-2-mathematica-transsumptio",
         "unit-3-coincidentia-figurarum",
         "unit-4-linea-sphaera-infinita",
         "unit-5-cosmologia-complementa",
+        "liber_i/cap_01_04",
+        "liber_i/cap_11_12",
+        "liber_i/cap_13_15",
+        "liber_i/cap_16_17",
+        "liber_i/cap_18_20",
+        "liber_i/cap_21_23",
+        "liber_ii/cap_11_12",
     ):
         target_dir = codex_dir / old_slug
         if target_dir.is_dir():
@@ -717,7 +774,7 @@ def compile_all_codex(repo_root: str | Path, *, regen_figures: bool = True) -> d
     dmc_index.write_text(render_de_mathematicis_complementis_index_rst(), encoding="utf-8")
     written[str(dmc_index.relative_to(root))] = dmc_index
 
-    # 11 Atomic leaf units across 4 tracks
+    # Atomic leaf units across 4 tracks
     for idx, unit in enumerate(CODEX_UNITS, start=1):
         verify_unit_parity(unit)
         unit_dir = root / "docsrc" / unit.doc_rel_dir

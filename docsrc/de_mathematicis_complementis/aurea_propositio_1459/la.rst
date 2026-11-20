@@ -1,4 +1,4 @@
-:order: 110
+:order: 250
 :layout: book
 :type: la
 :title: Aurea Propositio in Mathematicis — Three-Ray Sum Invariance and the Golden Proposition — Latin (1440 / 1514–1913)
@@ -25,10 +25,6 @@ Aurea Propositio in Mathematicis (Romae, VIII. Augusti 1459, §§1–7 — Textu
 ------------------------------------------------------------------------------------
 
 *h XX, Opuscula Mathematica · Basel 1565 pp. 1145–1146*
-
-.. picture:: /_static/figures/cusa_aurea_propositio_1459.svg
-   :alt: Aurea Propositio in Mathematicis (Romae, VIII. Augusti 1459, §§1–7 — Textus Integer)
-   :caption: Aurea Propositio in Mathematicis (1459, §§1–2) — Exact Q(sqrt(3)) Construction at theta = pi/6: Three-Ray Sum |AI| + |AK| + |AL| = 3 Equals Three Unit Radii, with Endpoint Ascent |AI| - 1 = (11 - 6 sqrt(3))/13 Matching Midpoint Descent 1 - |AK| and Fifth-Order Residual theta^5/180.
 
 .. _cusa-la-apm-s-1a:
 

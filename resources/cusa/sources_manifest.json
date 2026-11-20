@@ -15,20 +15,20 @@
     "Heidelberg Academy Edition concordance markers (h I, 1932; h XX, 2010)"
   ],
   "english_translation": "100% Original GEOMETOR Scholarly Translation Rendered Directly from the Public-Domain Latin Witnesses (MIT Licensed; Zero Modern Copyrighted Translation Text)",
-  "unit_count": 11,
+  "unit_count": 25,
   "total_la_paragraphs": 124,
   "total_en_paragraphs": 124,
   "units": [
     {
-      "slug": "cap_01_04",
+      "slug": "dedicatio",
       "book_slug": "de_docta_ignorantia/liber_i",
-      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_01_04",
-      "unit_number": "Capitula I–IV",
-      "canonical_id": "DI I.1–4",
-      "locus_summary": "DI Ded., I.1–4, Ep. (1440)",
-      "section_count": 6,
-      "la_paragraph_count": 16,
-      "en_paragraph_count": 16,
+      "doc_rel_dir": "de_docta_ignorantia/liber_i/dedicatio",
+      "unit_number": "Dedicatio",
+      "canonical_id": "DI Ded.",
+      "locus_summary": "DI Ded. (1440)",
+      "section_count": 1,
+      "la_paragraph_count": 2,
+      "en_paragraph_count": 2,
       "parity_verified": true,
       "sections": [
         {
@@ -37,58 +37,123 @@
           "witness": "h I, n. 1 · Paris 1514 fol. 1r · Rotta 1913 p. 1",
           "la_paragraphs": 2,
           "en_paragraphs": 2
-        },
+        }
+      ],
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-dedicatio.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-dedicatio.en.txt",
+      "la_sha256": "d87cc3f04f7cfc341f02d4d53b52094c37fdb89a5bca2cc087ad26d4428e28ac",
+      "en_sha256": "22549977a38e131c1303040d736eb49d4631576c1e81d73d86faf4b715d0ffbf"
+    },
+    {
+      "slug": "cap_01",
+      "book_slug": "de_docta_ignorantia/liber_i",
+      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_01",
+      "unit_number": "Capitulum I",
+      "canonical_id": "DI I.1",
+      "locus_summary": "DI I.1 (1440)",
+      "section_count": 1,
+      "la_paragraph_count": 2,
+      "en_paragraph_count": 2,
+      "parity_verified": true,
+      "sections": [
         {
           "section_id": "di-bk1-ch1",
           "folio_prefix": "DI I.1",
           "witness": "h I, nn. 2–4 · Paris 1514 fol. 1r–1v · Rotta 1913 pp. 2–4",
           "la_paragraphs": 2,
           "en_paragraphs": 2
-        },
+        }
+      ],
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01.en.txt",
+      "la_sha256": "4a61840ea1a72865ab9d22b789cf57fb6ce63c403fafe9e4f6f3e18d41c88a22",
+      "en_sha256": "f36846ec8bd23e4f14c9251e87e413cf3b2f3b57608a62ab25421dc4be4f9a35"
+    },
+    {
+      "slug": "cap_02",
+      "book_slug": "de_docta_ignorantia/liber_i",
+      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_02",
+      "unit_number": "Capitulum II",
+      "canonical_id": "DI I.2",
+      "locus_summary": "DI I.2 (1440)",
+      "section_count": 1,
+      "la_paragraph_count": 4,
+      "en_paragraph_count": 4,
+      "parity_verified": true,
+      "sections": [
         {
           "section_id": "di-bk1-ch2",
           "folio_prefix": "DI I.2",
           "witness": "h I, nn. 5–8 · Paris 1514 fol. 1v–2r · Rotta 1913 pp. 5–6",
           "la_paragraphs": 4,
           "en_paragraphs": 4
-        },
+        }
+      ],
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_02.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_02.en.txt",
+      "la_sha256": "c2574c3555f6979e79699918cea5749226d28a3d55712a0d949c55631f1a1b2e",
+      "en_sha256": "8dd6df0a7f30e1cf045987aba76bd589866e262d56cf5e9a0d9301d3ed6bf1d0"
+    },
+    {
+      "slug": "cap_03",
+      "book_slug": "de_docta_ignorantia/liber_i",
+      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_03",
+      "unit_number": "Capitulum III",
+      "canonical_id": "DI I.3",
+      "locus_summary": "DI I.3 (1440)",
+      "section_count": 1,
+      "la_paragraph_count": 2,
+      "en_paragraph_count": 2,
+      "parity_verified": true,
+      "sections": [
         {
           "section_id": "di-bk1-ch3",
           "folio_prefix": "DI I.3",
           "witness": "h I, nn. 9–10 · Paris 1514 fol. 2r · Rotta 1913 pp. 7–8",
           "la_paragraphs": 2,
           "en_paragraphs": 2
-        },
+        }
+      ],
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_03.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_03.en.txt",
+      "la_sha256": "ca9544c011e4202f8697add99098a428bc0c1fa4492b750f0092fe5376426fc0",
+      "en_sha256": "100c1c625dc78b271a2819a22dc322d365a9d309c9505e8325040b06b1dad052"
+    },
+    {
+      "slug": "cap_04",
+      "book_slug": "de_docta_ignorantia/liber_i",
+      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_04",
+      "unit_number": "Capitulum IV",
+      "canonical_id": "DI I.4",
+      "locus_summary": "DI I.4 (1440)",
+      "section_count": 1,
+      "la_paragraph_count": 4,
+      "en_paragraph_count": 4,
+      "parity_verified": true,
+      "sections": [
         {
           "section_id": "di-bk1-ch4",
           "folio_prefix": "DI I.4",
           "witness": "h I, nn. 11–12 · Paris 1514 fol. 2r–2v · Rotta 1913 pp. 9–11",
           "la_paragraphs": 4,
           "en_paragraphs": 4
-        },
-        {
-          "section_id": "di-epistola",
-          "folio_prefix": "DI Ep.",
-          "witness": "h I, nn. 263–264 · Paris 1514 fol. 25v · Rotta 1913 pp. 188–189",
-          "la_paragraphs": 2,
-          "en_paragraphs": 2
         }
       ],
-      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt",
-      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.en.txt",
-      "la_sha256": "19cdb84e0a83c27490c1b9d225eb11392ad3fc0ff64f2bd48709667a239b2923",
-      "en_sha256": "da2653009ddb0577cfbf134d6347e08f2c7607909e309627d84b996c1044b965"
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_04.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_04.en.txt",
+      "la_sha256": "6fa640c7279aaf614b86ee4853c709b2ec549d327f482fa3f1c2910b244325a4",
+      "en_sha256": "ad2fa81601d7177428ac51df22f40715ef3fb19962ef141ce9a1dd2813f471a4"
     },
     {
-      "slug": "cap_11_12",
+      "slug": "cap_11",
       "book_slug": "de_docta_ignorantia/liber_i",
-      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_11_12",
-      "unit_number": "Capitula XI–XII",
-      "canonical_id": "DI I.11–12",
-      "locus_summary": "DI I.11–12 (1440)",
-      "section_count": 2,
-      "la_paragraph_count": 6,
-      "en_paragraph_count": 6,
+      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_11",
+      "unit_number": "Capitulum XI",
+      "canonical_id": "DI I.11",
+      "locus_summary": "DI I.11 (1440)",
+      "section_count": 1,
+      "la_paragraph_count": 4,
+      "en_paragraph_count": 4,
       "parity_verified": true,
       "sections": [
         {
@@ -97,7 +162,25 @@
           "witness": "h I, nn. 30–32 · Paris 1514 fol. 4v–5r · Rotta 1913 pp. 23–25",
           "la_paragraphs": 4,
           "en_paragraphs": 4
-        },
+        }
+      ],
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_11.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_11.en.txt",
+      "la_sha256": "7ca9c9d2cddcd97908cbe28ee65ebe39f41946d359461e91f0db77ccbbb0dd43",
+      "en_sha256": "d57c954e35c9e2afe78304806a9f6320612cd87b6ea998da57c544fb8dddfd9f"
+    },
+    {
+      "slug": "cap_12",
+      "book_slug": "de_docta_ignorantia/liber_i",
+      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_12",
+      "unit_number": "Capitulum XII",
+      "canonical_id": "DI I.12",
+      "locus_summary": "DI I.12 (1440)",
+      "section_count": 1,
+      "la_paragraph_count": 2,
+      "en_paragraph_count": 2,
+      "parity_verified": true,
+      "sections": [
         {
           "section_id": "di-bk1-ch12",
           "folio_prefix": "DI I.12",
@@ -106,21 +189,21 @@
           "en_paragraphs": 2
         }
       ],
-      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_11_12.la.txt",
-      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_11_12.en.txt",
-      "la_sha256": "e8e4b35252119ae79b18fe00b2a183065a9984bf2495319c34d7faf1b357b8b8",
-      "en_sha256": "7ef541eef120944cf9cf02d606c89998a0ddb99af5213042d7e1877f667034f2"
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_12.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_12.en.txt",
+      "la_sha256": "a8dffe82fda48b1ffe83a04f39266125418740481a8f6366a11494f3e25aab63",
+      "en_sha256": "c410abd4d6d1160c2952c8c94e85262a225d75e79f8829008eeeb645ed921c46"
     },
     {
-      "slug": "cap_13_15",
+      "slug": "cap_13",
       "book_slug": "de_docta_ignorantia/liber_i",
-      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_13_15",
-      "unit_number": "Capitula XIII–XV",
-      "canonical_id": "DI I.13–15",
-      "locus_summary": "DI I.13–15 (1440)",
-      "section_count": 3,
-      "la_paragraph_count": 11,
-      "en_paragraph_count": 11,
+      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_13",
+      "unit_number": "Capitulum XIII",
+      "canonical_id": "DI I.13",
+      "locus_summary": "DI I.13 (1440)",
+      "section_count": 1,
+      "la_paragraph_count": 5,
+      "en_paragraph_count": 5,
       "parity_verified": true,
       "sections": [
         {
@@ -129,14 +212,50 @@
           "witness": "h I, nn. 35–36 · Paris 1514 fol. 5r–5v · Rotta 1913 pp. 27–29 (restoring Klibansky's collation on arc gh)",
           "la_paragraphs": 5,
           "en_paragraphs": 5
-        },
+        }
+      ],
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13.en.txt",
+      "la_sha256": "73312619966469d2a5aaba1818f08ca33062ba5ce9c0cda54f0d5b24f62dcf7b",
+      "en_sha256": "3b0fc9b11ccdecb0a7facd0b586414cdd8f040db63872d9951f919b0008ed0e9"
+    },
+    {
+      "slug": "cap_14",
+      "book_slug": "de_docta_ignorantia/liber_i",
+      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_14",
+      "unit_number": "Capitulum XIV",
+      "canonical_id": "DI I.14",
+      "locus_summary": "DI I.14 (1440)",
+      "section_count": 1,
+      "la_paragraph_count": 3,
+      "en_paragraph_count": 3,
+      "parity_verified": true,
+      "sections": [
         {
           "section_id": "di-bk1-ch14",
           "folio_prefix": "DI I.14",
           "witness": "h I, nn. 37–39 · Paris 1514 fol. 5v–6r · Rotta 1913 pp. 30–31 (restoring Klibansky's collation on bd and dc)",
           "la_paragraphs": 3,
           "en_paragraphs": 3
-        },
+        }
+      ],
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_14.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_14.en.txt",
+      "la_sha256": "7bb4b9284218997140256afc3aa4859d2294bae81f0436f7a5295d53ac0b4d93",
+      "en_sha256": "2e5580c9ee91abf2df5974a908ba2b23a0d9f7fe15db2ac92aa866cddb0aff68"
+    },
+    {
+      "slug": "cap_15",
+      "book_slug": "de_docta_ignorantia/liber_i",
+      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_15",
+      "unit_number": "Capitulum XV",
+      "canonical_id": "DI I.15",
+      "locus_summary": "DI I.15 (1440)",
+      "section_count": 1,
+      "la_paragraph_count": 3,
+      "en_paragraph_count": 3,
+      "parity_verified": true,
+      "sections": [
         {
           "section_id": "di-bk1-ch15",
           "folio_prefix": "DI I.15",
@@ -145,21 +264,21 @@
           "en_paragraphs": 3
         }
       ],
-      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.la.txt",
-      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.en.txt",
-      "la_sha256": "f493eddd8fa8111a59f6b8ff72de1db093adccb44c7539b4f86216cf87c6d26d",
-      "en_sha256": "c9c8c2a9a7ae86e9fe14c8662a65ddc6b92ff80dfc5d77e598701732a5b5dd60"
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_15.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_15.en.txt",
+      "la_sha256": "429e356ad073bd119fa2e68fae00dc8e894c2e11fcd2a9987128ac6ca3ee4c13",
+      "en_sha256": "51be8d43285caf5ef4f68d5470f417b0897418e39739189fb8b302014f0a8988"
     },
     {
-      "slug": "cap_16_17",
+      "slug": "cap_16",
       "book_slug": "de_docta_ignorantia/liber_i",
-      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_16_17",
-      "unit_number": "Capitula XVI–XVII",
-      "canonical_id": "DI I.16–17",
-      "locus_summary": "DI I.16–17 (1440)",
-      "section_count": 2,
-      "la_paragraph_count": 11,
-      "en_paragraph_count": 11,
+      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_16",
+      "unit_number": "Capitulum XVI",
+      "canonical_id": "DI I.16",
+      "locus_summary": "DI I.16 (1440)",
+      "section_count": 1,
+      "la_paragraph_count": 6,
+      "en_paragraph_count": 6,
       "parity_verified": true,
       "sections": [
         {
@@ -168,7 +287,25 @@
           "witness": "h I, nn. 42–46 · Paris 1514 fol. 6r–6v · Rotta 1913 pp. 32–35",
           "la_paragraphs": 6,
           "en_paragraphs": 6
-        },
+        }
+      ],
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16.en.txt",
+      "la_sha256": "4f5f4705c21a15b72fde41c93d630f519332f86e0568fd9c8426177c353f6bed",
+      "en_sha256": "2bcd2e3bfdf0bbe35ee9f4b72e4122480faa8fd26dd46acea77d007f62242962"
+    },
+    {
+      "slug": "cap_17",
+      "book_slug": "de_docta_ignorantia/liber_i",
+      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_17",
+      "unit_number": "Capitulum XVII",
+      "canonical_id": "DI I.17",
+      "locus_summary": "DI I.17 (1440)",
+      "section_count": 1,
+      "la_paragraph_count": 5,
+      "en_paragraph_count": 5,
+      "parity_verified": true,
+      "sections": [
         {
           "section_id": "di-bk1-ch17",
           "folio_prefix": "DI I.17",
@@ -177,21 +314,21 @@
           "en_paragraphs": 5
         }
       ],
-      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.la.txt",
-      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.en.txt",
-      "la_sha256": "485a5ccdf24ce59758323b3155857ba2374f79968309f3134c66d69b33afbd15",
-      "en_sha256": "d9e3511cacdd5d38d8099b33f2f1aabd9e160e3e3dc96a501aacf43a68018f4e"
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_17.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_17.en.txt",
+      "la_sha256": "120946de2a683e684b8c62817150464afea7e804bb2b45834e08c037183c4d9e",
+      "en_sha256": "cf35e272b2f0ba9c253a65cb2ca56444c032ddb35b27177219d96c2870f44b56"
     },
     {
-      "slug": "cap_18_20",
+      "slug": "cap_18",
       "book_slug": "de_docta_ignorantia/liber_i",
-      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_18_20",
-      "unit_number": "Capitula XVIII–XX",
-      "canonical_id": "DI I.18–20",
-      "locus_summary": "DI I.18–20 (1440)",
-      "section_count": 3,
-      "la_paragraph_count": 14,
-      "en_paragraph_count": 14,
+      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_18",
+      "unit_number": "Capitulum XVIII",
+      "canonical_id": "DI I.18",
+      "locus_summary": "DI I.18 (1440)",
+      "section_count": 1,
+      "la_paragraph_count": 5,
+      "en_paragraph_count": 5,
       "parity_verified": true,
       "sections": [
         {
@@ -200,14 +337,50 @@
           "witness": "h I, nn. 52–54 · Paris 1514 fol. 7r–7v · Rotta 1913 pp. 38–40",
           "la_paragraphs": 5,
           "en_paragraphs": 5
-        },
+        }
+      ],
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18.en.txt",
+      "la_sha256": "469c1d119b4b20d56b92c5d95e91f600382b871283b261822fdca06cd026a591",
+      "en_sha256": "ab057c26a7e1985162761a84ffe28ea8eb6e0ee39354ea65d2edbba806e6fc04"
+    },
+    {
+      "slug": "cap_19",
+      "book_slug": "de_docta_ignorantia/liber_i",
+      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_19",
+      "unit_number": "Capitulum XIX",
+      "canonical_id": "DI I.19",
+      "locus_summary": "DI I.19 (1440)",
+      "section_count": 1,
+      "la_paragraph_count": 5,
+      "en_paragraph_count": 5,
+      "parity_verified": true,
+      "sections": [
         {
           "section_id": "di-bk1-ch19",
           "folio_prefix": "DI I.19",
           "witness": "h I, nn. 55–58 · Paris 1514 fol. 7v–8r · Rotta 1913 pp. 40–42",
           "la_paragraphs": 5,
           "en_paragraphs": 5
-        },
+        }
+      ],
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_19.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_19.en.txt",
+      "la_sha256": "a7063f2881a75f91f26b52b15c5485237cefcdd2ec4375e6900f5005ff9884b2",
+      "en_sha256": "447698b0d7403b1b24f5371a76c9a4a111135ea429449cba49f1efd60df82c4d"
+    },
+    {
+      "slug": "cap_20",
+      "book_slug": "de_docta_ignorantia/liber_i",
+      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_20",
+      "unit_number": "Capitulum XX",
+      "canonical_id": "DI I.20",
+      "locus_summary": "DI I.20 (1440)",
+      "section_count": 1,
+      "la_paragraph_count": 4,
+      "en_paragraph_count": 4,
+      "parity_verified": true,
+      "sections": [
         {
           "section_id": "di-bk1-ch20",
           "folio_prefix": "DI I.20",
@@ -216,21 +389,21 @@
           "en_paragraphs": 4
         }
       ],
-      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt",
-      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.en.txt",
-      "la_sha256": "287ac2b439de6d475ac25abbdb3f642cc99004283d41ead6bc56e82d0e379ada",
-      "en_sha256": "c1f492a199f5dba14ded9e337bd4bc9b97625918714651db056a67713ed87df8"
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_20.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_20.en.txt",
+      "la_sha256": "77eea5dbb47b9dc9572d5cb9d2ce3e0e40d001f4cbce4c6bc88cb2b2cea4958b",
+      "en_sha256": "c549fda0ae0dd4c87fe67757ca2c2f4ac475f49e6a01ff47b41fc501ecca1c25"
     },
     {
-      "slug": "cap_21_23",
+      "slug": "cap_21",
       "book_slug": "de_docta_ignorantia/liber_i",
-      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_21_23",
-      "unit_number": "Capitula XXI–XXIII",
-      "canonical_id": "DI I.21–23",
-      "locus_summary": "DI I.21–23 (1440)",
-      "section_count": 3,
-      "la_paragraph_count": 14,
-      "en_paragraph_count": 14,
+      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_21",
+      "unit_number": "Capitulum XXI",
+      "canonical_id": "DI I.21",
+      "locus_summary": "DI I.21 (1440)",
+      "section_count": 1,
+      "la_paragraph_count": 6,
+      "en_paragraph_count": 6,
       "parity_verified": true,
       "sections": [
         {
@@ -239,14 +412,50 @@
           "witness": "h I, nn. 63–66 · Paris 1514 fol. 8v–9r · Rotta 1913 pp. 45–47",
           "la_paragraphs": 6,
           "en_paragraphs": 6
-        },
+        }
+      ],
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21.en.txt",
+      "la_sha256": "9fabd2b7a1b28175ba0f244e255874cb10cda06b9fa947801ad5bea3abaa121e",
+      "en_sha256": "05e25469ef90e626c3a67d19eff8347d4ec50856509109e8fbc1f4d6bf12dbf7"
+    },
+    {
+      "slug": "cap_22",
+      "book_slug": "de_docta_ignorantia/liber_i",
+      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_22",
+      "unit_number": "Capitulum XXII",
+      "canonical_id": "DI I.22",
+      "locus_summary": "DI I.22 (1440)",
+      "section_count": 1,
+      "la_paragraph_count": 4,
+      "en_paragraph_count": 4,
+      "parity_verified": true,
+      "sections": [
         {
           "section_id": "di-bk1-ch22",
           "folio_prefix": "DI I.22",
           "witness": "h I, nn. 67–69 · Paris 1514 fol. 9r–9v · Rotta 1913 pp. 48–50",
           "la_paragraphs": 4,
           "en_paragraphs": 4
-        },
+        }
+      ],
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_22.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_22.en.txt",
+      "la_sha256": "403e02e62825abaf8f84b9f6c7b3d3e0358de6593b4d033fcd7274e02e21ae9b",
+      "en_sha256": "08d408bbc44ec601d2ee6710a78b096058fcde6531b48517cbf0795b4bcbedf3"
+    },
+    {
+      "slug": "cap_23",
+      "book_slug": "de_docta_ignorantia/liber_i",
+      "doc_rel_dir": "de_docta_ignorantia/liber_i/cap_23",
+      "unit_number": "Capitulum XXIII",
+      "canonical_id": "DI I.23",
+      "locus_summary": "DI I.23 (1440)",
+      "section_count": 1,
+      "la_paragraph_count": 4,
+      "en_paragraph_count": 4,
+      "parity_verified": true,
+      "sections": [
         {
           "section_id": "di-bk1-ch23",
           "folio_prefix": "DI I.23",
@@ -255,21 +464,46 @@
           "en_paragraphs": 4
         }
       ],
-      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt",
-      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.en.txt",
-      "la_sha256": "475138341bdc8e993a1f3c9c12b2dc9076c36710feb43c86b49cfcf814902737",
-      "en_sha256": "2c726b195a02da072268279949429b04eda45a6a662f4510bc39aeb5b2b409b1"
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_23.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_23.en.txt",
+      "la_sha256": "645b4d628f42f42deac6997c933316446cffaf4b1388ed892cec340b3c483186",
+      "en_sha256": "53f450d6ffca850e99f5b62a9009da0c20ea2e5d195e0866e7ef349f31b3fbda"
     },
     {
-      "slug": "cap_11_12",
+      "slug": "epistola",
+      "book_slug": "de_docta_ignorantia/liber_i",
+      "doc_rel_dir": "de_docta_ignorantia/liber_i/epistola",
+      "unit_number": "Epistola Auctoris",
+      "canonical_id": "DI Ep.",
+      "locus_summary": "DI Ep. (1440)",
+      "section_count": 1,
+      "la_paragraph_count": 2,
+      "en_paragraph_count": 2,
+      "parity_verified": true,
+      "sections": [
+        {
+          "section_id": "di-epistola",
+          "folio_prefix": "DI Ep.",
+          "witness": "h I, nn. 263–264 · Paris 1514 fol. 25v · Rotta 1913 pp. 188–189",
+          "la_paragraphs": 2,
+          "en_paragraphs": 2
+        }
+      ],
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-epistola.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_i-epistola.en.txt",
+      "la_sha256": "01e36d3af24fbf8049e2de9277312872223f33941a25617347488691b29d361c",
+      "en_sha256": "8c353efeeaeaec07cfbce5969fda321c5329f77f9daa559471214d360ea84561"
+    },
+    {
+      "slug": "cap_11",
       "book_slug": "de_docta_ignorantia/liber_ii",
-      "doc_rel_dir": "de_docta_ignorantia/liber_ii/cap_11_12",
-      "unit_number": "Capitula XI–XII",
-      "canonical_id": "DI II.11–12",
-      "locus_summary": "DI II.11–12 (1440)",
-      "section_count": 2,
-      "la_paragraph_count": 14,
-      "en_paragraph_count": 14,
+      "doc_rel_dir": "de_docta_ignorantia/liber_ii/cap_11",
+      "unit_number": "Capitulum XI",
+      "canonical_id": "DI II.11",
+      "locus_summary": "DI II.11 (1440)",
+      "section_count": 1,
+      "la_paragraph_count": 6,
+      "en_paragraph_count": 6,
       "parity_verified": true,
       "sections": [
         {
@@ -278,7 +512,25 @@
           "witness": "h I, nn. 156–161 · Paris 1514 fol. 18v–19r · Rotta 1913 pp. 113–116",
           "la_paragraphs": 6,
           "en_paragraphs": 6
-        },
+        }
+      ],
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11.en.txt",
+      "la_sha256": "24f800fef25813505d0e1f698ee7a6b1450f728dc88672c425e6d2be61111841",
+      "en_sha256": "f45b2b3e570b4c4f61df188522d4643679201022570a9fe4375f1208bbf76113"
+    },
+    {
+      "slug": "cap_12",
+      "book_slug": "de_docta_ignorantia/liber_ii",
+      "doc_rel_dir": "de_docta_ignorantia/liber_ii/cap_12",
+      "unit_number": "Capitulum XII",
+      "canonical_id": "DI II.12",
+      "locus_summary": "DI II.12 (1440)",
+      "section_count": 1,
+      "la_paragraph_count": 8,
+      "en_paragraph_count": 8,
+      "parity_verified": true,
+      "sections": [
         {
           "section_id": "di-bk2-ch12",
           "folio_prefix": "DI II.12",
@@ -287,10 +539,10 @@
           "en_paragraphs": 8
         }
       ],
-      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt",
-      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.en.txt",
-      "la_sha256": "344201fc9b2b5aa9f564f875c40aae05af7bd1afa74a6ed956965c14481a0373",
-      "en_sha256": "3936716f4fe74394bd4ef3d07df84f3a17fbdbc435ff8541dd8f77cae08a8f29"
+      "la_source": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_12.la.txt",
+      "en_source": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_12.en.txt",
+      "la_sha256": "6133eea021d128bd94675f4675e1225db956321f6040cac9a54e4474a0aca7b1",
+      "en_sha256": "6737c13c6034e1636e3ac6b696680a38f652dd0226eb3cc4d79c1a14140e230c"
     },
     {
       "slug": "transmutatio_1445",

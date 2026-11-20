@@ -1,4 +1,4 @@
-:order: 100
+:order: 240
 :layout: book
 :title: De Mathematica Perfectione — Vanishing Sagitta and Intellectual Vision
 :canonical_id: DMP (1458)

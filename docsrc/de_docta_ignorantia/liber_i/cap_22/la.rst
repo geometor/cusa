@@ -1,0 +1,47 @@
+:order: 170
+:layout: book
+:type: la
+:title: How Divine Providence Enfolds & Unites Contradictories — Latin (1440 / 1514–1913)
+:canonical_id: DI I.22
+:original_id: DI I.22
+:folio: DI I.22 (1440)
+:tracks: English: index | Latin: la | Summary: summary | Notes: notes
+
+.. _cap_22-la:
+
+=================================================================================
+How Divine Providence Enfolds & Unites Contradictories — Latin (1440 / 1514–1913)
+=================================================================================
+
+.. rubric:: Textus Latinus Collatis Editionibus Parisiensi (1514), Basileensi (1565) et Rottae (1913) · DI I.22 (1440)
+
+.. _di-bk1-ch22-la:
+
+Liber I, Capitulum XXII — Quomodo Dei providentia contradictoria unit
+---------------------------------------------------------------------
+
+*h I, nn. 67–69 · Paris 1514 fol. 9r–9v · Rotta 1913 pp. 48–50*
+
+.. _cusa-la-di-i-22-s-1:
+
+.. folio:: DI I.22 §1
+
+Ad hoc autem, ut etiam experiamur, quomodo ad altam ducimur intelligentiam per praemissa, ad Dei providentiam inquisitionem applicemus. Et quoniam ex prioribus manifestum est Deum esse omnium complicationem, etiam contradictoriorum, tunc nihil potest eius effugere providentiam; sive enim fecerimus aliquid sive eius oppositum aut nihil, totum in Dei providentia implicitum fuit. Nihil igitur nisi secundum Dei providentiam eveniet.
+
+.. _cusa-la-di-i-22-s-2:
+
+.. folio:: DI I.22 §2
+
+Unde, quamvis Deus multa potuisset providisse, quae non providit nec providebit, multa etiam providit, quae potuit non providere, tamen nihil addi potest divinae providentiae aut diminui. Ut in simili: Humana natura simplex et una est; si nasceretur homo, qui etiam numquam nasci exspectabatur, nihil adderetur naturae humanae; sicut nihil demeretur ab illa, si non nasceretur, sicut nec cum nati moriuntur. Et hoc ideo, quia humana natura complicat tam eos qui sunt, quam qui non sunt neque erunt, licet esse potuerunt. Ita licet eveniret, quod numquam eveniet, nihil tamen adderetur providentiae divinae, quoniam ipsa complicat tam ea, quae eveniunt, quam quae non eveniunt, sed evenire possunt. Sicut igitur multa sunt in materia possibiliter, quae numquam evenient, ita per contrarium, quaecumque non evenient, sed evenire possunt, si in Dei sunt providentia, non sunt possibiliter, sed actu; nec inde sequitur, quod ista sint actu. Sicut ergo dicimus, quod humana natura infinita complicat et complectitur, quia non solum homines, qui fuerunt, sunt et erunt, sed qui possunt esse, licet numquam erunt, et ita complectitur mutabilia immutabiliter, sicut unitas infinita omnem numerum: ita Dei providentia infinita complicat tam ea, quae evenient, quam quae non evenient, sed evenire possunt, et contraria, sicut genus complicat contrarias differentias. Et ea, quae scit, non scit cum differentia temporum, quia non scit futura ut futura, nec praeterita ut praeterita, sed aeterne et mutabilia immutabiliter.
+
+.. _cusa-la-di-i-22-s-3:
+
+.. folio:: DI I.22 §3
+
+Hinc inevitabilis et immutabilis est, et nihil eam excedere potest; et hinc omnia ad ipsam providentiam relata necessitatem habere dicuntur; et merito, quia omnia in Deo sunt Deus, qui est necessitas absoluta. Et sic patet, quod ea, quae numquam evenient, eo modo sunt in Dei providentia, ut praedictum est, etiam si non sunt provisa, ut eveniant. Et necesse est Deum providisse, quae providit, quia eius providentia est necessaria et immutabilis; licet etiam oppositum eius providere potuit, quod providit. Nam posita complicatione non ponitur res complicata, sed posita explicatione ponitur complicatio. Nam, licet cras possum legere vel non legere, quodcumque fecero, providentiam non evado, quae contraria complectitur. Unde, quidquid fecero, secundum Dei providentiam eveniet.
+
+.. _cusa-la-di-i-22-s-4:
+
+.. folio:: DI I.22 §4
+
+Et ita patet, quomodo per praemissa, quae nos docent maximum omnem anteire oppositionem, quoniam omnia qualitercumque complectitur et complicat, quid de providentia Dei et aliis consimilibus verum sit, apprehendimus.

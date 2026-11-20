@@ -543,6 +543,430 @@ and :math:`\\sin\\theta` cancel through third order in the `[1/1]` Padé-type ra
 :math:`0.043\\%` of :math:`\\pi`!
 """
 
+_SUMMARY_DI_DEDICATIO = """\
+I. Argumentative Synopsis
+-------------------------
+
+1. **Dedicatory Prologue (`DI Ded.`)**: Addressing his Paduan teacher :person:`Cardinal Julian Cesarini <cesarini>`, :person:`Nicholas of Cusa <cusanus>` echoes :person:`Aristotle's <aristotle>` dictum in *Metaphysics* I.2 (`982b12`) that philosophical inquiry begins in wonder (*admiratio*), framing the paradoxical title :term:`De Docta Ignorantia <docta-ignorantia>` as an intellectual hunger through which the mind perfects its own nature.
+"""
+
+_SUMMARY_DI_I_CAP_01 = """\
+I. Argumentative Synopsis
+-------------------------
+
+1. **Comparative Proportion & the Inaccessibility of the Infinite (`DI I.1`)**: Every discursive investigation judges the unknown through comparative :term:`proportion <proportio>` to something already presupposed as certain, just as later geometric theorems reduce through chains of media to first axioms.
+2. **Proportion, Number & Socratic Ignorance (`DI I.1 §2`)**: Because proportion requires agreement and difference articulated by number, and the infinite escapes every finite ratio (*infiniti ad finitum proportio non est*), the infinite qua infinite remains unknowable to comparative :term:`reason <ratio-et-intellectus>`. Like :person:`Socrates <socrates>` and :person:`Aristotle's <aristotle>` night-owl before the sun, human wisdom culminates in knowing its own ignorance.
+"""
+
+_SUMMARY_DI_I_CAP_02 = """\
+I. Argumentative Synopsis
+-------------------------
+
+1. **Threefold Architecture of the Maximum (`DI I.2`)**: Cusa defines the :term:`Maximum <maximum-absolutum>` in :person:`Anselmian <anselm>` terms as *quo nihil maius esse potest* and outlines the three books of the treatise: Book I investigates the Absolute Maximum (God); Book II investigates the contracted universal maximum (the cosmos existing solely in plurality through :term:`contraction <contractio>`); Book III investigates the maximum at once contracted and absolute.
+2. **Transcending Literal Terms (`DI I.2 §4`)**: The reader is exhorted to rise above the force of words and sensible images toward simple intellectuality.
+"""
+
+_SUMMARY_DI_I_CAP_03 = """\
+I. Argumentative Synopsis
+-------------------------
+
+1. **Polygon Exhaustion & Ungraspable Precision (`DI I.3`)**: Among finite things equality is always gradual; between measure and measured an irreducible gap remains. Hence the finite intellect stands to truth as an inscribed :term:`polygon <polygonia>` stands to a circle: multiplying the angles increases likeness indefinitely without ever producing identity unless the polygon resolves itself into the circle.
+
+II. Interactive Diagram Guide (`cusa_polygon_exhaustion.svg`)
+-------------------------------------------------------------
+
+- Center :g:`O` at :math:`(0, 0)` and unit circle around :g:`H1` represent indivisible circular truth.
+- Regular inscribed polygons for :math:`n = 3, 4, 6, 12` (:g:`H1`–:g:`H3`–:g:`H5`, square vertices :g:`S2` and :g:`S4`, hexagon :g:`H1`–:g:`H2`–:g:`H3`–:g:`H4`–:g:`H5`–:g:`H6`, and dodecagon mid-arc vertices :g:`W1`, :g:`W2`, :g:`W3`, :g:`W4` with triangle apothem midpoint :g:`F`) illustrate how the apothem (*prima linea*) :math:`r_n = \\cos(\\pi/n)` climbs strictly from :eq:`r_3 = 1/2` through :eq:`r_4 = \\sqrt{2}/2`, :eq:`r_6 = \\sqrt{3}/2`, and :eq:`r_{12} = (\\sqrt{6}+\\sqrt{2})/4` toward :math:`1` without attaining circular curvature at any finite :math:`n`.
+"""
+
+_SUMMARY_DI_I_CAP_04 = """\
+I. Argumentative Synopsis
+-------------------------
+
+1. **Coincidence of Maximum and Minimum (`DI I.4`)**: Because the Absolute Maximum admits neither exceeding nor exceeded, nothing can oppose it; stripped of quantitative contraction into "large" and "small," superlative :term:`Maximum <maximum-absolutum>` and superlative :term:`Minimum <minimum>` coincide (:term:`coincidentia oppositorum <coincidentia-oppositorum>`), transcending discursive affirmation and negation.
+"""
+
+_SUMMARY_DI_EPISTOLA = """\
+I. Argumentative Synopsis
+-------------------------
+
+1. **Sea-Voyage Illumination & Kues Colophon (`DI Ep.`)**: Returning by sea from Constantinople in winter 1437/1438, :person:`Nicholas of Cusa <cusanus>` received the guiding insight of :term:`learned ignorance <docta-ignorantia>`—to embrace incomprehensible things incomprehensibly beyond discursive reason—and dates the completion of *De Docta Ignorantia* at Kues to **February 12, 1440**.
+"""
+
+_SUMMARY_DI_I_CAP_11 = """\
+I. Argumentative Synopsis
+-------------------------
+
+1. **Ontological Status of Mathematical Entities (`DI I.11`)**: Visible things are symbolic mirrors of invisible realities (1 Cor. 13:12), yet sensible bodies fluctuate continually owing to material possibility. :term:`Mathematical entities <mathematicalia>`, abstracted from sensible flux while retaining imaginable figure, possess incorruptible stability and certainty. Cusa marshals an unbroken canon—:person:`Pythagoras <pythagoras>`, :person:`Plato <plato>`, :person:`Aristotle <aristotle>` ("as the triangle is in the quadrangle, so the lower form is in the higher," *De Anima* II.3, `414b29`), :person:`Augustine <augustine>`, and :person:`Boethius <boethius>`—culminating in the mathematical refutation of Epicurean indivisible atoms via geometric divisibility.
+
+II. Interactive Diagram Guide (`cusa_transsumptio_ascent.svg`)
+--------------------------------------------------------------
+
+- **Step 1 (Finite Ratio)**: Finite chord :g:`B`–:g:`H`–:g:`C` and circles centered at :g:`O1` and :g:`O2` through contact vertex :g:`D` remain mutually distinct under finite :term:`ratio <ratio-et-intellectus>`.
+- **Step 2 (Infinite Limit)**: Tangent horizon :g:`E`–:g:`D`–:g:`G` absorbs expanding circles into coincident rectitude under :term:`intellectus <ratio-et-intellectus>`.
+- **Step 3 (Transsumptive Axis)**: Upper transcendent axis :g:`P`–:g:`Q` marks the leap beyond every spatial figure.
+"""
+
+_SUMMARY_DI_I_CAP_12 = """\
+I. Argumentative Synopsis
+-------------------------
+
+1. **The Three-Step Method of Transsumption (`DI I.12`)**: Since every imaginable figure is finite whereas the Absolute Maximum is figure-free, simple analogy fails; one must "leap beyond simple likeness" (*simplicem similitudinem transilire*) through a rigorous three-tier :term:`transsumption <transsumptio>`:
+
+   - **Step 1 (Finite Ratio)**: Examine finite geometric figures together with their exact metric properties and ratios (*passiones et rationes*).
+   - **Step 2 (Infinite Limit in Intellectus)**: Transfer those ratios correspondingly to infinite figures of the same kind, where finite oppositions collapse into identity.
+   - **Step 3 (Transsumptive Leap)**: Transsume the intelligible ratios of those infinite figures still higher to the Simple Infinite wholly absolved from every figure whatsoever.
+
+2. **Unifying the Patristic & Medieval Geometric Symbols (`DI I.12 §2`)**: Cusa announces that :person:`Anselm's <anselm>` infinite rectitude, the infinite right-angled triangle, the infinite circle, and the infinite sphere are not competing metaphors but mathematically identical in the infinite limit.
+
+II. Interactive Diagram Guide (`cusa_transsumptio_ascent.svg`)
+--------------------------------------------------------------
+
+- **Step 1 (Finite Ratio)**: Finite chord :g:`B`–:g:`H`–:g:`C` and circles centered at :g:`O1` and :g:`O2` through contact vertex :g:`D` remain mutually distinct under finite :term:`ratio <ratio-et-intellectus>`.
+- **Step 2 (Infinite Limit)**: Tangent horizon :g:`E`–:g:`D`–:g:`G` absorbs expanding circles into coincident rectitude under :term:`intellectus <ratio-et-intellectus>`.
+- **Step 3 (Transsumptive Axis)**: Upper transcendent axis :g:`P`–:g:`Q` marks the leap beyond every spatial figure.
+"""
+
+_SUMMARY_DI_I_CAP_13 = """\
+I. Argumentative Synopsis
+-------------------------
+
+1. **Coincidence of Infinite Circle and Straight Line (`DI I.13 §§1–2`)**: A circle's circumference is less curved in proportion as its diameter is larger. In the tangent family along straight line :g:`A`–:g:`B`, arc *cd* of a larger circle recedes further from :term:`curvature <curvitas-et-rectitudo>` than arc *ef* of a smaller circle, and *ef* further than arc *gh* of a still smaller circle. Hence the circumference of the :term:`maximal circle <circulus-infinitus>`, which cannot be greater, is minimally curved and therefore maximally straight: curvature and rectitude coincide.
+2. **Potency of the Finite Line (`DI I.13 §§3–5`)**: Swinging finite segment *ab* generates triangle, circle, semicircle, and sphere—the complete spatial potency actualized simultaneously in the :term:`infinite line <linea-infinita>`.
+
+II. Interactive Diagram Guide (`cusa_circle_line_pencil.svg`)
+--------------------------------------------------------------
+
+- Tangent circles centered at :g:`C1`, :g:`C2`, and higher radii share common tangent :g:`A`–:g:`B` at :g:`O`; along vertical secants through :g:`X` and :g:`W`, exact radical sagittae at :g:`P1`, :g:`P2`, :g:`P4`, :g:`P8` (and symmetric :g:`Q1`–:g:`Q8`) converge monotonically toward :g:`X`.
+"""
+
+_SUMMARY_DI_I_CAP_14 = """\
+I. Argumentative Synopsis
+-------------------------
+
+1. **Coincidence of Infinite Triangle and Straight Line (`DI I.14`)**: Two independent proofs demonstrate that the infinite line is the :term:`maximal triangle <triangulus-infinitus>`:
+   (a) *Metric-cardinal proof*: By the triangle inequality (:person:`Euclid <euclid>` *Elements* I.20), if one side is infinite, the other two cannot be smaller; since every part of the infinite is infinite and there cannot be multiple distinct infinites, the three infinite sides are one simple line.
+   (b) *Quantitative limit proof*: By *Elements* I.32, the three angles sum to two right angles; as the apex angle (*bac* -> *bdc*) approaches two right angles while base *bc* stays fixed, the side excess :math:`(|BD| + |DC|) - |BC|` and enclosed area vanish until the triangle resolves into a single line.
+
+II. Interactive Diagram Guide (`cusa_flattening_triangles.svg`)
+---------------------------------------------------------------
+
+- Fixed base :g:`B`–:g:`C` with flattening apices :g:`A1`, :g:`A2`, :g:`A4`, :g:`A8` descending to midpoint :g:`M`, illustrating apex spread :math:`s_A \\to 0` and triple-quad residual :math:`16/n^2 \\to 0`.
+"""
+
+_SUMMARY_DI_I_CAP_15 = """\
+I. Argumentative Synopsis
+-------------------------
+
+1. **Coincidence with Infinite Circle and Sphere (`DI I.15`)**: Swinging infinite radius *ab* generates infinite arc *bc*, which is both straight and—since a part of the infinite equals the whole—the complete circumference; its return upon itself completes the revolution into the :term:`infinite sphere <sphaera-infinita>`.
+
+II. Interactive Diagram Guide (`cusa_mobius_inversion.svg`)
+-----------------------------------------------------------
+
+- Conformal inversion in unit circle centered at pole :g:`S` maps the unbounded tangent pencil to finite rational circles centered at :g:`M1`, :g:`M2`, :g:`M4` converging to the inverted horizon circle centered at :g:`Minf`.
+"""
+
+_SUMMARY_DI_I_CAP_16 = """\
+I. Argumentative Synopsis
+-------------------------
+
+1. **The Infinite Line as Essence & Most Adequate Measure (`DI I.16`)**: Translating `I.13–15` to metaphysics (with explicit appeals to :person:`Pseudo-Dionysius <dionysius>` and Maimonides), :person:`Nicholas of Cusa <cusanus>` shows that just as an infinite line composed of one-foot segments equals one composed of two-foot segments, the Infinite Essence is the sole exact :term:`measure <mensura>` (*adaequatissima mensura*) of all finite essences—neither larger (because Minimum) nor smaller (because Maximum).
+2. **Infinite Beyond All Opposition (`DI I.16 §2`)**: Within the Absolute Maximum the minimum is maximum, supergreding every opposition. From this first principle, negative theology deduces as many negative truths as can be written or read.
+
+II. Interactive Diagram Guide (`cusa_line_unfolding_sphere.svg`)
+----------------------------------------------------------------
+
+- Fixed pivot :g:`A` at :math:`(0, 0)` and generating segment :g:`A`–:g:`B` illustrate the infinite line acting as the indivisible essence and exact measure of all finite segments.
+"""
+
+_SUMMARY_DI_I_CAP_17 = """\
+I. Argumentative Synopsis
+-------------------------
+
+1. **Indivisibility & Universal Presence (`DI I.17`)**: Finite lines are divisible in magnitude yet indivisible in the intelligible ratio of "line"; the infinite line has no parts and is therefore whole in every finite line without being contracted to any one of them. The Maximum is neither identical with any created thing nor other than it, but the enfolding exemplar of all that is.
+"""
+
+_SUMMARY_DI_I_CAP_18 = """\
+I. Argumentative Synopsis
+-------------------------
+
+1. **Immediate vs. Mediate Participation (`DI I.18`)**: Finite straight lines participate in infinite rectitude more immediately (analogous to substances, which do not admit of more and less in their substantial ratio), whereas curves participate mediately through rectitude in varying degrees (analogous to accidents). Above both stands the *supersubstantial* Maximum.
+"""
+
+_SUMMARY_DI_I_CAP_19 = """\
+I. Argumentative Synopsis
+-------------------------
+
+1. **Transsumption of the Infinite Triangle to the Maximal Trinity (`DI I.19`)**: Because the maximal line is the maximal triangle without numerical multiplication ("when you begin to count the Trinity, you step outside the truth," :person:`Augustine <augustine>`), distinction and indistinction coincide in the :term:`Unitrine <unitrinum>` principle.
+
+II. Interactive Diagram Guide (`cusa_line_unfolding_sphere.svg`)
+----------------------------------------------------------------
+
+- Unfolding segment :g:`A`–:g:`B` into sector vertex :g:`C` models how three angles/lines subsist in one simple infinite line without numerical division.
+"""
+
+_SUMMARY_DI_I_CAP_20 = """\
+I. Argumentative Synopsis
+-------------------------
+
+1. **Exclusion of Quaternity (`DI I.20`)**: `I.20` proves geometrically why divine reality cannot be quaternary or higher: the triangle is the minimal polygon into which all polygons resolve, whereas a quadrangle is composite and larger than the minimal, so it cannot coincide with the simplest Maximum or measure triangles adequately.
+"""
+
+_SUMMARY_DI_I_CAP_21 = """\
+I. Argumentative Synopsis
+-------------------------
+
+1. **Circular Theology (`DI I.21`)**: In the :term:`infinite circle <circulus-infinitus>`, center (efficient cause), diameter (formal cause), and circumference (final cause) are identical, grounding a "circular theology" in which divine attributes verify one another reciprocally.
+
+II. Interactive Diagram Guide (`cusa_line_unfolding_sphere.svg`)
+----------------------------------------------------------------
+
+- Fixed pivot :g:`A` at :math:`(0, 0)`, diameter :g:`B`–:g:`D`, and bounding circumference illustrate how center, diameter, and periphery coincide in the infinite limit.
+"""
+
+_SUMMARY_DI_I_CAP_22 = """\
+I. Argumentative Synopsis
+-------------------------
+
+1. **Divine Providence & Asymmetric Implication (`DI I.22`)**: Divine providence :term:`enfolds <complicatio-et-explicatio>` actuals, unactualized possibles, and contraries eternally without abrogating creaturely contingency, governed by the Asymmetric Implication Law (*posita complicatione non ponitur res complicata, sed posita explicatione ponitur complicatio*).
+"""
+
+_SUMMARY_DI_I_CAP_23 = """\
+I. Argumentative Synopsis
+-------------------------
+
+1. **The Infinite Sphere & Pure Actuality (`DI I.23`)**: In the :term:`infinite sphere <sphaera-infinita>`, length, breadth, and depth concur identically in the center—pure actuality and maximal rest measuring all cosmic motions.
+
+II. Interactive Diagram Guide (`cusa_line_unfolding_sphere.svg`)
+----------------------------------------------------------------
+
+- Semicircle :g:`B`–:g:`D` and orthogonal meridian circles model the three-dimensional spherical unfolding whose center, diameter, and surface coincide in God.
+"""
+
+_SUMMARY_DI_II_CAP_11 = """\
+I. Argumentative Synopsis
+-------------------------
+
+1. **Impossibility of a Fixed Cosmic Center or Poles (`DI II.11`, 1440)**: Because no unqualified minimum of motion or exact physical equidistance can exist in the contracted universe, neither the earth nor any celestial body can occupy a fixed cosmic center, nor do fixed celestial poles exist.
+
+II. Interactive Diagram Guide (`cusa_cosmic_relativity.svg`)
+------------------------------------------------------------
+
+- **`cusa_cosmic_relativity.svg`**: Symmetric observer horizons around :g:`T` (Terra), :g:`S` (Sol), :g:`L` (Luna), and :g:`P` (Polus).
+"""
+
+_SUMMARY_DI_II_CAP_12 = """\
+I. Argumentative Synopsis
+-------------------------
+
+1. **Kinematic Relativity & the Noble Moving Earth (`DI II.12`, 1440)**: Like a passenger on a ship in midstream unable to see the riverbanks (`II.12 §1`), every observer—whether on earth, the sun, the moon, or Mars—judges himself to stand at a motionless center. Thus the :term:`fabric of the world <machina-mundi>` exists *quasi habens undique centrum et nullibi circumferentiam*, and the moving earth is rehabilitated from medieval baseness as a *stella nobilis*.
+
+II. Interactive Diagram Guide (`cusa_cosmic_relativity.svg`)
+------------------------------------------------------------
+
+- **`cusa_cosmic_relativity.svg`**: Symmetric observer horizons around :g:`T` (Terra), :g:`S` (Sol), :g:`L` (Luna), and :g:`P` (Polus).
+"""
+
+_NOTES_DI_DEDICATIO = """\
+I. Classical & Scholastic Context (`DI Ded.`)
+---------------------------------------------
+
+1. **Wonder as Beginning of Philosophy (`DI Ded. §2`)**: Addressing :person:`Cardinal Julian Cesarini <cesarini>`, :person:`Nicholas of Cusa <cusanus>` invokes :person:`Aristotle's <aristotle>` *Metaphysics* I.2 (`982b12`, *propter admirari philosophari*) and :person:`Plato's <plato>` *Theaetetus* (`155d`), turning philosophical wonder into the methodological threshold of :term:`learned ignorance <docta-ignorantia>`.
+"""
+
+_NOTES_DI_I_CAP_01 = """\
+I. Classical & Scholastic Reception (`DI I.1`)
+----------------------------------------------
+
+1. **The Incommensurable Ratio of Infinite to Finite (`DI I.1 §1`)**: Cusa invokes the Euclidean principle that ratio exists only between homogeneous magnitudes (:person:`Euclid <euclid>` *Elements* V, Def. 4–5). Because the infinite exceeds every finite quantity beyond any assignable ratio, the infinite qua infinite cannot be grasped through discursive comparison.
+2. **Aristotle & the Bat/Night-Owl Simile (`DI I.1 §2`)**: Cusa cites :person:`Aristotle's <aristotle>` *Metaphysics* II.1 (`993b9–11`): just as the eyes of bats are to the blaze of day, so is the intellect of our soul to things which are by nature the most evident of all.
+"""
+
+_NOTES_DI_I_CAP_02 = """\
+I. Classical & Scholastic Reception (`DI I.2`)
+----------------------------------------------
+
+1. **Anselmian Maximum (`DI I.2 §1`)**: Cusa's definition of the Absolute Maximum draws upon :person:`St. Anselm of Canterbury's <anselm>` formula in the *Proslogion* (Cap. II): *aliquid quo maius nihil cogitari potest*.
+2. **Tripartite Plan of *De Docta Ignorantia* (`DI I.2 §§1–3`)**: Sets out the architectural division into Absolute Maximum (Book I), Contracted Universe (Book II), and Maximum simultaneously Contracted and Absolute (Book III).
+"""
+
+_NOTES_DI_I_CAP_03 = """\
+I. Exact Symbolic Analysis of Polygon Exhaustion (`DI I.3`)
+-----------------------------------------------------------
+
+In `DI I.3 §2`, :person:`Nicholas of Cusa <cusanus>` elevates :person:`Archimedes' <archimedes>` method of exhaustion (:cite:`archimedes:dimensio`) into the foundational epistemological theorem of :term:`learned ignorance <docta-ignorantia>`. For a regular :math:`n`-gon inscribed in the unit circle :math:`x^2 + y^2 = 1`:
+
+.. math::
+
+   r_n = \\cos\\!\\left(\\frac{\\pi}{n}\\right), \\qquad
+   s_n = 1 - r_n = 2\\sin^2\\!\\left(\\frac{\\pi}{2n}\\right), \\qquad
+   P_n = 2n\\sin\\!\\left(\\frac{\\pi}{n}\\right).
+
+Across the constructible tower :math:`n \\in \\{3, 4, 6, 8, 12\\}` modeled in ``geometor.cusa.polygon_exhaustion_and_complementa``, every vertex, apothem, and sagitta lies in an exact nested quadratic radical field over :math:`\\mathbb{Q}`:
+
+- :math:`n = 3`: :math:`r_3 = \\frac{1}{2}`, :math:`s_3 = \\frac{1}{2}`, :math:`Q_{\\text{side}} = 3`.
+- :math:`n = 4`: :math:`r_4 = \\frac{\\sqrt{2}}{2}`, :math:`s_4 = 1 - \\frac{\\sqrt{2}}{2}`, :math:`Q_{\\text{side}} = 2`.
+- :math:`n = 6`: :math:`r_6 = \\frac{\\sqrt{3}}{2}`, :math:`s_6 = 1 - \\frac{\\sqrt{3}}{2}`, :math:`Q_{\\text{side}} = 1`.
+- :math:`n = 8`: :math:`r_8 = \\frac{\\sqrt{2+\\sqrt{2}}}{2}`, :math:`s_8 = 1 - \\frac{\\sqrt{2+\\sqrt{2}}}{2}`, :math:`Q_{\\text{side}} = 2 - \\sqrt{2}`.
+- :math:`n = 12`: :math:`r_{12} = \\frac{\\sqrt{6}+\\sqrt{2}}{4}`, :math:`s_{12} = 1 - \\frac{\\sqrt{6}+\\sqrt{2}}{4}`, :math:`Q_{\\text{side}} = 2 - \\sqrt{3}`.
+
+Because :math:`r_n < 1` strictly for every finite :math:`n`, the gap between polygon and circle never closes in the finite domain: discursive reason can multiply angles indefinitely without ever reaching identity with the curved continuum.
+"""
+
+_NOTES_DI_I_CAP_04 = """\
+I. Coincidence of Maximum & Minimum (`DI I.4`)
+----------------------------------------------
+
+1. **Superlative Coincidence Beyond Opposition**: Stripped of comparative quantity, the Absolute Maximum coincides with the Absolute Minimum, anticipating projective compactification where :math:`+\\infty` and :math:`-\\infty` meet as one ideal point on :math:`\\mathbb{P}^1(\\mathbb{R})`.
+"""
+
+_NOTES_DI_EPISTOLA = """\
+I. Provenance & Chronology (`DI Ep.`)
+-------------------------------------
+
+1. **Constantinople Voyage (1437–1438) & Completion at Kues (Feb 12, 1440)**: Cusa's colophon establishes the historical Genesis of *De Docta Ignorantia* during his return mission from Constantinople for the Council of Ferrara-Florence.
+"""
+
+_NOTES_DI_I_CAP_11 = """\
+I. Ontological Defense of Mathematical Objects (`DI I.11`)
+----------------------------------------------------------
+
+In `DI I.11`, Cusa situates mathematical demonstration at the epistemological nexus between impermanent sensory particulars and transcendent intellectual realities:
+
+1. **Sensible Things in Continual Flux**: Owing to the material principle of possibility, sensible bodies never attain fixed stability; no two physical lines or circles are ever perfectly equal in nature.
+2. **Incorruptible Certitude of Mathematical Entities**: Mathematical figures, abstracted from sensory flux into pure imagination and intellect, preserve complete, incorruptible stability. Their properties are demonstrated apodictically through chains of necessary reasoning.
+3. **Refutation of Epicurean Atomism**: Cusa notes that mathematical continuity refutes the indivisible physical atoms of Democritus and Epicurus: every continuous quantity is divisible in infinitum.
+"""
+
+_NOTES_DI_I_CAP_12 = """\
+I. Method of Transsumption & Philological Transmission (`DI I.12`)
+------------------------------------------------------------------
+
+1. **Three-Tier Transsumptive Ascent**: Cusa codifies the formal jump from finite *passiones et rationes* through infinite geometric limit figures to the figure-free Simple Infinite—a method later echoed in :person:`Kepler's <kepler>` *Principle of Continuity* (1604).
+2. **Philological Transmission & Collation**: Collated across the 1514 Paris *editio princeps* (ed. Jacques Lefèvre d'Étaples), the 1565 Basel *Opera*, and Paolo Rotta's 1913 Bari critical edition.
+"""
+
+_NOTES_DI_I_CAP_13 = """\
+I. Exact Symbolic Geometry of the Tangent Circle Pencil (`DI I.13`)
+-------------------------------------------------------------------
+
+Let circles :math:`C_R` of radius :math:`R > 0` be centered at :math:`(0, R)` tangent to line :math:`y = 0` at the origin :math:`(0, 0)`. Along the vertical secant :math:`x = 1`:
+
+.. math::
+
+   h(1, R) = R - \\sqrt{R^2 - 1} = \\frac{1}{R + \\sqrt{R^2 - 1}}.
+
+Across the harmonic sequence :math:`R \\in \\{1, 2, 4, 8\\}`:
+
+- :math:`R = 1`: :math:`h = 1`
+- :math:`R = 2`: :math:`h = 2 - \\sqrt{3} \\approx 0.267949`
+- :math:`R = 4`: :math:`h = 4 - \\sqrt{15} \\approx 0.129171`
+- :math:`R = 8`: :math:`h = 8 - 3\\sqrt{7} \\approx 0.062996`
+
+In the limit :math:`R \\to \\infty`, :math:`h \\to 0` and curvature :math:`\\kappa = 1/R \\to 0`.
+
+II. Klibansky's Archival Restoration in Rotta (1913)
+----------------------------------------------------
+
+- **`DI I.13 §2` (Rotta p. 28)**: Rotta jumped by homeoteleuton from the first occurrence of ``curvitate recedit`` to the second, omitting ``et ille plus a curvitate recedit quam arcus gh adhuc minoris circuli``; restored from Klibansky's annotated copy at McGill University Library.
+"""
+
+_NOTES_DI_I_CAP_14 = """\
+I. Exact Rational Trigonometry of Flattening Triangles (`DI I.14`)
+------------------------------------------------------------------
+
+In ``geometor.cusa.coincidentia_triangle_line``, fixed base :math:`B = (-1, 0)`, :math:`C = (1, 0)` (:math:`Q_{\\text{base}} = 4`) and descending apices :math:`A_n = (0, 1/n)` satisfy :math:`Q_{\\text{leg}} = 1 + 1/n^2`, apex spread :math:`s_A = \\frac{4n^2}{(n^2 + 1)^2} \\to 0`, and Triple Quad Formula residual :math:`(Q_1 + Q_2 + Q_3)^2 - 2(Q_1^2 + Q_2^2 + Q_3^2) = \\frac{16}{n^2} \\to 0`.
+
+II. Klibansky's Archival Restoration in Rotta (1913)
+----------------------------------------------------
+
+- **`DI I.14 §3` (Rotta p. 31)**: Rotta printed ``ut b d c, et superficies minor``, accidentally dropping ``tanto minus vincunt lineae bd et dc lineam bc`` between ``ut bdc`` and ``et superficies minor``; restored from Klibansky's McGill collation.
+"""
+
+_NOTES_DI_I_CAP_15 = """\
+I. Conformal Möbius Inversion & Spherical Compactification (`DI I.15`)
+----------------------------------------------------------------------
+
+Under unit-circle inversion at pole :math:`S = (0, -1)`, the unbounded tangent pencil maps to a compact family of rational circles centered at :math:`\\left(0, -\\frac{R}{2R+1}\\right)` with radii :math:`\\frac{R}{2R+1}`, whose limit circle at :math:`R \\to \\infty` is centered at :math:`\\left(0, -\\frac{1}{2}\\right)` with radius :math:`\\frac{1}{2}`—the exact inverse of the horizon line :math:`y = 0`.
+"""
+
+_NOTES_DI_I_CAP_16 = """\
+I. Infinite Transfinite Equivalence & Geometric Measure (`DI I.16`)
+-------------------------------------------------------------------
+
+1. **Dedekind-Style Infinite Bijection (`DI I.16 §5`)**: Four centuries before Bolzano, Dedekind, and Cantor defined infinite sets by equipollence with proper subsets, :person:`Nicholas of Cusa <cusanus>` argues that an infinite line composed of :math:`\\infty` one-foot segments and one composed of :math:`\\infty` two-foot segments are necessarily equal (*cum infinitum non sit maius infinito*), because every part of the infinite is convertible with the whole infinite.
+2. **Negative Theology & Non-Opposition (`DI I.16 §2`)**: The infinite line as universal measure escapes every contradiction. Because the Absolute Maximum admits neither exceeding nor exceeded, it transcends all contraries.
+"""
+
+_NOTES_DI_I_CAP_17 = """\
+I. Indivisibility & Exemplary Participation (`DI I.17`)
+-------------------------------------------------------
+
+1. **Whole in Every Part Without Contraction**: Because the infinite line has no parts, it is present whole in every finite line as its essence and measure without dividing or multiplying itself—illuminating :person:`Plato's <plato>` doctrine of participation in the *Phaedo* (`100b–e`).
+"""
+
+_NOTES_DI_I_CAP_18 = """\
+I. Rectitude as Judge of Straight and Curved (`DI I.18`)
+--------------------------------------------------------
+
+1. **Immediate vs. Mediate Participation**: Grounded in :person:`Aristotle's <aristotle>` maxim *rectum est iudex sui et obliqui* (*De Anima* I.5, `411a5`), straight lines mirror substantial forms (which admit no more or less), while curved lines mirror accidental qualities participating in varying degrees.
+"""
+
+_NOTES_DI_I_CAP_19 = """\
+I. Unitrine Theology & the Infinite Triangle (`DI I.19`)
+--------------------------------------------------------
+
+1. **Non-Numerical Triunity**: Drawing on :person:`St. Augustine <augustine>` (*De Trinitate*), Cusa shows that three infinite sides of one infinite line remain identically one essence, refuting tritheistic counting.
+"""
+
+_NOTES_DI_I_CAP_20 = """\
+I. Why the Maximum Is Triune and Not Quaternary (`DI I.20`)
+-----------------------------------------------------------
+
+`Capitulum XX` supplies a purely topological-combinatorial proof of why polygonal resolution halts at three: in two-dimensional simplicial decomposition, the triangle (:math:`n = 3`) is the unique minimal polygon (*minima figura polygonia, qua minor esse nequit*). Every :math:`k`-gon for :math:`k \\ge 4` decomposes into :math:`k - 2` triangles (cf. :person:`Euclid <euclid>` *Elements* I.32 and VI.20) and is therefore composite and strictly greater than the minimal polygon; hence a quadrangle cannot coincide with the simplest :term:`Minimum <minimum>` or serve as the universal measure of triangles. Moreover, Cusa enumerates the exact four-element dimensional basis of spatial measurement:
+
+- **1D Length**: :term:`Maximal Infinite Line <linea-infinita>`
+- **2D Rectilinear Breadth**: :term:`Maximal Triangle <triangulus-infinitus>`
+- **2D Circular Breadth**: :term:`Maximal Circle <circulus-infinitus>`
+- **3D Depth**: :term:`Maximal Sphere <sphaera-infinita>`
+"""
+
+_NOTES_DI_I_CAP_21 = """\
+I. Center, Diameter & Circumference in the Infinite Circle (`DI I.21`)
+----------------------------------------------------------------------
+
+In `DI I.21 §§3–4`, Cusa demonstrates that in the infinite circle the distinction between interior center, spanning diameter, and bounding circumference vanishes. Mapping :person:`Aristotle's <aristotle>` four causes onto circular geometry (`I.21 §4`), Cusa identifies **center** with efficient cause (*dans esse*), **diameter** with formal cause (*gubernans*), and **circumference** with final cause (*conservans*).
+"""
+
+_NOTES_DI_I_CAP_22 = """\
+I. Enfolding & Asymmetric Implication (`DI I.22`)
+-------------------------------------------------
+
+In `I.22`, Cusa applies his signature pair :term:`complicatio et explicatio <complicatio-et-explicatio>` via the Asymmetric Implication Law (*posita complicatione non ponitur res complicata, sed posita explicatione ponitur complicatio*), preserving creaturely contingency within immutable divine providence.
+"""
+
+_NOTES_DI_I_CAP_23 = """\
+I. The Infinite Sphere & Actual Existence (`DI I.23`)
+-----------------------------------------------------
+
+In `I.23 §1`, length, breadth, and depth concur identically in the center of the :term:`infinite sphere <sphaera-infinita>`—pure actuality and the immovable measure of all cosmic motions—echoed later in :person:`Kepler's <kepler>` *Harmonices Mundi* (Book IV, Ch. 1).
+"""
+
+_NOTES_DI_II_CAP_11 = """\
+I. Impossibility of an Immobile Cosmic Center or Fixed Poles (`DI II.11`, 1440)
+-------------------------------------------------------------------------------
+
+Over a century before Copernicus's *De revolutionibus* (1543) and Galileo's *Dialogo* (1632), `DI II.11` deduces from :term:`learned ignorance <docta-ignorantia>` that because physical positions, figures, and motions in the contracted cosmos always admit of more and less, exact equidistance (*aequedistantia praecisa*) never occurs in nature; hence neither the earth nor the sun nor the eighth sphere possesses an immobile geometric center or fixed celestial poles.
+"""
+
+_NOTES_DI_II_CAP_12 = """\
+I. Ship-in-Midstream Relativity & Astrophysical Homogeneity (`DI II.12`, 1440)
+------------------------------------------------------------------------------
+
+1. **Ship-in-Midstream Principle of Relative Motion (`II.12 §1`)**: Motion is detectable solely relative to a chosen reference point (*Si enim quis ignoraret aquam fluere et ripas non videret existendo in navi in medio aquae, navem quomodo apprehenderet moveri?*). Every observer on Earth :g:`T`, Sun :g:`S`, Moon :g:`L`, or Mars constructs his own local horizon and poles, rendering the universe *quasi habens undique centrum et nullibi circumferentiam*.
+2. **Astrophysical Homogeneity (`II.12 §§3–4`)**: Rejecting the Aristotelian sublunary/superlunary chasm, Cusa declares the moving earth a *stella nobilis* shining into space through its outer fiery envelope just as the sun shines toward us.
+"""
+
 # Composite summaries for legacy keys
 _SUMMARY_UNIT_4 = _SUMMARY_CAP_16_17 + "\n" + _SUMMARY_CAP_18_20 + "\n" + _SUMMARY_CAP_21_23
 _SUMMARY_UNIT_5 = (
@@ -570,7 +994,34 @@ _NOTES_UNIT_5 = (
 )
 
 UNIT_SUMMARIES: dict[str, str] = {
-    # Canonical keys
+    # Atomic De Docta Ignorantia keys
+    "di_dedicatio": _SUMMARY_DI_DEDICATIO,
+    "di_i_cap_01": _SUMMARY_DI_I_CAP_01,
+    "di_i_cap_02": _SUMMARY_DI_I_CAP_02,
+    "di_i_cap_03": _SUMMARY_DI_I_CAP_03,
+    "di_i_cap_04": _SUMMARY_DI_I_CAP_04,
+    "di_epistola": _SUMMARY_DI_EPISTOLA,
+    "di_i_cap_11": _SUMMARY_DI_I_CAP_11,
+    "di_i_cap_12": _SUMMARY_DI_I_CAP_12,
+    "di_i_cap_13": _SUMMARY_DI_I_CAP_13,
+    "di_i_cap_14": _SUMMARY_DI_I_CAP_14,
+    "di_i_cap_15": _SUMMARY_DI_I_CAP_15,
+    "di_i_cap_16": _SUMMARY_DI_I_CAP_16,
+    "di_i_cap_17": _SUMMARY_DI_I_CAP_17,
+    "di_i_cap_18": _SUMMARY_DI_I_CAP_18,
+    "di_i_cap_19": _SUMMARY_DI_I_CAP_19,
+    "di_i_cap_20": _SUMMARY_DI_I_CAP_20,
+    "di_i_cap_21": _SUMMARY_DI_I_CAP_21,
+    "di_i_cap_22": _SUMMARY_DI_I_CAP_22,
+    "di_i_cap_23": _SUMMARY_DI_I_CAP_23,
+    "di_ii_cap_11": _SUMMARY_DI_II_CAP_11,
+    "di_ii_cap_12": _SUMMARY_DI_II_CAP_12,
+    # De Mathematicis Complementis keys
+    "transmutatio_1445": _SUMMARY_TRANSMUTATIO_1445,
+    "complementa_1453": _SUMMARY_COMPLEMENTA_1453,
+    "perfectio_1458": _SUMMARY_PERFECTIO_1458,
+    "aurea_propositio_1459": _SUMMARY_AUREA_PROPOSITIO_1459,
+    # Legacy bundled keys
     "cap_01_04": _SUMMARY_CAP_01_04,
     "cap_11_12": _SUMMARY_CAP_11_12,
     "cap_13_15": _SUMMARY_CAP_13_15,
@@ -578,11 +1029,6 @@ UNIT_SUMMARIES: dict[str, str] = {
     "cap_18_20": _SUMMARY_CAP_18_20,
     "cap_21_23": _SUMMARY_CAP_21_23,
     "di_liber_ii_cap_11_12": _SUMMARY_LIBER_II_CAP_11_12,
-    "transmutatio_1445": _SUMMARY_TRANSMUTATIO_1445,
-    "complementa_1453": _SUMMARY_COMPLEMENTA_1453,
-    "perfectio_1458": _SUMMARY_PERFECTIO_1458,
-    "aurea_propositio_1459": _SUMMARY_AUREA_PROPOSITIO_1459,
-    # Legacy keys
     "unit-1-maximum-ignorantia": _SUMMARY_CAP_01_04,
     "unit-2-mathematica-transsumptio": _SUMMARY_CAP_11_12,
     "unit-3-coincidentia-figurarum": _SUMMARY_CAP_13_15,
@@ -591,7 +1037,34 @@ UNIT_SUMMARIES: dict[str, str] = {
 }
 
 UNIT_NOTES: dict[str, str] = {
-    # Canonical keys
+    # Atomic De Docta Ignorantia keys
+    "di_dedicatio": _NOTES_DI_DEDICATIO,
+    "di_i_cap_01": _NOTES_DI_I_CAP_01,
+    "di_i_cap_02": _NOTES_DI_I_CAP_02,
+    "di_i_cap_03": _NOTES_DI_I_CAP_03,
+    "di_i_cap_04": _NOTES_DI_I_CAP_04,
+    "di_epistola": _NOTES_DI_EPISTOLA,
+    "di_i_cap_11": _NOTES_DI_I_CAP_11,
+    "di_i_cap_12": _NOTES_DI_I_CAP_12,
+    "di_i_cap_13": _NOTES_DI_I_CAP_13,
+    "di_i_cap_14": _NOTES_DI_I_CAP_14,
+    "di_i_cap_15": _NOTES_DI_I_CAP_15,
+    "di_i_cap_16": _NOTES_DI_I_CAP_16,
+    "di_i_cap_17": _NOTES_DI_I_CAP_17,
+    "di_i_cap_18": _NOTES_DI_I_CAP_18,
+    "di_i_cap_19": _NOTES_DI_I_CAP_19,
+    "di_i_cap_20": _NOTES_DI_I_CAP_20,
+    "di_i_cap_21": _NOTES_DI_I_CAP_21,
+    "di_i_cap_22": _NOTES_DI_I_CAP_22,
+    "di_i_cap_23": _NOTES_DI_I_CAP_23,
+    "di_ii_cap_11": _NOTES_DI_II_CAP_11,
+    "di_ii_cap_12": _NOTES_DI_II_CAP_12,
+    # De Mathematicis Complementis keys
+    "transmutatio_1445": _NOTES_TRANSMUTATIO_1445,
+    "complementa_1453": _NOTES_COMPLEMENTA_1453,
+    "perfectio_1458": _NOTES_PERFECTIO_1458,
+    "aurea_propositio_1459": _NOTES_AUREA_PROPOSITIO_1459,
+    # Legacy bundled keys
     "cap_01_04": _NOTES_CAP_01_04,
     "cap_11_12": _NOTES_CAP_11_12,
     "cap_13_15": _NOTES_CAP_13_15,
@@ -599,11 +1072,6 @@ UNIT_NOTES: dict[str, str] = {
     "cap_18_20": _NOTES_CAP_18_20,
     "cap_21_23": _NOTES_CAP_21_23,
     "di_liber_ii_cap_11_12": _NOTES_LIBER_II_CAP_11_12,
-    "transmutatio_1445": _NOTES_TRANSMUTATIO_1445,
-    "complementa_1453": _NOTES_COMPLEMENTA_1453,
-    "perfectio_1458": _NOTES_PERFECTIO_1458,
-    "aurea_propositio_1459": _NOTES_AUREA_PROPOSITIO_1459,
-    # Legacy keys
     "unit-1-maximum-ignorantia": _NOTES_CAP_01_04,
     "unit-2-mathematica-transsumptio": _NOTES_CAP_11_12,
     "unit-3-coincidentia-figurarum": _NOTES_CAP_13_15,

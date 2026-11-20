@@ -1,4 +1,4 @@
-:order: 80
+:order: 220
 :layout: book
 :type: summary
 :title: De Geometricis Transmutationibus — Isoperimetric Extrema and the Sesquiquartal Radius — Summary
@@ -18,10 +18,6 @@ De Geometricis Transmutationibus — Isoperimetric Extrema and the Sesquiquartal
 .. picture:: /_static/figures/cusa_transmutatio_1445.svg
    :alt: De Geometricis Transmutationibus — Isoperimetric Extrema and the Sesquiquartal Radius
    :caption: De Geometricis Transmutationibus (1445, §§9–11) — Equilateral Triangle B–C–D Inscribed in Unit Circle A with Quarter-Point E: Ray AE Extended in 5:4 Sesquiquartal Ratio to H Yields AH = 5*sqrt(7)/16.
-
-.. picture:: /_static/figures/cusa_transmutatio_1445.svg
-   :alt: De Geometricis Transmutationibus (1445, §§1–11) — To Paolo dal Pozzo Toscanelli: Isoperimetric Extrema and the Sesquiquartal Radius
-   :caption: De Geometricis Transmutationibus (1445, §§9–11) — Inscribed Equilateral Triangle BCD in Unit Circle A: Quarter-Point E on Side BC Extended in Sesquiquartal Ratio 5:4 Yields Isoperimetric Radius AH = (5/16) sqrt(7), Implying pi ~= (24/35) sqrt(21) ~= 3.142337.
 
 I. Argumentative Synopsis
 -------------------------

@@ -37,9 +37,22 @@ Capitula of Book I
    :hidden:
    :maxdepth: 2
 
-   cap_01_04/index
-   cap_11_12/index
-   cap_13_15/index
-   cap_16_17/index
-   cap_18_20/index
-   cap_21_23/index
+   dedicatio/index
+   cap_01/index
+   cap_02/index
+   cap_03/index
+   cap_04/index
+   cap_11/index
+   cap_12/index
+   cap_13/index
+   cap_14/index
+   cap_15/index
+   cap_16/index
+   cap_17/index
+   cap_18/index
+   cap_19/index
+   cap_20/index
+   cap_21/index
+   cap_22/index
+   cap_23/index
+   epistola/index

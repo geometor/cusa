@@ -1,0 +1,47 @@
+:order: 30
+:layout: book
+:type: la
+:title: Preliminary Elucidation of the Absolute, Contracted, and Joined Maximum — Latin (1440 / 1514–1913)
+:canonical_id: DI I.2
+:original_id: DI I.2
+:folio: DI I.2 (1440)
+:tracks: English: index | Latin: la | Summary: summary | Notes: notes
+
+.. _cap_02-la:
+
+==================================================================================================
+Preliminary Elucidation of the Absolute, Contracted, and Joined Maximum — Latin (1440 / 1514–1913)
+==================================================================================================
+
+.. rubric:: Textus Latinus Collatis Editionibus Parisiensi (1514), Basileensi (1565) et Rottae (1913) · DI I.2 (1440)
+
+.. _di-bk1-ch2-la:
+
+Liber I, Capitulum II — Elucidatio praeambularis subsequentium
+--------------------------------------------------------------
+
+*h I, nn. 5–8 · Paris 1514 fol. 1v–2r · Rotta 1913 pp. 5–6*
+
+.. _cusa-la-di-i-2-s-1:
+
+.. folio:: DI I.2 §1
+
+Tractaturus de maxima ignorantiae doctrina ipsius maximitatis naturam aggredi necesse habeo. Maximum autem hoc dico, quo nihil maius esse potest. Abundantia vero uni convenit. Coincidit itaque maximitati unitas, quae est et entitas. Quodsi ipsa talis unitas ab omni respectu et contractione universaliter est absoluta, nihil sibi opponi manifestum est, cum sit maximitas absoluta. Maximum itaque absolutum unum est, quod est omnia; in quo omnia, quia maximum. Et quoniam nihil sibi opponitur, secum simul coincidit minimum; quare et in omnibus; et quia absolutum, tunc est actu omne possibile esse, nihil a rebus contrahens, a quo omnia. Hoc maximum, quod et Deus omnium nationum fide indubie creditur, primo libello supra humanam rationem incomprehensibiliter inquirere eo duce, qui solus lucem inhabitat inaccessibilem, laborabo.
+
+.. _cusa-la-di-i-2-s-2:
+
+.. folio:: DI I.2 §2
+
+Secundo loco, sicut absoluta maximitas est entitas absoluta, per quam omnia id sunt, quod sunt, ita et universalis unitas essendi ab illa, quae maximum dicitur ab absoluto, et hinc contracte existens uti universum; cuius quidem unitas in pluralitate contracta est, sine qua esse nequit. Quod quidem maximum, etsi in sua universali unitate omnia complectatur, ut omnia, quae sunt ab absoluto, sint in eo et ipsum in omnibus, non habet tamen extra pluralitatem, in qua est, subsistentiam, cum sine contractione, a qua absolvi nequit, non existat. De hoc maximo, universo scilicet, in secundo libello pauca quaedam adiciam.
+
+.. _cusa-la-di-i-2-s-3:
+
+.. folio:: DI I.2 §3
+
+Tertio loco maximum tertiae considerationis subsequenter manifestabitur. Nam cum universum non habeat nisi contracte subsistentiam in pluralitate, in ipsis pluribus inquiremus unum maximum, in quo universum maxime et perfectissime subsistit actu ut in fine. Et quoniam tale cum absoluto, quod est terminus universalis, unitur, quia finis perfectissimus supra omnem capacitatem nostram, de illo maximo, quod simul est contractum et absolutum, quod Iesum semper benedictum nominamus, nonnulla, prout et ipse Iesus inspiraverit, subiciam.
+
+.. _cusa-la-di-i-2-s-4:
+
+.. folio:: DI I.2 §4
+
+Oportet autem attingere sensum volentem potius supra verborum vim intellectum efferre quam proprietatibus vocabulorum insistere, quae tantis intellectualibus mysteriis proprie adaptari non possunt. Exemplaribus etiam manuductionibus necesse est transcendenter uti, linquendo sensibilia, ut ad intellectualitatem simplicem expedite lector ascendat; ad quam viam quaerendam studui communibus ingeniis quanto clarius potui aperire, omnem stili scabrositatem evitando, radicem doctae ignorantiae in inapprehensibili veritatis praecisione statim manifestans.

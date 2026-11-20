@@ -1,4 +1,4 @@
-:order: 110
+:order: 250
 :layout: book
 :type: notes
 :title: Aurea Propositio in Mathematicis — Three-Ray Sum Invariance and the Golden Proposition — Notes
@@ -18,10 +18,6 @@ Aurea Propositio in Mathematicis — Three-Ray Sum Invariance and the Golden Pro
 .. picture:: /_static/figures/cusa_aurea_propositio_1459.svg
    :alt: Aurea Propositio in Mathematicis — Three-Ray Sum Invariance and the Golden Proposition
    :caption: Aurea Propositio in Mathematicis (August 8, 1459) — Exact Q(sqrt(3)) Sector (theta = pi/6): Balanced Rectifying Segment I–K–L with |AI| + |AK| + |AL| = 3R and Fifth-Order Maclaurin Residual theta^5/180.
-
-.. picture:: /_static/figures/cusa_aurea_propositio_1459.svg
-   :alt: Aurea Propositio in Mathematicis (Rome, August 8, 1459, §§1–7 & Colophon — Complete) — Three-Ray Radial Sum Invariance and the Cusa–Snellius–Huygens Law
-   :caption: Aurea Propositio in Mathematicis (1459, §§1–2) — Exact Q(sqrt(3)) Construction at theta = pi/6: Three-Ray Sum |AI| + |AK| + |AL| = 3 Equals Three Unit Radii, with Endpoint Ascent |AI| - 1 = (11 - 6 sqrt(3))/13 Matching Midpoint Descent 1 - |AK| and Fifth-Order Residual theta^5/180.
 
 I. Exact Algebraic Audit of Aurea Propositio in Mathematicis (1459)
 -------------------------------------------------------------------

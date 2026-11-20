@@ -1,0 +1,74 @@
+:order: 110
+:layout: book
+:title: The Infinite Line as Universal Essence & Most Adequate Measure
+:canonical_id: DI I.16
+:original_id: DI I.16
+:folio: DI I.16 (1440)
+:tracks: English: index | Latin: la | Summary: summary | Notes: notes
+
+.. _cap_16:
+.. _cap_16-en:
+.. _cap_16_17:
+.. _cap_16_17-en:
+.. _unit-4-linea-sphaera-infinita:
+.. _unit-4-linea-sphaera-infinita-en:
+
+==============================================================
+The Infinite Line as Universal Essence & Most Adequate Measure
+==============================================================
+
+.. rubric:: De Docta Ignorantia · Liber I, Capitulum XVI (1440)
+
+.. epigraph::
+
+   *Ipsa igitur maxima linea est adaequatissima mensura omnium linearum, ita quod nec minor est, quia non exceditur ab aliqua, nec maior, quia nulla eam excedit.*
+
+   Therefore the maximal line itself is the most adequate measure of all lines, being neither smaller—since it is not exceeded by any—nor larger, since none exceeds it. — **De Docta Ignorantia I.16 §3**
+
+.. picture:: /_static/figures/cusa_line_unfolding_sphere.svg
+   :alt: The Infinite Line as Universal Essence & Most Adequate Measure
+   :caption: Book I, Chapter 16 — The Maximal Infinite Line as Universal Essence and Most Adequate Measure of All Finite Lines.
+
+.. _di-bk1-ch16:
+.. _di-bk1-ch16-en:
+
+Book I, Chapter 16 — How Metaphorically the Maximum Stands to All Things as the Maximal Line Stands to Lines
+------------------------------------------------------------------------------------------------------------
+
+*Original GEOMETOR Translation from the Latin · h I, nn. 42–46 · Paris 1514 fol. 6r–6v · Rotta 1913 pp. 32–35*
+
+.. _cusa-en-di-i-16-s-1:
+
+.. folio:: DI I.16 §1
+
+Now that it is manifest how the infinite line is infinitely in act all those things that lie in the potency of a finite line, by transfer we grasp in like manner within the Simple Maximum how the Maximum itself is maximally in act all those things that stand in the potency of absolute simplicity. For whatsoever is possible, that the Maximum itself is maximally in act—not as arising out of the possible, but inasmuch as it maximally is; just as a triangle is drawn forth from a finite line, whereas the infinite line is not a triangle as drawn forth from a finite one, but is in act an infinite triangle identical with the line. Moreover, absolute possibility itself is nothing other in the Maximum than the Maximum itself in act, just as the infinite line is in act a sphere. In what is not maximal the case is otherwise; for there potency is not act, just as a finite line is not a triangle.
+
+.. _cusa-en-di-i-16-s-2:
+
+.. folio:: DI I.16 §2
+
+Hence we behold here the great speculation that can be drawn from this concerning the Maximum: namely, that it is of such nature that the Minimum within it is the Maximum, so that it utterly surpasses every opposition by infinity. From this principle as many negative truths could be drawn forth concerning it as could ever be written or read; indeed, all theology apprehensible by us is elicited from this great principle. Wherefore that supreme searcher of divine mysteries, Dionysius the Areopagite, says in his Mystical Theology that most blessed Bartholomew marvellously understood theology when he declared it to be at once maximal and minimal. For whoever understands this understands all things; he surpasses every created intellect. God, who is this very Maximum—as the same Dionysius says in On the Divine Names—is not this thing while not being another, nor is He somewhere while not being elsewhere; rather, just as He is all things, so too He is none of them all. For—as Dionysius concludes at the close of the Mystical Theology—above every affirmation He is the perfect and singular cause of all things, and above the removal of all things stands the excellence of Him who is simply absolved from all and beyond all. Hence in his Letter to Gaius he concludes that God is known above all mind and intelligence.
+
+.. _cusa-en-di-i-16-s-3:
+
+.. folio:: DI I.16 §3
+
+In harmony with this, Rabbi Solomon states that all the wise have agreed 'that the sciences do not apprehend the Creator; none apprehends what He is save He Himself; and our apprehension in respect of Him is a falling short of approaching His apprehension.' Accordingly the same thinker elsewhere concludes: 'Praised be the Creator, in the comprehension of whose essence the inquiry of the sciences is cut short, wisdom is reckoned ignorance, and elegance of speech foolishness.' This is that very learned ignorance which we are investigating, through which alone Dionysius strove in manifold ways to show—by no other principle, I judge, than the one just stated—that God can be found.
+
+.. _cusa-en-di-i-16-s-4:
+
+.. folio:: DI I.16 §4
+
+Let our speculation, then—elicited from the fact that infinite curvature is infinite rectitude—be applied transsumptively in the Maximum to its most simple and most infinite essence: how it is the most simple essence of all essences; how all essences of things that are, have been, or shall be exist eternally and always in act within that very essence as that essence itself, and so are all essences just as it is the essence of all; how that essence of all is each essence in such wise as to be simultaneously all of them and none singly; and how that Maximal Essence, just as the infinite line is the most adequate measure of all lines, is in like manner the most adequate measure of all essences. For the Maximum to which the Minimum is not opposed is of necessity the most adequate measure of all things—not greater, because it is Minimum; not smaller, because it is Maximum. Everything measurable falls between maximum and minimum. Infinite essence, therefore, is the most adequate and most precise measure of all essences.
+
+.. _cusa-en-di-i-16-s-5:
+
+.. folio:: DI I.16 §5
+
+To see this still more clearly, consider that if one infinite line were constituted out of infinitely many one-foot segments and another out of infinitely many two-foot segments, they would nonetheless have to be equal, since the infinite is not greater than the infinite. Just as one foot is not smaller than two feet within an infinite line, so the infinite line does not exceed one foot any more than it exceeds two feet. Nay rather, because every part of the infinite is infinite, one foot of an infinite line is convertible with the whole infinite line just as two feet are.
+
+.. _cusa-en-di-i-16-s-6:
+
+.. folio:: DI I.16 §6
+
+In like manner, since every essence within the Maximal Essence is that Maximal Essence itself, the Maximum is none other than the most adequate measure of all essences. Nor can any other precise measure of any essence whatsoever be found save that one; for all other measures fall short and can always be made more precise, as was shown most clearly above.

@@ -1,4 +1,4 @@
-:order: 90
+:order: 230
 :layout: book
 :type: la
 :title: De Mathematicis Complementis — Inradius, Circumradius, and Archimedes' Spiral — Latin (1440 / 1514–1913)

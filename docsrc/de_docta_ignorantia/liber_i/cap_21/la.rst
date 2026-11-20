@@ -1,0 +1,64 @@
+:order: 160
+:layout: book
+:type: la
+:title: The Infinite Circle Where Center, Diameter & Circumference Coincide — Latin (1440 / 1514–1913)
+:canonical_id: DI I.21
+:original_id: DI I.21
+:folio: DI I.21 (1440)
+:tracks: English: index | Latin: la | Summary: summary | Notes: notes
+
+.. _cap_21-la:
+.. _cap_21_23-la:
+
+==============================================================================================
+The Infinite Circle Where Center, Diameter & Circumference Coincide — Latin (1440 / 1514–1913)
+==============================================================================================
+
+.. rubric:: Textus Latinus Collatis Editionibus Parisiensi (1514), Basileensi (1565) et Rottae (1913) · DI I.21 (1440)
+
+.. picture:: /_static/figures/cusa_line_unfolding_sphere.svg
+   :alt: The Infinite Circle Where Center, Diameter & Circumference Coincide
+   :caption: Book I, Chapter 21 — Infinite Circle Whose Center, Diameter, and Circumference Coincide in Circular Theology.
+
+.. _di-bk1-ch21-la:
+
+Liber I, Capitulum XXI — Transumptio circuli infiniti ad unitatem
+-----------------------------------------------------------------
+
+*h I, nn. 63–66 · Paris 1514 fol. 8v–9r · Rotta 1913 pp. 45–47*
+
+.. _cusa-la-di-i-21-s-1:
+
+.. folio:: DI I.21 §1
+
+Habuimus de triangulo maximo pauca quaedam; similiter de infinito circulo subiungamus:
+
+.. _cusa-la-di-i-21-s-2:
+
+.. folio:: DI I.21 §2
+
+Circulus est figura perfecta unitatis et simplicitatis. Et iam ostensum est superius triangulum esse circulum. Et ita trinitas est unitas. Ista autem unitas est infinita, sicut circulus infinitus; quare est unior aut identior omni expressibili unitate atque per nos apprehensibili per infinitum. Nam tanta est ibi identitas, quod omnes etiam relativas oppositiones antecedit, quoniam ibi aliud et diversum identitati non opponuntur. Quare est: cum maximum sit infinitae unitatis, tunc omnia, quae ei conveniunt, sunt ipsum absque diversitate et alietate, ut non sit alia bonitas eius et alia sapientia, sed idem. Omnis enim diversitas in ipso est identitas; unde eius potentia cum sit unissima, est et fortissima et infinitissima. Tanta quidem est eius unissima duratio, quod praeteritum non est aliud a futuro et futurum non est aliud a praesenti in ea; sed sunt unissima duratio sive aeternitas sine principio et fine. Nam tantum est in ipso principium, quod et finis est in ipso principium.
+
+.. _cusa-la-di-i-21-s-3:
+
+.. folio:: DI I.21 §3
+
+Haec omnia ostendit circulus infinitus sine principio et fine aeternus, indivisibiliter unissimus atque capacissimus. Et quia ille circulus est maximus, eius diameter etiam est maxima. Et quoniam plura maxima esse non possunt, est intantum ille circulus unissimus, quod diameter est circumferentia. Infinita vero diameter habet infinitum medium. Medium vero est centrum. Patet ergo centrum, diametrum et circumferentiam idem esse. Ex quo docetur ignorantia nostra incomprehensibile maximum esse, cui minimum non opponitur; sed centrum est in ipso circumferentia.
+
+.. _cusa-la-di-i-21-s-4:
+
+.. folio:: DI I.21 §4
+
+Vides, quomodo totum maximum perfectissime est intra omne simplex et indivisibile, quia centrum infinitum; et extra omne esse omnia ambiens, quia circumferentia infinita; et omnia penetrans, quia diameter infinita. Principium omnium, quia centrum; finis omnium, quia circumferentia; medium omnium, quia diameter. Causa efficiens, quia centrum; formalis, quia diameter; finalis, quia circumferentia. Dans esse, quia centrum; gubernans, quia diameter; conservans, quia circumferentia. Et horum similia multa.
+
+.. _cusa-la-di-i-21-s-5:
+
+.. folio:: DI I.21 §5
+
+Apprehendis itaque per intellectum, quomodo maximum cum nullo est idem neque diversum et quomodo omnia in ipso, ex ipso et per ipsum, quia circumferentia, diameter et centrum. Non quod aut sit circulus aut circumferentia, diameter vel centrum; sed maximum tantum simplicissimum, quod per ista paradigmata investigatur et reperitur omnia, quae sunt et non sunt, ambire; ita quod non-esse in ipso est maximum esse, sicut minimum est maximum. Et est mensura omnis circulationis, quae est de potentia in actum et redeundo de actu in potentiam, compositionis a principiis ad individua et resolutionis individuorum ad principia, et formarum perfectarum circularium et circularium operationum et motuum super se et ad principium redeuntium, et consimilium omnium, quorum unitas in quadam circulari perpetuitate consistit.
+
+.. _cusa-la-di-i-21-s-6:
+
+.. folio:: DI I.21 §6
+
+Multa hic de perfectione unitatis ex hac figura circulari trahi possent, quae cum faciliter per unumquemque iuxta praemissa fieri possint, brevitatis causa transeo. Hoc tantum notatum esse admoneo, quomodo omnis theologia circularis et in circulo posita existit, adeo etiam quod vocabula attributorum de se invicem verificentur circulariter: ut summa iustitia est summa veritas, et summa veritas est summa iustitia, et ita de omnibus. Ex quo, si extendere inquisitionem volueris, tibi infinita theologicalia iam occulta manifestissima fieri poterunt.

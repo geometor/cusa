@@ -1,0 +1,52 @@
+:order: 90
+:layout: book
+:title: That the Infinite Line Is a Triangle: Flattening Triangle & Triple Quad Limit
+:canonical_id: DI I.14
+:original_id: DI I.14
+:folio: DI I.14 (1440)
+:tracks: English: index | Latin: la | Summary: summary | Notes: notes
+
+.. _cap_14:
+.. _cap_14-en:
+
+=============================================================================
+That the Infinite Line Is a Triangle: Flattening Triangle & Triple Quad Limit
+=============================================================================
+
+.. rubric:: De Docta Ignorantia · Liber I, Capitulum XIV (1440)
+
+.. epigraph::
+
+   *In omni enim triangulo duo latera simul iuncta tertio sunt maiora; sed si unum latus est infinitum, cetera non possunt esse minora.*
+
+   In every triangle two sides joined together are greater than the third; yet if one side is infinite, the remaining sides cannot be smaller. — **De Docta Ignorantia I.14 §1**
+
+.. picture:: /_static/figures/cusa_flattening_triangles.svg
+   :alt: That the Infinite Line Is a Triangle: Flattening Triangle & Triple Quad Limit
+   :caption: Book I, Chapter 14 — Fixed Base BC with Descending Apices A_n = (0, 1/n) for n = 1, 2, 4, 8: Apex Spread s_A = 4n^2/(n^2 + 1)^2 -> 0 and Triple Quad Residual 16/n^2 -> 0 as the Triangle Resolves into Line BC.
+
+.. _di-bk1-ch14:
+.. _di-bk1-ch14-en:
+
+Book I, Chapter 14 — That the Infinite Line Is a Triangle
+---------------------------------------------------------
+
+*Original GEOMETOR Translation from the Latin · h I, nn. 37–39 · Paris 1514 fol. 5v–6r · Rotta 1913 pp. 30–31 (restoring Klibansky's collation on bd and dc)*
+
+.. _cusa-en-di-i-14-s-1:
+
+.. folio:: DI I.14 §1
+
+The imaginative power, which does not transcend the genus of sensible things, does not grasp how a line can be a triangle, since among magnitudes these differ without proportion. For the intellect, however, this will prove easy. For it has already been established that only one Maximum and Infinite is possible. Next it is established—because any two sides of whatever triangle taken together cannot be lesser than the third—that in a triangle of which one side is infinite, the remaining sides are not lesser. And since every part of the infinite is infinite, for every triangle having one infinite side the other sides must likewise be infinite. Moreover, since there cannot be several infinites, you understand transcendently that an infinite triangle cannot be compounded out of several lines, even though it is the maximal and truest triangle, uncompounded and most simple; and because it is the truest triangle, which cannot exist without three lines, that single infinite line itself will necessarily be three, and the three will be one most simple line. And so too regarding angles: for there will be only one infinite angle, and that angle is three angles, and the three angles are one. Nor will this maximal triangle be compounded of sides and angles, but infinite line and angle are one and the same, so that line is also angle because triangle is line.
+
+.. _cusa-en-di-i-14-s-2:
+
+.. folio:: DI I.14 §2
+
+Furthermore, you can aid yourself toward understanding this by ascending from a quantified triangle to a non-quantified one. Clearly every quantified triangle has three angles equal to two right angles; hence the larger one angle is, the smaller are the others. And although any one angle can be enlarged up to two right angles exclusively—and never maximally, according to our first principle—let us nevertheless admit by supposition that it is enlarged maximally right up to two right angles inclusively while the triangle remains. Then it is manifest that the triangle has one angle that is three, and that the three are one.
+
+.. _cusa-en-di-i-14-s-3:
+
+.. folio:: DI I.14 §3
+
+In like manner you can see that a triangle is a line: because any two sides of a quantified triangle taken together exceed the third side all the more according as the angle they form is much less than two right angles—for instance, because the angle bac is much smaller than two right angles, the lines ba and ac joined together are much longer than bc—therefore, the larger that apex angle becomes, such as bdc, the less do the lines bd and dc surpass the line bc, and the smaller is the enclosed area. Wherefore, if by supposition the angle were equal to two right angles, the entire triangle would resolve into a simple line. Hence by means of this supposition, which among quantified things is impossible, you can aid yourself in ascending to non-quantified realities, among which what is impossible in quantities you behold to be altogether necessary. And herein it is plain that the infinite line is the maximal triangle. Which was to be shown.

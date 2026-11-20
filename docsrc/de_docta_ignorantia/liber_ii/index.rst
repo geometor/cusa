@@ -36,4 +36,5 @@ Capitula of Book II
    :hidden:
    :maxdepth: 2
 
-   cap_11_12/index
+   cap_11/index
+   cap_12/index
