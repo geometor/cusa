@@ -1,4 +1,4 @@
-:order: 80
+:order: 220
 :layout: book
 :title: De Geometricis Transmutationibus — Isoperimetric Extrema and the Sesquiquartal Radius
 :canonical_id: DGT (1445)
@@ -32,10 +32,6 @@ De Geometricis Transmutationibus (1445, §§1–11) — To Paolo dal Pozzo Tosca
 -----------------------------------------------------------------------------------------------------------------------------------
 
 *Original GEOMETOR Translation from the Latin · h XX, Opuscula Mathematica · Paris 1514 vol. II · Basel 1565 pp. 945–949*
-
-.. picture:: /_static/figures/cusa_transmutatio_1445.svg
-   :alt: De Geometricis Transmutationibus (1445, §§1–11) — To Paolo dal Pozzo Toscanelli: Isoperimetric Extrema and the Sesquiquartal Radius
-   :caption: De Geometricis Transmutationibus (1445, §§9–11) — Inscribed Equilateral Triangle BCD in Unit Circle A: Quarter-Point E on Side BC Extended in Sesquiquartal Ratio 5:4 Yields Isoperimetric Radius AH = (5/16) sqrt(7), Implying pi ~= (24/35) sqrt(21) ~= 3.142337.
 
 .. _cusa-en-dgt-s-1:
 

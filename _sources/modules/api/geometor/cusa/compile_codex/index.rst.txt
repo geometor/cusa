@@ -39,7 +39,7 @@ Module Contents
 
 .. py:function:: write_source_witnesses(repo_root: str | pathlib.Path) -> dict[str, pathlib.Path]
 
-   Write canonical ``.la.txt`` / ``.en.txt`` source witnesses and ``sources_manifest.json``.
+   Write canonical ``.la.txt`` / ``.en.txt`` source witnesses, ``sources_manifest.json``, and ``folio_map.json``.
 
 
 .. py:function:: render_de_docta_ignorantia_index_rst() -> str

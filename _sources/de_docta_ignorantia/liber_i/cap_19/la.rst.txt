@@ -1,0 +1,57 @@
+:order: 140
+:layout: book
+:type: la
+:title: Transsumption of the Infinite Triangle to the Maximal Trinity — Latin (1440 / 1514–1913)
+:canonical_id: DI I.19
+:original_id: DI I.19
+:folio: DI I.19 (1440)
+:tracks: English: index | Latin: la | Summary: summary | Notes: notes
+
+.. _cap_19-la:
+
+========================================================================================
+Transsumption of the Infinite Triangle to the Maximal Trinity — Latin (1440 / 1514–1913)
+========================================================================================
+
+.. rubric:: Textus Latinus Collatis Editionibus Parisiensi (1514), Basileensi (1565) et Rottae (1913) · DI I.19 (1440)
+
+.. picture:: /_static/figures/cusa_line_unfolding_sphere.svg
+   :alt: Transsumption of the Infinite Triangle to the Maximal Trinity
+   :caption: Book I, Chapter 19 — Generative Unfolding of the Finite Line AB Through Sector Triangle ABC into the Maximal Triangle Where Three Sides Coincide.
+
+.. _di-bk1-ch19-la:
+
+Liber I, Capitulum XIX — Transumptio trianguli infiniti ad trinitatem maximam
+-----------------------------------------------------------------------------
+
+*h I, nn. 55–58 · Paris 1514 fol. 7v–8r · Rotta 1913 pp. 40–42*
+
+.. _cusa-la-di-i-19-s-1:
+
+.. folio:: DI I.19 §1
+
+Nunc de eo, quod dictum et ostensum est maximam lineam esse triangulum maximum, in ignorantia doceamur. Ostensum est maximam lineam triangulum; et quia linea est simplicissima, erit simplicissimum trinum. Erit omnis angulus trianguli linea, cum totus triangulus sit linea; quare linea infinita est trina. Non est autem possibile plura esse infinita; quare illa trinitas est unitas.
+
+.. _cusa-la-di-i-19-s-2:
+
+.. folio:: DI I.19 §2
+
+Praeterea, cum angulus maiori lateri oppositus sit maior, ut in geometria ostenditur, et hic sit triangulus, qui non habet latus nisi infinitum, erunt anguli maximi et infiniti. Quare unus non est minor aliis nec duo maiores tertio, sed quia extra infinitam quantitatem non posset esse quantitas, ita extra unum angulum infinitum non possunt esse alii. Quare unus erit in alio, et omnes tres unum maximum. Insuper, sicut maxima linea non plus est linea, triangulus, circulus vel sphaera, sed in veritate est illa omnia absque compositione, ut ostensum est: ita consimiliter maximum simpliciter est ut maximum lineale, quod possumus dicere essentiam; est ut triangulare, et potest dici trinitas; est ut circulare, et potest dici unitas; est ut sphaerale, et potest dici actualis existentia.
+
+.. _cusa-la-di-i-19-s-3:
+
+.. folio:: DI I.19 §3
+
+Est igitur maximum essentia trina, una actu; nec est aliud essentia quam trinitas, nec aliud trinitas quam unitas, nec aliud actualitas quam unitas, trinitas vel essentia, licet verissimum sit maximum ista esse identice et simplicissime. Sicut igitur verum est maximum esse et unum esse, ita verum est ipsum trinum esse, eo modo quo veritas trinitatis non contradicit simplicissimae unitati, sed est ipsa unitas.
+
+.. _cusa-la-di-i-19-s-4:
+
+.. folio:: DI I.19 §4
+
+Hoc autem aliter possibile non est, quam ut per similitudinem trianguli maximi attingibile est. Quare ipsum verum triangulum atque simplicissimam lineam ex praehabitis scientes, modo quo hoc homini possibile est, in docta ignorantia Trinitatem attingemus. Nam videmus, quod non reperimus angulum unum et post alium et tertio adhuc alium, ut in triangulis finitis, quoniam alius et alius et alius in unitate trianguli absque compositione esse non possunt. Sed unum absque numerali multiplicatione triniter est; quare recte quidem doctissimus Augustinus ait: «Dum incipis numerare Trinitatem, exis veritatem.» Oportet enim in divinis simplici conceptu, quantum hoc possibile est, complecti contradictoria, ipsa antecedenter praeveniendo; puta non oportet in divinis concipere distinctionem et indistinctionem tamquam duo contradicentia, sed illa ut in principio suo simplicissimo antecedenter, ubi non est aliud distinctio quam indistinctio; et tunc clarius concipitur trinitas et unitas esse idem. Nam ubi distinctio est indistinctio, trinitas est unitas; et e converso, ubi indistinctio est distinctio, unitas est trinitas. Et ita de pluralitate personarum et unitate essentiae; nam ubi pluralitas est unitas, trinitas personarum est idem cum unitate essentiae; et e converso, ubi unitas est pluralitas, unitas essentiae est trinitas in personis.
+
+.. _cusa-la-di-i-19-s-5:
+
+.. folio:: DI I.19 §5
+
+Et ista clare in nostro exemplo videntur, ubi simplicissima linea est triangulus et e converso simplex triangulus est unitas linealis. Hic etiam videtur, quomodo numerari anguli trianguli per unum, duo, tria non possunt, cum quilibet sit in quolibet, – ut ait Filius: «Ego in Patre et Pater in me.» Iterum, veritas trianguli requirit tres angulos. Sunt igitur hic verissime tres anguli, et unusquisque maximus, et omnes unum maximum. Requirit insuper veritas trianguli, quod unus angulus non sit alius; et ita hic requirit veritas unitatis simplicissimae essentiae, quod tres illi anguli non sint aliqua tria distincta, sed unum. Et hoc etiam verum est hic. Coniunge igitur ista, quae videntur opposita, antecedenter, ut praedixi; et non habebis unum et tria vel e converso, sed unitrinum seu triunum. Et ista est veritas absoluta.

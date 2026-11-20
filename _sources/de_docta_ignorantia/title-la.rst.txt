@@ -34,17 +34,31 @@ Conspectus Totius Operis
 Liber I — De Maximo Absoluto
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Capitula I–IV: :doc:`Latin <liber_i/cap_01_04/la>` · :doc:`English <liber_i/cap_01_04/index>`
-* Capitula XI–XII: :doc:`Latin <liber_i/cap_11_12/la>` · :doc:`English <liber_i/cap_11_12/index>`
-* Capitula XIII–XV: :doc:`Latin <liber_i/cap_13_15/la>` · :doc:`English <liber_i/cap_13_15/index>`
-* Capitula XVI–XVII: :doc:`Latin <liber_i/cap_16_17/la>` · :doc:`English <liber_i/cap_16_17/index>`
-* Capitula XVIII–XX: :doc:`Latin <liber_i/cap_18_20/la>` · :doc:`English <liber_i/cap_18_20/index>`
-* Capitula XXI–XXIII: :doc:`Latin <liber_i/cap_21_23/la>` · :doc:`English <liber_i/cap_21_23/index>`
+* Dedicatio: :doc:`Latin <liber_i/dedicatio/la>` · :doc:`English <liber_i/dedicatio/index>`
+* Capitulum I: :doc:`Latin <liber_i/cap_01/la>` · :doc:`English <liber_i/cap_01/index>`
+* Capitulum II: :doc:`Latin <liber_i/cap_02/la>` · :doc:`English <liber_i/cap_02/index>`
+* Capitulum III: :doc:`Latin <liber_i/cap_03/la>` · :doc:`English <liber_i/cap_03/index>`
+* Capitulum IV: :doc:`Latin <liber_i/cap_04/la>` · :doc:`English <liber_i/cap_04/index>`
+* Capitulum XI: :doc:`Latin <liber_i/cap_11/la>` · :doc:`English <liber_i/cap_11/index>`
+* Capitulum XII: :doc:`Latin <liber_i/cap_12/la>` · :doc:`English <liber_i/cap_12/index>`
+* Capitulum XIII: :doc:`Latin <liber_i/cap_13/la>` · :doc:`English <liber_i/cap_13/index>`
+* Capitulum XIV: :doc:`Latin <liber_i/cap_14/la>` · :doc:`English <liber_i/cap_14/index>`
+* Capitulum XV: :doc:`Latin <liber_i/cap_15/la>` · :doc:`English <liber_i/cap_15/index>`
+* Capitulum XVI: :doc:`Latin <liber_i/cap_16/la>` · :doc:`English <liber_i/cap_16/index>`
+* Capitulum XVII: :doc:`Latin <liber_i/cap_17/la>` · :doc:`English <liber_i/cap_17/index>`
+* Capitulum XVIII: :doc:`Latin <liber_i/cap_18/la>` · :doc:`English <liber_i/cap_18/index>`
+* Capitulum XIX: :doc:`Latin <liber_i/cap_19/la>` · :doc:`English <liber_i/cap_19/index>`
+* Capitulum XX: :doc:`Latin <liber_i/cap_20/la>` · :doc:`English <liber_i/cap_20/index>`
+* Capitulum XXI: :doc:`Latin <liber_i/cap_21/la>` · :doc:`English <liber_i/cap_21/index>`
+* Capitulum XXII: :doc:`Latin <liber_i/cap_22/la>` · :doc:`English <liber_i/cap_22/index>`
+* Capitulum XXIII: :doc:`Latin <liber_i/cap_23/la>` · :doc:`English <liber_i/cap_23/index>`
+* Epistola Auctoris: :doc:`Latin <liber_i/epistola/la>` · :doc:`English <liber_i/epistola/index>`
 
 Liber II — De Universo et Cosmologia
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Capitula XI–XII: :doc:`Latin <liber_ii/cap_11_12/la>` · :doc:`English <liber_ii/cap_11_12/index>`
+* Capitulum XI: :doc:`Latin <liber_ii/cap_11/la>` · :doc:`English <liber_ii/cap_11/index>`
+* Capitulum XII: :doc:`Latin <liber_ii/cap_12/la>` · :doc:`English <liber_ii/cap_12/index>`
 
 ----
 

@@ -1,4 +1,4 @@
-:order: 90
+:order: 230
 :layout: book
 :title: De Mathematicis Complementis — Inradius, Circumradius, and Archimedes' Spiral
 :canonical_id: DMC (1453)

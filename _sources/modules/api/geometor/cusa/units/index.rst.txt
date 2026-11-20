@@ -7,7 +7,7 @@ geometor.cusa.units
 
    Canonical Book Codex unit specifications for GEOMETOR • cusa.
 
-   Defines the 11 atomic units across *De Docta Ignorantia* (Liber I & Liber II)
+   Defines the 25 atomic units across *De Docta Ignorantia* (Liber I & Liber II)
    and Cusa's *De Mathematicis Complementis* & *Scripta Mathematica* (1445–1459).
 
 
@@ -65,11 +65,11 @@ Module Contents
 
 
    .. py:attribute:: figure_svg
-      :type:  str
+      :type:  str | None
 
 
    .. py:attribute:: figure_caption
-      :type:  str
+      :type:  str | None
 
 
    .. py:attribute:: epigraph_la
@@ -108,7 +108,7 @@ Module Contents
       :type: str
 
 
-      Relative path under ``docsrc/`` for this unit (e.g. ``de_docta_ignorantia/liber_i/cap_01_04``).
+      Relative path under ``docsrc/`` for this unit (e.g. ``de_docta_ignorantia/liber_i/cap_01``).
 
 
    .. py:property:: key
@@ -116,6 +116,13 @@ Module Contents
 
 
       Unique lookup key for commentary and resources.
+
+
+   .. py:property:: anchor_slug
+      :type: str
+
+
+      Unique RST target slug for this unit (avoids Liber I / Liber II collisions).
 
 
    .. py:property:: source_prefix

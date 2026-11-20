@@ -1,4 +1,4 @@
-:order: 90
+:order: 230
 :layout: book
 :type: notes
 :title: De Mathematicis Complementis — Inradius, Circumradius, and Archimedes' Spiral — Notes

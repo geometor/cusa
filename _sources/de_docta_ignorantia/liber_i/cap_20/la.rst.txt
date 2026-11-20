@@ -1,0 +1,47 @@
+:order: 150
+:layout: book
+:type: la
+:title: Why a Quaternity or More Is Impossible: Minimal Polygon Theorem — Latin (1440 / 1514–1913)
+:canonical_id: DI I.20
+:original_id: DI I.20
+:folio: DI I.20 (1440)
+:tracks: English: index | Latin: la | Summary: summary | Notes: notes
+
+.. _cap_20-la:
+
+==========================================================================================
+Why a Quaternity or More Is Impossible: Minimal Polygon Theorem — Latin (1440 / 1514–1913)
+==========================================================================================
+
+.. rubric:: Textus Latinus Collatis Editionibus Parisiensi (1514), Basileensi (1565) et Rottae (1913) · DI I.20 (1440)
+
+.. _di-bk1-ch20-la:
+
+Liber I, Capitulum XX — Adhuc circa Trinitatem, et quod non sit possibilis quaternitas et ultra in divinis
+----------------------------------------------------------------------------------------------------------
+
+*h I, nn. 59–62 · Paris 1514 fol. 8r–8v · Rotta 1913 pp. 42–45*
+
+.. _cusa-la-di-i-20-s-1:
+
+.. folio:: DI I.20 §1
+
+Amplius, requirit veritas Trinitatis, quae est Triunitas, trinum esse unum, quia dicitur triunum. Hoc autem non cadit in conceptu nisi eo modo, quo correlatio distincta unit et ordo distinguit. Unde, sicut – dum facimus triangulum finitum – primo est angulus unus, secundo alius, tertio tertius ab utroque, et illi anguli ad invicem correlationem habent, ut sit unus ex ipsis triangulus: ita quidem et in infinito infinite. Tamen concipiendum est ita, quod prioritas taliter concipiatur in aeternitate, quod posterioritas non sibi contradicat; aliter enim prioritas et posterioritas in infinito et aeterno cadere non possent. Unde Pater non est prior Filio et Filius posterior; sed ita Pater est prior, quod Filius non est posterior. Ita Pater prima persona, quod Filius non est post hoc secunda; sed sicut Pater est prima absque prioritate, ita Filius secunda absque posterioritate et Spiritus sanctus pariformiter tertia. Sed quia hoc superius dictum est amplius, sufficiat.
+
+.. _cusa-la-di-i-20-s-2:
+
+.. folio:: DI I.20 §2
+
+Velis tamen circa hanc semper benedictam Trinitatem advertere, quod ipsum maximum est trinum et non quaternum vel quinum et ultra. Et hoc certe est nota dignum; nam hoc repugnaret simplicitati et perfectioni maximi. Omnis enim figura polygonia pro simplicissimo elemento habet triangularem, et illa est minima figura polygonia, qua minor esse nequit. Probatum est autem minimum simpliciter cum maximo coincidere. Sicut igitur se habet unum in numeris, ita triangulus in figuris polygoniis. Sicut igitur omnis numerus resolvitur ad unitatem, ita polygoniae ad triangulum. Maximus igitur triangulus, cum quo minimus coincidit, omnes figuras polygonias complectitur; nam sicut unitas maxima se habet ad omnem numerum, ita triangulus maximus ad omnem polygoniam. Quadrangularis autem figura non est minima, ut patet, quia ea minor est triangularis. Igitur simplicissimo maximo, quod cum solo minimo coincidere potest, quadrangularis, quae absque compositione esse non potest, cum sit maior minimo, nequaquam poterit convenire. Immo implicat contradictionem esse maximum et esse quadrangulare; nam non posset esse mensura triangularium adaequata, quia semper excederet. Quomodo igitur esset maximum, quod non esset omnium mensura? Immo quomodo esset maximum, quod esset ab alio et compositum et per consequens finitum?
+
+.. _cusa-la-di-i-20-s-3:
+
+.. folio:: DI I.20 §3
+
+Et iam patet, quare primo ex potentia lineae simplicis oritur triangulus simplex – quoad polygonias –, deinde circulus simplex, deinde sphaera simplex, et non devenitur ad alias quam istas elementales figuras ad invicem in finitis improportionales, omnes figuras intra se complicantes. Unde, sicut si nos vellemus concipere mensuras omnium quantitatum mensurabilium: primo pro longitudine necesse esset habere lineam infinitam maximam, cum qua coincideret minimum; deinde pariformiter pro latitudine rectilineali triangulum maximum; et pro latitudine circulari circulum maximum; et pro profunditate sphaeram maximam; et cum aliis quam cum istis quattuor omnia mensurabilia attingi non possent. Et quia istae omnes mensurae necessario essent infinitae et maximae, cum quo minimum coincideret, et cum plura maxima esse non possint: hinc ipsum unicum maximum, quod esse debet omnium quantorum mensura, dicimus esse illa, sine quibus maxima mensura esse non posset, licet in se consideratum – absque respectu ad mensurabilia – nullum istorum sit aut dici possit veraciter, sed per infinitum et improportionabiliter supra. Ita maximum simpliciter cum sit omnium mensura, ipsum illa esse dicimus, sine quibus ipsum omnium metrum posse esse non intelligimus. Unde maximum, licet sit super omnem trinitatem per infinitum, trinum dicimus, quia aliter ipsum rerum, quarum unitas essendi est trinitas – sicut in figuris unitas triangularis in trinitate angulorum consistit –, causam simplicem, metrum et mensuram esse non intelligeremus; licet in veritate et nomen et conceptus noster trinitatis, semoto isto respectu, maximo nequaquam conveniat, sed per infinitum ab illa maxima et incomprehensibili veritate deficiat.
+
+.. _cusa-la-di-i-20-s-4:
+
+.. folio:: DI I.20 §4
+
+Habemus itaque maximum triangulum omnium triniter subsistentium mensuram simplicissimam, quemadmodum sunt operationes actiones in potentia, obiecto, actu triniter subsistentes; similiter visiones, intellectiones, volitiones, similitudines, dissimilitudines, pulchritudines, proportiones, correlationes, appetitus naturales et cetera omnia, quorum essendi unitas consistit in pluralitate, sicuti est principaliter esse et operatio naturae consistens in correlatione agentis, patientis et communis ex illis resultantis.

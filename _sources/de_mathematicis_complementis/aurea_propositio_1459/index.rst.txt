@@ -1,4 +1,4 @@
-:order: 110
+:order: 250
 :layout: book
 :title: Aurea Propositio in Mathematicis — Three-Ray Sum Invariance and the Golden Proposition
 :canonical_id: APM (1459)
@@ -32,10 +32,6 @@ Aurea Propositio in Mathematicis (Rome, August 8, 1459, §§1–7 & Colophon —
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
 *Original GEOMETOR Translation from the Latin · h XX, Opuscula Mathematica · Basel 1565 pp. 1145–1146*
-
-.. picture:: /_static/figures/cusa_aurea_propositio_1459.svg
-   :alt: Aurea Propositio in Mathematicis (Rome, August 8, 1459, §§1–7 & Colophon — Complete) — Three-Ray Radial Sum Invariance and the Cusa–Snellius–Huygens Law
-   :caption: Aurea Propositio in Mathematicis (1459, §§1–2) — Exact Q(sqrt(3)) Construction at theta = pi/6: Three-Ray Sum |AI| + |AK| + |AL| = 3 Equals Three Unit Radii, with Endpoint Ascent |AI| - 1 = (11 - 6 sqrt(3))/13 Matching Midpoint Descent 1 - |AK| and Fifth-Order Residual theta^5/180.
 
 .. _cusa-en-apm-s-1a:
 

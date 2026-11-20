@@ -1,4 +1,4 @@
-:order: 80
+:order: 220
 :layout: book
 :type: la
 :title: De Geometricis Transmutationibus — Isoperimetric Extrema and the Sesquiquartal Radius — Latin (1440 / 1514–1913)
@@ -25,10 +25,6 @@ De Geometricis Transmutationibus (1445, §§1–11) — Ad Paulum Physicum Flore
 --------------------------------------------------------------------------------
 
 *h XX, Opuscula Mathematica · Paris 1514 vol. II · Basel 1565 pp. 945–949*
-
-.. picture:: /_static/figures/cusa_transmutatio_1445.svg
-   :alt: De Geometricis Transmutationibus (1445, §§1–11) — Ad Paulum Physicum Florentinum
-   :caption: De Geometricis Transmutationibus (1445, §§9–11) — Inscribed Equilateral Triangle BCD in Unit Circle A: Quarter-Point E on Side BC Extended in Sesquiquartal Ratio 5:4 Yields Isoperimetric Radius AH = (5/16) sqrt(7), Implying pi ~= (24/35) sqrt(21) ~= 3.142337.
 
 .. _cusa-la-dgt-s-1:
 

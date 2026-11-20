@@ -1,4 +1,4 @@
-:order: 100
+:order: 240
 :layout: book
 :type: la
 :title: De Mathematica Perfectione — Vanishing Sagitta and Intellectual Vision — Latin (1440 / 1514–1913)

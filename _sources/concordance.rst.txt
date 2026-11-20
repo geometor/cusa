@@ -19,7 +19,7 @@ Systematic concordance of **15 canonical loci** across *De Docta Ignorantia* and
 De Docta Ignorantia, Dedicatio & Epistola auctoris (Feb 12, 1440)
 -----------------------------------------------------------------
 
-- **Codex Unit**: :doc:`/de_docta_ignorantia/liber_i/cap_01_04/index`
+- **Codex Unit**: :doc:`/de_docta_ignorantia/liber_i/dedicatio/index`
 - **Central Thesis**: Wonder (admiratio) & the Sea-Voyage Illumination of Coincidentia Oppositorum
 - **Symbolic Verification Hook**: ``geometor.cusa.coincidentia_circle_line.verify_sagitta_and_curvature_limits``
 
@@ -39,7 +39,7 @@ De Docta Ignorantia, Dedicatio & Epistola auctoris (Feb 12, 1440)
 De Docta Ignorantia I.1 (Quomodo scire est ignorare)
 ----------------------------------------------------
 
-- **Codex Unit**: :doc:`/de_docta_ignorantia/liber_i/cap_01_04/index`
+- **Codex Unit**: :doc:`/de_docta_ignorantia/liber_i/cap_01/index`
 - **Central Thesis**: Comparative Inquiry via Proportion, Number & Socratic Learned Ignorance
 - **Symbolic Verification Hook**: ``geometor.cusa.polygon_exhaustion_and_complementa.compute_polygon_exhaustion_table``
 
@@ -59,7 +59,7 @@ De Docta Ignorantia I.1 (Quomodo scire est ignorare)
 De Docta Ignorantia I.2 & I.4 (Maximum absolutum & Coincidentia minimi)
 -----------------------------------------------------------------------
 
-- **Codex Unit**: :doc:`/de_docta_ignorantia/liber_i/cap_01_04/index`
+- **Codex Unit**: :doc:`/de_docta_ignorantia/liber_i/cap_02/index`
 - **Central Thesis**: The Absolute Maximum and Coincidence of Maximum & Minimum Beyond Non-Contradiction
 - **Symbolic Verification Hook**: ``geometor.cusa.coincidentia_circle_line.verify_mobius_inversion_coincidence``
 
@@ -78,7 +78,7 @@ De Docta Ignorantia I.2 & I.4 (Maximum absolutum & Coincidentia minimi)
 De Docta Ignorantia I.3 (Quod praecisa veritas sit incomprehensibilis)
 ----------------------------------------------------------------------
 
-- **Codex Unit**: :doc:`/de_docta_ignorantia/liber_i/cap_01_04/index`
+- **Codex Unit**: :doc:`/de_docta_ignorantia/liber_i/cap_03/index`
 - **Central Thesis**: Inscribed Polygon Exhaustion & Incommensurability of Non-Circle with Circle
 - **Symbolic Verification Hook**: ``geometor.cusa.polygon_exhaustion_and_complementa.construct_polygon_exhaustion``
 
@@ -98,7 +98,7 @@ De Docta Ignorantia I.3 (Quod praecisa veritas sit incomprehensibilis)
 De Docta Ignorantia I.11 (Quod mathematica nos iuvet plurimum)
 --------------------------------------------------------------
 
-- **Codex Unit**: :doc:`/de_docta_ignorantia/liber_i/cap_11_12/index`
+- **Codex Unit**: :doc:`/de_docta_ignorantia/liber_i/cap_11/index`
 - **Central Thesis**: Incorruptible Certainty of Mathematical Signs & Refutation of Indivisible Atoms
 - **Symbolic Verification Hook**: ``geometor.cusa.polygon_exhaustion_and_complementa.construct_transsumptio_ascent``
 
@@ -118,7 +118,7 @@ De Docta Ignorantia I.11 (Quod mathematica nos iuvet plurimum)
 De Docta Ignorantia I.12 (Quomodo signis mathematicalibus sit utendum)
 ----------------------------------------------------------------------
 
-- **Codex Unit**: :doc:`/de_docta_ignorantia/liber_i/cap_11_12/index`
+- **Codex Unit**: :doc:`/de_docta_ignorantia/liber_i/cap_12/index`
 - **Central Thesis**: The Three-Step Method of Mathematical Transsumption (Finitum -> Infinitum -> Simplex)
 - **Symbolic Verification Hook**: ``geometor.cusa.polygon_exhaustion_and_complementa.construct_transsumptio_ascent``
 
@@ -136,7 +136,7 @@ De Docta Ignorantia I.12 (Quomodo signis mathematicalibus sit utendum)
 De Docta Ignorantia I.13 (De passionibus lineae maximae et infinitae)
 ---------------------------------------------------------------------
 
-- **Codex Unit**: :doc:`/de_docta_ignorantia/liber_i/cap_13_15/index`
+- **Codex Unit**: :doc:`/de_docta_ignorantia/liber_i/cap_13/index`
 - **Central Thesis**: Coincidence of the Infinite Circle & Tangent Arc with the Infinite Straight Line
 - **Symbolic Verification Hook**: ``geometor.cusa.coincidentia_circle_line.construct_tangent_circle_pencil``
 
@@ -157,7 +157,7 @@ De Docta Ignorantia I.13 (De passionibus lineae maximae et infinitae)
 De Docta Ignorantia I.14 (Quod infinita linea sit triangulus)
 -------------------------------------------------------------
 
-- **Codex Unit**: :doc:`/de_docta_ignorantia/liber_i/cap_13_15/index`
+- **Codex Unit**: :doc:`/de_docta_ignorantia/liber_i/cap_14/index`
 - **Central Thesis**: Collapse of the Flattening Triangle onto the Straight Line as Apex Approaches Two Right Angles
 - **Symbolic Verification Hook**: ``geometor.cusa.coincidentia_triangle_line.construct_flattening_triangles``
 
@@ -175,7 +175,7 @@ De Docta Ignorantia I.14 (Quod infinita linea sit triangulus)
 De Docta Ignorantia I.15 (Quod ille triangulus sit circulus et sphaera)
 -----------------------------------------------------------------------
 
-- **Codex Unit**: :doc:`/de_docta_ignorantia/liber_i/cap_13_15/index`
+- **Codex Unit**: :doc:`/de_docta_ignorantia/liber_i/cap_15/index`
 - **Central Thesis**: Generative Circumduction of the Infinite Line into Triangle, Circle & Sphere
 - **Symbolic Verification Hook**: ``geometor.cusa.polygon_exhaustion_and_complementa.construct_generative_unfolding``
 
@@ -194,7 +194,7 @@ De Docta Ignorantia I.15 (Quod ille triangulus sit circulus et sphaera)
 De Docta Ignorantia I.16–18 (Mensura adaequatissima & Participatio rectitudinis)
 --------------------------------------------------------------------------------
 
-- **Codex Unit**: :doc:`/de_docta_ignorantia/liber_i/cap_16_17/index`
+- **Codex Unit**: :doc:`/de_docta_ignorantia/liber_i/cap_16/index`
 - **Central Thesis**: The Infinite Line as Exact Measure of All Lines & Rectitude as Measure of the Curved
 - **Symbolic Verification Hook**: ``geometor.cusa.coincidentia_circle_line.verify_sagitta_and_curvature_limits``
 
@@ -213,7 +213,7 @@ De Docta Ignorantia I.16–18 (Mensura adaequatissima & Participatio rectitudini
 De Docta Ignorantia I.19, I.21–23 (Triangulus, Circulus & Sphaera Infinita)
 ---------------------------------------------------------------------------
 
-- **Codex Unit**: :doc:`/de_docta_ignorantia/liber_i/cap_21_23/index`
+- **Codex Unit**: :doc:`/de_docta_ignorantia/liber_i/cap_21/index`
 - **Central Thesis**: Coincidence of Center, Diameter & Circumference in the Infinite Circle and Sphere
 - **Symbolic Verification Hook**: ``geometor.cusa.polygon_exhaustion_and_complementa.construct_generative_unfolding``
 
@@ -233,7 +233,7 @@ De Docta Ignorantia I.19, I.21–23 (Triangulus, Circulus & Sphaera Infinita)
 De Docta Ignorantia II.11–12 (Corollaria de motu & De condicionibus terrae)
 ---------------------------------------------------------------------------
 
-- **Codex Unit**: :doc:`/de_docta_ignorantia/liber_ii/cap_11_12/index`
+- **Codex Unit**: :doc:`/de_docta_ignorantia/liber_ii/cap_11/index`
 - **Central Thesis**: Decentered Universe, Perspectival Relativity of Motion & the Noble Moving Earth
 - **Symbolic Verification Hook**: ``geometor.cusa.polygon_exhaustion_and_complementa.construct_cosmic_relativity_frame``
 
