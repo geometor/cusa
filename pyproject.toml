@@ -5,7 +5,7 @@ authors = [
   { name = "phi ARCHITECT", email = "phi@geometor.com" },
 ]
 description = "Nicholas of Cusa (Nicolaus Cusanus, 1401–1464): De Docta Ignorantia (1440) & Mathematical Complementa — 4-Track Bilingual Book Codex with Exact Symbolic Demonstrations."
-readme = "README.rst"
+readme = "README.md"
 requires-python = ">=3.13"
 classifiers = [
     "Programming Language :: Python :: 3",
