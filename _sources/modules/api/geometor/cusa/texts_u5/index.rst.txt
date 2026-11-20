@@ -1,0 +1,35 @@
+geometor.cusa.texts_u5
+======================
+
+.. py:module:: geometor.cusa.texts_u5
+
+.. autoapi-nested-parse::
+
+   Primary Latin witnesses and original GEOMETOR English translations for Unit V.
+
+   Covers:
+   1. *De Docta Ignorantia* Book II, Chapters 11–12 (1440; Rotta 1913 pp. 113–122),
+   2. *De Geometricis Transmutationibus* (1445, §§1–11; Paris 1514 vol. II / Basel 1565),
+   3. *De Mathematicis Complementis* (1453, §§1–10; Paris 1514 vol. II / Basel 1565),
+   4. *De Mathematica Perfectione* (1458, Ded. & §§1–7; Paris 1514 vol. II / Basel 1565),
+   5. *Aurea Propositio in Mathematicis* (August 8, 1459, §§1–7 & Colophon, complete).
+
+   All English translations are 100% original GEOMETOR scholarly translations rendered
+   directly from the Latin text.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.cusa.texts_u5.UNIT_5_SECTIONS
+
+
+Module Contents
+---------------
+
+.. py:data:: UNIT_5_SECTIONS
+   :type:  tuple[geometor.cusa.texts_u1_u3.BilingualSectionData, ...]
+

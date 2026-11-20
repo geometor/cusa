@@ -1,0 +1,74 @@
+geometor.cusa.compile_codex
+===========================
+
+.. py:module:: geometor.cusa.compile_codex
+
+.. autoapi-nested-parse::
+
+   Codex compiler generating the 4-track synchronized Book Codex and source manifests for Cusa.
+
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.cusa.compile_codex.verify_unit_parity
+   geometor.cusa.compile_codex.write_source_witnesses
+   geometor.cusa.compile_codex.render_de_docta_ignorantia_index_rst
+   geometor.cusa.compile_codex.render_liber_i_index_rst
+   geometor.cusa.compile_codex.render_liber_ii_index_rst
+   geometor.cusa.compile_codex.render_de_mathematicis_complementis_index_rst
+   geometor.cusa.compile_codex.compile_all_codex
+
+
+Module Contents
+---------------
+
+.. py:function:: verify_unit_parity(unit: geometor.cusa.units.CodexUnitSpec) -> dict[str, object]
+
+   Verify strict 1-to-1 Latin/English paragraph and milestone parity for a unit.
+
+   :param unit: :class:`CodexUnitSpec` to inspect.
+
+   :returns: Dictionary of section-level and unit-level paragraph counts and parity flags.
+
+   :raises ValueError: If any section has mismatched Latin/English paragraph counts or milestones.
+
+
+.. py:function:: write_source_witnesses(repo_root: str | pathlib.Path) -> dict[str, pathlib.Path]
+
+   Write canonical ``.la.txt`` / ``.en.txt`` source witnesses and ``sources_manifest.json``.
+
+
+.. py:function:: render_de_docta_ignorantia_index_rst() -> str
+
+   Render ``docsrc/de_docta_ignorantia/index.rst``.
+
+
+.. py:function:: render_liber_i_index_rst() -> str
+
+   Render ``docsrc/de_docta_ignorantia/liber_i/index.rst``.
+
+
+.. py:function:: render_liber_ii_index_rst() -> str
+
+   Render ``docsrc/de_docta_ignorantia/liber_ii/index.rst``.
+
+
+.. py:function:: render_de_mathematicis_complementis_index_rst() -> str
+
+   Render ``docsrc/de_mathematicis_complementis/index.rst``.
+
+
+.. py:function:: compile_all_codex(repo_root: str | pathlib.Path, *, regen_figures: bool = True) -> dict[str, pathlib.Path]
+
+   Compile all 4-track Codex units, source manifests, apparatus JSON/RST, and SVG figures.
+
+   :param repo_root: Root directory of ``geometor/cusa``.
+   :param regen_figures: When ``True`` (default), regenerate all 9 ``.euclid-graphic`` SVGs.
+
+   :returns: Mapping of relative output paths to resolved :class:`~pathlib.Path` objects.
+
+

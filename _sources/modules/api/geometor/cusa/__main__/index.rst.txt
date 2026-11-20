@@ -1,0 +1,11 @@
+geometor.cusa.__main__
+======================
+
+.. py:module:: geometor.cusa.__main__
+
+.. autoapi-nested-parse::
+
+   Module execution entry point for ``python -m geometor.cusa``.
+
+
+

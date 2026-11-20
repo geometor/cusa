@@ -1,0 +1,39 @@
+geometor.cusa.cli
+=================
+
+.. py:module:: geometor.cusa.cli
+
+.. autoapi-nested-parse::
+
+   Command-line interface for ``geometor-cusa``.
+
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.cusa.cli.run_verification_suite
+   geometor.cusa.cli.build_parser
+   geometor.cusa.cli.main
+
+
+Module Contents
+---------------
+
+.. py:function:: run_verification_suite() -> dict[str, object]
+
+   Execute all exact symbolic proofs and bilingual parity checks, returning a JSON report.
+
+
+.. py:function:: build_parser() -> argparse.ArgumentParser
+
+   Build the ``geometor-cusa`` CLI argument parser.
+
+
+.. py:function:: main(argv: Sequence[str] | None = None) -> int
+
+   CLI entry point for ``geometor-cusa``.
+
+

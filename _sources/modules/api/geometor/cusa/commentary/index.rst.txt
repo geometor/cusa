@@ -1,0 +1,29 @@
+geometor.cusa.commentary
+========================
+
+.. py:module:: geometor.cusa.commentary
+
+.. autoapi-nested-parse::
+
+   Scholarly structural summaries and critical notes for the canonical units of GEOMETOR • cusa.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.cusa.commentary.UNIT_SUMMARIES
+   geometor.cusa.commentary.UNIT_NOTES
+
+
+Module Contents
+---------------
+
+.. py:data:: UNIT_SUMMARIES
+   :type:  dict[str, str]
+
+.. py:data:: UNIT_NOTES
+   :type:  dict[str, str]
+

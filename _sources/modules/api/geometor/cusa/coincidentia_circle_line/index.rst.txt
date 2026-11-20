@@ -1,0 +1,184 @@
+geometor.cusa.coincidentia_circle_line
+======================================
+
+.. py:module:: geometor.cusa.coincidentia_circle_line
+
+.. autoapi-nested-parse::
+
+   Exact symbolic constructions and proofs for *De Docta Ignorantia* I.13 (Circle & Straight Line).
+
+   Models Nicholas of Cusa's celebrated coincidence of the infinite circle and tangent arc
+   with the infinite straight line (*De docta ignorantia*, Book I, Chapter 13):
+
+   1. :func:`construct_tangent_circle_pencil`: Coaxial parabolic pencil of circles
+      :math:`C_R: x^2 + (y - R)^2 = R^2` (:math:`R \in \{1, 2, 4, 8\}`) tangent to the
+      horizon line :math:`y = 0` at :math:`O = (0, 0)`, intersected by the secant lines
+      :math:`x = \pm 1` in exact quadratic radicals (:math:`1, 2-\sqrt{3}, 4-\sqrt{15}, 8-3\sqrt{7}`).
+   2. :func:`verify_sagitta_and_curvature_limits`: Exact SymPy symbolic rationalization of
+      the sagitta :math:`h(x, R) = R - \sqrt{R^2 - x^2} = \frac{x^2}{R + \sqrt{R^2 - x^2}}`,
+      proving :math:`\lim_{R \to \infty} h(x, R) = 0`,
+      :math:`\lim_{R \to \infty} R \cdot h(x, R) = \frac{x^2}{2}`, and curvature
+      :math:`\kappa(R) = \frac{1}{R} \to 0`.
+   3. :func:`construct_circle_line_inversion` & :func:`verify_mobius_inversion_coincidence`:
+      Exact Möbius circle-inversion proofs demonstrating both (a) inversion at :math:`O = (0, 0)`
+      mapping every circle :math:`C_R` to the horizontal straight line :math:`y = \frac{1}{2R} \to 0`,
+      and (b) bounded inversion in the unit circle :math:`\Omega` centered at :math:`S = (0, -1)`
+      mapping every :math:`C_R` to the rational circle :math:`C'_R` centered at
+      :math:`\left(0, -\frac{R}{2R+1}\right)` of radius :math:`\frac{R}{2R+1}`, whose continuous
+      limit :math:`C'_\infty` at :math:`\left(0, -\frac{1}{2}\right)` of radius :math:`\frac{1}{2}`
+      is identically the inverse image of the straight horizon line :math:`y = 0`.
+
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   geometor.cusa.coincidentia_circle_line.TangentPencilEntry
+   geometor.cusa.coincidentia_circle_line.InversionCircleEntry
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.cusa.coincidentia_circle_line.compute_tangent_pencil_table
+   geometor.cusa.coincidentia_circle_line.construct_tangent_circle_pencil
+   geometor.cusa.coincidentia_circle_line.verify_sagitta_and_curvature_limits
+   geometor.cusa.coincidentia_circle_line.construct_circle_line_inversion
+   geometor.cusa.coincidentia_circle_line.verify_mobius_inversion_coincidence
+
+
+Module Contents
+---------------
+
+.. py:class:: TangentPencilEntry
+
+   Exact metrics of a circle :math:`C_R` in Cusa's I.13 tangent pencil at secant :math:`x = 1`.
+
+   :ivar radius: Exact rational radius :math:`R`.
+   :ivar center_y: Center ordinate :math:`R` on the normal axis :math:`x = 0`.
+   :ivar secant_ordinate: Exact quadratic radical ordinate :math:`R - \sqrt{R^2 - 1}` at :math:`x = 1`.
+   :ivar rationalized_ordinate: Conjugate-rationalized sagitta :math:`\frac{1}{R + \sqrt{R^2 - 1}}`.
+   :ivar curvature: Exact rational curvature :math:`\kappa = 1 / R`.
+
+
+
+   .. py:attribute:: radius
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: center_y
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: secant_ordinate
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: rationalized_ordinate
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: curvature
+      :type:  sympy.Rational
+
+
+.. py:class:: InversionCircleEntry
+
+   Image of :math:`C_R` (or horizon :math:`y = 0`) under Möbius inversion in :math:`\Omega(S, 1)`.
+
+   :ivar label: Source locus label (``"R=1"``, ``"R=2"``, ..., or ``"R=oo (line y=0)"``).
+   :ivar inverted_center_y: Exact rational center ordinate :math:`-\frac{R}{2R + 1}` (or :math:`-\frac{1}{2}`).
+   :ivar inverted_radius: Exact rational radius :math:`\frac{R}{2R + 1}` (or :math:`\frac{1}{2}`).
+   :ivar antipode_y: Lower :math:`y`-intercept :math:`-\frac{2R}{2R + 1}` (or :math:`-1`).
+
+
+
+   .. py:attribute:: label
+      :type:  str
+
+
+   .. py:attribute:: inverted_center_y
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: inverted_radius
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: antipode_y
+      :type:  sympy.Rational
+
+
+.. py:function:: compute_tangent_pencil_table(radii: collections.abc.Sequence[int] = (1, 2, 4, 8)) -> list[TangentPencilEntry]
+
+   Compute exact symbolic ordinates, rationalized sagittae, and curvatures at ``x = 1``.
+
+   :param radii: Positive integer radii :math:`R_k >= 1`.
+
+   :returns: List of :class:`TangentPencilEntry` rows verified by ``zero_test``.
+
+
+.. py:function:: construct_tangent_circle_pencil(radii: collections.abc.Sequence[int] = (1, 2, 4, 8), model: geometor.model.Model | None = None) -> geometor.model.Model
+
+   Construct Cusa's I.13 coaxial pencil of circles tangent to the straight line ``AB`` at ``O``.
+
+   Builds horizon line ``[ A B ]`` (:math:`y = 0`), tangency origin ``O = (0, 0)``,
+   normal axis ``[ O C_max ]`` (:math:`x = 0`), circles ``( C_R O )`` for each
+   :math:`R \in \text{radii}`, and symmetric vertical secants :math:`x = \pm 1`
+   cutting the arcs in exact quadratic radicals :math:`P_R = (1, R - \sqrt{R^2 - 1})`
+   and :math:`Q_R = (-1, R - \sqrt{R^2 - 1})`.
+
+   :param radii: Strictly positive integer radii (default ``(1, 2, 4, 8)``).
+   :param model: Optional existing :class:`~geometor.model.Model`.
+
+   :returns: Populated :class:`~geometor.model.Model` with zero floating-point coordinates.
+
+
+.. py:function:: verify_sagitta_and_curvature_limits() -> dict[str, sympy.Expr | bool]
+
+   Prove Cusa's I.13 asymptotic coincidence of circular arc and tangent line in SymPy.
+
+   :returns: Dictionary of exact symbolic expressions and verified limit booleans.
+
+
+.. py:function:: construct_circle_line_inversion(radii: collections.abc.Sequence[int] = (1, 2, 4), model: geometor.model.Model | None = None) -> geometor.model.Model
+
+   Construct the Möbius circle-inversion model unifying Cusa's tangent circles and straight line.
+
+   Inverts the coaxial pencil :math:`C_R: x^2 + (y - R)^2 = R^2` and the horizon line
+   :math:`y = 0` in the unit circle :math:`\Omega: x^2 + (y + 1)^2 = 1` centered at
+   :math:`S = (0, -1)` passing through :math:`O = (0, 0)`:
+
+   - Every finite circle :math:`C_R` maps to the exact rational circle :math:`C'_R`
+     with center :math:`M_R = \left(0, -\frac{R}{2R + 1}\right)` and radius
+     :math:`r'_R = \frac{R}{2R + 1}` tangent at :math:`O = (0, 0)`.
+   - The straight horizon line :math:`y = 0` maps to :math:`C'_\infty` with center
+     :math:`M_\infty = \left(0, -\frac{1}{2}\right)` and radius :math:`r'_\infty = \frac{1}{2}`
+     passing through :math:`O = (0, 0)` and the inversion pole :math:`S = (0, -1)`.
+
+   :param radii: Positive integer source radii (default ``(1, 2, 4)``).
+   :param model: Optional existing :class:`~geometor.model.Model`.
+
+   :returns: Populated :class:`~geometor.model.Model` over :math:`\mathbb{Q}`.
+
+
+.. py:function:: verify_mobius_inversion_coincidence(radii: collections.abc.Sequence[int] = (1, 2, 4, 8)) -> dict[str, Any]
+
+   Verify symbolically both Möbius inversion theorems for Cusa's I.13 pencil.
+
+   1. **Origin Inversion** at :math:`O = (0, 0)`: maps :math:`x^2 + (y - R)^2 = R^2`
+      to the horizontal line :math:`v = \frac{1}{2R}`, converging to :math:`v = 0`.
+   2. **Pole Inversion** at :math:`S = (0, -1)` in :math:`\Omega: x^2 + (y + 1)^2 = 1`:
+      maps :math:`C_R` to :math:`u^2 + \left(y' + \frac{R}{2R+1}\right)^2 = \left(\frac{R}{2R+1}\right)^2`,
+      converging as :math:`R \to \infty` to :math:`u^2 + \left(y' + \frac{1}{2}\right)^2 = \frac{1}{4}`,
+      the exact image of the straight line :math:`y = 0`.
+
+   :param radii: Sample integer radii for tabular output.
+
+   :returns: Dictionary of verified symbolic identities and :class:`InversionCircleEntry` rows.
+
+

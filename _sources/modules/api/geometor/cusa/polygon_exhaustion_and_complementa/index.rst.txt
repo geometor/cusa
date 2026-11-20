@@ -1,0 +1,247 @@
+geometor.cusa.polygon_exhaustion_and_complementa
+================================================
+
+.. py:module:: geometor.cusa.polygon_exhaustion_and_complementa
+
+.. autoapi-nested-parse::
+
+   Exact symbolic constructions for Polygon Exhaustion (I.3) and Cusa's *Scripta Mathematica* (1445–1459).
+
+   Unites Nicholas of Cusa's epistemological paradigm of polygon-in-circle incommensurability
+   (*De docta ignorantia* I.3) with his constructive mathematical treatises:
+
+   1. :func:`construct_polygon_exhaustion` & :func:`compute_polygon_exhaustion_table`
+      (*De docta ignorantia* I.3 & *De mathematicis complementis* 1453): Exact inscribed and
+      circumscribed regular :math:`n`-gons (:math:`n \in \{3, 4, 6, 8, 12\}`) in closed-form
+      radicals, tracking Cusa's *prima linea* (inradius :math:`r_n = \cos(\pi/n)`),
+      *secunda linea* (circumradius :math:`R_n = 1`), and strictly monotone inscribed/circumscribed
+      semi-perimeters bracketing transcendental :math:`\pi`.
+   2. :func:`construct_transmutatio_isoperimetra` & :func:`verify_transmutatio_1445`
+      (*De geometricis transmutationibus*, 1445, §§9–11): Cusa's compass-and-straightedge
+      quarter-side *sesquiquarta* (:math:`5:4`) rectification of the inscribed equilateral
+      triangle ``BCD`` in unit circle ``A``, producing :math:`|AE| = \frac{\sqrt{7}}{4}`,
+      isoperimetric radius :math:`|AH| = \frac{5\sqrt{7}}{16}`, and
+      :math:`\pi_{\text{Cusa},1445} = \frac{24\sqrt{21}}{35} \approx 3.14233762`.
+   3. :func:`construct_aurea_propositio` & :func:`verify_cusa_snellius_approximation`
+      (*De mathematica perfectione*, 1458, & *Aurea propositio in mathematicis*, August 8, 1459):
+      Exact :math:`\mathbb{Q}(\sqrt{3})` construction of Cusa's three-ray sector ``AB, AD, AC``
+      terminated by arc ``BDC``, chord ``BHC``, tangent ``EDG``, and compensated segment ``IKL``
+      with :math:`AK = \frac{3\cos\theta}{2 + \cos\theta}`, together with the SymPy Maclaurin
+      proof of fifth-order accuracy:
+      :math:`\theta - \frac{3\sin\theta}{2 + \cos\theta} = \frac{\theta^5}{180} + \frac{\theta^7}{1512} + O(\theta^9)`.
+
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   geometor.cusa.polygon_exhaustion_and_complementa.PolygonExhaustionEntry
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.cusa.polygon_exhaustion_and_complementa.compute_polygon_exhaustion_table
+   geometor.cusa.polygon_exhaustion_and_complementa.construct_polygon_exhaustion
+   geometor.cusa.polygon_exhaustion_and_complementa.construct_transmutatio_isoperimetra
+   geometor.cusa.polygon_exhaustion_and_complementa.verify_transmutatio_1445
+   geometor.cusa.polygon_exhaustion_and_complementa.construct_aurea_propositio
+   geometor.cusa.polygon_exhaustion_and_complementa.verify_cusa_snellius_approximation
+   geometor.cusa.polygon_exhaustion_and_complementa.construct_transsumptio_ascent
+   geometor.cusa.polygon_exhaustion_and_complementa.construct_generative_unfolding
+   geometor.cusa.polygon_exhaustion_and_complementa.construct_cosmic_relativity_frame
+
+
+Module Contents
+---------------
+
+.. py:class:: PolygonExhaustionEntry
+
+   Exact symbolic invariants of regular :math:`n`-gons inscribed/circumscribed to unit circle.
+
+   :ivar sides: Number of polygon sides :math:`n`.
+   :ivar prima_linea_inradius: Exact radical inradius :math:`r_n = \cos(\pi / n)`.
+   :ivar secunda_linea_circumradius: Unit circumradius :math:`R_n = 1`.
+   :ivar radius_defect: Radial gap :math:`1 - r_n` between *secunda* and *prima linea*.
+   :ivar inscribed_semiperimeter: Exact radical :math:`n \sin(\pi / n) < \pi`.
+   :ivar circumscribed_semiperimeter: Exact radical :math:`n \tan(\pi / n) > \pi`.
+   :ivar inscribed_area: Exact radical :math:`\frac{n}{2}\sin(2\pi / n) < \pi`.
+   :ivar circumscribed_area: Exact radical :math:`n \tan(\pi / n) > \pi`.
+
+
+
+   .. py:attribute:: sides
+      :type:  int
+
+
+   .. py:attribute:: prima_linea_inradius
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: secunda_linea_circumradius
+      :type:  sympy.Integer
+
+
+   .. py:attribute:: radius_defect
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: inscribed_semiperimeter
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: circumscribed_semiperimeter
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: inscribed_area
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: circumscribed_area
+      :type:  sympy.Expr
+
+
+.. py:function:: compute_polygon_exhaustion_table(sides: collections.abc.Sequence[int] = (3, 4, 6, 8, 12)) -> list[PolygonExhaustionEntry]
+
+   Compute Cusa's I.3 / 1453 *prima* & *secunda linea* and semi-perimeter bounds for ``pi``.
+
+   :param sides: Strictly increasing sequence of polygon side counts.
+
+   :returns: Verified list of :class:`PolygonExhaustionEntry` instances.
+
+
+.. py:function:: construct_polygon_exhaustion(sides: collections.abc.Sequence[int] = (3, 4, 6), model: geometor.model.Model | None = None) -> geometor.model.Model
+
+   Construct Cusa's I.3 nested regular polygons inscribed and circumscribed to the unit circle.
+
+   Builds unit circle ``( O V0 )`` over :math:`\mathbb{Q}(\sqrt{2}, \sqrt{3})` together
+   with inscribed regular polygons (:math:`n = 3, 4, 6` by default) and the circumscribed
+   square to illustrate the irreducible gap between multiplied polygonal angles and the
+   indivisible circular circumference.
+
+   :param sides: Polygon side counts drawn in the geometric model (default ``(3, 4, 6)``;
+                 supports ``3, 4, 6, 8, 12``).
+   :param model: Optional existing :class:`~geometor.model.Model`.
+
+   :returns: Populated :class:`~geometor.model.Model` with exact algebraic coordinates.
+
+
+.. py:function:: construct_transmutatio_isoperimetra(model: geometor.model.Model | None = None) -> geometor.model.Model
+
+   Construct Cusa's 1445 *De Geometricis Transmutationibus* (§§9–11) rectification.
+
+   In unit circle ``( A D )`` centered at ``A = (0, 0)``, inscribes equilateral triangle
+   ``< B C D >``, divides side ``[ B C ]`` into four equal quarters at ``E, F, G``, draws
+   ray ``[ A E ]`` of exact length :math:`\frac{\sqrt{7}}{4}`, and extends it in
+   *sesquiquarta* ratio (:math:`5 : 4`) to ``H`` with :math:`|AH| = \frac{5\sqrt{7}}{16}`,
+   the radius of Cusa's nearly isoperimetric circle ``( A H )``.
+
+   :param model: Optional existing :class:`~geometor.model.Model`.
+
+   :returns: Populated :class:`~geometor.model.Model` over :math:`\mathbb{Q}(\sqrt{3})`.
+
+
+.. py:function:: verify_transmutatio_1445() -> dict[str, Any]
+
+   Verify Cusa's 1445 *sesquiquarta* rectification and implied algebraic :math:`\pi`.
+
+   Since the inscribed equilateral triangle has exact perimeter :math:`3\sqrt{3}` and Cusa's
+   isoperimetric circle has radius :math:`r_{\text{Cusa}} = |AH| = \frac{5\sqrt{7}}{16}`,
+   equating :math:`2 \pi_{\text{Cusa}} r_{\text{Cusa}} = 3\sqrt{3}` gives:
+
+   .. math::
+
+      \pi_{\text{Cusa},1445} = \frac{3\sqrt{3}}{2 \cdot \frac{5\sqrt{7}}{16}}
+      = \frac{24\sqrt{21}}{35} \approx 3.1423373949
+
+   exceeding true :math:`\pi` by only :math:`7.447 \times 10^{-4}` (relative error
+   :math:`2.37 \times 10^{-4}`, well inside Archimedes' upper bound :math:`22/7 \approx 3.142857`).
+
+   :returns: Dictionary of exact symbolic quantities and error bounds.
+
+
+.. py:function:: construct_aurea_propositio(model: geometor.model.Model | None = None) -> geometor.model.Model
+
+   Construct Cusa's 1458–1459 *Aurea Propositio* three-ray diagram over :math:`\mathbb{Q}(\sqrt{3})`.
+
+   Instantiates *Aurea propositio in mathematicis* (§§1–2) at half-angle
+   :math:`\theta = \frac{\pi}{6}` (:math:`30^\circ`) so every point lies in exact
+   :math:`\mathbb{Q}(\sqrt{3})`:
+
+   - Center ``A = (0, 0)``, middle ray ``[ A D ]`` to ``D = (1, 0)``, outer rays at
+     :math:`\pm 30^\circ` through ``B = (\sqrt{3}/2, 1/2)`` and ``C = (\sqrt{3}/2, -1/2)``;
+   - Circular arc ``( A D )``, chord ``[ B C ]`` meeting ``[ A D ]`` at ``H = (\sqrt{3}/2, 0)``,
+     and tangent ``[ E G ]`` at ``D`` with ``E = (1, \sqrt{3}/3)``, ``G = (1, -\sqrt{3}/3)``;
+   - Cusa's compensated rectification segment ``[ I L ]`` through
+     :math:`K = \left(\frac{3\cos\theta}{2 + \cos\theta}, 0\right) = \left(\frac{12\sqrt{3} - 9}{13}, 0\right)`,
+     where :math:`|AI| + |AK| + |AL| = 3 = |AB| + |AD| + |AC|` and
+     :math:`|IL| = \frac{6\sin\theta}{2 + \cos\theta} = \frac{24 - 6\sqrt{3}}{13} \approx \text{arc}(BDC)`.
+
+   :param model: Optional existing :class:`~geometor.model.Model`.
+
+   :returns: Populated :class:`~geometor.model.Model` over :math:`\mathbb{Q}(\sqrt{3})`.
+
+
+.. py:function:: verify_cusa_snellius_approximation() -> dict[str, Any]
+
+   Prove Cusa's three-ray identity and the fifth-order Maclaurin series residual.
+
+   Verifies symbolically in SymPy:
+
+   1. **Exact Chord–Tangent Three-Ray Invariance** (*Aurea propositio* §1):
+      :math:`\frac{|AB| + |AH| + |AC|}{|BC|} = \frac{2 + \cos\theta}{2\sin\theta}
+      \equiv \frac{2\sec\theta + 1}{2\tan\theta} = \frac{|AE| + |AD| + |AG|}{|EG|}`.
+   2. **Fifth-Order Maclaurin / Padé Series** (*De mathematica perfectione* & *Aurea propositio*):
+      :math:`\theta - \frac{3\sin\theta}{2 + \cos\theta}
+      = \frac{\theta^5}{180} + \frac{\theta^7}{1512} + \frac{\theta^9}{25920} + O(\theta^{11})`.
+   3. **Algebraic :math:`\pi` Approximations** at :math:`\theta = \frac{\pi}{4}, \frac{\pi}{6}, \frac{\pi}{12}`.
+
+   :returns: Dictionary of verified symbolic expressions, series coefficients, and :math:`\pi` bounds.
+
+
+.. py:function:: construct_transsumptio_ascent(model: geometor.model.Model | None = None) -> geometor.model.Model
+
+   Construct the schematic diagram for Cusa's Three-Step Method of Transsumption (I.12).
+
+   Illustrates Step 1 (finite chord ``[ B C ]`` and sagitta ``[ H D ]`` on a finite circle),
+   Step 2 (expanded circle diminishing the sagitta ``[ K D ]`` toward the tangent ``[ E G ]``),
+   and Step 3 (intellectual ascent onto the uncontracted straight Maximum ``[ E G ]``).
+
+   :param model: Optional existing :class:`~geometor.model.Model`.
+
+   :returns: Populated :class:`~geometor.model.Model` over :math:`\mathbb{Q}(\sqrt{3})`.
+
+
+.. py:function:: construct_generative_unfolding(model: geometor.model.Model | None = None) -> geometor.model.Model
+
+   Construct Cusa's generative unfolding ``Line -> Triangle -> Circle -> Sphere`` (I.13, I.15, I.21, I.23).
+
+   Models how fixed endpoint ``A = (0, 0)`` carrying radius ``[ A B ]`` generates by rotation
+   the sector/triangle ``< A B C >``, the full circle ``( A B )`` with diameter ``[ B D ]``,
+   and the equatorial/meridian circles representing the sphere unfolded by half-revolution
+   of semicircle ``BCD`` around ``[ B D ]``.
+
+   :param model: Optional existing :class:`~geometor.model.Model`.
+
+   :returns: Populated :class:`~geometor.model.Model` over :math:`\mathbb{Q}(\sqrt{3})`.
+
+
+.. py:function:: construct_cosmic_relativity_frame(model: geometor.model.Model | None = None) -> geometor.model.Model
+
+   Construct Cusa's II.11–12 perspectival relativity diagram (*undique centrum, nullibi circumferentia*).
+
+   Illustrates *De docta ignorantia* II.11–12: an observer situated on Earth ``T``, Sun ``S``,
+   Mars ``M``, or toward the Pole ``P`` each constructs an apparent local horizon circle
+   treating their own station as an immobile center, while no physical point coincides with
+   an absolute cosmic center or circumference.
+
+   :param model: Optional existing :class:`~geometor.model.Model`.
+
+   :returns: Populated :class:`~geometor.model.Model` over :math:`\mathbb{Q}`.
+
+
