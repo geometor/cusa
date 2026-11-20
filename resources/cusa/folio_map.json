@@ -5,649 +5,679 @@
   "_description": "Primary-source milestone and unit folio map for Nicolaus Cusanus codex",
   "folios": {
     "DI Ded., I.1–4, Ep. (1440)": {
-      "la": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L1",
-      "en": "resources/cusa/sources/unit-1-maximum-ignorantia.en.txt#L1",
-      "default": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L1"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L1",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.en.txt#L1",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L1"
     },
     "DI Ded. §1": {
-      "la": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L4",
-      "en": "resources/cusa/sources/unit-1-maximum-ignorantia.en.txt#L4",
-      "default": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L4"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L4",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.en.txt#L4",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L4"
     },
     "DI Ded. §2": {
-      "la": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L6",
-      "en": "resources/cusa/sources/unit-1-maximum-ignorantia.en.txt#L6",
-      "default": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L6"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L6",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.en.txt#L6",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L6"
     },
     "DI I.1 §1": {
-      "la": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L11",
-      "en": "resources/cusa/sources/unit-1-maximum-ignorantia.en.txt#L11",
-      "default": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L11"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L11",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.en.txt#L11",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L11"
     },
     "DI I.1 §2": {
-      "la": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L13",
-      "en": "resources/cusa/sources/unit-1-maximum-ignorantia.en.txt#L13",
-      "default": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L13"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L13",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.en.txt#L13",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L13"
     },
     "DI I.2 §1": {
-      "la": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L18",
-      "en": "resources/cusa/sources/unit-1-maximum-ignorantia.en.txt#L18",
-      "default": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L18"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L18",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.en.txt#L18",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L18"
     },
     "DI I.2 §2": {
-      "la": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L20",
-      "en": "resources/cusa/sources/unit-1-maximum-ignorantia.en.txt#L20",
-      "default": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L20"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L20",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.en.txt#L20",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L20"
     },
     "DI I.2 §3": {
-      "la": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L22",
-      "en": "resources/cusa/sources/unit-1-maximum-ignorantia.en.txt#L22",
-      "default": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L22"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L22",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.en.txt#L22",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L22"
     },
     "DI I.2 §4": {
-      "la": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L24",
-      "en": "resources/cusa/sources/unit-1-maximum-ignorantia.en.txt#L24",
-      "default": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L24"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L24",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.en.txt#L24",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L24"
     },
     "DI I.3 §1": {
-      "la": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L29",
-      "en": "resources/cusa/sources/unit-1-maximum-ignorantia.en.txt#L29",
-      "default": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L29"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L29",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.en.txt#L29",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L29"
     },
     "DI I.3 §2": {
-      "la": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L31",
-      "en": "resources/cusa/sources/unit-1-maximum-ignorantia.en.txt#L31",
-      "default": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L31"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L31",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.en.txt#L31",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L31"
     },
     "DI I.4 §1": {
-      "la": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L36",
-      "en": "resources/cusa/sources/unit-1-maximum-ignorantia.en.txt#L36",
-      "default": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L36"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L36",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.en.txt#L36",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L36"
     },
     "DI I.4 §2": {
-      "la": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L38",
-      "en": "resources/cusa/sources/unit-1-maximum-ignorantia.en.txt#L38",
-      "default": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L38"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L38",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.en.txt#L38",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L38"
     },
     "DI I.4 §3": {
-      "la": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L40",
-      "en": "resources/cusa/sources/unit-1-maximum-ignorantia.en.txt#L40",
-      "default": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L40"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L40",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.en.txt#L40",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L40"
     },
     "DI I.4 §4": {
-      "la": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L42",
-      "en": "resources/cusa/sources/unit-1-maximum-ignorantia.en.txt#L42",
-      "default": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L42"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L42",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.en.txt#L42",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L42"
     },
     "DI Ep. §1": {
-      "la": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L47",
-      "en": "resources/cusa/sources/unit-1-maximum-ignorantia.en.txt#L47",
-      "default": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L47"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L47",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.en.txt#L47",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L47"
     },
     "DI Ep. §2": {
-      "la": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L49",
-      "en": "resources/cusa/sources/unit-1-maximum-ignorantia.en.txt#L49",
-      "default": "resources/cusa/sources/unit-1-maximum-ignorantia.la.txt#L49"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L49",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.en.txt#L49",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_01_04.la.txt#L49"
     },
     "DI I.11–12 (1440)": {
-      "la": "resources/cusa/sources/unit-2-mathematica-transsumptio.la.txt#L1",
-      "en": "resources/cusa/sources/unit-2-mathematica-transsumptio.en.txt#L1",
-      "default": "resources/cusa/sources/unit-2-mathematica-transsumptio.la.txt#L1"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_11_12.la.txt#L1",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_11_12.en.txt#L1",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_11_12.la.txt#L1"
     },
     "DI I.11 §1": {
-      "la": "resources/cusa/sources/unit-2-mathematica-transsumptio.la.txt#L4",
-      "en": "resources/cusa/sources/unit-2-mathematica-transsumptio.en.txt#L4",
-      "default": "resources/cusa/sources/unit-2-mathematica-transsumptio.la.txt#L4"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_11_12.la.txt#L4",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_11_12.en.txt#L4",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_11_12.la.txt#L4"
     },
     "DI I.11 §2": {
-      "la": "resources/cusa/sources/unit-2-mathematica-transsumptio.la.txt#L6",
-      "en": "resources/cusa/sources/unit-2-mathematica-transsumptio.en.txt#L6",
-      "default": "resources/cusa/sources/unit-2-mathematica-transsumptio.la.txt#L6"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_11_12.la.txt#L6",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_11_12.en.txt#L6",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_11_12.la.txt#L6"
     },
     "DI I.11 §3": {
-      "la": "resources/cusa/sources/unit-2-mathematica-transsumptio.la.txt#L8",
-      "en": "resources/cusa/sources/unit-2-mathematica-transsumptio.en.txt#L8",
-      "default": "resources/cusa/sources/unit-2-mathematica-transsumptio.la.txt#L8"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_11_12.la.txt#L8",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_11_12.en.txt#L8",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_11_12.la.txt#L8"
     },
     "DI I.11 §4": {
-      "la": "resources/cusa/sources/unit-2-mathematica-transsumptio.la.txt#L10",
-      "en": "resources/cusa/sources/unit-2-mathematica-transsumptio.en.txt#L10",
-      "default": "resources/cusa/sources/unit-2-mathematica-transsumptio.la.txt#L10"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_11_12.la.txt#L10",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_11_12.en.txt#L10",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_11_12.la.txt#L10"
     },
     "DI I.12 §1": {
-      "la": "resources/cusa/sources/unit-2-mathematica-transsumptio.la.txt#L15",
-      "en": "resources/cusa/sources/unit-2-mathematica-transsumptio.en.txt#L15",
-      "default": "resources/cusa/sources/unit-2-mathematica-transsumptio.la.txt#L15"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_11_12.la.txt#L15",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_11_12.en.txt#L15",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_11_12.la.txt#L15"
     },
     "DI I.12 §2": {
-      "la": "resources/cusa/sources/unit-2-mathematica-transsumptio.la.txt#L17",
-      "en": "resources/cusa/sources/unit-2-mathematica-transsumptio.en.txt#L17",
-      "default": "resources/cusa/sources/unit-2-mathematica-transsumptio.la.txt#L17"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_11_12.la.txt#L17",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_11_12.en.txt#L17",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_11_12.la.txt#L17"
     },
     "DI I.13–15 (1440)": {
-      "la": "resources/cusa/sources/unit-3-coincidentia-figurarum.la.txt#L1",
-      "en": "resources/cusa/sources/unit-3-coincidentia-figurarum.en.txt#L1",
-      "default": "resources/cusa/sources/unit-3-coincidentia-figurarum.la.txt#L1"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.la.txt#L1",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.en.txt#L1",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.la.txt#L1"
     },
     "DI I.13 §1": {
-      "la": "resources/cusa/sources/unit-3-coincidentia-figurarum.la.txt#L4",
-      "en": "resources/cusa/sources/unit-3-coincidentia-figurarum.en.txt#L4",
-      "default": "resources/cusa/sources/unit-3-coincidentia-figurarum.la.txt#L4"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.la.txt#L4",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.en.txt#L4",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.la.txt#L4"
     },
     "DI I.13 §2": {
-      "la": "resources/cusa/sources/unit-3-coincidentia-figurarum.la.txt#L6",
-      "en": "resources/cusa/sources/unit-3-coincidentia-figurarum.en.txt#L6",
-      "default": "resources/cusa/sources/unit-3-coincidentia-figurarum.la.txt#L6"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.la.txt#L6",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.en.txt#L6",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.la.txt#L6"
     },
     "DI I.13 §3": {
-      "la": "resources/cusa/sources/unit-3-coincidentia-figurarum.la.txt#L8",
-      "en": "resources/cusa/sources/unit-3-coincidentia-figurarum.en.txt#L8",
-      "default": "resources/cusa/sources/unit-3-coincidentia-figurarum.la.txt#L8"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.la.txt#L8",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.en.txt#L8",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.la.txt#L8"
     },
     "DI I.13 §4": {
-      "la": "resources/cusa/sources/unit-3-coincidentia-figurarum.la.txt#L10",
-      "en": "resources/cusa/sources/unit-3-coincidentia-figurarum.en.txt#L10",
-      "default": "resources/cusa/sources/unit-3-coincidentia-figurarum.la.txt#L10"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.la.txt#L10",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.en.txt#L10",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.la.txt#L10"
     },
     "DI I.13 §5": {
-      "la": "resources/cusa/sources/unit-3-coincidentia-figurarum.la.txt#L12",
-      "en": "resources/cusa/sources/unit-3-coincidentia-figurarum.en.txt#L12",
-      "default": "resources/cusa/sources/unit-3-coincidentia-figurarum.la.txt#L12"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.la.txt#L12",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.en.txt#L12",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.la.txt#L12"
     },
     "DI I.14 §1": {
-      "la": "resources/cusa/sources/unit-3-coincidentia-figurarum.la.txt#L17",
-      "en": "resources/cusa/sources/unit-3-coincidentia-figurarum.en.txt#L17",
-      "default": "resources/cusa/sources/unit-3-coincidentia-figurarum.la.txt#L17"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.la.txt#L17",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.en.txt#L17",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.la.txt#L17"
     },
     "DI I.14 §2": {
-      "la": "resources/cusa/sources/unit-3-coincidentia-figurarum.la.txt#L19",
-      "en": "resources/cusa/sources/unit-3-coincidentia-figurarum.en.txt#L19",
-      "default": "resources/cusa/sources/unit-3-coincidentia-figurarum.la.txt#L19"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.la.txt#L19",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.en.txt#L19",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.la.txt#L19"
     },
     "DI I.14 §3": {
-      "la": "resources/cusa/sources/unit-3-coincidentia-figurarum.la.txt#L21",
-      "en": "resources/cusa/sources/unit-3-coincidentia-figurarum.en.txt#L21",
-      "default": "resources/cusa/sources/unit-3-coincidentia-figurarum.la.txt#L21"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.la.txt#L21",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.en.txt#L21",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.la.txt#L21"
     },
     "DI I.15 §1": {
-      "la": "resources/cusa/sources/unit-3-coincidentia-figurarum.la.txt#L26",
-      "en": "resources/cusa/sources/unit-3-coincidentia-figurarum.en.txt#L26",
-      "default": "resources/cusa/sources/unit-3-coincidentia-figurarum.la.txt#L26"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.la.txt#L26",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.en.txt#L26",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.la.txt#L26"
     },
     "DI I.15 §2": {
-      "la": "resources/cusa/sources/unit-3-coincidentia-figurarum.la.txt#L28",
-      "en": "resources/cusa/sources/unit-3-coincidentia-figurarum.en.txt#L28",
-      "default": "resources/cusa/sources/unit-3-coincidentia-figurarum.la.txt#L28"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.la.txt#L28",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.en.txt#L28",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.la.txt#L28"
     },
     "DI I.15 §3": {
-      "la": "resources/cusa/sources/unit-3-coincidentia-figurarum.la.txt#L30",
-      "en": "resources/cusa/sources/unit-3-coincidentia-figurarum.en.txt#L30",
-      "default": "resources/cusa/sources/unit-3-coincidentia-figurarum.la.txt#L30"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.la.txt#L30",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.en.txt#L30",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_13_15.la.txt#L30"
     },
-    "DI I.16–23 (1440)": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L1",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L1",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L1"
+    "DI I.16–17 (1440)": {
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.la.txt#L1",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.en.txt#L1",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.la.txt#L1"
     },
     "DI I.16 §1": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L4",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L4",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L4"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.la.txt#L4",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.en.txt#L4",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.la.txt#L4"
     },
     "DI I.16 §2": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L6",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L6",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L6"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.la.txt#L6",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.en.txt#L6",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.la.txt#L6"
     },
     "DI I.16 §3": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L8",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L8",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L8"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.la.txt#L8",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.en.txt#L8",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.la.txt#L8"
     },
     "DI I.16 §4": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L10",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L10",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L10"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.la.txt#L10",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.en.txt#L10",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.la.txt#L10"
     },
     "DI I.16 §5": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L12",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L12",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L12"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.la.txt#L12",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.en.txt#L12",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.la.txt#L12"
     },
     "DI I.16 §6": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L14",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L14",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L14"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.la.txt#L14",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.en.txt#L14",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.la.txt#L14"
     },
     "DI I.17 §1": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L19",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L19",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L19"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.la.txt#L19",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.en.txt#L19",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.la.txt#L19"
     },
     "DI I.17 §2": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L21",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L21",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L21"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.la.txt#L21",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.en.txt#L21",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.la.txt#L21"
     },
     "DI I.17 §3": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L23",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L23",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L23"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.la.txt#L23",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.en.txt#L23",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.la.txt#L23"
     },
     "DI I.17 §4": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L25",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L25",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L25"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.la.txt#L25",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.en.txt#L25",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.la.txt#L25"
     },
     "DI I.17 §5": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L27",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L27",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L27"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.la.txt#L27",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.en.txt#L27",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_16_17.la.txt#L27"
+    },
+    "DI I.18–20 (1440)": {
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L1",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.en.txt#L1",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L1"
     },
     "DI I.18 §1": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L32",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L32",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L32"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L4",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.en.txt#L4",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L4"
     },
     "DI I.18 §2": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L34",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L34",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L34"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L6",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.en.txt#L6",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L6"
     },
     "DI I.18 §3": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L36",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L36",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L36"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L8",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.en.txt#L8",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L8"
     },
     "DI I.18 §4": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L38",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L38",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L38"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L10",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.en.txt#L10",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L10"
     },
     "DI I.18 §5": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L40",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L40",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L40"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L12",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.en.txt#L12",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L12"
     },
     "DI I.19 §1": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L45",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L45",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L45"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L17",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.en.txt#L17",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L17"
     },
     "DI I.19 §2": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L47",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L47",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L47"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L19",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.en.txt#L19",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L19"
     },
     "DI I.19 §3": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L49",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L49",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L49"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L21",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.en.txt#L21",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L21"
     },
     "DI I.19 §4": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L51",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L51",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L51"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L23",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.en.txt#L23",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L23"
     },
     "DI I.19 §5": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L53",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L53",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L53"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L25",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.en.txt#L25",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L25"
     },
     "DI I.20 §1": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L58",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L58",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L58"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L30",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.en.txt#L30",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L30"
     },
     "DI I.20 §2": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L60",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L60",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L60"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L32",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.en.txt#L32",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L32"
     },
     "DI I.20 §3": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L62",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L62",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L62"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L34",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.en.txt#L34",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L34"
     },
     "DI I.20 §4": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L64",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L64",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L64"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L36",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.en.txt#L36",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_18_20.la.txt#L36"
+    },
+    "DI I.21–23 (1440)": {
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L1",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.en.txt#L1",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L1"
     },
     "DI I.21 §1": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L69",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L69",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L69"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L4",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.en.txt#L4",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L4"
     },
     "DI I.21 §2": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L71",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L71",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L71"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L6",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.en.txt#L6",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L6"
     },
     "DI I.21 §3": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L73",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L73",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L73"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L8",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.en.txt#L8",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L8"
     },
     "DI I.21 §4": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L75",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L75",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L75"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L10",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.en.txt#L10",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L10"
     },
     "DI I.21 §5": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L77",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L77",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L77"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L12",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.en.txt#L12",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L12"
     },
     "DI I.21 §6": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L79",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L79",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L79"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L14",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.en.txt#L14",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L14"
     },
     "DI I.22 §1": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L84",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L84",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L84"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L19",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.en.txt#L19",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L19"
     },
     "DI I.22 §2": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L86",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L86",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L86"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L21",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.en.txt#L21",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L21"
     },
     "DI I.22 §3": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L88",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L88",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L88"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L23",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.en.txt#L23",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L23"
     },
     "DI I.22 §4": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L90",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L90",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L90"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L25",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.en.txt#L25",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L25"
     },
     "DI I.23 §1": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L95",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L95",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L95"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L30",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.en.txt#L30",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L30"
     },
     "DI I.23 §2": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L97",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L97",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L97"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L32",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.en.txt#L32",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L32"
     },
     "DI I.23 §3": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L99",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L99",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L99"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L34",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.en.txt#L34",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L34"
     },
     "DI I.23 §4": {
-      "la": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L101",
-      "en": "resources/cusa/sources/unit-4-linea-sphaera-infinita.en.txt#L101",
-      "default": "resources/cusa/sources/unit-4-linea-sphaera-infinita.la.txt#L101"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L36",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.en.txt#L36",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_i-cap_21_23.la.txt#L36"
     },
-    "DI II.11–12 · DGT · DMC · DMP · APM (1440–1459)": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L1",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L1",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L1"
+    "DI II.11–12 (1440)": {
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L1",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.en.txt#L1",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L1"
     },
     "DI II.11 §1": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L4",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L4",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L4"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L4",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.en.txt#L4",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L4"
     },
     "DI II.11 §2": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L6",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L6",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L6"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L6",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.en.txt#L6",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L6"
     },
     "DI II.11 §3": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L8",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L8",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L8"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L8",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.en.txt#L8",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L8"
     },
     "DI II.11 §4": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L10",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L10",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L10"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L10",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.en.txt#L10",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L10"
     },
     "DI II.11 §5": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L12",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L12",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L12"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L12",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.en.txt#L12",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L12"
     },
     "DI II.11 §6": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L14",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L14",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L14"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L14",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.en.txt#L14",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L14"
     },
     "DI II.12 §1": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L19",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L19",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L19"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L19",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.en.txt#L19",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L19"
     },
     "DI II.12 §2": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L21",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L21",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L21"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L21",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.en.txt#L21",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L21"
     },
     "DI II.12 §3": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L23",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L23",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L23"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L23",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.en.txt#L23",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L23"
     },
     "DI II.12 §4": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L25",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L25",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L25"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L25",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.en.txt#L25",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L25"
     },
     "DI II.12 §5": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L27",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L27",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L27"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L27",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.en.txt#L27",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L27"
     },
     "DI II.12 §6": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L29",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L29",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L29"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L29",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.en.txt#L29",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L29"
     },
     "DI II.12 §7": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L31",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L31",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L31"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L31",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.en.txt#L31",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L31"
     },
     "DI II.12 §8": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L33",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L33",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L33"
+      "la": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L33",
+      "en": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.en.txt#L33",
+      "default": "resources/cusa/sources/de_docta_ignorantia-liber_ii-cap_11_12.la.txt#L33"
+    },
+    "DGT (1445)": {
+      "la": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.la.txt#L1",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.en.txt#L1",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.la.txt#L1"
     },
     "DGT §1": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L38",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L38",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L38"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.la.txt#L4",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.en.txt#L4",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.la.txt#L4"
     },
     "DGT §2": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L40",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L40",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L40"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.la.txt#L6",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.en.txt#L6",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.la.txt#L6"
     },
     "DGT §3": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L42",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L42",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L42"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.la.txt#L8",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.en.txt#L8",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.la.txt#L8"
     },
     "DGT §4": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L44",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L44",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L44"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.la.txt#L10",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.en.txt#L10",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.la.txt#L10"
     },
     "DGT §5": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L46",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L46",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L46"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.la.txt#L12",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.en.txt#L12",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.la.txt#L12"
     },
     "DGT §6": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L48",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L48",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L48"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.la.txt#L14",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.en.txt#L14",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.la.txt#L14"
     },
     "DGT §7": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L50",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L50",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L50"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.la.txt#L16",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.en.txt#L16",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.la.txt#L16"
     },
     "DGT §8": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L52",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L52",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L52"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.la.txt#L18",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.en.txt#L18",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.la.txt#L18"
     },
     "DGT §9": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L54",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L54",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L54"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.la.txt#L20",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.en.txt#L20",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.la.txt#L20"
     },
     "DGT §10": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L56",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L56",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L56"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.la.txt#L22",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.en.txt#L22",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.la.txt#L22"
     },
     "DGT §11": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L58",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L58",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L58"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.la.txt#L24",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.en.txt#L24",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-transmutatio_1445.la.txt#L24"
+    },
+    "DMC (1453)": {
+      "la": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.la.txt#L1",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.en.txt#L1",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.la.txt#L1"
     },
     "DMC §1": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L63",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L63",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L63"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.la.txt#L4",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.en.txt#L4",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.la.txt#L4"
     },
     "DMC §2": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L65",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L65",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L65"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.la.txt#L6",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.en.txt#L6",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.la.txt#L6"
     },
     "DMC §3": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L67",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L67",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L67"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.la.txt#L8",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.en.txt#L8",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.la.txt#L8"
     },
     "DMC §4": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L69",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L69",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L69"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.la.txt#L10",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.en.txt#L10",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.la.txt#L10"
     },
     "DMC §5": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L71",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L71",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L71"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.la.txt#L12",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.en.txt#L12",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.la.txt#L12"
     },
     "DMC §6": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L73",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L73",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L73"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.la.txt#L14",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.en.txt#L14",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.la.txt#L14"
     },
     "DMC §7": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L75",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L75",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L75"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.la.txt#L16",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.en.txt#L16",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.la.txt#L16"
     },
     "DMC §8": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L77",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L77",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L77"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.la.txt#L18",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.en.txt#L18",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.la.txt#L18"
     },
     "DMC §9": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L79",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L79",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L79"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.la.txt#L20",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.en.txt#L20",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.la.txt#L20"
     },
     "DMC §10": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L81",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L81",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L81"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.la.txt#L22",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.en.txt#L22",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-complementa_1453.la.txt#L22"
+    },
+    "DMP (1458)": {
+      "la": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.la.txt#L1",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.en.txt#L1",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.la.txt#L1"
     },
     "DMP Ded.": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L86",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L86",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L86"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.la.txt#L4",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.en.txt#L4",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.la.txt#L4"
     },
     "DMP §1": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L88",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L88",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L88"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.la.txt#L6",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.en.txt#L6",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.la.txt#L6"
     },
     "DMP §2": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L90",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L90",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L90"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.la.txt#L8",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.en.txt#L8",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.la.txt#L8"
     },
     "DMP §3": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L92",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L92",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L92"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.la.txt#L10",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.en.txt#L10",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.la.txt#L10"
     },
     "DMP §4": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L94",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L94",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L94"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.la.txt#L12",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.en.txt#L12",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.la.txt#L12"
     },
     "DMP §5": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L96",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L96",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L96"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.la.txt#L14",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.en.txt#L14",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.la.txt#L14"
     },
     "DMP §6": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L98",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L98",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L98"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.la.txt#L16",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.en.txt#L16",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.la.txt#L16"
     },
     "DMP §7": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L100",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L100",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L100"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.la.txt#L18",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.en.txt#L18",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-perfectio_1458.la.txt#L18"
+    },
+    "APM (1459)": {
+      "la": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.la.txt#L1",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.en.txt#L1",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.la.txt#L1"
     },
     "APM §1a": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L105",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L105",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L105"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.la.txt#L4",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.en.txt#L4",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.la.txt#L4"
     },
     "APM §1b": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L107",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L107",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L107"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.la.txt#L6",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.en.txt#L6",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.la.txt#L6"
     },
     "APM §2": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L109",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L109",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L109"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.la.txt#L8",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.en.txt#L8",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.la.txt#L8"
     },
     "APM §3": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L111",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L111",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L111"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.la.txt#L10",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.en.txt#L10",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.la.txt#L10"
     },
     "APM §4": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L113",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L113",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L113"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.la.txt#L12",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.en.txt#L12",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.la.txt#L12"
     },
     "APM §5": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L115",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L115",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L115"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.la.txt#L14",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.en.txt#L14",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.la.txt#L14"
     },
     "APM §6": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L117",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L117",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L117"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.la.txt#L16",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.en.txt#L16",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.la.txt#L16"
     },
     "APM §7": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L119",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L119",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L119"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.la.txt#L18",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.en.txt#L18",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.la.txt#L18"
     },
     "APM Col.": {
-      "la": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L121",
-      "en": "resources/cusa/sources/unit-5-cosmologia-complementa.en.txt#L121",
-      "default": "resources/cusa/sources/unit-5-cosmologia-complementa.la.txt#L121"
+      "la": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.la.txt#L20",
+      "en": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.en.txt#L20",
+      "default": "resources/cusa/sources/de_mathematicis_complementis-aurea_propositio_1459.la.txt#L20"
     }
   }
 }

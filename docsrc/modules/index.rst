@@ -5,4 +5,4 @@
 Modules
 =======
 
-.. include:: api/src/geometor/cusa/index.rst
+.. include:: api/geometor/cusa/index.rst

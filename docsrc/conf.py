@@ -70,6 +70,7 @@ intersphinx_mapping = {  # noqa: F405
 html_theme = "foundation"
 html_static_path = ["_static"]
 html_css_files = ["custom.css"]
+autoapi_dirs = ["../src/geometor"]
 autoapi_add_toctree_entry = False
 autoapi_options = [opt for opt in autoapi_options if opt != "imported-members"]  # noqa: F405
 napoleon_use_ivar = True
