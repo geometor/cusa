@@ -1,13 +1,13 @@
+.. image:: docsrc/_static/logo.png
+   :alt: GEOMETOR • cusa Medallion
+   :target: https://geometor.github.io/cusa/
+   :width: 150px
+   :align: right
+
 GEOMETOR • cusa
 ===============
 
 **Visit the Online Archive:** https://geometor.github.io/cusa/
-
-.. image:: docsrc/_static/logo.png
-   :alt: GEOMETOR • cusa Medallion
-   :target: https://geometor.github.io/cusa/
-   :width: 180px
-   :align: center
 
 .. image:: docsrc/_static/figures/cusa_aurea_propositio_1459.svg
    :alt: GEOMETOR • cusa featured geometric construction
