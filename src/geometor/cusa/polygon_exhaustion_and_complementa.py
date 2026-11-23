@@ -392,7 +392,7 @@ def verify_cusa_snellius_approximation() -> dict[str, Any]:
     2. **Fifth-Order Maclaurin / Padé Series** (*De mathematica perfectione* & *Aurea propositio*):
        :math:`\theta - \frac{3\sin\theta}{2 + \cos\theta}
        = \frac{\theta^5}{180} + \frac{\theta^7}{1512} + \frac{\theta^9}{25920} + O(\theta^{11})`.
-    3. **Algebraic :math:`\pi` Approximations** at :math:`\theta = \frac{\pi}{4}, \frac{\pi}{6}, \frac{\pi}{12}`.
+    3. **Algebraic** :math:`\pi` **Approximations** at :math:`\theta = \frac{\pi}{4}, \frac{\pi}{6}, \frac{\pi}{12}`.
 
     Returns:
         Dictionary of verified symbolic expressions, series coefficients, and :math:`\pi` bounds.
