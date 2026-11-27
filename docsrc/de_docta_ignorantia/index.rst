@@ -35,10 +35,3 @@ Books of the Treatise
 
 .. collection::
    :sort: order
-
-.. toctree::
-   :hidden:
-   :maxdepth: 2
-
-   liber_i/index
-   liber_ii/index

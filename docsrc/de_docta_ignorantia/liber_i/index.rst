@@ -3,7 +3,6 @@
 :type: part
 :title: Liber I — De Maximo Absoluto
 :canonical_id: DI Liber I
-:book_title: Liber I — De Maximo Absoluto
 :book_subtitle: The Absolute Maximum & Geometric Transsumption (1440)
 :author: Nicholas of Cusa
 :year: 1440
@@ -32,27 +31,3 @@ Capitula of Book I
 
 .. collection::
    :sort: order
-
-.. toctree::
-   :hidden:
-   :maxdepth: 2
-
-   dedicatio/index
-   cap_01/index
-   cap_02/index
-   cap_03/index
-   cap_04/index
-   cap_11/index
-   cap_12/index
-   cap_13/index
-   cap_14/index
-   cap_15/index
-   cap_16/index
-   cap_17/index
-   cap_18/index
-   cap_19/index
-   cap_20/index
-   cap_21/index
-   cap_22/index
-   cap_23/index
-   epistola/index
