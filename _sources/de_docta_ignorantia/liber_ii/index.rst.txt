@@ -3,7 +3,6 @@
 :type: part
 :title: Liber II — De Universo et Cosmologia
 :canonical_id: DI Liber II
-:book_title: Liber II — De Universo et Cosmologia
 :book_subtitle: Centerless Cosmology & the Fabric of the World (1440)
 :author: Nicholas of Cusa
 :year: 1440
@@ -31,10 +30,3 @@ Capitula of Book II
 
 .. collection::
    :sort: order
-
-.. toctree::
-   :hidden:
-   :maxdepth: 2
-
-   cap_11/index
-   cap_12/index

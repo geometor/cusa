@@ -35,12 +35,3 @@ Treatises & Mathematical Writings
 
 .. collection::
    :sort: order
-
-.. toctree::
-   :hidden:
-   :maxdepth: 2
-
-   transmutatio_1445/index
-   complementa_1453/index
-   perfectio_1458/index
-   aurea_propositio_1459/index
